@@ -7,28 +7,26 @@ export const dynamic = 'force-static'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.buildabucket.wiki'
 
-// 内容类型优先级配置
+// 内容类型优先级配置（7 分类：guide/builds/skills/wheel/players/ratings/simulation）
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	'guide': 0.9,
+	'builds': 0.9,
+	'skills': 0.8,
+	'wheel': 0.8,
+	'players': 0.8,
+	'ratings': 0.7,
+	'simulation': 0.7,
 }
 
 // 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	'guide': 'weekly',
+	'builds': 'weekly',
+	'skills': 'weekly',
+	'wheel': 'weekly',
+	'players': 'weekly',
+	'ratings': 'weekly',
+	'simulation': 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

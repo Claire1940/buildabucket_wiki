@@ -1,11 +1,946 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki do Build-A-Bucket - Melhores Builds, Ratings e Sandbox",
+      "description": "A Wiki do Build-A-Bucket cobre a roleta de jogadores, escolhas de atributos da NBA, melhores builds, ratings gerais, modo sandbox, simulações de temporada, atualizações e estratégias.",
+      "keywords": "Build-A-Bucket, roleta de jogadores, atributos da NBA, melhores builds, ratings, sandbox, simulador de temporada",
+      "ogTitle": "Wiki do Build-A-Bucket - Melhores Builds, Ratings e Sandbox",
+      "ogDescription": "A Wiki do Build-A-Bucket cobre a roleta de jogadores, escolhas de atributos da NBA, melhores builds, ratings gerais, modo sandbox, simulações de temporada, atualizações e estratégias.",
+      "twitterTitle": "Wiki do Build-A-Bucket - Melhores Builds, Ratings e Sandbox",
+      "twitterDescription": "A Wiki do Build-A-Bucket cobre a roleta de jogadores, escolhas de atributos da NBA, melhores builds, ratings gerais, modo sandbox, simulações de temporada e estratégias."
+    }
+  },
   "nav": {
     "guide": "Guia",
     "builds": "Builds",
     "skills": "Habilidades",
     "wheel": "Roleta",
     "players": "Jogadores",
-    "ratings": "Avaliações",
+    "ratings": "Ratings",
     "simulation": "Simulação"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Navegador",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Criador de Jogadores da NBA e Simulador de Temporada",
+    "title": "Wiki do Build-A-Bucket",
+    "description": "Gire a roleta de jogadores da NBA, escolha uma habilidade a cada rodada, crie uma estrela personalizada, teste os ratings no Sandbox e simule uma temporada completa.",
+    "getFreeCodesCTA": "Ver Melhores Builds",
+    "playOnSteamCTA": "Jogar no Navegador",
+    "stats": {
+      "stat1": {
+        "value": "Navegador",
+        "label": "Plataforma"
+      },
+      "stat2": {
+        "value": "Jogadores da NBA",
+        "label": "Lista de Jogadores"
+      },
+      "stat3": {
+        "value": "2",
+        "label": "Modos de Criação"
+      },
+      "stat4": {
+        "value": "Temporada Completa",
+        "label": "Simulação"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade do Build-A-Bucket",
+    "description": "Gire a roleta de jogadores da NBA, escolha um atributo de cada resultado, crie uma estrela do basquete personalizada e simule uma temporada completa no seu navegador."
+  },
+  "tools": {
+    "title": "Build-A-Bucket",
+    "titleHighlight": "Guias",
+    "subtitle": "Tudo o que você precisa para dominar a roleta de jogadores da NBA, as melhores builds, classificações de 99 OVR, modo sandbox e simulação de temporada no Build-A-Bucket.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Guia de Iniciante do Build-A-Bucket",
+        "description": "Como girar a roleta, escolher atributos e finalizar sua primeira build"
+      },
+      {
+        "icon": "Layers",
+        "title": "Melhores Builds do Build-A-Bucket",
+        "description": "Modelos versáteis, de pontuação, defensivos, de armação e de garrafão"
+      },
+      {
+        "icon": "Trophy",
+        "title": "Guia de 99 OVR do Build-A-Bucket",
+        "description": "Maximize a classificação geral com uma alocação inteligente de categorias"
+      },
+      {
+        "icon": "BarChart3",
+        "title": "Tier List de Atributos do Build-A-Bucket",
+        "description": "Classifique as nove categorias de atributos pelo valor para a build"
+      },
+      {
+        "icon": "Users",
+        "title": "Melhores Jogadores do Build-A-Bucket",
+        "description": "Melhores escolhas de jogadores da NBA para cada categoria de atributo da roleta"
+      },
+      {
+        "icon": "FlaskConical",
+        "title": "Modo Sandbox do Build-A-Bucket",
+        "description": "Teste combinações de jogadores e compare as notas das categorias"
+      },
+      {
+        "icon": "LineChart",
+        "title": "Simulador de Temporada do Build-A-Bucket",
+        "description": "Analise os resultados da temporada e conecte-os às suas escolhas"
+      },
+      {
+        "icon": "Newspaper",
+        "title": "Atualizações do Build-A-Bucket",
+        "description": "Lançamentos oficiais, novos modos e cronograma de recursos"
+      }
+    ]
+  },
+  "modules": {
+    "bucketBeginnerGuide": {
+      "title": "Guia de Iniciante do Build-A-Bucket",
+      "displayType": "passos",
+      "intro": "O Build-A-Bucket transforma jogadores da NBA em partes de uma estrela do basquete personalizada. Cada resultado da roleta traz uma nova decisão: usar aquele jogador na categoria em que ele domina, salvar uma categoria flexível para mais tarde e evitar terminar com uma grande fraqueza que prejudique a build concluída.",
+      "steps": [
+        {
+          "title": "Escolha um Modo de Jogo",
+          "description": "Comece com a roleta principal para um desafio totalmente aleatório ou use o Modo Sandbox para testar combinações com mais liberdade. Uma rodada normal faz você reagir aos jogadores da NBA gerados pela roleta e termina com uma simulação de temporada.",
+          "tip": "Use la roleta normal primeiro para entender por que guardar especialistas de elite importa."
+        },
+        {
+          "title": "Conheça as Nove Categorias de Atributos",
+          "description": "Seu jogador finalizado é construído a partir de Finalização, Meia-distância, Bolas de Três, Passe, Controle de Bola, Rebote, Defesa de Garrafão, Defesa de Perímetro e Atleticismo. Cada categoria precisa de uma seleção de jogador da NBA.",
+          "tip": "Separe as categorias em ataque, criação, defesa e atributos físicos antes de girar."
+        },
+        {
+          "title": "Gire a Roleta de Jogadores da NBA",
+          "description": "Gire para receber um jogador da NBA e depois analise qual categoria restante melhor corresponde às forças reais desse jogador. O maior nome não é necessariamente a melhor escolha.",
+          "tip": "---"
+        },
+        {
+          "title": "Antes de selecionar, verifique quais categorias ainda estão vazias e quais funções de elite são mais difíceis de substituir.",
+          "description": "Selecione uma habilidade do jogador",
+          "tip": "Atribua o jogador gerado a uma categoria disponível e mantenha todas as outras abertas para giros futuros. Use Stephen Curry para Bolas de 3, Nikola Jokic para Passe ou Rebote, Kyrie Irving para Controle de Bola e Victor Wembanyama para Defesa de Garrafão."
+        },
+        {
+          "title": "Use especialistas em sua categoria mais óbvia, a menos que essa categoria já tenha uma seleção de elite.",
+          "description": "Construa uma base equilibrada",
+          "tip": "Durante a primeira metade da rodada, garanta pelo menos uma categoria de pontuação, uma de criação e uma defensiva. Uma abertura equilibrada oferece mais opções de recuperação quando os giros posteriores produzirem jogadores mais fracos."
+        },
+        {
+          "title": "Finalização ou Bolas de 3 podem pontuar, Passe ou Controle de Bola podem criar, e Defesa de Perímetro ou Defesa de Garrafão podem defender.",
+          "description": "Guarde as estrelas versáteis",
+          "tip": "Mantenha estrelas de múltiplas categorias disponíveis para a vaga que se tornar mais difícil de preencher. Nikola Jokic pode resolver Passe ou Rebote, Giannis Antetokounmpo pode cobrir Finalização ou Atletismo, e Victor Wembanyama pode fortalecer a Defesa de Garrafão, Rebote ou Atletismo."
+        },
+        {
+          "title": "Não gaste uma estrela versátil em uma categoria que já possui um especialista forte.",
+          "description": "Proteja a nota mais baixa",
+          "tip": "Após cada seleção, revise os espaços preenchidos e identifique a categoria com maior probabilidade de terminar abaixo do restante da build. Elevar a vaga mais fraca costuma ser mais útil do que adicionar outra nota de elite a um ponto forte."
+        },
+        {
+          "title": "Quando restarem apenas três categorias, priorize evitar uma nota baixa em vez de buscar outro atributo de destaque.",
+          "description": "Complete todas as nove categorias",
+          "tip": "Continue girando e atribuindo habilidades até que Finalização, Média Distância, Bolas de 3, Passe, Controle de Bola, Rebote, Defesa de Garrafão, Defesa de Perímetro e Atletismo estejam preenchidos. As seleções finais devem complementar as escolhas anteriores."
+        },
+        {
+          "title": "Use o último jogador flexível para consertar a vaga restante de menor valor.",
+          "description": "Simule a temporada",
+          "tip": "Envie o jogador personalizado concluído e execute a simulação da temporada. Compare o rating geral final, as notas por categoria, a produção individual, o sucesso da equipe e o resultado da temporada."
+        },
+        {
+          "title": "Registre a categoria mais fraca e mude essa decisão durante a próxima tentativa.",
+          "description": "Evite erros comuns na primeira tentativa",
+          "tip": "Escolha as categorias pelo encaixe do jogador em vez da reputação e tenha em mente a build completa de nove vagas. Erros comuns incluem usar um arremessador de elite para Média Distância em vez de Bolas de 3, gastar um passador de ponta cedo demais, acumular pontuação, ignorar a defesa e deixar uma categoria importante para o giro aleatório final."
+        }
+      ],
+      "quickTips": [
+        "Preencha primeiro as especialidades escassas e use jogadores versáteis como segurança.",
+        "Julgue cada escolha pelo encaixe do jogador e pelas categorias restantes, não apenas pela reputação.",
+        "Reserve superestrelas versáteis para a vaga que se tornar mais difícil de preencher.",
+        "Uma build equilibrada sobrevive melhor a resultados ruins na roleta do que uma build desequilibrada."
+      ]
+    },
+    "bucketBestBuilds": {
+      "title": "Proteja sua nota mais baixa antes de buscar outro destaque de elite.",
+      "displayType": "Melhores Builds do Build-A-Bucket",
+      "intro": "cards",
+      "builds": [
+        {
+          "name": "Nenhuma rodada de roleta produz o mesmo conjunto de jogadores, então a estratégia mais confiável é seguir uma estrutura de build em vez de uma lista fixa de nomes. Cada modelo identifica as categorias que merecem seleções de elite, as categorias que podem aceitar resultados médios e a maneira mais fácil de se recuperar de um giro fraco.",
+          "role": "Build Completa",
+          "difficulty": "Jogador two-way completo",
+          "coreAttributes": [
+            "Médio",
+            "Finalização",
+            "Passe",
+            "Defesa de Perímetro"
+          ],
+          "strategy": "Bolas de 3",
+          "recovery": "A build pode pontuar, criar para os companheiros, defender múltiplas áreas e sobreviver a resultados ruins na roleta sem depender de uma única categoria.",
+          "avoid": "Coloque um jogador mediano em Média Distância ou na categoria defensiva menos importante e, em seguida, preserve as opções de elite para Passe, Finalização, Bolas de 3 e Defesa de Perímetro."
+        },
+        {
+          "name": "Não busque notas máximas em várias categorias ofensivas deixando a defesa, o Passe ou o Rebote muito abaixo do restante.",
+          "role": "Opção ofensiva principal",
+          "difficulty": "Fácil",
+          "coreAttributes": [
+            "Finalização",
+            "Meia Distância",
+            "Três Pontos",
+            "Controle de Bola"
+          ],
+          "strategy": "O jogador consegue criar arremessos em qualquer nível e depende menos dos companheiros de equipe durante a simulação da temporada.",
+          "recovery": "Use uma opção mais fraca para Rebotes ou Defesa de Garrafão, mas mantenha Passe e Defesa de Perímetro altos o suficiente para evitar que o jogador se torne unidimensional.",
+          "avoid": "Não atribua todos os jogadores ofensivos de elite a categorias de pontuação se Passe, Controle de Bola e Defesa de Perímetro continuarem vazios."
+        },
+        {
+          "name": "Build Defensiva",
+          "role": "Defensor completo e recuperador de posses",
+          "difficulty": "Médio",
+          "coreAttributes": [
+            "Defesa de Perímetro",
+            "Defesa de Garrafão",
+            "Rebotes",
+            "Atletismo"
+          ],
+          "strategy": "Defesa e rebotes de elite reduzem a pressão sobre todas as categorias ofensivas e dão ao jogador simulado várias maneiras de impactar uma temporada.",
+          "recovery": "Mantenha as três bases defensivas intactas e use o melhor jogador ofensivo restante para Finalização ou Três Pontos.",
+          "avoid": "Não termine com uma defesa de elite, mas sem nenhuma categoria de pontuação confiável ou opção de Passe."
+        },
+        {
+          "name": "Build de Armação",
+          "role": "Criador principal e motor ofensivo",
+          "difficulty": "Médio",
+          "coreAttributes": [
+            "Passe",
+            "Controle de Bola",
+            "Finalização",
+            "Três Pontos"
+          ],
+          "strategy": "Passe e Controle de Bola conectam toda a build, enquanto Finalização e Três Pontos forçam as defesas a respeitar tanto as infiltrações quanto os arremessos do perímetro.",
+          "recovery": "Deixe Rebotes ou Defesa de Garrafão absorverem o jogador mais fraco, e depois proteja Passe, Controle de Bola e uma categoria de pontuação de elite.",
+          "avoid": "Não use o melhor passador para Rebotes a menos que outra opção de Passe de elite já esteja garantida."
+        },
+        {
+          "name": "Build de Garrafão",
+          "role": "Pontuador de garrafão, reboteador e protetor de aro",
+          "difficulty": "Fácil",
+          "coreAttributes": [
+            "Finalização",
+            "Rebotes",
+            "Defesa de Garrafão",
+            "Atletismo"
+          ],
+          "strategy": "A build controla o garrafão nos dois lados da quadra, cria posses extras e pode continuar eficaz sem Controle de Bola ou Três Pontos de elite.",
+          "recovery": "Use o armador ou ala mais fraco em Meia Distância ou Controle de Bola, mas mantenha pelo menos uma habilidade de perímetro respeitável para evitar um perfil totalmente focado no garrafão.",
+          "avoid": "Não use todos os pivôs de elite para Rebotes e Defesa de Garrafão antes de garantir uma escolha de Finalização de alto nível."
+        }
+      ]
+    },
+    "bucketOvr99Guide": {
+      "title": "Guia de 99 OVR do Build-A-Bucket",
+      "displayType": "passos",
+      "intro": "---",
+      "steps": [
+        {
+          "title": "Uma tentativa de 99 OVR é um desafio de gerenciamento de categorias. O objetivo não é simplesmente reunir nove jogadores famosos; é extrair a melhor combinação possível de Finalização, Meia-distância, Bolas de 3, Passe, Controle de Bola, Rebote, Defesa de Garrafão, Defesa de Perímetro e Atletismo da sequência da roleta.",
+          "description": "Memorize Todos os Nove Espaços",
+          "rule": "Planeje a Finalização, Meia-distância, Bolas de 3, Passe, Controle de Bola, Rebote, Defesa de Garrafão, Defesa de Perímetro e Atletismo antes de fazer a primeira escolha.",
+          "risk": "Nunca julgue uma escolha apenas pelo jogador atual. Julgue-a pelo jogador atual, pelas categorias restantes e pelos especialistas que ainda podem aparecer."
+        },
+        {
+          "title": "Esquecer uma categoria pode deixar uma build de elite com um espaço final de nota baixa.",
+          "description": "Crie um Quadro de Reserva de Especialistas",
+          "rule": "Reserve especialistas reconhecíveis para as categorias onde eles geram a maior melhoria.",
+          "risk": "Stephen Curry pertence ao topo do quadro de Bolas de 3, Kyrie Irving ao topo do quadro de Controle de Bola e Victor Wembanyama perto do topo do quadro de Defesa de Garrafão."
+        },
+        {
+          "title": "Usar um especialista raro em uma categoria fácil de preencher remove um dos caminhos mais claros para uma nota de elite.",
+          "description": "Proteja Superestrelas de Múltiplas Categorias",
+          "rule": "Adie as decisões de jogadores versáteis até que a rodada revele qual categoria está se tornando difícil de preencher.",
+          "risk": "Nikola Jokic pode consertar Passe ou Rebote, Giannis Antetokounmpo pode consertar Finalização ou Atletismo, e Kevin Durant pode fortalecer Meia-distância, Bolas de 3 ou Finalização."
+        },
+        {
+          "title": "Gastar uma superestrela flexível cedo demais pode forçar um jogador mediano em uma categoria mais importante depois.",
+          "description": "Priorize Habilidades de Elite Escassas",
+          "rule": "Escolha um resultado de elite imediatamente quando o jogador tiver uma categoria óbvia que poucas outras opções da roleta conseguem igualar.",
+          "risk": "Priorize especialistas raros em Bolas de 3, Passe, Controle de Bola, Defesa de Garrafão e Defesa de Perímetro antes de usar jogadores similares em categorias mais amplas."
+        },
+        {
+          "title": "Meia-distância, Atletismo e opções secundárias de pontuação são geralmente mais fáceis de consertar com jogadores versáteis.",
+          "description": "Não Duplique o Mesmo Valor",
+          "rule": "Evite colocar vários jogadores de elite em categorias que produzam a mesma força ofensiva ou defensiva.",
+          "risk": "Após garantir Bolas de 3 e Finalização de elite, melhore o Passe, Controle de Bola ou defesa em vez de adicionar outro pontuador com criação limitada."
+        },
+        {
+          "title": "Forças duplicadas podem produzir lances impressionantes, mas deixam a nota geral limitada por uma categoria fraca.",
+          "description": "Eleve a Nota Mais Baixa Primeiro",
+          "rule": "Quando várias categorias estiverem preenchidas, compare as notas prováveis e direcione o próximo jogador flexível para o espaço mais fraco.",
+          "risk": "Transformar uma categoria baixa em uma categoria de nível A é normalmente mais valioso do que transformar um A existente em outra nota máxima."
+        },
+        {
+          "title": "Uma única nota baixa pode impedir um OVR alto, mesmo quando várias outras categorias são de elite.",
+          "description": "Use um Mapa de Prioridade de 99 OVR",
+          "rule": "Siga um mapa de perfil de categoria para jogador em vez de selecionar pela reputação.",
+          "risk": "Use um atacante de aro de elite para Finalização, um criador de arremessos para Meia-distância, um arremessador histórico para Bolas de 3, um criador de elite para Passe, um driblador especialista para Controle de Bola, um pivô dominante para Rebote, um protetor de aro para Defesa de Garrafão, um marcador para Defesa de Perímetro e um atleta explosivo nos dois lados da quadra para Atletismo."
+        },
+        {
+          "title": "Uma superestrela usada fora da habilidade que define seu jogo pode render uma nota menor do que um especialista menos famoso.",
+          "description": "Lide com os Três Espaços Finais Cuidadosamente",
+          "rule": "Quando restarem três categorias, pare de buscar forças perfeitas e evite que qualquer categoria entre em colapso.",
+          "risk": "Use o jogador restante mais flexível no espaço mais difícil, o especialista mais claro no segundo espaço e deixe a categoria mais fácil para o giro final."
+        },
+        {
+          "title": "Deixar Passe, Controle de Bola, Defesa de Garrafão ou Defesa de Perímetro por último pode fazer o resultado final depender de um jogador aleatório inadequado.",
+          "description": "Revise Antes de Simular",
+          "rule": "Verifique se cada jogador selecionado corresponde à habilidade atribuída e se a build contém pontuação, criação, defesa, rebote e suporte atlético.",
+          "risk": "Uma tentativa forte de 99 OVR não deve ter nenhuma categoria descartável óbvia e nenhum jogador de elite atribuído a uma função que outro jogador poderia ter preenchido tão bem quanto."
+        },
+        {
+          "title": "A simulação da temporada não pode consertar uma má alocação de atributos.",
+          "description": "Use Tentativas Fracassadas como um Novo Quadro de Escolhas",
+          "rule": "Na próxima rodada, reserve um jogador melhor para essa categoria e mova a seleção original para uma função que corresponda à sua habilidade mais forte na NBA.",
+          "risk": "Repetir a mesma atribuição inicial criará repetidamente a mesma fraqueza na rodada final."
+        },
+        {
+          "title": "Evite os principais \"Killers\" de 99 de OVR",
+          "description": "Elimine erros de alocação evitáveis ao longo da rodada.",
+          "rule": "Não escolha apenas pelo nome, desperdice um especialista, consuma todas as estrelas versáteis cedo, acumule apenas ataque, ignore a Defesa de Perímetro, deixe o Passe por último ou aceite uma nota baixa grave sem tentar corrigi-la.",
+          "risk": "Esses erros diminuem o potencial do jogador montado antes que o giro final ocorra."
+        }
+      ]
+    },
+    "bucketAttributeTierList": {
+      "title": "Lista de Níveis de Atributos do Build-A-Bucket",
+      "displayType": "níveis",
+      "intro": "Os atributos mais fortes são aqueles que criam valor em muitos resultados de temporada ou que são difíceis de reparar no final de uma rodada da roleta. Uma posição em um nível inferior não significa que um atributo seja inútil; significa que essa categoria pode aceitar um jogador mediano com mais segurança quando um espaço mais importante ainda precisa de um especialista de elite.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Motores Principais da Build",
+          "description": "Essas categorias devem receber jogadores de elite ou quase de elite na maioria dos estilos de build, pois criam ataque, evitam grandes fraquezas defensivas ou influenciam muitas posses de bola.",
+          "attributes": [
+            {
+              "name": "Passe",
+              "priority": "Jogador de elite recomendado",
+              "why": "O Passe transforma habilidades individuais de pontuação em uma função ofensiva completa e dá ao simulador de temporada outra forma de recompensar o jogador além de pontos.",
+              "profiles": [
+                "Nikola Jokic",
+                "Tyrese Haliburton",
+                "Armadores e alas-armadores de elite"
+              ],
+              "styles": {
+                "All-Around": "S",
+                "Scoring-First": "A",
+                "Defensive": "B",
+                "Playmaking": "S",
+                "Interior": "A"
+              }
+            },
+            {
+              "name": "Finalização",
+              "priority": "Jogador de elite recomendado",
+              "why": "A Finalização oferece pontuação eficiente ao redor da cesta e apoia builds focadas em pontuação, versáteis, de criação de jogadas e de garrafão.",
+              "profiles": [
+                "Giannis Antetokounmpo",
+                "Shai Gilgeous-Alexander",
+                "Armadores, alas e pivôs poderosos que atacam a cesta"
+              ],
+              "styles": {
+                "All-Around": "S",
+                "Scoring-First": "S",
+                "Defensive": "B",
+                "Playmaking": "A",
+                "Interior": "S"
+              }
+            },
+            {
+              "name": "Defesa de Perímetro",
+              "priority": "Jogador de elite recomendado",
+              "why": "A Defesa de Perímetro evita que uma build completa se torne apenas um especialista ofensivo sem resposta para os armadores e alas adversários.",
+              "profiles": [
+                "Jrue Holiday",
+                "Armadores defensivos de elite",
+                "Alas \"two-way\" com forte defesa na bola"
+              ],
+              "styles": {
+                "All-Around": "S",
+                "Scoring-First": "B",
+                "Defensive": "S",
+                "Playmaking": "A",
+                "Interior": "B"
+              }
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Especialistas de Alto Valor",
+          "description": "Estes atributos podem definir uma build e merecem seleções de elite quando combinam com o estilo de jogo escolhido.",
+          "attributes": [
+            {
+              "name": "Bolas de 3",
+              "priority": "Atirador de elite preferido",
+              "why": "Bolas de 3 dão ao jogador uma pontuação de perímetro eficiente e complementam Finalização, Passe e Controle de Bola.",
+              "profiles": [
+                "Stephen Curry",
+                "Atiradores em movimento de alto volume",
+                "Alas eficientes em catch-and-shoot"
+              ],
+              "styles": {
+                "All-Around": "A",
+                "Scoring-First": "S",
+                "Defensive": "B",
+                "Playmaking": "A",
+                "Interior": "C"
+              }
+            },
+            {
+              "name": "Controle de Bola",
+              "priority": "Criador de elite preferido",
+              "why": "O Controle de Bola auxilia na criação da própria pontuação e combina especialmente bem com Finalização, Média Distância, Bolas de 3 e Passe.",
+              "profiles": [
+                "Kyrie Irving",
+                "Armadores de elite em isolação",
+                "Principais condutores de bola com baixo risco de turnover"
+              ],
+              "styles": {
+                "All-Around": "A",
+                "Scoring-First": "S",
+                "Defensive": "C",
+                "Playmaking": "S",
+                "Interior": "C"
+              }
+            },
+            {
+              "name": "Rebote",
+              "priority": "Pivô forte recomendado",
+              "why": "O Rebote adiciona posses, auxilia na defesa e cria um valor confiável mesmo quando o jogador não está pontuando.",
+              "profiles": [
+                "Nikola Jokic",
+                "Domantas Sabonis",
+                "Pivôs e alas-pivôs de alto volume"
+              ],
+              "styles": {
+                "All-Around": "A",
+                "Scoring-First": "C",
+                "Defensive": "S",
+                "Playmaking": "B",
+                "Interior": "S"
+              }
+            },
+            {
+              "name": "Defesa de garrafão",
+              "priority": "Preferência por protetor de aro de elite",
+              "why": "A Defesa de garrafão oferece resistência interna ao jogador e combina naturalmente com Rebotes e Atletismo.",
+              "profiles": [
+                "Victor Wembanyama",
+                "Rudy Gobert",
+                "Pivôs móveis bloqueadores de arremessos"
+              ],
+              "styles": {
+                "All-Around": "B",
+                "Scoring-First": "C",
+                "Defensive": "S",
+                "Playmaking": "C",
+                "Interior": "S"
+              }
+            },
+            {
+              "name": "Atletismo",
+              "priority": "Recomenda-se um atleta forte",
+              "why": "O Atletismo auxilia na finalização, cobertura defensiva, jogo de transição e builds de garrafão sem substituir nenhuma habilidade especializada.",
+              "profiles": [
+                "Giannis Antetokounmpo",
+                "Anthony Edwards",
+                "Alas e armadores \"two-way\" explosivos"
+              ],
+              "styles": {
+                "All-Around": "A",
+                "Scoring-First": "A",
+                "Defensive": "A",
+                "Playmaking": "B",
+                "Interior": "A"
+              }
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Alocação Flexível",
+          "description": "Estes atributos continuam úteis, mas podem absorver com mais segurança um resultado médio na roleta quando categorias de maior prioridade ainda precisam de especialistas.",
+          "attributes": [
+            {
+              "name": "Meia distância",
+              "priority": "Especialista opcional",
+              "why": "A Meia distância adiciona outro nível de pontuação, mas a Finalização e as Bolas de Três já podem fornecer um perfil de pontuação \"dentro e fora\" eficaz.",
+              "profiles": [
+                "Kevin Durant",
+                "DeMar DeRozan",
+                "Pontuadores eficientes em \"pull-up\""
+              ],
+              "styles": {
+                "All-Around": "B",
+                "Scoring-First": "A",
+                "Defensive": "C",
+                "Playmaking": "B",
+                "Interior": "C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "bucketBestPlayersWheelPicks": {
+      "title": "Melhores Jogadores e Escolhas da Roleta do Build-A-Bucket",
+      "displayType": "Tabela",
+      "intro": "Uma boa campanha no Build-A-Bucket atribui especialistas às categorias que eles dominam, em vez de escolher o nome mais famoso todas as vezes. Estas recomendações combinam as categorias defensivas confirmadas mostradas no Modo Sandbox com os principais traços ofensivos necessários para um jogador completo, usando estatísticas oficiais dos playoffs de 2026 como referências de comparação.",
+      "picks": [
+        {
+          "category": "---",
+          "player": "Pontuação",
+          "stat": "Jalen Brunson",
+          "why": "28,4 pontos por jogo (Playoffs da NBA de 2026)",
+          "skip": "Brunson é uma escolha confiável quando a build ainda precisa de um pontuador principal que consiga criar arremessos e carregar uma grande carga ofensiva.",
+          "alternative": "Use outro atributo de Brunson quando a pontuação já estiver garantida e a build ainda carecer de tamanho, rebotes, defesa ou passes.",
+          "altStat": "Shai Gilgeous-Alexander",
+          "comparison": "27,6 pontos e 7,9 assistências por jogo"
+        },
+        {
+          "category": "Escolha Brunson para especialização em pontuação. Escolha Gilgeous-Alexander quando a pontuação e o playmaking secundário forem valiosos.",
+          "player": "Arremesso de Três",
+          "stat": "Julian Champagnie",
+          "why": "61 cestas de três convertidas (Playoffs da NBA de 2026)",
+          "skip": "O volume de bolas de três de Champagnie na pós-temporada o torna um especialista útil quando a build precisa de um rendimento confiável no perímetro.",
+          "alternative": "Não gaste a escolha aqui quando outra opção da roleta oferecer criação de elite, defesa ou rebotes e a build já tiver um arremesso forte.",
+          "altStat": "Devin Vassell",
+          "comparison": "56 cestas de três convertidas"
+        },
+        {
+          "category": "Ambas são escolhas de arremesso baseadas em volume. Use os espaços restantes da build para adicionar criação, pois o total de cestas de três não substitui o playmaking.",
+          "player": "Finalização Interna",
+          "stat": "Mikal Bridges",
+          "why": "86,3% de aproveitamento na área restrita (Playoffs da NBA de 2026)",
+          "skip": "Bridges fornece um parâmetro de finalização eficiente para builds que precisam de melhor conversão perto do aro.",
+          "alternative": "Prefira um pontuador interno de maior volume quando a build precisar de tentativas frequentes no garrafão, em vez de apenas eficiência de finalização.",
+          "altStat": "Evan Mobley",
+          "comparison": "83,5% de aproveitamento na área restrita"
+        },
+        {
+          "category": "Escolha Bridges para a maior eficiência exibida na área restrita. Escolha Mobley quando o tamanho e o valor defensivo também forem prioridades.",
+          "player": "Playmaking",
+          "stat": "Nikola Jokic",
+          "why": "9,5 assistências por jogo (Playoffs da NBA de 2026)",
+          "skip": "Jokic é a escolha preferida de playmaking porque ele cria o ataque em volume de elite, ao mesmo tempo em que auxilia nas combinações de pontuação e rebotes.",
+          "alternative": "Guarde Jokic para os rebotes quando a roleta já tiver fornecido um passador de elite, mas nenhum reboteiro confiável.",
+          "altStat": "Scottie Barnes",
+          "comparison": "8,6 assistências por jogo"
+        },
+        {
+          "category": "Escolha Jokic para o maior parâmetro de passe. Escolha Barnes quando preservar Jokic para outra categoria premium melhorar a build completa.",
+          "player": "Rebotes",
+          "stat": "Nikola Jokic",
+          "why": "13,2 rebotes por jogo (Playoffs da NBA de 2026)",
+          "skip": "Jokic é a opção estatística mais forte em rebotes e é especialmente valioso quando resultados fracos no início da roleta deixaram a build com pouco tamanho.",
+          "alternative": "Em vez disso, use Jokic para playmaking quando outro reboteiro de elite estiver disponível e o passe continuar sendo a maior fraqueza.",
+          "altStat": "Victor Wembanyama",
+          "comparison": "10,9 rebotes por jogo"
+        },
+        {
+          "category": "Defesa de Garrafão",
+          "player": "Victor Wembanyama",
+          "stat": "3,5 tocos por jogo (Playoffs da NBA de 2026)",
+          "why": "Wembanyama é a principal referência em proteção de aro e deve ser priorizado quando a build carece de tamanho interior ou resistência defensiva.",
+          "skip": "Use Wembanyama para outra categoria baseada em tamanho quando a Defesa de Garrafão já for de elite e outra opção da roda puder proteger o aro.",
+          "alternative": "Evan Mobley",
+          "altStat": "1,8 tocos por jogo",
+          "comparison": "Wembanyama oferece a maior taxa de tocos. Mobley é a alternativa quando a versatilidade de Wembanyama for mais valiosa em outro lugar."
+        },
+        {
+          "category": "Defesa de Perímetro",
+          "player": "Tari Eason",
+          "stat": "2,5 roubos de bola por jogo (Playoffs da NBA de 2026)",
+          "why": "A produção de roubos de Eason faz dele uma escolha forte baseada em interrupção para uma build que já possui defesa interior, mas carece de pressão nos condutores de bola.",
+          "skip": "Escolha uma característica ofensiva mais completa quando a defesa de perímetro já estiver coberta por uma seleção de elite anterior.",
+          "alternative": "Marcus Smart",
+          "altStat": "2,4 roubos de bola por jogo",
+          "comparison": "Eason detém a maior marca de roubos na pós-temporada. Smart é uma alternativa próxima quando Eason não estiver disponível."
+        },
+        {
+          "category": "Atletismo",
+          "player": "Paolo Banchero",
+          "stat": "26,3 pontos e 4,3 pontos de contra-ataque por jogo (Playoffs da NBA de 2026)",
+          "why": "Banchero combina pressão de transição com alta produção de pontuação, tornando-o valioso quando a build precisa de força, criação em direção ao aro e ataque em quadra aberta.",
+          "skip": "Priorize a defesa ou a armação quando a build já tiver vários pontuadores explosivos, mas permanecer incompleta em outras áreas.",
+          "alternative": "Kevin Durant",
+          "altStat": "7,0 pontos de contra-ataque por jogo",
+          "comparison": "Escolha Banchero para um perfil de pontuação mais amplo. Escolha Durant quando o objetivo principal for maximizar a marca de pontuação em contra-ataque exibida."
+        }
+      ]
+    },
+    "bucketSandboxModeGuide": {
+      "title": "Guia do Modo Sandbox do Build-A-Bucket",
+      "displayType": "passos",
+      "intro": "O Modo Sandbox funciona melhor como um laboratório de testes do que como uma rodada normal na roda. Comece com uma build repetível, mude apenas uma categoria por vez e compare as notas exibidas, a classificação geral e o desempenho na temporada antes de fazer outra alteração.",
+      "steps": [
+        {
+          "title": "Escolha um Objetivo para a Build",
+          "description": "Decide se o teste é focado em pontuação, defesa, armação, domínio interior ou equilíbrio geral.",
+          "experiment": "Comece com um alvo claro, como um jogador defensivo de elite, em vez de selecionar características de estrelas não relacionadas.",
+          "readout": "Um alvo focado torna mais fácil identificar qual seleção melhorou ou enfraqueceu a build final."
+        },
+        {
+          "title": "Crie uma Build de Referência",
+          "description": "Monte uma combinação equilibrada e trate-a como a build de controle para cada comparação posterior.",
+          "experiment": "Use um pontuador, um armador, um reboteiro, um defensor interior e um defensor de perímetro em vez de acumular todos os slots em apenas uma força.",
+          "readout": "Registre as notas das categorias e a classificação geral antes de substituir qualquer característica de jogador."
+        },
+        {
+          "title": "Mude uma Seleção por Vez",
+          "description": "Substitua apenas uma categoria enquanto mantém o restante da build inalterado.",
+          "experiment": "Compare Nikola Jokic e Scottie Barnes para armação enquanto preserva seleções idênticas em todas as outras categorias.",
+          "readout": "Qualquer mudança na classificação ou simulação pode então ser conectada diretamente à escolha substituída."
+        },
+        {
+          "title": "Compare Especialistas e Estrelas Versáteis",
+          "description": "Teste um especialista em uma categoria contra um jogador que contribui em várias áreas estatísticas.",
+          "experiment": "Compare a pontuação de Jalen Brunson com a combinação de 27,6 pontos e 7,9 assistências por jogo de Shai Gilgeous-Alexander.",
+          "readout": "O especialista deve vencer um teste de categoria acirrado, enquanto o jogador versátil pode produzir uma build completa mais forte."
+        },
+        {
+          "title": "Execute um Teste de Acúmulo Defensivo",
+          "description": "Combine seleções de rebotes de elite, Defesa de Poste e Defesa de Perímetro e, em seguida, identifique a menor nota restante.",
+          "experiment": "Um resultado compartilhado do Sandbox exibiu Rebotes A+, Defesa de Poste A+, Defesa de Perímetro A+ e Atletismo B+.",
+          "readout": "Use la menor nota visível como a próxima categoria a ser melhorada, em vez de substituir um atributo de destaque existente."
+        },
+        {
+          "title": "Teste Sinergias de Categorias",
+          "description": "Combine atributos que se reforçam mutuamente, em vez de avaliar cada categoria isoladamente.",
+          "experiment": "Teste a armação de Jokic com a pontuação de Brunson, os rebotes de Jokic com a Defesa de Poste de Wembanyama e a Defesa de Perímetro de Eason com um pontuador forte de transição.",
+          "readout": "Procure combinações que melhorem tanto a classificação geral quanto o perfil da temporada simulada."
+        },
+        {
+          "title": "Teste de Estresse de Builds Extremas",
+          "description": "Crie uma build focada em ataque e outra focada em defesa usando os especialistas mais fortes disponíveis.",
+          "experiment": "Compare uma build de pontuação liderada por Brunson contra uma base defensiva com Wembanyama, Jokic e Eason.",
+          "readout": "O contraste revela o quão fortemente o simulador recompensa o equilíbrio em comparação com a dominância em uma única categoria."
+        },
+        {
+          "title": "Repita a Simulação da Temporada",
+          "description": "Simule cada versão controlada e compare a classificação geral final com o resultado da temporada.",
+          "experiment": "Mantenha um registro simples contendo a categoria alterada, o jogador selecionado, a nota final, a classificação geral e o resultado da temporada.",
+          "readout": "Testes repetidos transformam o Modo Sandbox em um guia de decisão prático para futuras rodadas da roleta."
+        }
+      ]
+    },
+    "bucketSeasonSimulatorGuide": {
+      "title": "Guia do Simulador de Temporada do Build-A-Bucket",
+      "displayType": "tabela",
+      "intro": "Depois que o jogador personalizado estiver concluído, o Build-A-Bucket simula uma temporada para mostrar o desempenho dos atributos combinados. Leia a classificação geral junto com o perfil de jogador resultante: um pontuador forte ainda pode precisar de passes ou defesa, enquanto uma build de pontuação mais baixa pode criar valor por meio de rebotes, proteção de aro e contestação no perímetro.",
+      "profiles": [
+        {
+          "profile": "Build Focada em Pontuação",
+          "inputs": "Seleções de pontuação e arremesso de elite lideradas por jogadores como Jalen Brunson e Julian Champagnie.",
+          "benchmark": "Brunson teve média de 28,4 pontos por jogo, enquanto Champagnie converteu 61 arremessos de três pontos nos playoffs de 2026.",
+          "read": "Um resultado forte deve mostrar que o jogador pode assumir uma grande função ofensiva sem que a build completa desmorone em categorias que não sejam de pontuação.",
+          "strong": "Classificação geral alta combinada com uma temporada produtiva e sem fraquezas defensivas ou de armação graves.",
+          "weak": "Pontuação individual forte, mas um resultado de temporada completa mais fraco.",
+          "adjustment": "Substitua o atributo de pontuação extra menos valioso por armação, Defesa de Poste ou Defesa de Perímetro."
+        },
+        {
+          "profile": "Distribuidor de Jogadas",
+          "inputs": "A armação de Nikola Jokic combinada com pontuação e arremessos confiáveis.",
+          "benchmark": "Jokic teve médias de 9,5 assistências e 13,2 rebotes por jogo nos playoffs de 2026.",
+          "read": "Este perfil deve criar um valor amplo em vez de depender apenas de pontos.",
+          "strong": "O jogador simulado tem um bom desempenho em várias áreas e sustenta uma temporada geral forte.",
+          "weak": "O passe é excelente, mas a build carece de pressão de pontuação ou defesa suficiente para converter a criação em resultados.",
+          "adjustment": "Adicione um pontuador principal ou melhore a menor nota defensiva."
+        },
+        {
+          "profile": "Build de Defesa Interior",
+          "inputs": "Defesa de Poste de Victor Wembanyama com um reboteador de elite.",
+          "benchmark": "Wembanyama teve médias de 3,5 tocos e 10,9 rebotes por jogo nos playoffs de 2026.",
+          "read": "Um resultado bem-sucedido deve refletir uma forte proteção de garrafão e controle de posse de bola, mesmo quando a pontuação não for a categoria mais alta.",
+          "strong": "Notas defensivas de elite são apoiadas por ataque suficiente para produzir uma temporada competitiva.",
+          "weak": "O jogador protege o aro, mas não consegue criar ou finalizar jogadas ofensivas o suficiente.",
+          "adjustment": "Preserve a Defesa de Poste e substitua um traço defensivo secundário por pontuação ou criação de jogadas."
+        },
+        {
+          "profile": "Build de Interrupção de Perímetro",
+          "inputs": "Defesa de Perímetro de Tari Eason ou Marcus Smart com suporte interior por trás deles.",
+          "benchmark": "Eason teve média de 2,5 roubos por jogo e Smart teve média de 2,4 nos playoffs de 2026.",
+          "read": "Este perfil deve gerar valor defensivo longe do aro e complementar uma seleção separada de Defesa de Poste.",
+          "strong": "A defesa de perímetro melhora o resultado completo sem criar uma grande lacuna ofensiva.",
+          "weak": "A build atrapalha os armadores adversários, mas continua muito limitada como pontuadora ou criadora.",
+          "adjustment": "Adicione uma categoria ofensiva eficiente mantendo o defensor de perímetro mais forte."
+        },
+        {
+          "profile": "Build Sandbox com Foco em Defesa",
+          "inputs": "Top Rebotes, Defesa de Poste, Defesa de Perímetro e uma nota menor de Atletismo.",
+          "benchmark": "Três notas defensivas de topo, além de um Atletismo B+, foram exibidas em um resultado compartilhado do Sandbox do Build-A-Bucket.",
+          "read": "As três categorias defensivas de elite formam uma base sólida, enquanto o Atletismo é o alvo claro de melhoria.",
+          "strong": "A simulação da temporada recompensa o conjunto defensivo e as seleções ofensivas restantes fornecem equilíbrio suficiente.",
+          "weak": "O jogador obtém excelentes notas defensivas, mas produz um resultado geral ou de temporada limitado.",
+          "adjustment": "Mantenha as três categorias defensivas de elite e melhore o Atletismo ou a criação ofensiva."
+        },
+        {
+          "profile": "Build Equilibrada (All-Around)",
+          "inputs": "Um especialista para cada: pontuação, criação de jogadas, rebotes, Defesa de Poste, Defesa de Perímetro e Atletismo.",
+          "benchmark": "Jokic liderou os marcos de playoffs exibidos em assistências e rebotes, enquanto Wembanyama liderou em tocos.",
+          "read": "Builds equilibradas devem ser julgadas pela ausência de uma fraqueza prejudicial, em vez de uma nota extrema em uma categoria.",
+          "strong": "Notas consistentes, um rating geral alto e uma temporada simulada forte.",
+          "weak": "Cada categoria é aceitável, mas nenhuma é forte o suficiente para impulsionar resultados de elite.",
+          "adjustment": "Melhore a categoria de nível médio mais influente para um especialista sem criar uma nova fraqueza."
+        },
+        {
+          "profile": "Tentativa de 99 OVR",
+          "inputs": "Especialistas premium atribuídos às suas categorias mais fortes com o mínimo de valor duplicado.",
+          "benchmark": "O desafio de gameplay \"Consigo criar um 99 OVR no Build a Bucket?\" confirma o 99 OVR como um objetivo de build em destaque.",
+          "read": "Uma tentativa de 99 OVR deve maximizar o ajuste da categoria em vez de simplesmente coletar jogadores famosos.",
+          "strong": "Notas de elite permanecem equilibradas o suficiente para atingir a faixa de rating geral máxima e produzir uma simulação dominante.",
+          "weak": "Várias seleções de estrelas se sobrepõem nas mesmas forças e deixam uma categoria muito para trás.",
+          "adjustment": "Substitua o traço de estrela mais redundante por um especialista para a nota mais baixa."
+        }
+      ]
+    },
+    "bucketUpdatesNewFeatures": {
+      "title": "Atualizações e Novos Recursos do Build-A-Bucket",
+      "displayType": "accordion",
+      "intro": "Build-A-Bucket foi lançado como a sequência de basquete do Build-A-Player, usando roletas de jogadores da NBA, seleções de habilidades individuais, builds personalizadas e simulação de temporada. Este cronograma registra cada lançamento documentado e demonstração de recursos das contas originais do criador.",
+      "entries": [
+        {
+          "date": "2026-07-15",
+          "title": "Lançamento Oficial do Build-A-Bucket",
+          "summary": "Build-A-Bucket foi ao ar como uma versão de basquete do formato Build-A-Player.",
+          "changes": [
+            "Adicionada uma roleta contendo jogadores da NBA.",
+            "Os jogadores selecionam um aspecto do jogo de cada jogador da NBA gerado.",
+            "As seleções continuam até que um jogador de basquete personalizado completo seja criado.",
+            "A build concluída pode ser testada por meio de uma simulação de temporada.",
+            "O jogo foi lançado através do site existente do Build-A-Player."
+          ]
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Demonstração de Recursos do Modo Sandbox",
+          "summary": "A ZeroChillSports destacou o Modo Sandbox um dia após o lançamento oficial.",
+          "changes": [
+            "Confirmou o Modo Sandbox como uma experiência disponível no Build-A-Bucket.",
+            "Mostrou notas em letras individuais para as categorias da build.",
+            "O resultado compartilhado exibiu notas máximas para Rebotes, Defesa no Poste e Defesa de Perímetro.",
+            "O atleticismo pareceu o alvo de melhoria restante mais claro."
+          ]
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Tudo o que você precisa saber sobre o Build-A-Bucket",
+    "questions": [
+      {
+        "question": "O que é o Build-A-Bucket?",
+        "answer": "O Build-A-Bucket é um jogo de basquete gratuito para navegador. Você gira uma roleta de jogadores da NBA, escolhe uma habilidade de cada resultado, monta uma estrela personalizada em nove categorias de atributos e simula uma temporada completa."
+      },
+      {
+        "question": "Como se joga o Build-A-Bucket?",
+        "answer": "Gire a roleta de jogadores da NBA, atribua cada jogador gerado à categoria que ele domina, preencha todos os nove espaços de habilidades e execute a simulação da temporada para ver o desempenho do seu jogador personalizado do Build-A-Bucket."
+      },
+      {
+        "question": "O que é o Modo Sandbox no Build-A-Bucket?",
+        "answer": "O Modo Sandbox é um modo de teste do Build-A-Bucket que permite alterar livremente as notas das categorias e as seleções de jogadores para que você possa comparar combinações antes de se comprometer com uma rodada normal na roleta."
+      },
+      {
+        "question": "Como alcançar 99 de OVR no Build-A-Bucket?",
+        "answer": "Um OVR de 99 no Build-A-Bucket vem de combinar jogadores de elite da NBA com suas categorias mais fortes, proteger habilidades escassas, evitar pontos fortes duplicados e aumentar sua nota mais baixa antes do giro final."
+      },
+      {
+        "question": "Onde posso jogar o Build-A-Bucket?",
+        "answer": "O Build-A-Bucket roda em qualquer navegador moderno através do site oficial do Build-A-Player. Não é necessário download, pagamento ou cliente Roblox."
+      },
+      {
+        "question": "O Build-A-Bucket está recebendo atualizações?",
+        "answer": "Sim. O Build-A-Bucket foi lançado no formato Build-A-Player e o Modo Sandbox foi demonstrado no dia seguinte. Novos jogadores, modos e adições de recursos aparecem na conta oficial do Build-A-Player no X."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para criar sua estrela da NBA?",
+    "description": "Gire a roleta de jogadores, escolha os melhores atributos e busque um OVR de 99 no Build-A-Bucket. Siga as atualizações oficiais no X e entre no jogo pelo seu navegador.",
+    "joinCommunity": "Siga no X",
+    "joinGame": "Jogar no Navegador"
+  },
+  "footer": {
+    "title": "Wiki do Build-A-Bucket",
+    "description": "Seu hub completo de recursos para builds do Build-A-Bucket, escolhas da roleta de jogadores da NBA, atributos, notas, modo sandbox e simulações de temporada.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Aviso Legal",
+    "officialSite": "Site Oficial",
+    "twitter": "X / Twitter",
+    "youtube": "Gameplay no YouTube",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "---",
+    "disclaimer": "© 2026 Build-A-Bucket Wiki. Não afiliado ao Build-A-Player."
+  },
+  "pages": {
+    "guide": {
+      "title": "Site de recursos não oficial feito por fãs.",
+      "description": "Guia do Build-A-Bucket",
+      "metaTitle": "Guias completos para iniciantes e avançados do Build-A-Bucket. Aprenda as mecânicas da roleta, categorias de habilidades, ordem de build e como finalizar seu primeiro jogador personalizado.",
+      "metaDescription": "Guia do Build-A-Bucket - Como Jogar, Ordem de Build e Dicas",
+      "categoryLabel": "Guia passo a passo do Build-A-Bucket cobrindo como girar a roleta, escolher habilidades, completar todas as nove categorias e rodar sua primeira simulação de temporada.",
+      "whatIs": "GUIAS",
+      "whatIsDescription": "O que é o Guia?",
+      "why": "Os guias explicam o ciclo principal do Build-A-Bucket: girar a roleta de jogadores da NBA, atribuir cada jogador a uma das nove categorias de habilidades, completar uma estrela personalizada e simular uma temporada completa. Eles cobrem as regras da primeira jogada, seleção de modo e os erros que arruinam uma build.",
+      "whySteps": {
+        "step1Title": "Por que ler o guia?",
+        "step1Description": "Aprenda o Ciclo Principal",
+        "step2Title": "Entenda as nove categorias de habilidades e como cada escolha na roleta preenche um espaço no seu jogador personalizado",
+        "step2Description": "Evite Erros de Iniciante",
+        "step3Title": "Pare de desperdiçar especialistas de elite e de deixar categorias essenciais para o giro aleatório final",
+        "step3Description": "Finalize sua Primeira Build"
+      },
+      "featured": "Siga um caminho claro desde o primeiro giro até um jogador completo e uma simulação de temporada inteira",
+      "all": "Destaques e Essenciais"
+    },
+    "builds": {
+      "title": "Todos os Guias",
+      "description": "Builds do Build-A-Bucket",
+      "metaTitle": "Modelos completos de builds de jogadores para o Build-A-Bucket: estratégias de jogador versátil, focado em pontuação, defensivo, armação, jogo interno e estratégias para roletas ruins que sobrevivem a giros desfavoráveis.",
+      "metaDescription": "Builds do Build-A-Bucket - Melhores Modelos de Jogadores e Estratégias",
+      "categoryLabel": "Explore as builds do Build-A-Bucket, incluindo modelos versáteis, de pontuação, defensivos, de armação e internos, além de recuperação de roleta ruim e estratégias para atingir 99 de OVR.",
+      "whatIs": "BUILDS",
+      "whatIsDescription": "O que são Builds?",
+      "why": "Builds são modelos completos de jogadores que indicam quais categorias merecem seleções de elite, quais espaços podem absorver resultados médios e o plano de recuperação para quando um giro na roleta resultar em uma opção fraca.",
+      "whySteps": {
+        "step1Title": "Por que usar builds?",
+        "step1Description": "Siga Estruturas Comprovadas",
+        "step2Title": "Cada build mostra exatamente quais categorias priorizar em vez de tentar adivinhar em cada giro",
+        "step2Description": "Recupere-se de Giros Ruins",
+        "step3Title": "Os modelos revelam onde colocar um jogador fraco para que a build completa mantenha sua força",
+        "step3Description": "Busque o OVR mais alto"
+      },
+      "featured": "Use builds de alocação de categorias para buscar a pontuação geral mais forte possível",
+      "all": "Destaques e Essenciais"
+    },
+    "skills": {
+      "title": "Todas as Builds",
+      "description": "Habilidades do Build-A-Bucket",
+      "metaTitle": "Todas as categorias de habilidades no Build-A-Bucket explicadas: Finalização, Mid-range, Bolas de Três, Passe, Controle de Bola, Rebotes, Defesa de Garrafão, Defesa de Perímetro e Atletismo.",
+      "metaDescription": "Habilidades do Build-A-Bucket - Nove Categorias de Atributos Explicadas",
+      "categoryLabel": "Aprenda sobre cada categoria de habilidade do Build-A-Bucket, o que ela faz, quais jogadores da NBA melhor se encaixam nela e como priorizar os nove espaços de atributos.",
+      "whatIs": "HABILIDADES",
+      "whatIsDescription": "Habilidades são as nove categorias de atributos que compõem cada jogador do Build-A-Bucket: Finalização, Média Distância, Bolas de Três, Passes, Controle de Bola, Rebotes, Defesa no Post, Defesa de Perímetro e Atleticismo. Cada categoria recebe uma seleção de jogador da NBA a partir da roleta.",
+      "why": "Por que estudar as habilidades?",
+      "whySteps": {
+        "step1Title": "Priorize Categorias Escassas",
+        "step1Description": "Saiba quais habilidades são difíceis de recuperar no final e merecem escolhas de elite logo no início",
+        "step2Title": "Combine Jogadores com as Categorias",
+        "step2Description": "Atribua cada jogador da NBA ao espaço onde ele proporciona a maior melhoria",
+        "step3Title": "Equilibre a Build",
+        "step3Description": "Combine ataque, criação, defesa e atributos físicos sem deixar um espaço fraco"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Habilidades"
+    },
+    "wheel": {
+      "title": "Roleta do Build-A-Bucket",
+      "description": "Estratégia da roleta de jogadores da NBA do Build-A-Bucket: mecânicas de giro, melhores escolhas por categoria, táticas para o desafio de jogador aleatório e como ler cada resultado da roleta.",
+      "metaTitle": "Roleta do Build-A-Bucket - Escolhas de Jogadores da NBA e Estratégia de Giro",
+      "metaDescription": "Domine a roleta do Build-A-Bucket com estratégias de giro, a melhor escolha de jogador da NBA para cada categoria de habilidade e dicas para o desafio de jogador aleatório.",
+      "categoryLabel": "ROLETA",
+      "whatIs": "O que é a Roleta?",
+      "whatIsDescription": "A roleta é a mecânica central do Build-A-Bucket. Cada giro gera um jogador da NBA, e você o atribui a uma categoria de habilidade vazia com base nas forças reais dele até que todos os nove espaços estejam preenchidos.",
+      "why": "Por que planejar sua roleta?",
+      "whySteps": {
+        "step1Title": "Avalie a Compatibilidade acima da Fama",
+        "step1Description": "Escolha a categoria que o jogador domina, e não apenas o nome mais famoso do giro",
+        "step2Title": "Guarde as Estrelas Versáteis",
+        "step2Description": "Reserve jogadores multicategoria para o espaço que se tornar mais difícil de preencher",
+        "step3Title": "Vença o Desafio Aleatório",
+        "step3Description": "Use estratégias de roleta para se dar bem mesmo quando cada giro for imprevisível"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias da Roleta"
+    },
+    "players": {
+      "title": "Jogadores do Build-A-Bucket",
+      "description": "Todos os jogadores da NBA no catálogo do Build-A-Bucket: classificações de tier, pontos fortes por categoria, jogadores lendários e a melhor escolha para cada espaço de habilidade.",
+      "metaTitle": "Jogadores do Build-A-Bucket - Tier List e Melhores Escolhas da NBA",
+      "metaDescription": "Explore o catálogo de jogadores da NBA do Build-A-Bucket com tier lists, os melhores jogadores por categoria de habilidade e escolhas lendárias para cada build.",
+      "categoryLabel": "JOGADORES",
+      "whatIs": "O que são Jogadores?",
+      "whatIsDescription": "Jogadores são as estrelas da NBA disponíveis na roleta do Build-A-Bucket. Cada jogador tem pontos fortes específicos que o tornam mais adequado para alguns espaços de habilidade do que para outros, e as tier lists os classificam de acordo com o valor que agregam a uma build completa.",
+      "why": "Por que estudar os jogadores?",
+      "whySteps": {
+        "step1Title": "Escolha o Melhor por Categoria",
+        "step1Description": "Encontre o jogador da NBA mais forte para cada um dos nove espaços de habilidade",
+        "step2Title": "Use a Tier List",
+        "step2Description": "Classifique a lista de jogadores pelo valor que cada um adiciona a uma build completa",
+        "step3Title": "Identifique as Lendas",
+        "step3Description": "Identifique as estrelas versáteis que podem salvar várias categorias quando os giros derem errado"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Jogadores"
+    },
+    "ratings": {
+      "title": "Ratings do Build-A-Bucket",
+      "description": "O rating geral do Build-A-Bucket explicado: a fórmula do OVR, como as notas das categorias se combinam, a meta de 99 de OVR e um detalhamento do rating para cada build.",
+      "metaTitle": "Ratings do Build-A-Bucket - Fórmula do OVR e Detalhamento do Rating",
+      "metaDescription": "Entenda os ratings do Build-A-Bucket: como o rating geral é calculado, como a nota de cada categoria contribui e como buscar o OVR máximo.",
+      "categoryLabel": "RATINGS",
+      "whatIs": "O que são Ratings?",
+      "whatIsDescription": "Os ratings medem um jogador concluído no Build-A-Bucket. O rating geral (OVR) combina as notas das nove categorias, e a meta máxima é 99 de OVR. Entender a fórmula mostra quais categorias influenciam mais o rating.",
+      "why": "Por que acompanhar os ratings?",
+      "whySteps": {
+        "step1Title": "Entenda a Fórmula do OVR",
+        "step1Description": "Veja como a nota de cada categoria alimenta o rating geral final",
+        "step2Title": "Encontre a Nota Mais Fraca",
+        "step2Description": "Melhore sua categoria mais baixa, pois uma única nota baixa limita todo o rating",
+        "step3Title": "Busque o OVR Máximo",
+        "step3Description": "Aplique a estratégia de alocação que alcança o maior rating geral"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Ratings"
+    },
+    "simulation": {
+      "title": "Simulação do Build-A-Bucket",
+      "description": "A simulação de temporada do Build-A-Bucket explicada: resultados da temporada regular, desempenho nos playoffs, chances de título, estatísticas da temporada e prêmios.",
+      "metaTitle": "Simulação do Build-A-Bucket - Resultados da Temporada e Campeonato",
+      "metaDescription": "Leia as simulações de temporada do Build-A-Bucket: campanhas da temporada regular, trajetórias nos playoffs, chances de título, estatísticas do jogador e prêmios de fim de temporada.",
+      "categoryLabel": "SIMULAÇÃO",
+      "whatIs": "O que é a Simulação?",
+      "whatIsDescription": "A simulação roda uma temporada completa para o seu jogador concluído no Build-A-Bucket. Ela gera resultados da temporada regular, chaveamento dos playoffs, chances de título e estatísticas da temporada para que você veja o desempenho da build além do rating geral.",
+      "why": "Por que ler as simulações?",
+      "whySteps": {
+        "step1Title": "Leia os Resultados da Temporada",
+        "step1Description": "Interprete a campanha da temporada regular e onde a build teve sucesso ou falhou",
+        "step2Title": "Acompanhe as Trajetórias nos Playoffs",
+        "step2Description": "Siga o caminho da pós-temporada e as chances de título para cada estilo de build",
+        "step3Title": "Conecte Estatísticas às Escolhas",
+        "step3Description": "Associe o desempenho da temporada de volta às categorias de habilidade que impulsionaram o resultado"
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Simulações"
+    }
   }
 }
