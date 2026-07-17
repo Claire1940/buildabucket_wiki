@@ -14,7 +14,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play in Browser",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -52,696 +52,575 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Build-A-Bucket Gameplay",
+    "description": "Spin the NBA player wheel, claim one skill from each result, complete a custom basketball star, and simulate a full season in your browser."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Build-A-Bucket",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to master the NBA player wheel, best builds, 99 OVR ratings, sandbox mode, and season simulation in Build-A-Bucket.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "title": "Build-A-Bucket Beginner Guide",
+        "description": "How to spin the wheel, pick skills, and finish your first build"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Layers",
+        "title": "Build-A-Bucket Best Builds",
+        "description": "All-around, scoring, defensive, playmaking, and interior templates"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Trophy",
+        "title": "Build-A-Bucket 99 OVR Guide",
+        "description": "Maximize the overall rating with smart category allocation"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "BarChart3",
+        "title": "Build-A-Bucket Attribute Tier List",
+        "description": "Rank the nine skill categories by build value"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Users",
+        "title": "Build-A-Bucket Best Players",
+        "description": "Top NBA player picks for every wheel skill category"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "FlaskConical",
+        "title": "Build-A-Bucket Sandbox Mode",
+        "description": "Test player combinations and compare category grades"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "LineChart",
+        "title": "Build-A-Bucket Season Simulator",
+        "description": "Read season results and connect them to your picks"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Newspaper",
+        "title": "Build-A-Bucket Updates",
+        "description": "Official launches, new modes, and feature timeline"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
+    "bucketBeginnerGuide": {
+      "title": "Build-A-Bucket Beginner Guide",
       "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+      "intro": "Build-A-Bucket turns NBA players into parts of one custom basketball star. Each wheel result gives you a new decision: use that player for the category they dominate, save a flexible category for later, and avoid finishing with a major weakness that lowers the completed build.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Choose a Game Mode",
+          "description": "Start with the main wheel run for the complete randomized challenge, or use Sandbox Mode to test combinations more freely. A normal run makes you react to NBA players produced by the wheel and ends with a season simulation.",
+          "tip": "Use the normal wheel run first so you understand why saving elite specialists matters."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Learn the Nine Skill Categories",
+          "description": "Your completed player is built from Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism. Every category needs one NBA player selection.",
+          "tip": "Separate the categories into offense, creation, defense, and physical tools before spinning."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Spin the NBA Player Wheel",
+          "description": "Spin to receive an NBA player, then review which unfilled category best matches that player's real strengths. The biggest name is not automatically the best choice.",
+          "tip": "Before selecting, check which categories are still empty and which elite roles are hardest to replace."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Select One Skill From the Player",
+          "description": "Assign the generated player to one available category and keep every other category open for future spins. Use Stephen Curry for Threes, Nikola Jokic for Passing or Rebounding, Kyrie Irving for Ball Handling, and Victor Wembanyama for Post D.",
+          "tip": "Use specialists in their clearest category unless that category already has an elite selection."
+        },
+        {
+          "title": "Build a Balanced Foundation",
+          "description": "During the first half of the run, secure at least one scoring category, one creation category, and one defensive category. A balanced opening gives you more recovery options when later spins produce weaker players.",
+          "tip": "Finishing or Threes can score, Passing or Ball Handling can create, and Perimeter D or Post D can defend."
+        },
+        {
+          "title": "Save Versatile Stars",
+          "description": "Keep multi-category stars available for the slot that becomes hardest to fill. Nikola Jokic can solve Passing or Rebounding, Giannis Antetokounmpo can cover Finishing or Athleticism, and Victor Wembanyama can strengthen Post D, Rebounding, or Athleticism.",
+          "tip": "Do not spend a versatile star on a category that already has a strong specialist."
+        },
+        {
+          "title": "Protect the Weakest Grade",
+          "description": "After every selection, review the completed slots and identify the category most likely to finish below the rest of the build. Raising the weakest slot is usually more useful than adding another elite grade to a strength.",
+          "tip": "When only three categories remain, prioritize avoiding a low grade over chasing another highlight attribute."
+        },
+        {
+          "title": "Complete All Nine Categories",
+          "description": "Continue spinning and assigning skills until Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism are all filled. The final selections should complement earlier choices.",
+          "tip": "Use the final flexible player to repair the lowest-value remaining slot."
+        },
+        {
+          "title": "Simulate the Season",
+          "description": "Submit the completed custom player and run the season simulation. Compare the final overall rating, category grades, individual production, team success, and season result.",
+          "tip": "Record the weakest category and change that decision during the next run."
+        },
+        {
+          "title": "Avoid Common First-Run Mistakes",
+          "description": "Choose categories by player fit instead of reputation and keep the complete nine-slot build in mind. Common mistakes include using an elite shooter for Mid-range instead of Threes, spending a top passer too early, stacking scoring, ignoring defense, and leaving an important category for the final random spin.",
+          "tip": "Fill scarce specialties first and use versatile players as insurance."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Judge every pick by player fit and remaining categories, not by reputation alone.",
+        "Reserve versatile superstars for the slot that becomes hardest to fill.",
+        "A balanced build survives weak wheel results better than a stacked one.",
+        "Protect your weakest grade before chasing another elite highlight."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
+    "bucketBestBuilds": {
+      "title": "Build-A-Bucket Best Builds",
       "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
+      "intro": "No wheel run produces the same player pool, so the most reliable strategy is to follow a build structure rather than a fixed list of names. Each template identifies the categories that deserve elite selections, the categories that can accept average results, and the easiest way to recover from a weak spin.",
+      "builds": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "name": "All-Around Build",
+          "role": "Complete two-way player",
+          "difficulty": "Medium",
+          "coreAttributes": ["Finishing", "Passing", "Perimeter D", "Threes"],
+          "strategy": "The build can score, create for teammates, defend multiple areas, and survive weak wheel results without depending on one category.",
+          "recovery": "Place an average player in Mid-range or the less important defensive category, then preserve elite options for Passing, Finishing, Threes, and Perimeter D.",
+          "avoid": "Do not chase top grades in several offensive categories while leaving defense, Passing, or Rebounding far below the rest."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "name": "Scoring-First Build",
+          "role": "Primary offensive option",
+          "difficulty": "Easy",
+          "coreAttributes": ["Finishing", "Mid-range", "Threes", "Ball Handling"],
+          "strategy": "The player can create shots at every level and is less dependent on teammates during the season simulation.",
+          "recovery": "Use a weaker option for Rebounding or Post D, but keep Passing and Perimeter D high enough to prevent the player from becoming one-dimensional.",
+          "avoid": "Do not assign every elite offensive player to scoring categories if Passing, Ball Handling, and Perimeter D remain empty."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "name": "Defensive Build",
+          "role": "Two-way stopper and possession winner",
+          "difficulty": "Medium",
+          "coreAttributes": ["Perimeter D", "Post D", "Rebounding", "Athleticism"],
+          "strategy": "Elite defense and rebounding reduce the pressure on every offensive category and give the simulated player several ways to affect a season.",
+          "recovery": "Keep the three defensive foundations intact and use the best remaining offensive player for either Finishing or Threes.",
+          "avoid": "Do not finish with elite defense but no dependable scoring category or Passing option."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "name": "Playmaking Build",
+          "role": "Lead creator and offensive engine",
+          "difficulty": "Medium",
+          "coreAttributes": ["Passing", "Ball Handling", "Finishing", "Threes"],
+          "strategy": "Passing and Ball Handling connect the entire build, while Finishing and Threes force defenses to respect both drives and perimeter shots.",
+          "recovery": "Allow Rebounding or Post D to absorb the weakest player, then protect Passing, Ball Handling, and one elite scoring category.",
+          "avoid": "Do not use the best passer for Rebounding unless another elite Passing option is already secured."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "name": "Interior Build",
+          "role": "Paint scorer, rebounder, and rim protector",
+          "difficulty": "Easy",
+          "coreAttributes": ["Finishing", "Rebounding", "Post D", "Athleticism"],
+          "strategy": "The build controls the paint on both ends, creates extra possessions, and can remain effective without elite Ball Handling or Threes.",
+          "recovery": "Use the weakest guard or wing in Mid-range or Ball Handling, but keep at least one respectable perimeter skill to avoid a completely paint-only profile.",
+          "avoid": "Do not use every elite big for Rebounding and Post D before securing a top Finishing selection."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
+    "bucketOvr99Guide": {
+      "title": "Build-A-Bucket 99 OVR Guide",
       "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+      "intro": "A 99 OVR attempt is a category-management challenge. The goal is not simply to collect nine famous players; it is to extract the best possible Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism combination from the wheel sequence.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Memorize All Nine Slots",
+          "description": "Plan for Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism before making the first selection.",
+          "rule": "Never judge a pick only by the current player. Judge it by the current player, the remaining categories, and the specialists that may still appear.",
+          "risk": "Forgetting a category can leave an elite build with one final low-grade slot."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Create a Specialist Reservation Board",
+          "description": "Reserve recognizable specialists for the categories where they create the largest upgrade.",
+          "rule": "Stephen Curry belongs at the top of the Threes board, Kyrie Irving at the top of the Ball Handling board, and Victor Wembanyama near the top of the Post D board.",
+          "risk": "Using a rare specialist in an easily filled category removes one of the clearest paths to an elite grade."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Protect Multi-Category Superstars",
+          "description": "Delay versatile-player decisions until the run reveals which category is becoming difficult to fill.",
+          "rule": "Nikola Jokic can repair Passing or Rebounding, Giannis Antetokounmpo can repair Finishing or Athleticism, and Kevin Durant can strengthen Mid-range, Threes, or Finishing.",
+          "risk": "Spending a flexible superstar too early can force an average player into a more important category later."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Prioritize Scarce Elite Skills",
+          "description": "Take an elite result immediately when the player has an obvious category that few other wheel options can match.",
+          "rule": "Prioritize rare Threes, Passing, Ball Handling, Post D, and Perimeter D specialists before using similar players in broader categories.",
+          "risk": "Mid-range, Athleticism, and secondary scoring options are usually easier to repair with versatile players."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Do Not Duplicate the Same Value",
+          "description": "Avoid placing multiple elite players into categories that produce the same offensive or defensive strength.",
+          "rule": "After securing elite Threes and Finishing, improve Passing, Ball Handling, or defense instead of adding another scorer with limited creation.",
+          "risk": "Duplicated strengths can produce impressive highlights while leaving the overall rating limited by a weak category."
+        },
+        {
+          "title": "Raise the Lowest Grade First",
+          "description": "Once several categories are filled, compare the likely grades and direct the next flexible player toward the weakest slot.",
+          "rule": "Turning a lower category into an A-range category is normally more valuable than turning an existing A into another top grade.",
+          "risk": "One low grade can prevent a high overall even when several other categories are elite."
+        },
+        {
+          "title": "Use a 99 OVR Priority Map",
+          "description": "Follow a category-to-player profile map instead of selecting by reputation.",
+          "rule": "Use an elite rim attacker for Finishing, a shot creator for Mid-range, a historic shooter for Threes, an elite creator for Passing, a specialist dribbler for Ball Handling, a dominant big for Rebounding, a rim protector for Post D, a stopper for Perimeter D, and an explosive two-way athlete for Athleticism.",
+          "risk": "A superstar used outside the skill that defines their game can return a lower grade than a less famous specialist."
+        },
+        {
+          "title": "Handle the Final Three Slots Carefully",
+          "description": "When three categories remain, stop chasing perfect strengths and prevent any category from collapsing.",
+          "rule": "Use the most flexible remaining player in the hardest slot, the clearest specialist in the second slot, and leave the easiest category for the final spin.",
+          "risk": "Leaving Passing, Ball Handling, Post D, or Perimeter D until last can make the final result depend on an unsuitable random player."
+        },
+        {
+          "title": "Review Before Simulating",
+          "description": "Check that every selected player matches the assigned skill and that the build contains scoring, creation, defense, rebounding, and athletic support.",
+          "rule": "A strong 99 OVR attempt should have no obvious throwaway category and no elite player assigned to a role another player could have filled just as well.",
+          "risk": "The season simulation cannot repair poor attribute allocation."
+        },
+        {
+          "title": "Use Failed Attempts as a New Draft Board",
+          "description": "After the season simulation, identify the weakest grade and the selection that caused it.",
+          "rule": "On the next run, reserve a better player for that category and move the original selection to a role that matches their strongest NBA skill.",
+          "risk": "Repeating the same early assignment will repeatedly create the same late-run weakness."
+        },
+        {
+          "title": "Avoid the Main 99 OVR Killers",
+          "description": "Eliminate preventable allocation mistakes throughout the run.",
+          "rule": "Do not choose by name alone, waste a specialist, consume every versatile star early, stack only offense, ignore Perimeter D, leave Passing until last, or accept a severe weak grade without trying to repair it.",
+          "risk": "These mistakes lower the ceiling of the completed player before the final spin occurs."
+        }
+      ]
+    },
+    "bucketAttributeTierList": {
+      "title": "Build-A-Bucket Attribute Tier List",
+      "displayType": "tiers",
+      "intro": "The strongest attributes are the ones that create value across many season outcomes or are difficult to repair late in a wheel run. Lower-tier placement does not mean an attribute is useless; it means that category can more safely accept an average player when a more important slot still needs an elite specialist.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Core Build Drivers",
+          "description": "These categories should receive elite or near-elite players in most build styles because they create offense, prevent major defensive weaknesses, or influence many possessions.",
+          "attributes": [
+            {
+              "name": "Passing",
+              "priority": "Elite player recommended",
+              "why": "Passing turns individual scoring skills into a complete offensive role and gives the season simulator another way to reward the player beyond points.",
+              "profiles": ["Nikola Jokic", "Tyrese Haliburton", "Elite lead guards and point forwards"],
+              "styles": { "All-Around": "S", "Scoring-First": "A", "Defensive": "B", "Playmaking": "S", "Interior": "A" }
+            },
+            {
+              "name": "Finishing",
+              "priority": "Elite player recommended",
+              "why": "Finishing supplies efficient scoring around the basket and supports scoring-first, all-around, playmaking, and interior builds.",
+              "profiles": ["Giannis Antetokounmpo", "Shai Gilgeous-Alexander", "Powerful rim-attacking guards, wings, and bigs"],
+              "styles": { "All-Around": "S", "Scoring-First": "S", "Defensive": "B", "Playmaking": "A", "Interior": "S" }
+            },
+            {
+              "name": "Perimeter D",
+              "priority": "Elite player recommended",
+              "why": "Perimeter D prevents a complete build from becoming an offensive specialist with no answer for opposing guards and wings.",
+              "profiles": ["Jrue Holiday", "Elite defensive guards", "Two-way wings with strong on-ball defense"],
+              "styles": { "All-Around": "S", "Scoring-First": "B", "Defensive": "S", "Playmaking": "A", "Interior": "B" }
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "High-Value Specialists",
+          "description": "These attributes can define a build and deserve elite selections when they match the chosen play style.",
+          "attributes": [
+            {
+              "name": "Threes",
+              "priority": "Elite shooter preferred",
+              "why": "Threes gives the player efficient perimeter scoring and complements Finishing, Passing, and Ball Handling.",
+              "profiles": ["Stephen Curry", "High-volume movement shooters", "Efficient catch-and-shoot wings"],
+              "styles": { "All-Around": "A", "Scoring-First": "S", "Defensive": "B", "Playmaking": "A", "Interior": "C" }
+            },
+            {
+              "name": "Ball Handling",
+              "priority": "Elite creator preferred",
+              "why": "Ball Handling supports self-created scoring and combines especially well with Finishing, Mid-range, Threes, and Passing.",
+              "profiles": ["Kyrie Irving", "Elite isolation guards", "Primary ball handlers with low turnover risk"],
+              "styles": { "All-Around": "A", "Scoring-First": "S", "Defensive": "C", "Playmaking": "S", "Interior": "C" }
+            },
+            {
+              "name": "Rebounding",
+              "priority": "Strong big recommended",
+              "why": "Rebounding adds possessions, supports defense, and creates reliable value even when the player is not scoring.",
+              "profiles": ["Nikola Jokic", "Domantas Sabonis", "High-volume centers and power forwards"],
+              "styles": { "All-Around": "A", "Scoring-First": "C", "Defensive": "S", "Playmaking": "B", "Interior": "S" }
+            },
+            {
+              "name": "Post D",
+              "priority": "Elite rim protector preferred",
+              "why": "Post D gives the player interior resistance and pairs naturally with Rebounding and Athleticism.",
+              "profiles": ["Victor Wembanyama", "Rudy Gobert", "Mobile shot-blocking centers"],
+              "styles": { "All-Around": "B", "Scoring-First": "C", "Defensive": "S", "Playmaking": "C", "Interior": "S" }
+            },
+            {
+              "name": "Athleticism",
+              "priority": "Strong athlete recommended",
+              "why": "Athleticism supports finishing, defensive coverage, transition play, and interior builds without replacing any specialized skill.",
+              "profiles": ["Giannis Antetokounmpo", "Anthony Edwards", "Explosive two-way forwards and guards"],
+              "styles": { "All-Around": "A", "Scoring-First": "A", "Defensive": "A", "Playmaking": "B", "Interior": "A" }
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Flexible Allocation",
+          "description": "These attributes remain useful but can more safely absorb an average wheel result when higher-priority categories still need specialists.",
+          "attributes": [
+            {
+              "name": "Mid-range",
+              "priority": "Specialist optional",
+              "why": "Mid-range adds another scoring level, but Finishing and Threes can already provide an effective inside-out scoring profile.",
+              "profiles": ["Kevin Durant", "DeMar DeRozan", "Efficient pull-up scorers"],
+              "styles": { "All-Around": "B", "Scoring-First": "A", "Defensive": "C", "Playmaking": "B", "Interior": "C" }
+            }
+          ]
+        }
+      ]
+    },
+    "bucketBestPlayersWheelPicks": {
+      "title": "Build-A-Bucket Best Players and Wheel Picks",
+      "displayType": "table",
+      "intro": "A strong Build-A-Bucket run assigns specialists to the categories they dominate instead of choosing the biggest name every time. These recommendations combine the confirmed defensive categories shown in Sandbox Mode with the main offensive traits needed for a complete player, using official 2026 playoff statistics as comparison benchmarks.",
+      "picks": [
+        {
+          "category": "Scoring",
+          "player": "Jalen Brunson",
+          "stat": "28.4 points per game (2026 NBA Playoffs)",
+          "why": "Brunson is a reliable choice when the build still needs a primary scorer who can create shots and carry a large offensive workload.",
+          "skip": "Use another Brunson trait when scoring is already covered and the build still lacks size, rebounding, defense, or passing.",
+          "alternative": "Shai Gilgeous-Alexander",
+          "altStat": "27.6 points and 7.9 assists per game",
+          "comparison": "Choose Brunson for scoring specialization. Choose Gilgeous-Alexander when scoring and secondary playmaking are both valuable."
+        },
+        {
+          "category": "Three-Point Shooting",
+          "player": "Julian Champagnie",
+          "stat": "61 three-pointers made (2026 NBA Playoffs)",
+          "why": "Champagnie's postseason three-point volume makes him a useful specialist when the build needs dependable perimeter output.",
+          "skip": "Do not spend the pick here when another wheel option offers elite creation, defense, or rebounding and the build already has strong shooting.",
+          "alternative": "Devin Vassell",
+          "altStat": "56 three-pointers made",
+          "comparison": "Both are volume-based shooting choices. Use the remaining build slots to add creation because made-three totals do not replace playmaking."
+        },
+        {
+          "category": "Interior Finishing",
+          "player": "Mikal Bridges",
+          "stat": "86.3% shooting in the restricted area (2026 NBA Playoffs)",
+          "why": "Bridges provides an efficient finishing benchmark for builds that need better conversion around the rim.",
+          "skip": "Prefer a higher-volume interior scorer when the build needs frequent paint attempts rather than finishing efficiency alone.",
+          "alternative": "Evan Mobley",
+          "altStat": "83.5% shooting in the restricted area",
+          "comparison": "Choose Bridges for the highest displayed restricted-area efficiency. Choose Mobley when size and defensive value are also priorities."
+        },
+        {
+          "category": "Playmaking",
+          "player": "Nikola Jokic",
+          "stat": "9.5 assists per game (2026 NBA Playoffs)",
+          "why": "Jokic is the preferred playmaking pick because he creates offense at elite volume while also supporting scoring and rebounding combinations.",
+          "skip": "Save Jokic for rebounding when the wheel has already supplied an elite passer but no dependable rebounder.",
+          "alternative": "Scottie Barnes",
+          "altStat": "8.6 assists per game",
+          "comparison": "Choose Jokic for the highest passing benchmark. Choose Barnes when preserving Jokic for another premium category improves the complete build."
+        },
+        {
+          "category": "Rebounding",
+          "player": "Nikola Jokic",
+          "stat": "13.2 rebounds per game (2026 NBA Playoffs)",
+          "why": "Jokic is the strongest statistical rebounding option and is especially valuable when weak early wheel results have left the build undersized.",
+          "skip": "Use Jokic for playmaking instead when another elite rebounder is available and passing remains the larger weakness.",
+          "alternative": "Victor Wembanyama",
+          "altStat": "10.9 rebounds per game",
+          "comparison": "Choose Jokic for maximum rebounding production. Choose Wembanyama when the build can combine rebounding with a later Post D or rim-protection decision."
+        },
+        {
+          "category": "Post D",
+          "player": "Victor Wembanyama",
+          "stat": "3.5 blocks per game (2026 NBA Playoffs)",
+          "why": "Wembanyama is the leading rim-protection benchmark and should be prioritized when the build lacks interior size or defensive resistance.",
+          "skip": "Use Wembanyama for another size-based category when Post D is already elite and a different wheel option can protect the rim.",
+          "alternative": "Evan Mobley",
+          "altStat": "1.8 blocks per game",
+          "comparison": "Wembanyama offers the higher block rate. Mobley is the fallback when Wembanyama's versatility is more valuable elsewhere."
+        },
+        {
+          "category": "Perimeter D",
+          "player": "Tari Eason",
+          "stat": "2.5 steals per game (2026 NBA Playoffs)",
+          "why": "Eason's steal production makes him a strong disruption-based choice for a build that already has interior defense but lacks pressure on ball handlers.",
+          "skip": "Choose a more complete offensive trait when perimeter defense is already covered by an earlier elite selection.",
+          "alternative": "Marcus Smart",
+          "altStat": "2.4 steals per game",
+          "comparison": "Eason owns the higher postseason steal benchmark. Smart is a close alternative when Eason is unavailable."
+        },
+        {
+          "category": "Athleticism",
+          "player": "Paolo Banchero",
+          "stat": "26.3 points and 4.3 fast-break points per game (2026 NBA Playoffs)",
+          "why": "Banchero combines transition pressure with high scoring production, making him valuable when the build needs strength, downhill creation, and open-court offense.",
+          "skip": "Prioritize defense or playmaking when the build already has multiple explosive scorers but remains incomplete in other areas.",
+          "alternative": "Kevin Durant",
+          "altStat": "7.0 fast-break points per game",
+          "comparison": "Choose Banchero for a broader scoring profile. Choose Durant when the main goal is maximizing the displayed fast-break scoring benchmark."
+        }
+      ]
+    },
+    "bucketSandboxModeGuide": {
+      "title": "Build-A-Bucket Sandbox Mode Guide",
+      "displayType": "steps",
+      "intro": "Sandbox Mode works best as a testing laboratory rather than a normal wheel run. Start with one repeatable build, change only one category at a time, and compare the displayed grades, overall rating, and season performance before making another change.",
+      "steps": [
+        {
+          "title": "Choose One Build Goal",
+          "description": "Decide whether the test is focused on scoring, defense, playmaking, interior dominance, or overall balance.",
+          "experiment": "Begin with a clear target such as an elite defensive player instead of selecting unrelated star traits.",
+          "readout": "A focused target makes it easier to identify which selection improved or weakened the final build."
+        },
+        {
+          "title": "Create a Baseline Build",
+          "description": "Assemble one balanced combination and treat it as the control build for every later comparison.",
+          "experiment": "Use a scorer, a playmaker, a rebounder, an interior defender, and a perimeter defender rather than stacking every slot into one strength.",
+          "readout": "Record the category grades and overall rating before replacing any player trait."
+        },
+        {
+          "title": "Change One Selection at a Time",
+          "description": "Replace only one category while keeping the rest of the build unchanged.",
+          "experiment": "Compare Nikola Jokic and Scottie Barnes for playmaking while preserving identical selections in every other category.",
+          "readout": "Any rating or simulation change can then be connected directly to the replaced pick."
+        },
+        {
+          "title": "Compare Specialists and All-Around Stars",
+          "description": "Test a category specialist against a player who contributes across several statistical areas.",
+          "experiment": "Compare Jalen Brunson's scoring with Shai Gilgeous-Alexander's combination of 27.6 points and 7.9 assists per game.",
+          "readout": "The specialist should win a narrow category test, while the versatile player may produce the stronger complete build."
+        },
+        {
+          "title": "Run a Defensive Stack Test",
+          "description": "Combine elite rebounding, Post D, and Perimeter D selections, then identify the weakest remaining grade.",
+          "experiment": "A shared Sandbox result displayed Rebounding A+, Post D A+, Perimeter D A+, and Athleticism B+.",
+          "readout": "Use the lowest visible grade as the next category to improve instead of replacing an existing top trait."
+        },
+        {
+          "title": "Test Category Synergies",
+          "description": "Pair traits that reinforce each other instead of evaluating every category in isolation.",
+          "experiment": "Test Jokic playmaking with Brunson scoring, Jokic rebounding with Wembanyama Post D, and Eason Perimeter D with a strong transition scorer.",
+          "readout": "Look for combinations that improve both the overall rating and the simulated season profile."
+        },
+        {
+          "title": "Stress-Test Extreme Builds",
+          "description": "Create one offense-heavy build and one defense-heavy build using the strongest available specialists.",
+          "experiment": "Compare a Brunson-led scoring build against a Wembanyama, Jokic, and Eason defensive foundation.",
+          "readout": "The contrast reveals how strongly the simulator rewards balance compared with one-category dominance."
+        },
+        {
+          "title": "Repeat the Season Simulation",
+          "description": "Simulate each controlled version and compare the final overall rating with its season outcome.",
+          "experiment": "Keep a simple log containing the changed category, selected player, final grade, overall rating, and season result.",
+          "readout": "Repeated tests turn Sandbox Mode into a practical decision guide for future wheel runs."
+        }
+      ]
+    },
+    "bucketSeasonSimulatorGuide": {
+      "title": "Build-A-Bucket Season Simulator Guide",
+      "displayType": "table",
+      "intro": "After the custom player is complete, Build-A-Bucket simulates a season to show how the combined traits perform. Read the overall rating together with the resulting player profile: a strong scorer may still need passing or defense, while a lower-scoring build can create value through rebounding, rim protection, and perimeter disruption.",
+      "profiles": [
+        {
+          "profile": "Scoring-First Build",
+          "inputs": "Elite scoring and shooting selections led by players such as Jalen Brunson and Julian Champagnie.",
+          "benchmark": "Brunson averaged 28.4 points per game, while Champagnie made 61 three-pointers in the 2026 playoffs.",
+          "read": "A strong outcome should show that the player can carry a large offensive role without the complete build collapsing in non-scoring categories.",
+          "strong": "High overall rating combined with a productive season and no severe defensive or playmaking weakness.",
+          "weak": "Strong individual scoring but a weaker complete-season outcome.",
+          "adjustment": "Replace the least valuable extra scoring trait with playmaking, Post D, or Perimeter D."
+        },
+        {
+          "profile": "Playmaking Hub",
+          "inputs": "Nikola Jokic playmaking combined with reliable scoring and shooting.",
+          "benchmark": "Jokic averaged 9.5 assists and 13.2 rebounds per game in the 2026 playoffs.",
+          "read": "This profile should create broad value rather than relying only on points.",
+          "strong": "The simulated player performs well across several areas and supports a strong overall season.",
+          "weak": "Passing is excellent, but the build lacks enough scoring pressure or defense to convert creation into results.",
+          "adjustment": "Add a primary scorer or improve the lowest defensive grade."
+        },
+        {
+          "profile": "Interior Defense Build",
+          "inputs": "Victor Wembanyama Post D with an elite rebounder.",
+          "benchmark": "Wembanyama averaged 3.5 blocks and 10.9 rebounds per game in the 2026 playoffs.",
+          "read": "A successful result should reflect strong paint protection and possession control even when scoring is not the highest category.",
+          "strong": "Elite defensive grades are supported by enough offense to produce a competitive season.",
+          "weak": "The player protects the rim but cannot create or finish enough offense.",
+          "adjustment": "Preserve Post D and replace a secondary defensive trait with scoring or playmaking."
+        },
+        {
+          "profile": "Perimeter Disruption Build",
+          "inputs": "Tari Eason or Marcus Smart Perimeter D with interior support behind them.",
+          "benchmark": "Eason averaged 2.5 steals per game and Smart averaged 2.4 in the 2026 playoffs.",
+          "read": "This profile should generate defensive value away from the rim and complement a separate Post D selection.",
+          "strong": "Perimeter defense improves the complete result without creating a major offensive gap.",
+          "weak": "The build disrupts opposing guards but remains too limited as a scorer or creator.",
+          "adjustment": "Add an efficient offensive category while retaining the strongest perimeter defender."
+        },
+        {
+          "profile": "Defense-First Sandbox Build",
+          "inputs": "Top Rebounding, Post D, Perimeter D, and a lower Athleticism grade.",
+          "benchmark": "Three top defensive grades plus a B+ Athleticism were displayed in a shared Build-A-Bucket Sandbox result.",
+          "read": "The three elite defensive categories form a strong foundation, while Athleticism is the clear improvement target.",
+          "strong": "The season simulation rewards the defensive stack and the remaining offensive selections provide enough balance.",
+          "weak": "The player earns excellent defensive grades but produces a limited overall or season result.",
+          "adjustment": "Keep the three elite defensive categories and upgrade Athleticism or offensive creation."
+        },
+        {
+          "profile": "Balanced All-Around Build",
+          "inputs": "One specialist each for scoring, playmaking, rebounding, Post D, Perimeter D, and Athleticism.",
+          "benchmark": "Jokic led the displayed playoff benchmarks in assists and rebounds, while Wembanyama led in blocks.",
+          "read": "Balanced builds should be judged by the absence of a damaging weakness rather than by one extreme category grade.",
+          "strong": "Consistent grades, a high overall rating, and a strong simulated season.",
+          "weak": "Every category is acceptable, but none is strong enough to drive elite results.",
+          "adjustment": "Upgrade the most influential mid-tier category to a specialist without creating a new weakness."
+        },
+        {
+          "profile": "99 OVR Attempt",
+          "inputs": "Premium specialists assigned to their strongest categories with minimal duplicated value.",
+          "benchmark": "The gameplay challenge Can I Create a 99 OVR on Build a Bucket? confirms 99 OVR as a featured build target.",
+          "read": "A 99 OVR attempt should maximize category fit rather than simply collecting famous players.",
+          "strong": "Elite grades remain balanced enough to reach the top overall-rating range and produce a dominant simulation.",
+          "weak": "Several star selections overlap in the same strengths and leave one category far behind.",
+          "adjustment": "Replace the most redundant star trait with a specialist for the lowest grade."
+        }
+      ]
+    },
+    "bucketUpdatesNewFeatures": {
+      "title": "Build-A-Bucket Updates and New Features",
+      "displayType": "accordion",
+      "intro": "Build-A-Bucket launched as the basketball follow-up to Build-A-Player, using NBA player wheels, individual skill selections, custom builds, and season simulation. This timeline records each documented release and feature showcase from the original creator accounts.",
+      "entries": [
+        {
+          "date": "2026-07-15",
+          "title": "Build-A-Bucket Official Launch",
+          "summary": "Build-A-Bucket went live as a basketball version of the Build-A-Player format.",
+          "changes": [
+            "Added a wheel containing NBA players.",
+            "Players select one aspect of each generated NBA player's game.",
+            "Selections continue until a complete custom basketball player is created.",
+            "The completed build can be tested through a season simulation.",
+            "The game launched through the existing Build-A-Player website."
+          ]
+        },
+        {
+          "date": "2026-07-16",
+          "title": "Sandbox Mode Feature Showcase",
+          "summary": "ZeroChillSports highlighted Sandbox Mode one day after the official launch.",
+          "changes": [
+            "Confirmed Sandbox Mode as an available Build-A-Bucket experience.",
+            "Showed individual letter grades for build categories.",
+            "The shared result displayed top grades for Rebounding, Post D, and Perimeter D.",
+            "Athleticism appeared as the clearest remaining improvement target."
+          ]
         }
       ]
     }
@@ -749,31 +628,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Build-A-Bucket",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Build-A-Bucket?",
+        "answer": "Build-A-Bucket is a free browser basketball game. You spin a wheel of NBA players, choose one skill from each result, assemble a custom star across nine attribute categories, and simulate a full season."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do you play Build-A-Bucket?",
+        "answer": "Spin the NBA player wheel, assign each generated player to the category they dominate, fill all nine skill slots, and run the season simulation to see how your custom Build-A-Bucket player performs."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "What is Sandbox Mode in Build-A-Bucket?",
+        "answer": "Sandbox Mode is a Build-A-Bucket testing mode that lets you freely change category grades and player selections so you can compare combinations before committing to a normal wheel run."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How do you reach a 99 OVR in Build-A-Bucket?",
+        "answer": "A 99 OVR in Build-A-Bucket comes from matching elite NBA players to their strongest categories, protecting scarce skills, avoiding duplicated strengths, and raising your lowest grade before the final spin."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Where can I play Build-A-Bucket?",
+        "answer": "Build-A-Bucket runs in any modern browser through the official Build-A-Player website. No download, payment, or Roblox client is required."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Is Build-A-Bucket getting updates?",
+        "answer": "Yes. Build-A-Bucket launched through the Build-A-Player format and Sandbox Mode was showcased the following day. New players, modes, and feature additions appear on the official Build-A-Player X account."
       }
     ]
   },
@@ -801,124 +680,24 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Build-A-Bucket Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced build strategies. Master the NBA player wheel and season simulation.",
+      "metaTitle": "Build-A-Bucket Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Build-A-Bucket guides covering beginner tips, the NBA player wheel, best builds, 99 OVR, sandbox mode, and season simulation strategies.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering the player wheel, skill selection, build strategies, and season simulation. Learn everything from first steps to advanced 99 OVR tactics.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand the nine skill categories and avoid common beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven build templates to produce a complete custom player",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for 99 OVR, sandbox testing, and season results"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
-    },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Biomes"
-    },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
-      "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Building Guides"
-    },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
     }
   }
 }
