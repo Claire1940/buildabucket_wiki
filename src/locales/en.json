@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Build-A-Bucket Wiki - Best Builds, Ratings & Sandbox",
+      "description": "Build-A-Bucket Wiki covers the player wheel, NBA attribute choices, best builds, overall ratings, sandbox mode, season simulations, updates, and strategies.",
+      "keywords": "Build-A-Bucket, player wheel, NBA attributes, best builds, ratings, sandbox, season simulator",
+      "ogTitle": "Build-A-Bucket Wiki - Best Builds, Ratings & Sandbox",
+      "ogDescription": "Build-A-Bucket Wiki covers the player wheel, NBA attribute choices, best builds, overall ratings, sandbox mode, season simulations, updates, and strategies.",
+      "twitterTitle": "Build-A-Bucket Wiki - Best Builds, Ratings & Sandbox",
+      "twitterDescription": "Build-A-Bucket Wiki covers the player wheel, NBA attribute choices, best builds, overall ratings, sandbox mode, season simulations, and strategies."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "NBA Player Builder & Season Simulator",
+    "title": "Build-A-Bucket Wiki",
+    "description": "Spin the wheel of NBA players, choose one skill from each pick, assemble a custom star, test Sandbox ratings, and simulate a full season.",
+    "getFreeCodesCTA": "View Best Builds",
+    "playOnSteamCTA": "Play in Browser",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Browser",
+        "label": "Platform"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "NBA Players",
+        "label": "Player Pool"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "2",
+        "label": "Build Modes"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "Full Season",
+        "label": "Simulation"
       }
     }
   },
@@ -785,26 +785,25 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Build Your NBA Star?",
+    "description": "Spin the player wheel, pick the best attributes, and chase a 99 OVR in Build-A-Bucket. Follow official updates on X and jump into the game in your browser.",
+    "joinCommunity": "Follow on X",
+    "joinGame": "Play in Browser"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Build-A-Bucket Wiki",
+    "description": "Your complete resource hub for Build-A-Bucket builds, NBA player wheel picks, attributes, ratings, sandbox mode, and season simulations.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "officialSite": "Official Site",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
-    "steamStore": "Steam Store",
+    "youtube": "YouTube Gameplay",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Build-A-Bucket Wiki. Not affiliated with Build-A-Player.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
