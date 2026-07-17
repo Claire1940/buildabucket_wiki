@@ -1,12 +1,12 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Build a Bucket Wiki - Best Builds, Ratings & Sandbox",
+  "short_name": "Build a Bucket",
+  "description": "Build a Bucket Wiki covers the player wheel, NBA attribute choices, best builds, overall ratings, sandbox mode, season simulations, updates, and strategies for the browser basketball game.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#f97316",
+  "background_color": "#08111f",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
