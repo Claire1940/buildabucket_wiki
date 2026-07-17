@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Resultados da Temporada do Build a Bucket: Guia de Configuração e Classificação de Tiers",
+  description: "Otimize as builds do seu jogador personalizado para obter o máximo de resultados na temporada. Aprenda mecânicas de simulação, distribuição de atributos e os melhores arquétipos.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Season+Results+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki de build a bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo principal**: Dominar o motor de simulação para maximizar os seus **resultados da temporada do build a bucket** e vencer campeonatos.
+- **Mecânica principal**: A distribuição de atributos influencia diretamente as estatísticas simuladas, os índices de eficiência do jogador e a taxa de vitórias e derrotas da equipe.
+- **Melhor estratégia**: Equilibrar estatísticas de arremesso de alto volume com durabilidade física para evitar quedas de desempenho no meio da temporada.
+- **Dica crítica**: Alinhar o arquétipo do seu jogador personalizado com o sistema de comissão técnica da sua equipe para desbloquear bônus passivos de atributos.
+</Callout>
+
+<Section icon={Target} title="Entendendo as Mecânicas de Simulação">
+
+Analisar os seus **resultados da temporada do build a bucket** é o passo mais crítico para entender como o seu jogador de basquete personalizado se comporta sob simulação. Ao contrário da jogabilidade manual, onde a habilidade do usuário pode compensar deficiências de atributos, o motor de simulação depende inteiramente de atributos brutos, sinergias de insígnias e resistência física. Para garantir consistentemente prêmios de MVP e campanhas profundas nos playoffs, você deve entender como o motor traduz as classificações do jogador em estatísticas simuladas.
+
+O motor de simulação avalia o desempenho do jogador em quatro categorias principais: eficiência ofensiva, impacto defensivo, resistência física e QI de criação de jogadas. Se um jogador carecer de resistência física, suas métricas de desempenho cairão drasticamente durante jogos simulados consecutivos (back-to-back), resultando em estatísticas ruins no meio da temporada.
+
+| Atributo | Impacto Simulado | Classificação Alvo |
+| :--- | :--- | :--- |
+| **Arremesso de Três Pontos** | Ditava o volume e a eficiência no perímetro externo | 85+ para armadores |
+| **Defesa de Garrafão** | Reduz as taxas de acerto do oponente no garrafão | 75+ para pivôs/alas-pivôs |
+| **Resistência** | Evita a queda de atributos durante viagens de jogos fora de casa simuladas | 90+ para todos |
+| **Precisão de Passe** | Reduz as taxas de desperdício de bola (turnovers) na criação de jogadas simulada | 80+ para criadores de jogadas |
+| **Defesa de Perímetro** | Aumenta as taxas de roubo de bola e diminui as faltas no perímetro | 78+ para armadores |
+
+<Callout type="info" title="Visão do Motor de Simulação">
+A resistência é o assassino silencioso das temporadas simuladas. Um jogador com 99 de Arremesso de Três Pontos, mas apenas 60 de Resistência, verá sua porcentagem de arremessos cair de 45% para 30% por volta do jogo 40 da temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guia Passo a Passo de Simulação de Temporada">
+
+Para obter o máximo do desenvolvimento do seu jogador, você deve seguir uma abordagem estruturada para configurar, executar e ajustar seu jogador ao longo do calendário de 82 jogos. Pular momentos cruciais de verificação pode arruinar sua classificação final.
+
+<Steps>
+  <Step num="1" title="Seleção de Arquétipo">
+    Escolha um arquétipo base que corresponda aos resultados estatísticos desejados. Arquétipos de armadores se destacam em pontuação, enquanto os pivôs dominam as métricas defensivas e de rebotes.
+  </Step>
+  <Step num="2" title="Distribuição de Atributos">
+    Distribua seus pontos de atributos iniciais. Priorize as estatísticas ofensivas primeiro para garantir um alto volume de pontuação simulada no início da temporada, o que acelera a progressão das insígnias.
+  </Step>
+  <Step num="3" title="Ajustes de Rotação">
+    Defina os minutos do seu jogador para pelo menos 34 por jogo. Qualquer valor abaixo disso limitará o teto estatístico dele, impedindo-o de ganhar prêmios importantes da temporada, como MVP ou Novato do Ano.
+  </Step>
+  <Step num="4" title="Ajustes de Meio de Temporada">
+    Pause a simulação no jogo 41 (o ponto central). Revise suas porcentagens de arremesso e taxas de desperdício de bola, depois ajuste os focos de treino para corrigir fraquezas estatísticas.
+  </Step>
+  <Step num="5" title="Otimização para os Playoffs">
+    Antes de simular a pós-temporada, encurte a rotação da sua equipe para oito jogadores. Isso garante que sua superestrela personalizada jogue o máximo de minutos quando os jogos forem mais importantes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso de Gerenciamento de Resistência">
+Não defina os minutos do seu jogador para mais de 40 por jogo. Isso ativa a penalidade de fadiga no motor de simulação, levando a porcentagens de arremesso mais baixas e a um alto risco de lesões simuladas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Arquétipos para Resultados na Temporada">
+
+Arquétipos diferentes geram estatísticas simuladas muito distintas. Escolher a build certa depende inteiramente se você deseja quebrar recordes de pontuação, ter média de triplo-duplo ou ser a âncora de uma defesa de nível de campeonato.
+
+<CardGrid cols={3}>
+  <Card title="Especialista em Três Pontos">
+    - **Alta pontuação simulada**
+    - Alta porcentagem de arremessos reais (True Shooting)
+    - Ideal para builds de armador
+  </Card>
+  <Card title="Criador de Jogadas Two-Way">
+    - **Alto número de assistências**
+    - Defesa de perímetro de elite
+    - Distribuição de atributos equilibrada
+  </Card>
+  <Card title="Protetor de Garrafão">
+    - **Média de duplo-duplo**
+    - Altas taxas de tocos e rebotes
+    - Ideal para builds de pivô
+  </Card>
+</CardGrid>
+
+Para ajudar você a decidir qual build se adapta aos seus objetivos de simulação, consulte a tabela de classificação de desempenho abaixo. Esses dados são agregados de temporadas simuladas executadas sob parâmetros padrão da liga.
+
+| Build do Arquétipo | Tier de Pontuação | Tier Defensivo | Viabilidade de Simulação |
+| :--- | :--- | :--- | :--- |
+| **Especialista em Três Pontos** | Tier S | Tier C | Excelente para disputas de MVP |
+| **Criador de Jogadas Two-Way** | Tier A | Tier A | Melhor para a porcentagem de vitórias do time |
+| **Protetor de Garrafão** | Tier B | Tier S | Desempenho mais seguro nos playoffs |
+| **Armador Infiltrador** | Tier A | Tier B | Eficiência moderada |
+| **Pivô de Post-Up** | Tier B | Tier B | Baixa eficiência de simulação |
+
+<Callout type="success" title="Recomendação do Meta">
+O Criador de Jogadas Two-Way atualmente gera a maior porcentagem de vitórias geral no Modo de Temporada Simulada. Sua capacidade de gerar assistências enquanto anula os armadores adversários evita colapsos de simulação no final do jogo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progressão e Treinamento na Intertemporada">
+
+Maximizar a trajetória da carreira do seu jogador exige um gerenciamento inteligente na intertemporada. Assim que os resultados da temporada forem finalizados, você entrará na fase de progressão, onde melhorias permanentes de atributos são desbloqueadas.
+
+| Programa de Treinamento | Melhoria de Atributo Principal | Custo | Melhor Para |
+| :--- | :--- | :--- | :--- |
+| **Academia de Arremesso** | Média Distância e Três Pontos (+3) | 500 Pontos | Armadores e Alas |
+| **Treinamento Defensivo** | Defesa de Perímetro e de Garrafão (+4) | 600 Pontos | Âncoras e Defensores de Elite (Lockdowns) |
+| **Condicionamento Atlético** | Velocidade, Aceleração, Resistência (+5) | 400 Pontos | Todas as Builds de Jogador |
+| **Seminário de Criação de Jogadas** | Precisão de Passe e Controle de Bola (+3) | 500 Pontos | Armadores Principais (Point Guards) |
+
+<Checklist
+  id="offseason-progression"
+  title="Checklist de Marcos da Intertemporada:"
+  items={[
+    "Alocar os pontos de progressão conquistados primeiro nos atributos físicos",
+    "Selecionar um programa de treinamento que corresponda às fraquezas do seu arquétipo",
+    "Revisar as mudanças nas regras da liga e ajustar seu estilo de build de acordo",
+    "Negociar um contrato que garanta o máximo de minutos como titular"
+  ]}
+/>
+
+<Callout type="tip" title="Bônus de Sinergia">
+Sempre combine o programa de Condicionamento Atlético com uma academia específica de habilidades. Ter uma alta amplificação de atributos físicos faz com que suas habilidades técnicas tenham um desempenho muito melhor em jogos simulados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Solução de Problemas de Simulação e Perguntas Frequentes">
+
+Mesmo com um jogador de classificação alta, os resultados da simulação às vezes podem ser imprevisíveis devido aos esquemas táticos dos treinadores e à construção do elenco. Revise as etapas comuns de solução de problemas abaixo para corrigir simulações com desempenho abaixo do esperado.
+
+Se o seu jogador estiver com uma média de pontos inferior à sugerida por seus atributos, verifique o ritmo ofensivo da sua equipe. Um sistema tático de ritmo lento limitará naturalmente o número de posses de bola, reduzindo o rendimento estatístico geral, independentemente das classificações do jogador.
+
+<FAQ items={[
+  {
+    question: "Por que os meus resultados da temporada do build a bucket estão abaixo do esperado?",
+    answer: "Isso geralmente é causado por baixa química da equipe ou por uma incompatibilidade entre o arquétipo do seu jogador e o sistema ofensivo do time. Certifique-se de que o sistema do seu treinador combine com o seu estilo de jogo."
+  },
+  {
+    question: "Como a fadiga do jogador afeta os jogos simulados dos playoffs?",
+    answer: "A fadiga se acumula mais rápido nos playoffs. Se a resistência do seu jogador cair abaixo de 80 durante uma série, suas porcentagens de arremesso e tempos de reação defensiva diminuirão em até 15%."
+  },
+  {
+    question: "Posso mudar o arquétipo do meu jogador no meio da temporada?",
+    answer: "Não, os arquétipos dos jogadores são bloqueados no início da temporada. Você só pode modificar atributos individuais e alocações de insígnias durante o calendário da temporada ativa."
+  },
+  {
+    question: "Qual é o atributo mais importante para vencer o prêmio de MVP?",
+    answer: "O motor de simulação valoriza muito o Índice de Eficiência do Jogador (PER). Para maximizar o PER, concentre-se em manter altas porcentagens de arremesso e manter os desperdícios de bola abaixo de 2,5 por jogo."
+  }
+]} />
+
+<Callout type="info" title="Resumo Final">
+Para dominar as simulações de temporada, concentre-se em uma build com alta resistência, alinhe seu arquétipo com o sistema tático da sua equipe e gerencie seus minutos com cuidado para evitar a fadiga no final da temporada.
+</Callout>
+
+</Section>

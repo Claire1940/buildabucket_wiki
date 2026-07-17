@@ -10,7 +10,15 @@
       "twitterDescription": "Build-A-Bucket Wiki covers the player wheel, NBA attribute choices, best builds, overall ratings, sandbox mode, season simulations, and strategies."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "skills": "Skills",
+    "wheel": "Wheel",
+    "players": "Players",
+    "ratings": "Ratings",
+    "simulation": "Simulation"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -679,25 +687,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Build-A-Bucket Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced build strategies. Master the NBA player wheel and season simulation.",
-      "metaTitle": "Build-A-Bucket Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Build-A-Bucket guides covering beginner tips, the NBA player wheel, best builds, 99 OVR, sandbox mode, and season simulation strategies.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering the player wheel, skill selection, build strategies, and season simulation. Learn everything from first steps to advanced 99 OVR tactics.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Build-A-Bucket Guide",
+      "description": "Complete beginner and advanced guides for Build-A-Bucket. Learn the wheel mechanics, skill categories, build order, and how to finish your first custom player.",
+      "metaTitle": "Build-A-Bucket Guide - How to Play, Build Order & Tips",
+      "metaDescription": "Step-by-step Build-A-Bucket guide covering how to spin the wheel, choose skills, complete all nine categories, and run your first season simulation.",
+      "categoryLabel": "GUIDES",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "Guides explain the core Build-A-Bucket loop: spin the NBA player wheel, assign each player to one of nine skill categories, complete a custom star, and simulate a full season. They cover first-run rules, mode selection, and the mistakes that ruin a build.",
+      "why": "Why read the guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the nine skill categories and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven build templates to produce a complete custom player",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for 99 OVR, sandbox testing, and season results"
+        "step1Title": "Learn the Core Loop",
+        "step1Description": "Understand the nine skill categories and how each wheel pick fills one slot on your custom player",
+        "step2Title": "Avoid Beginner Mistakes",
+        "step2Description": "Stop wasting elite specialists and leaving key categories to the final random spin",
+        "step3Title": "Finish Your First Build",
+        "step3Description": "Follow a clear path from the first spin to a completed player and a full season simulation"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
+    },
+    "builds": {
+      "title": "Build-A-Bucket Builds",
+      "description": "Complete player build templates for Build-A-Bucket: all-around, scoring-first, defensive, playmaking, interior, and weak-wheel strategies that survive bad spins.",
+      "metaTitle": "Build-A-Bucket Builds - Best Player Templates & Strategies",
+      "metaDescription": "Browse Build-A-Bucket builds including all-around, scoring, defensive, playmaking, and interior templates plus weak-wheel recovery and 99 OVR strategies.",
+      "categoryLabel": "BUILDS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Builds are complete player templates that name the categories worth elite selections, the slots that can absorb average results, and the recovery plan when a wheel spin produces a weak option.",
+      "why": "Why use builds?",
+      "whySteps": {
+        "step1Title": "Follow Proven Structures",
+        "step1Description": "Each build shows exactly which categories to prioritize instead of guessing on every spin",
+        "step2Title": "Recover From Weak Spins",
+        "step2Description": "Templates reveal where to place a weak player so the full build keeps its strength",
+        "step3Title": "Target the Highest OVR",
+        "step3Description": "Use category-allocation builds to chase the strongest possible overall rating"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Builds"
+    },
+    "skills": {
+      "title": "Build-A-Bucket Skills",
+      "description": "Every skill category in Build-A-Bucket explained: Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism.",
+      "metaTitle": "Build-A-Bucket Skills - Nine Attribute Categories Explained",
+      "metaDescription": "Learn each Build-A-Bucket skill category, what it does, which NBA players fit it best, and how to prioritize the nine attribute slots.",
+      "categoryLabel": "SKILLS",
+      "whatIs": "What are Skills?",
+      "whatIsDescription": "Skills are the nine attribute categories that make up every Build-A-Bucket player: Finishing, Mid-range, Threes, Passing, Ball Handling, Rebounding, Post D, Perimeter D, and Athleticism. Each category receives one NBA player selection from the wheel.",
+      "why": "Why study skills?",
+      "whySteps": {
+        "step1Title": "Prioritize Scarce Categories",
+        "step1Description": "Know which skills are hard to repair late and deserve elite picks early",
+        "step2Title": "Match Players to Categories",
+        "step2Description": "Assign each NBA player to the slot where they create the largest upgrade",
+        "step3Title": "Balance the Build",
+        "step3Description": "Combine offense, creation, defense, and physical tools without a weak slot"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Skills"
+    },
+    "wheel": {
+      "title": "Build-A-Bucket Wheel",
+      "description": "Build-A-Bucket NBA player wheel strategy: spin mechanics, best picks per category, random player challenge tactics, and how to read each wheel result.",
+      "metaTitle": "Build-A-Bucket Wheel - NBA Player Picks & Spin Strategy",
+      "metaDescription": "Master the Build-A-Bucket wheel with spin strategy, the best NBA player pick for each skill category, and random player challenge tips.",
+      "categoryLabel": "WHEEL",
+      "whatIs": "What is the Wheel?",
+      "whatIsDescription": "The wheel is the core Build-A-Bucket mechanic. Each spin produces an NBA player, and you assign that player to one unfilled skill category based on their real strengths until all nine slots are complete.",
+      "why": "Why plan your wheel?",
+      "whySteps": {
+        "step1Title": "Judge Fit Over Fame",
+        "step1Description": "Pick the category a player dominates, not just the biggest name on the spin",
+        "step2Title": "Save Versatile Stars",
+        "step2Description": "Hold multi-category players for the slot that becomes hardest to fill",
+        "step3Title": "Beat the Random Challenge",
+        "step3Description": "Use wheel strategy to thrive even when every spin is unpredictable"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Wheel Guides"
+    },
+    "players": {
+      "title": "Build-A-Bucket Players",
+      "description": "Every NBA player in the Build-A-Bucket pool: tier rankings, strengths per category, legend players, and the best pick for each skill slot.",
+      "metaTitle": "Build-A-Bucket Players - Tier List & Best NBA Picks",
+      "metaDescription": "Explore the Build-A-Bucket NBA player pool with tier lists, the best players per skill category, and legend picks for every build.",
+      "categoryLabel": "PLAYERS",
+      "whatIs": "What are Players?",
+      "whatIsDescription": "Players are the NBA stars in the Build-A-Bucket wheel pool. Each player has category strengths that make them a better fit for some skill slots than others, and tier lists rank them by how much value they add to a complete build.",
+      "why": "Why study players?",
+      "whySteps": {
+        "step1Title": "Pick the Best Per Category",
+        "step1Description": "Find the strongest NBA player for each of the nine skill slots",
+        "step2Title": "Use the Tier List",
+        "step2Description": "Rank the pool by how much value each player adds to a complete build",
+        "step3Title": "Identify Legends",
+        "step3Description": "Spot the versatile stars who can rescue multiple categories when spins go wrong"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Players"
+    },
+    "ratings": {
+      "title": "Build-A-Bucket Ratings",
+      "description": "Build-A-Bucket overall rating explained: the OVR formula, how category grades combine, the 99 OVR target, and a rating breakdown for every build.",
+      "metaTitle": "Build-A-Bucket Ratings - OVR Formula & Rating Breakdown",
+      "metaDescription": "Understand Build-A-Bucket ratings: how the overall rating is calculated, how each category grade contributes, and how to push toward the maximum OVR.",
+      "categoryLabel": "RATINGS",
+      "whatIs": "What are Ratings?",
+      "whatIsDescription": "Ratings measure a completed Build-A-Bucket player. The overall rating (OVR) combines the nine category grades, and the highest target is 99 OVR. Understanding the formula shows which categories move the rating the most.",
+      "why": "Why track ratings?",
+      "whySteps": {
+        "step1Title": "Understand the OVR Formula",
+        "step1Description": "See how each category grade feeds the final overall rating",
+        "step2Title": "Find the Weakest Grade",
+        "step2Description": "Raise your lowest category because one low grade caps the entire rating",
+        "step3Title": "Chase the Maximum OVR",
+        "step3Description": "Apply the allocation strategy that reaches the top overall rating"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Ratings"
+    },
+    "simulation": {
+      "title": "Build-A-Bucket Simulation",
+      "description": "Build-A-Bucket season simulation explained: regular season results, playoff performance, championship odds, season stats, and awards.",
+      "metaTitle": "Build-A-Bucket Simulation - Season Results & Championship",
+      "metaDescription": "Read Build-A-Bucket season simulations: regular season records, playoff runs, championship odds, player stats, and end-of-season awards.",
+      "categoryLabel": "SIMULATION",
+      "whatIs": "What is Simulation?",
+      "whatIsDescription": "Simulation runs a full season for your completed Build-A-Bucket player. It produces regular season results, a playoff bracket, championship odds, and season stats so you can see how the build performs beyond the overall rating.",
+      "why": "Why read simulations?",
+      "whySteps": {
+        "step1Title": "Read Season Results",
+        "step1Description": "Interpret the regular season record and where the build succeeded or fell short",
+        "step2Title": "Track Playoff Runs",
+        "step2Description": "Follow the postseason path and championship odds for each build style",
+        "step3Title": "Connect Stats to Picks",
+        "step3Description": "Link season output back to the skill categories that drove the result"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Simulations"
     }
   }
 }

@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Calculadora de valoración general de Build a Bucket: Guía de configuración para 99 OVR",
+  description: "Domina la calculadora de valoración general de Build a Bucket. Aprende a asignar atributos, usar el modo Sandbox y asegurar una valoración perfecta de 99 OVR.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/08111f/fb923c?text=Rating+Calculator+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build-A-Bucket",
+  keywords: "build a bucket, calculadora de valoración, 99 OVR, guía de configuración, juego de baloncesto"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal de la calculadora**: Maximizar los nueve atributos principales para lograr la codiciada valoración de 99 OVR.
+- **Mecánica principal**: Asignar selecciones aleatorias de la ruleta de jugadores de la NBA a casillas de atributos específicas sin duplicaciones.
+- **Pruebas en Sandbox**: Utiliza el modo Sandbox para experimentar libremente con las fórmulas de valoración y la distribución de calificaciones.
+- **Estrategia crítica**: Guarda superestrellas altamente versátiles para corregir las debilidades de atributos en las rondas finales.
+- **Mejor recurso**: Sigue el mapeo comprobado de jugador a atributo para evitar caídas en la valoración.
+</Callout>
+
+<Section icon={Map} title="Comprender la calculadora de valoración general de Build a Bucket">
+
+Al intentar crear la superestrella definitiva de la NBA en el juego de navegador recién lanzado, dominar la **calculadora de valoración general de Build a Bucket** es la clave del éxito. A diferencia de las simulaciones deportivas tradicionales, este juego te desafía a girar una ruleta aleatoria de jugadores de la NBA y extraer exactamente un atributo de cada elección para construir un perfil completo en nueve categorías distintas. 
+
+La calculadora de valoración general no se limita a hacer un promedio de tus puntuaciones; pondera cada categoría según la relevancia de la posición, la sinergia del arquetipo y el equilibrio defensivo. Un solo atributo con una calificación baja puede arrastrar drásticamente tu valoración final, lo que hace que la asignación estratégica sea más importante que simplemente coleccionar nombres famosos. Para alcanzar de manera constante niveles de élite como 95 o 99 OVR, debes comprender cómo evalúa la calculadora las estadísticas individuales de los jugadores y las traduce en calificaciones de rendimiento finales.
+
+**Puntos destacados del video:**
+- Demuestra el proceso paso a paso para diseñar una configuración de 99 OVR.
+- Destaca cómo reservar especialistas de primer nivel para sus categorías principales.
+- Explica los peligros de desperdiciar jugadores versátiles en casillas fáciles de llenar.
+- Muestra los resultados finales de la simulación de temporada para una configuración de jugador de élite.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un jugador de 99 OVR en Build a Bucket?" />
+
+<Callout type="tip" title="Consejo profesional">
+Planifica siempre con tres pasos de antelación. Antes de asignar una superestrella a una categoría, mira las casillas vacías restantes y evalúa si se necesita más un especialista más raro en esas posiciones.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Los nueve atributos principales y las ponderaciones de la calculadora">
+
+La calculadora de valoración general procesa nueve categorías de habilidades únicas para generar la calificación final de tu jugador. Estas categorías se dividen en herramientas ofensivas, habilidades de creación, pilares defensivos y rasgos físicos. Para optimizar tus configuraciones, debes tratar estos atributos como un sistema interconectado.
+
+| Grupo de atributos | Atributo principal | Prioridad en la calculadora | Mejor arquetipo de jugador |
+|---|---|---|---|
+| Anotación | Finalización | Prioridad alta | Atacantes del aro atléticos |
+| Anotación | Media distancia | Prioridad media | Especialistas en tiros tras bote (Pull-up) |
+| Anotación | Triples | Prioridad alta | Tiradores de volumen en movimiento |
+| Creación | Pase | Prioridad alta | Generadores de juego principales de élite |
+| Creación | Manejo de balón | Prioridad alta | Manejadores de balón en aclarado (Isolations) |
+| Defensa | Rebote | Prioridad media | Pívots de gran volumen |
+| Defensa | Defensa en el poste | Prioridad alta | Taponadores móviles |
+| Defensa | Defensa perimetral | Prioridad alta | Defensores exteriores asfixiantes (Lockdown) |
+| Físico | Atletismo | Prioridad media | Jugadores bidireccionales explosivos |
+
+Cada categoría requiere una asignación estratégica. Por ejemplo, colocar a un tirador de élite como Stephen Curry en Media distancia en lugar de Triples desperdicia un valor enorme en la calculadora, ya que la casilla de triples tiene una ponderación predeterminada más alta para las configuraciones orientadas al perímetro. Por el contrario, descuidar las categorías defensivas como Defensa perimetral o Defensa en el poste activará una penalización en la calculadora de valoración general, limitando tu OVR máximo potencial independientemente de lo dominantes que sean tus atributos de anotación.
+
+<Callout type="warning" title="Advertencia">
+La calculadora penaliza severamente las configuraciones con una sola calificación reprobatoria. Un jugador con ocho atributos A+ y una calificación F rara vez alcanzará los 99 OVR. Una asignación equilibrada siempre es superior a la especialización extrema.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estrategia paso a paso para el cálculo de 99 OVR">
+
+Lograr un 99 OVR perfecto requiere un enfoque disciplinado en cada giro de la ruleta. Sigue esta hoja de ruta estructurada para gestionar tus elecciones y maximizar tu valoración calculada final.
+
+<Steps>
+  <Step num="1" title="Establece una base equilibrada">
+    Durante tus primeros tres giros, concéntrate en asegurar al menos una categoría de anotación de élite, una herramienta de creación y un pilar defensivo. Esto mantiene tu configuración flexible y evita que te quedes acorralado en los giros finales.
+  </Step>
+  <Step num="2" title="Reserva especialistas temprano">
+    Si la ruleta se detiene en un especialista histórico, asígnalo a su categoría distintiva de inmediato. Usa a Curry para Triples, a Kyrie Irving para Manejo de balón o a Victor Wembanyama para Defensa en el poste. No diluyas su valor colocándolos en casillas secundarias.
+  </Step>
+  <Step num="3" title="Guarda superestrellas versátiles como seguro">
+    Las estrellas multicategoría como Nikola Jokic o Giannis Antetokounmpo son tus redes de seguridad. Manténlos disponibles para las casillas que se vuelvan difíciles de llenar al final de la sesión. Jokic puede salvar fácilmente una casilla de Pase o Rebote deficiente.
+  </Step>
+  <Step num="4" title="Identifica y repara casillas débiles">
+    A medida que llegues a las últimas tres casillas, evalúa tus calificaciones proyectadas más bajas. Usa tus selecciones flexibles restantes para elevar estas categorías al menos a una calificación B. Subir una categoría débil produce un aumento de valoración general mayor que mejorar una A a una A+.
+  </Step>
+  <Step num="5" title="Verifica y ejecuta el simulador">
+    Confirma que las nueve casillas estén llenas sin valores duplicados. Envía el jugador personalizado completado al simulador de temporada para probar cómo se traducen tus atributos calculados en producción en la cancha y carreras por el campeonato.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Métrica de éxito">
+Un draft exitoso no debería dar como resultado ninguna calificación de atributo inferior a B, con al menos cinco atributos alcanzando el nivel A o A+. Esta distribución garantiza casi por completo un OVR de 95+.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Sandbox: Prueba de valoraciones y fórmulas personalizadas">
+
+Para los jugadores que desean realizar ingeniería inversa a la **calculadora de valoración general de Build a Bucket**, el modo Sandbox es el laboratorio perfecto. Accesible directamente a través del sitio web oficial de [Build-A-Player](https://www.build-a-player.com/bucket), este modo elimina la ruleta aleatoria y te permite ingresar manualmente valoraciones personalizadas para observar cómo se comporta la calculadora.
+
+Al experimentar en el modo Sandbox, puedes determinar los umbrales exactos requeridos para activar calificaciones de letras y valoraciones generales específicas. Estas pruebas revelan que las categorías defensivas y la creación de juego influyen en gran medida a la hora de asegurar simulaciones de equipo de élite, mientras que las configuraciones de anotación pura a menudo tienen dificultades si no cuentan con el respaldo de herramientas físicas.
+
+| Calificación objetivo | Valor de atributo requerido | Impacto en la calculadora | Configuración recomendada en Sandbox |
+|---|---|---|---|
+| Nivel A+ | 95 - 99 | Máximo impulso de valoración | Asegurar para Pase, Finalización y Defensa en el poste |
+| Nivel A | 90 - 94 | Alto impulso de valoración | Apuntar a Triples y Defensa perimetral |
+| Nivel B | 80 - 89 | Impulso de valoración moderado | Aceptable para Media distancia y Rebote |
+| Nivel C | 70 - 79 | Impacto de valoración neutral | Umbral mínimo para evitar penalizaciones de valoración |
+
+Usando estos puntos de referencia, puedes diseñar configuraciones de control para aislar variables. Por ejemplo, intenta mantener ocho atributos idénticos mientras cambias solo la calificación de Atletismo de C a A+. Observarás un cambio directo en la valoración general, lo que te ayudará a priorizar futuras decisiones en la ruleta.
+
+<Callout type="info" title="Perspectiva del Sandbox">
+Los experimentos de la comunidad en el modo Sandbox han confirmado que acumular Rebote A+, Defensa en el poste A+, Defensa perimetral A+ y Atletismo B+ crea una base defensiva increíblemente dominante que gana campeonatos de manera constante en el simulador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Selecciones de jugadores óptimas para valoraciones máximas">
+
+Para ayudarte a tomar decisiones en fracciones de segundo durante un giro de ruleta en vivo, hemos recopilado las selecciones de jugadores con la valoración más alta para cada categoría según los puntos de referencia de los playoffs de 2026 en el mundo real. Usa esta referencia para identificar instantáneamente la casilla de mayor valor de un jugador.
+
+| Categoría | Elección principal | Punto de referencia de playoffs | Elección alternativa | Regla de selección |
+|---|---|---|---|---|
+| Creación de juego | Nikola Jokic | 9.5 asistencias por partido | Scottie Barnes | Selecciona a Jokic para Pase a menos que Rebote esté vacío. |
+| Defensa en el poste | Victor Wembanyama | 3.5 tapones por partido | Evan Mobley | Prioriza a Wembanyama para una defensa interior de élite. |
+| Defensa perimetral | Tari Eason | 2.5 robos por partido | Marcus Smart | Selecciona a Eason para incomodar a los manejadores de balón en el perímetro. |
+| Finalización | Mikal Bridges | 86.3% en zona restringida | Evan Mobley | Usa a Bridges para una máxima eficiencia cerca del aro. |
+| Triples | Julian Champagnie | 61 triples anotados | Devin Vassell | Elige a Champagnie para un apoyo de espaciado de alto volumen. |
+| Atletismo | Paolo Banchero | 4.3 PTS de contraataque por partido | Kevin Durant | Selecciona a Banchero para velocidad cuesta abajo y potencia física. |
+
+Para organizar estas opciones en una estrategia cohesiva, considera seguir uno de estos arquetipos de configuración probados:
+
+<CardGrid cols={3}>
+  <Card title="Configuración equilibrada">
+    - **Enfoque principal**: Equilibrio en todos los sectores
+    - **Atributos clave**: Finalización, Pase, Defensa perimetral
+    - **Dificultad**: Media
+    - **Potencial de OVR**: 95 - 99
+  </Card>
+  <Card title="Especialista defensivo">
+    - **Enfoque principal**: Protección de la zona y pérdidas provocadas
+    - **Atributos clave**: Defensa en el poste, Rebote, Defensa perimetral
+    - **Dificultad**: Fácil
+    - **Potencial de OVR**: 92 - 97
+  </Card>
+  <Card title="Motor ofensivo">
+    - **Enfoque principal**: Alta anotación y creación de élite
+    - **Atributos clave**: Triples, Pase, Manejo de balón
+    - **Dificultad**: Difícil
+    - **Potencial de OVR**: 94 - 99
+  </Card>
+</CardGrid>
+
+Antes de enviar tu configuración a la calculadora, repasa esta lista de verificación de optimización rápida para asegurarte de no haber cometido ningún error crítico de asignación.
+
+<Checklist
+  id="ovr-optimization-checklist"
+  title="Pasos de optimización para 99 OVR:"
+  items={[
+    "Verifica que ningún especialista de élite haya sido desperdiciado en una categoría secundaria.",
+    "Confirma que tu calificación de atributo más baja sea al menos de nivel B.",
+    "Asegúrate de haber equilibrado tus categorías de anotación con al menos un pilar defensivo de élite.",
+    "Verifica dos veces que tu selección de generador de juego tenga altos puntos de referencia de pase y manejo de balón.",
+    "Revisa tus rasgos físicos para respaldar el rol defensivo principal de tu jugador."
+  ]}
+/>
+
+<Callout type="tip" title="Consejo final para el draft">
+Si la ruleta te ofrece un grupo de jugadores más débil, cambia de inmediato al arquetipo de Especialista defensivo. Las configuraciones defensivas son mucho más tolerantes con las valoraciones ofensivas más bajas en la calculadora final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes y resolución de problemas">
+
+Para ayudarte a aprovechar al máximo tus sesiones de draft, aquí tienes respuestas a las preguntas más comunes sobre el sistema de valoración y las mecánicas de simulación.
+
+<FAQ items={[
+  {
+    question: "¿Cómo determina la calculadora de valoración general de Build a Bucket la puntuación final?",
+    answer: "La calculadora utiliza una fórmula ponderada basada en los nueve atributos seleccionados. Prioriza categorías de alto valor como Pase, Finalización y Defensa perimetral, mientras penaliza severamente las configuraciones que dejan cualquier categoría individual con una calificación reprobatoria."
+  },
+  {
+    question: "¿Puedo obtener una configuración de 99 OVR sin elegir ningún atributo defensivo?",
+    answer: "No. La calculadora de valoración requiere un equilibrio defensivo. Descuidar la Defensa en el poste o la Defensa perimetral resultará en una penalización severa, limitando tu valoración general máxima incluso si tus categorías ofensivas están completamente al máximo."
+  },
+  {
+    question: "¿Cuál es la diferencia entre una sesión normal de la ruleta y el modo Sandbox?",
+    answer: "Una sesión normal te obliga a reaccionar a los giros aleatorios de los jugadores y termina con una simulación de temporada completa. El modo Sandbox te permite ingresar manualmente valoraciones y calificaciones personalizadas para probar fórmulas y experimentar libremente con diferentes combinaciones de atributos."
+  },
+  {
+    question: "¿Quiénes son los mejores jugadores para seleccionar para la creación de juego y el pase?",
+    answer: "Nikola Jokic es la elección principal para la creación de juego debido a sus puntos de referencia de asistencias de élite, seguido de cerca por creadores versátiles como Scottie Barnes y Tyrese Haliburton."
+  }
+]} />
+
+<Callout type="warning" title="Recordatorio importante">
+Mantente atento a las actualizaciones oficiales a través de los canales sociales del creador. A medida que se agreguen nuevos jugadores a la ruleta, las ponderaciones de los atributos y las fórmulas de la calculadora pueden recibir ajustes menores para mantener el equilibrio del juego.
+</Callout>
+
+</Section>

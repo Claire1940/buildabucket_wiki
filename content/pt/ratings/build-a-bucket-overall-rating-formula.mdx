@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BarChart3, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fórmula do Overall Rating no Build a Bucket: Guia de Cálculo para 99 OVR",
+  description: "Domine a fórmula do overall rating no Build a Bucket. Aprenda a calcular builds de 99 OVR, otimizar atributos de jogadores da NBA e dominar o simulador da temporada 2026.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/08111f/f97316?text=Overall+Rating+Formula",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Build a Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Fórmula do Overall Rating no Build a Bucket**: O OVR total é uma média ponderada de **nove categorias de habilidades específicas** derivadas dos giros da roleta de jogadores da NBA.
+- **A Regra do Elo Mais Fraco**: Uma única **nota na faixa C** em uma categoria principal pode impedir um 99 OVR, mesmo que os outros slots sejam A+.
+- **Otimização no Sandbox**: Use o Modo Sandbox para testar como características específicas de jogadores, como **Passe (Passing)** e **Defesa de Garrafão (Post D)**, influenciam o rating final.
+- **Estratégia de Especialistas de Elite**: Sempre reserve **Stephen Curry** para Bolas de 3 (Threes) e **Victor Wembanyama** para Defesa de Garrafão (Post D) para maximizar os slots de alto peso.
+- **Impacto na Simulação**: O OVR final dita diretamente seu desempenho no **Simulador de Temporada**, afetando as taxas de vitória e o sucesso nos playoffs.
+</Callout>
+
+<Section icon={BarChart3} title="Decifrando a Fórmula do Overall Rating no Build a Bucket">
+
+Entender a **fórmula do overall rating no build a bucket** é a diferença entre um jogador comum e uma superestrela lendária de 99 OVR. Nesta simulação de basquete via navegador, seu rating final não é apenas um número aleatório; é um resultado calculado com base em nove slots de atributos distintos. Cada vez que você gira a roleta e atribui um jogador da NBA a uma categoria, você está inserindo uma variável no algoritmo interno do jogo.
+
+**Destaques do Vídeo:**
+- Demonstra uma tentativa bem-sucedida do **desafio 99 OVR**.
+- Explica por que guardar estrelas versáteis como **Nikola Jokic** é crítico para o final do jogo.
+- Mostra o impacto de escolhas de "descarte" na simulação final da temporada.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="Consigo criar um 99 OVR no Build a Bucket?" />
+
+A fórmula avalia seu jogador através de três pilares principais: Eficiência Ofensiva, Presença Defensiva e Ferramentas Físicas. Embora os pesos matemáticos exatos sejam ocultos, testes da comunidade em 2026 revelaram que certas categorias, como **Passe (Passing)** e **Finalização (Finishing)**, têm mais peso na lógica de build "All-Around" do que outras, como Média Distância (Mid-range).
+
+| Categoria de Atributo | Influência Primária | Nível de Peso | Melhor Referência 2026 |
+| :--- | :--- | :--- | :--- |
+| **Finalização** | Pontuação Interna | **Alto** | Giannis Antetokounmpo |
+| **Bolas de 3** | Gravidade no Perímetro | **Alto** | Stephen Curry |
+| **Passe** | Motor Ofensivo | **Alto** | Nikola Jokic |
+| **Defesa de Perímetro** | Parar Armadores/Alas | **Médio** | Tari Eason |
+| **Defesa de Garrafão** | Proteção de Aro | **Médio** | Victor Wembanyama |
+| **Controle de Bola** | Criação Própria | **Médio** | Kyrie Irving |
+| **Rebote** | Controle de Posse | **Baixo** | Domantas Sabonis |
+| **Atletismo** | Base Física | **Baixo** | Paolo Banchero |
+| **Média Distância** | Nível de Pontuação | **Baixo** | Kevin Durant |
+
+<Callout type="tip" title="Dica Profissional">
+A fórmula pune lacunas de especialização. Se você tiver um A+ em Bolas de 3, mas um D em Passe, seu OVR despencará porque o jogo visualiza o jogador como uma peça ofensiva "não funcional" no simulador de temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Os Nove Pilares da Otimização de Rating">
+
+Para maximizar a **fórmula do overall rating no build a bucket**, você deve tratar cada um dos nove slots como um investimento estratégico. O jogo opera em uma lógica de "valor de substituição" — alguns atributos são muito mais difíceis de preencher com jogadores de alta qualidade do que outros. Por exemplo, encontrar um especialista de elite em Defesa de Garrafão é mais raro do que encontrar um pontuador sólido de Média Distância.
+
+<CardGrid cols={3}>
+  <Card title="Core Ofensivo">
+    - **Finalização**: Essencial para pontuação de alto volume.
+    - **Bolas de 3**: Eleva o teto ofensivo.
+    - **Média Distância**: O slot mais seguro para jogadores medianos.
+  </Card>
+  <Card title="Hub de Armação">
+    - **Passe**: Conecta todas as características ofensivas.
+    - **Controle de Bola**: Evita turnovers na simulação.
+    - **Atletismo**: Aumenta a eficiência na transição.
+  </Card>
+  <Card title="Muralha Defensiva">
+    - **Defesa de Perímetro**: Anula armadores adversários de elite.
+    - **Defesa de Garrafão**: A âncora para a defesa interna.
+    - **Rebote**: Garante o fim das posses defensivas.
+  </Card>
+</CardGrid>
+
+O meta de 2026 sugere que a **fórmula do overall rating no build a bucket** favorece "Hubs de Armação" e "Especialistas Two-Way". Se você conseguir notas na faixa A em Passe, Defesa de Perímetro e Finalização, você tem 90% de chance de atingir pelo menos um 92 OVR, independentemente dos outros slots.
+
+| Estratégia | Atributos Prioritários | Dificuldade | OVR Esperado |
+| :--- | :--- | :--- | :--- |
+| **Completo (All-Around)** | Passe, Finalização, Defesa de Perímetro | Difícil | 95-99 |
+| **Máquina de Pontos** | Bolas de 3, Média Distância, Controle de Bola | Fácil | 90-94 |
+| **Besta do Garrafão** | Defesa de Garrafão, Rebote, Finalização | Médio | 92-96 |
+
+<Callout type="warning" title="Aviso">
+Nunca use uma superestrela de elite como **Luka Doncic** para Média Distância se o seu slot de Passe ainda estiver vazio. Você está desperdiçando uma variável de alto peso em uma categoria de baixo peso.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Guia Passo a Passo para uma Build 99 OVR">
+
+Alcançar o 99 OVR perfeito requer uma abordagem disciplinada com a roleta. Você não está apenas procurando os melhores jogadores; você está procurando o melhor *ajuste* para as variáveis restantes na **fórmula do overall rating no build a bucket**. Siga estes passos para otimizar suas tentativas em 2026.
+
+<Steps>
+  <Step num="1" title="Avaliação Inicial de Slots">
+    Antes do primeiro giro, visualize o tabuleiro de nove slots. Identifique que **Passe**, **Defesa de Garrafão** e **Bolas de 3** são seus atributos de "Caminho Crítico". Estes devem ser A ou superior para chegar a 99.
+  </Step>
+  <Step num="2" title="A Reserva de Especialistas">
+    Quando a roleta cair em um especialista (ex: um arremessador de 3 pontos com defesa baixa), atribua-o imediatamente à sua categoria de pico. Não tente "guardá-lo" para um slot versátil.
+  </Step>
+  <Step num="3" title="Gerenciamento de Estrelas Versáteis">
+    Se você tirar uma superestrela como **Giannis** ou **Jokic** cedo, guarde-os para a categoria que é mais difícil de preencher. Se você não viu um bom defensor até a 6ª escolha, use sua superestrela para tapar o buraco defensivo.
+  </Step>
+  <Step num="4" title="Reparo do Elo Mais Fraco">
+    Na 7ª escolha, identifique sua nota projetada mais baixa. Se o Rebote estiver parecendo um C, use seu próximo giro para encontrar qualquer homem de garrafão, mesmo que não seja uma superestrela, para elevar esse C para um B+.
+  </Step>
+  <Step num="5" title="Verificação Final da Simulação">
+    Revise o equilíbrio. Uma build de 99 OVR não deve ter mais do que duas notas "B", com o restante sendo A ou A+. Envie para o simulador para ver os resultados do campeonato de 2026.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Fator de Sucesso">
+Tentativas bem-sucedidas de 99 OVR frequentemente usam o **Modo Sandbox** primeiro para memorizar quais jogadores da NBA fornecem ratings "A+" em categorias defensivas ocultas específicas.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Modo Sandbox: Testando os Pesos da Fórmula">
+
+O Modo Sandbox é o laboratório para a **fórmula do overall rating no build a bucket**. Diferente do giro padrão da roleta, o Sandbox permite que você insira ratings manualmente para ver como o OVR reage. Este modo confirmou que a fórmula não é uma média simples.
+
+**Experimentos Essenciais no Sandbox:**
+- **O Teste de Defesa Zero**: Maximize todos os atributos ofensivos e defina todos os defensivos para 50. Observe como o OVR luta para passar de 85.
+- **O Impulso do Armador**: Compare uma build de 80 OVR com 99 de Passe vs. uma build de 80 OVR com 99 de Média Distância. A build de Passe resulta consistentemente em um rating final mais alto.
+- **O Piso de Atletismo**: Teste como um rating de 99 em Atletismo atua como um multiplicador para Finalização e Defesa de Garrafão.
+
+<Checklist
+  id="sandbox-checklist"
+  title="Objetivos de Teste 2026:"
+  items={[
+    "Identificar 5 jogadores que fornecem A+ em Defesa de Perímetro",
+    "Confirmar se Rebote afeta o OVR mais do que Média Distância",
+    "Testar o 'Assassino de 99 OVR' (um único atributo com nota F)",
+    "Comparar Jalen Brunson vs. Shai Gilgeous-Alexander para o slot de Pontuação"
+  ]}
+/>
+
+| Tipo de Experimento | Variável Alterada | Impacto no OVR | Perfil Resultante |
+| :--- | :--- | :--- | :--- |
+| **Inclinação Ofensiva** | +10 Bolas de 3, -10 Defesa de Garrafão | -2 OVR | Pontuador Unidimensional |
+| **Inclinação Defensiva** | +10 Defesa de Perímetro, -10 Média Distância | +3 OVR | Especialista Two-Way de Elite |
+| **Mudança Equilibrada** | +5 em todos os 9 slots | +5 OVR | Superestrela Completa |
+
+<Callout type="info" title="Visão de Especialista">
+Dados do showcase do Sandbox 2026 provam que **Defesa de Perímetro** e **Defesa de Garrafão** combinados têm um impacto maior na taxa de vitória do Simulador de Temporada do que **Bolas de 3** e **Média Distância** combinados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Jogadores da NBA para Maximização de Rating">
+
+Para dominar a **fórmula do overall rating no build a bucket**, você precisa saber quais jogadores fornecem o maior "valor por slot". Usando as estatísticas dos playoffs de 2026 como referência, identificamos as "Escolhas de Ouro" para cada categoria.
+
+| Categoria | Escolha Primária | Referência 2026 | Por que funciona |
+| :--- | :--- | :--- | :--- |
+| **Pontuação** | **Jalen Brunson** | 28.4 PPG | Alto volume, alta eficiência |
+| **Bolas de 3** | **Julian Champagnie**| 61 Bolas de 3 | Especialista de elite para o slot |
+| **Finalização** | **Mikal Bridges** | 86.3% FG no Aro | Variável de eficiência máxima |
+| **Passe** | **Nikola Jokic** | 9.5 APG | O peso mais alto para armação |
+| **Defesa de Garrafão** | **Victor Wembanyama**| 3.5 BPG | Nota de proteção de aro inigualável |
+| **Defesa de Perímetro** | **Tari Eason** | 2.5 SPG | Impulso de rating baseado em desarmes |
+| **Atletismo** | **Paolo Banchero** | 4.3 FB PPG | Força e velocidade de transição |
+
+<CardGrid cols={2}>
+  <Card title="O Dilema de 'Jokic'">
+    Nikola Jokic é um "Cheat Code" para a **fórmula do overall rating no build a bucket**. Ele fornece valor A+ em **Passe**, **Rebote** e **Finalização**. Se você tirá-lo, verifique seu slot mais fraco antes de atribuí-lo.
+  </Card>
+  <Card title="A Regra de 'Wemby'">
+    Victor Wembanyama é o único jogador que pode garantir com confiança um A+ em **Defesa de Garrafão** enquanto também fornece **Rebote** na faixa A. Ele é a variável defensiva mais valiosa do jogo.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Estratégia">
+Se a roleta te der **Shai Gilgeous-Alexander**, use-o para **Controle de Bola** ou **Defesa de Perímetro**. Embora ele seja um ótimo pontuador, suas métricas defensivas e de criação fornecem um impulso mais raro para a fórmula geral.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Qual é o atributo mais importante na fórmula do overall rating no build a bucket?",
+    answer: "Embora todos os atributos importem, Passe e Finalização carregam os pesos mais altos para funções ofensivas, enquanto a Defesa de Garrafão é o principal motor para os ratings defensivos. Um 99 OVR é quase impossível sem uma nota A em Passe."
+  },
+  {
+    question: "Posso conseguir um 99 OVR com um C em Rebote?",
+    answer: "É matematicamente difícil, mas possível se todas as outras categorias forem A+. No entanto, a fórmula penaliza pesadamente qualquer nota abaixo de B-, então é mais seguro mirar em pelo menos um B+ em Rebote."
+  },
+  {
+    question: "O Modo Sandbox afeta as estatísticas das minhas rodadas normais da roleta?",
+    answer: "Não, o Modo Sandbox é um ambiente de testes separado. No entanto, as percepções que você ganha sobre as notas dos jogadores e os pesos dos atributos são diretamente aplicáveis à sua estratégia na roleta padrão."
+  },
+  {
+    question: "Por que meu jogador de 98 OVR perdeu na primeira rodada do Simulador de Temporada 2026?",
+    answer: "OVR não é tudo. Se a sua fórmula de rating estava muito inclinada para pontuação, mas faltava Passe e Defesa de Perímetro, o simulador pode ter dificuldade em gerar vitórias contra oponentes equilibrados."
+  }
+]} />
+
+</Section>

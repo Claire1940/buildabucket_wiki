@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guia para Iniciantes do Build-A-Bucket: Criação e Definição de Atributos 2026",
+  description: "Domine o criador de jogadores no Build-A-Bucket com o nosso guia para iniciantes de 2026. Aprenda sobre posições, limites de atributos e as melhores builds iniciais.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Beginner+Creation+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Build-A-Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo principal do guia**: Este guia para iniciantes do Build-A-Bucket ajuda você a otimizar a criação inicial do seu jogador de basquete para evitar o desperdício de pontos de atributos.
+- **Melhor posição inicial**: O Ala (Small Forward - SF) oferece a distribuição de atributos mais equilibrada para novos jogadores.
+- **Foco principal em atributos**: Priorize atributos físicos como Velocidade e Fôlego antes de investir pesado em atributos de habilidade.
+- **Seleção crucial de insígnias**: Equipe insígnias defensivas passivas cedo para garantir pontos de experiência fáceis durante as partidas.
+</Callout>
+
+<Section icon={Map} title="Escolhendo sua Posição Inicial">
+
+Escolher a posição certa é o passo fundamental no processo de criação de jogador. Sua posição determina seus limites base de atributos, limites físicos e os tipos de insígnias (badges) que seu personagem pode desbloquear conforme sobe de nível. Iniciantes devem escolher uma posição que combine com seu estilo de jogo preferido em quadra.
+
+| Posição | Função Principal | Atributos-Chave | Altura Recomendada |
+| PG | Armação de jogadas e velocidade | Passe, Controle de Bola | 6'1" a 6'3" |
+| SG | Pontuação de perímetro | Bola de Três, Média Distância | 6'4" a 6'6" |
+| SF | Utilidade completa | Defesa, Finalização | 6'7" a 6'9" |
+| PF | Proteção de garrafão e rebotes | Rebote, Força | 6'9" a 6'11" |
+| C | Domínio interno | Toco, Defesa Interior | 7'0" a 7'2" |
+
+Novos jogadores costumam ter dificuldades com builds extremas. Criar um jogador muito baixo limita a capacidade defensiva, enquanto criar um jogador muito alto reduz significativamente a velocidade de movimento. Encontrar um perfil físico equilibrado garante que você possa contribuir em ambos os lados da quadra.
+
+<CardGrid cols={3}>
+  <Card title="Arquétipo de Armador">
+    - **Alta velocidade e agilidade**
+    - Excelentes habilidades de controle de bola
+    - Vulnerável a pontuações no garrafão
+  </Card>
+  <Card title="Arquétipo de Ala">
+    - **Atributos físicos equilibrados**
+    - Capacidades defensivas versáteis
+    - Adaptável à maioria das formações de equipe
+  </Card>
+  <Card title="Arquétipo de Pivô">
+    - **Presença dominante no garrafão**
+    - Força superior nos rebotes
+    - Movimentação limitada no perímetro
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Dica de Mestre">
+Se você joga solo, a posição de Ala (Small Forward) oferece a melhor flexibilidade para se adaptar a companheiros de equipe aleatórios nos lobbies de matchmaking.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Distribuição de Atributos e Limites">
+
+A alocação de pontos de atributos determina o desempenho do seu jogador em cenários cruciais da partida. Os pontos devem ser distribuídos para atingir limites específicos que desbloqueiam animações e insígnias. Distribuir os pontos de forma muito dispersa por todas as categorias resultará em um jogador mediano que não se destaca em nenhuma função.
+
+| Categoria de Atributo | Sub-Atributos Principais | Impacto na Partida | Meta de Limite |
+| Finalização | Bandeja, Enterrada, Arremesso Próximo | Pontuação dentro do garrafão | 85 para Enterradas com Contato |
+| Arremesso | Média Distância, Bola de Três | Eficiência de pontuação no perímetro | 80 para Insígnias de Prata |
+| Armação | Precisão de Passe, Controle de Bola | Segurança com a bola e velocidade de passe | 75 para Pacotes Básicos de Drible |
+| Defesa | Defesa de Perímetro, Roubada, Toco | Parar sequências de pontuação adversárias | 82 para Insígnia de Ouro Clamps |
+
+Os atributos físicos determinam a eficácia com que seu jogador pode utilizar suas habilidades. Velocidade, Aceleração, Força, Impulsão Vertical e Fôlego devem ser evoluídos junto com os atributos de habilidade para garantir que seu jogador não canse antes do quarto período.
+
+| Atributo Físico | Classificação Meta | Benefício Principal |
+| Velocidade | 80+ | Transição de contra-ataque e defesa de perímetro |
+| Força | 70+ | Resistir a infiltrações e garantir rebotes (box-out) |
+| Fôlego | 90+ | Manter o desempenho no final das partidas |
+
+<Callout type="warning" title="Aviso Importante">
+Não negligencie o Fôlego. Fôlego baixo reduz o tamanho do seu medidor de arremesso e deixa seu jogador lento, tornando inúteis os atributos altos de arremesso durante posses de bola longas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guia Passo a Passo do Build-A-Bucket para Iniciantes">
+
+Siga este processo sistemático para criar sua primeira build de jogador otimizada sem desperdiçar recursos valiosos do jogo.
+
+<Steps>
+  <Step num="1" title="Defina o Perfil Físico">
+    Ajuste a altura, o peso e a envergadura do seu jogador. Uma envergadura maior melhora a defesa e os rebotes, mas reduz o seu limite máximo de arremesso de três pontos. Encontre um equilíbrio que se adapte ao seu arquétipo.
+  </Step>
+  <Step num="2" title="Distribua os Atributos Iniciais">
+    Aloque seus pontos para atingir os limites de animação mais importantes primeiro. Certifique-se de que seu controle de bola atende aos requisitos do seu estilo de drible preferido antes de gastar pontos em atributos secundários.
+  </Step>
+  <Step num="3" title="Selecione as Insígnias Iniciais">
+    Escolha insígnias que complementem seus atributos principais. Se você tiver uma classificação de 85 em arremessos de três pontos, equipe insígnias de arremesso que aumentem a janela verde de acerto para maximizar seu potencial de pontuação.
+  </Step>
+  <Step num="4" title="Valide e Teste a Build">
+    Entre na quadra de testes para praticar movimentos de drible, testar o tempo de arremesso e avaliar a rapidez lateral defensiva antes de finalizar a build e confirmar seus pontos de atributos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Validação da Build">
+Sempre passe pelo menos dez minutos na quadra de testes verificando a velocidade de lançamento do seu arremesso. Uma build que parece boa no papel pode parecer travada ou lenta na jogabilidade real.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão do Jogador e Marcos">
+
+Assim que sua build for finalizada, você deve progredir por marcos específicos para ganhar pontos de melhoria e desbloquear níveis avançados de insígnias. Concentre-se em concluir os desafios diários e participar de jogos da carreira para maximizar seus ganhos de experiência.
+
+<Checklist
+  id="progression-milestones"
+  title="Metas de Progressão da Primeira Semana:"
+  items={[
+    "Atingir classificação geral (overall) de 80 para desbloquear insígnias secundárias",
+    "Concluir todos os treinos de equipe para obter reforços de atributos",
+    "Desbloquear pelo menos três insígnias de nível ouro na sua categoria principal",
+    "Vencer cinco partidas de matchmaking online para garantir moedas de bônus"
+  ]}
+/>
+
+| Marco | Nível Meta | Recompensa Desbloqueada | Dificuldade |
+| Apresentação de Calouro | Nível 10 | Compartimento de insígnia de bronze | Fácil |
+| Status de Titular | Nível 25 | Criador de arremesso personalizado | Média |
+| Nível All-Star | Nível 50 | Habilidade secundária de Takeover | Difícil |
+| Hall da Fama | Nível 90 | Quebra do limite de atributos | Muito Difícil |
+
+<Callout type="info" title="Dica de Progressão">
+Priorize as sessões de treino da equipe entre os jogos. Esses treinos oferecem progresso garantido de insígnias e são muito mais fáceis de concluir do que as partidas multijogador online.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estratégias de Jogo e Configuração de Insígnias">
+
+Ter sucesso na quadra exige mais do que apenas atributos altos. Você precisa entender de posicionamento, tempo de arremesso e saber utilizar suas insígnias de maneira eficaz durante o jogo competitivo.
+
+| Nome da Insígnia | Categoria | Efeito Principal | Nível Recomendado |
+| Limitless Range | Arremesso | Estende a distância de arremesso eficaz | Prata |
+| Quick First Step | Armação | Aumenta a aceleração ao sair de dribles de hesitação (size-ups) | Ouro |
+| Anchor | Defesa | Melhora a proteção de aro e contestação de arremessos | Prata |
+| Posterizer | Finalização | Aumenta a taxa de sucesso de enterradas com contato | Ouro |
+
+Concentre-se em jogar uma defesa inteligente, mantendo seu jogador entre quem está com a bola e a cesta. Evite tentar roubar a bola a todo momento, pois isso gera faltas e deixa seu jogador fora de posição, dando ao oponente um caminho livre para a cesta.
+
+<Callout type="tip" title="Dica de Defesa">
+Use o gatilho de movimento lateral para se manter na frente de armadores rápidos. Segurar o botão de corrida constantemente fará com que seu jogador passe do ponto na rotação e ceda espaços abertos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Solução de Problemas e Perguntas Frequentes (FAQ)">
+
+Revise estas perguntas comuns para resolver problemas durante a criação do personagem e as fases iniciais de progressão.
+
+<FAQ items={[
+  {
+    question: "Posso redefinir meus pontos de atributos após finalizar minha build?",
+    answer: "Não, as alocações de pontos de atributos são permanentes após serem finalizadas. Você precisará criar um novo slot de personagem se quiser distribuir os pontos de forma diferente."
+  },
+  {
+    question: "Qual é a maneira mais rápida de ganhar moedas de melhoria para a minha build?",
+    answer: "Concluir os desafios diários de patrocinadores e jogar partidas de carreira em alta dificuldade rende a maior quantidade de moedas de melhoria por hora."
+  },
+  {
+    question: "Como a envergadura afeta o arremesso do meu jogador neste guia para iniciantes do Build-A-Bucket?",
+    answer: "Uma envergadura maior reduz o seu limite máximo de arremesso de três pontos, mas aumenta o seu alcance defensivo e a eficácia na contestação de arremessos. Envergaduras mais curtas maximizam os atributos de arremesso."
+  },
+  {
+    question: "Por que não consigo equipar certas animações de drible?",
+    answer: "As animações são bloqueadas por requisitos específicos de atributos. Verifique a loja de animações para ver a classificação exata necessária de Controle de Bola (Ball Handle) ou Velocidade com a Bola (Speed With Ball)."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Verifique duas vezes todos os limites de atributos antes de confirmar sua build. Um único ponto colocado incorretamente pode impedir você de desbloquear animações de elite mais tarde na sua carreira.
+</Callout>
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Modos de jogo do Build-A-Bucket: Guia de Configuração e Rankings de 2026",
+  description: "Domine todos os modos de jogo do Build-A-Bucket. Aprenda como otimizar a build do seu jogador, alocar atributos e dominar as quadras de 1v1, 3v3 e 5v5.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Game+Modes+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Build-A-Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Foco Principal**: Entender como os atributos físicos e as insígnias escalam em diferentes **modos de jogo do Build-A-Bucket** é a chave para a vitória.
+- **Melhor Modo Solo**: O Duelo de Rua 1v1 oferece a maneira mais rápida de testar habilidades mecânicas puras e pontuação em isolamento.
+- **Meta de Equipe**: O Blacktop 3v3 exige uma formação equilibrada composta por um condutor de bola principal, um espaçador e um âncora defensivo.
+- **Pico Competitivo**: O Pro-Am 5v5 é o teste definitivo de execução tática, exigindo arquétipos especializados e defesa em zona.
+- **Dica de Progressão**: Sempre complete seus desafios diários de shootout para maximizar sua renda de pontos de habilidade no início da temporada.
+</Callout>
+
+<Section icon={Map} title="Visão Geral dos modos de jogo do Build-A-Bucket">
+
+Criar o avatar de basquete perfeito é apenas metade da batalha. Para dominar verdadeiramente a quadra, você deve entender onde e como utilizar seu jogador personalizado. A variedade de **modos de jogo do Build-A-Bucket** disponíveis em 2026 garante que cada arquétipo, de defensores implacáveis a armadores arremessadores, tenha um espaço dedicado para brilhar. Cada modo apresenta regras distintas, dimensões de quadra e algoritmos de matchmaking que impactam diretamente no desempenho dos atributos do seu jogador.
+
+Quando você pisa no asfalto pela primeira vez, a quantidade de opções pode parecer esmagadora. Escolher o modo errado para sua build específica pode levar a experiências de matchmaking frustrantes e progressão lenta. Por exemplo, um protetor de garrafão gigante e lento terá dificuldades significativas nas quadras abertas de jogo de isolamento 1v1, mas se tornará um trunfo inestimável em um ambiente estruturado de Pro-Am 5v5.
+
+Para ajudar você a navegar por essas escolhas, compilamos uma visão geral dos principais ambientes onde você pode testar suas habilidades.
+
+| Modo | Formato | Duração | Foco | Dificuldade |
+| :--- | :--- | :--- | :--- | :--- |
+| Rua 1v1 | Solo | Primeiro a marcar 11 | Pontuação em Isolamento | Alta |
+| Blacktop 3v3 | Equipe | Primeiro a marcar 21 | Espaçamento e Passes | Média |
+| Pro-Am 5v5 | Equipe | 4 Quartos | Execução Tática | Muito Alta |
+| Shootout | Arcade | 60 Segundos | Tempo de Lançamento Verde | Baixa |
+
+<Callout type="success" title="Estratégia de Farm de XP">
+Se você deseja maximizar seus pontos de experiência e moeda rapidamente, priorize o Blacktop 3v3. Ele oferece o melhor equilíbrio entre duração de partida e pagamento de recompensas, tornando-se o modo mais eficiente para subir o nível de novas builds.
+</Callout>
+
+Entender essas diferenças fundamentais permite que você adapte seu estilo de jogo. Nas seções abaixo, analisaremos as demandas táticas específicas de cada quadra para que você possa tomar decisões informadas antes de entrar na fila.
+
+</Section>
+
+<Section icon={Trophy} title="Análise Profunda dos modos de jogo do Build-A-Bucket">
+
+Para vencer partidas de forma consistente, você deve adaptar a build do seu jogador às demandas específicas da quadra escolhida. O meta muda drasticamente dependendo de quantos jogadores estão compartilhando o espaço. Vamos detalhar as três principais arenas competitivas e classificá-las com base na profundidade tática, recompensas e acessibilidade da build.
+
+### Duelo de Rua 1v1: O Teste Definitivo de Isolamento
+A arena 1v1 é um ambiente implacável. Sem companheiros de equipe para ajudar na defesa ou salvá-lo no ataque, seu jogador deve ser inteiramente autossuficiente. Este modo favorece fortemente builds com alta velocidade com a bola, controle de bola de elite e uma defesa de perímetro respeitável. Se sua build não consegue criar o próprio arremesso ou parar um primeiro passo rápido, você achará este modo incrivelmente punitivo.
+
+### Blacktop 3v3: O Ponto Ideal da Sinergia
+É aqui que a maioria da comunidade passa o tempo. O formato 3v3 oferece espaço suficiente para infiltrações criativas, ao mesmo tempo em que enfatiza o jogo em equipe. Uma formação competitiva padrão consiste em um "Play-Sharp" (Armador Arremessador) para comandar o ataque, um "Lock-Sharp" (Defensor Arremessador) para marcar o condutor de bola adversário e um "Glass-Cleaner" (Protetor de Aro e Reboteiro) para controlar o garrafão.
+
+### Pro-Am 5v5: Simulação de Quadra Inteira
+O Pro-Am é o auge do jogo competitivo. Ele apresenta jogabilidade em quadra inteira, regras de basquete padrão e exige altos níveis de coordenação de equipe. Aqui, builds especializadas são muito mais valorizadas do que perfis generalistas. As equipes executam jogadas ofensivas estruturadas, coberturas de pick-and-roll e frequentemente mudam para defesas em zona para anular ameaças de perímetro.
+
+<CardGrid cols={3}>
+  <Card title="Build de Iso 1v1">
+    - **Alto controle de bola**
+    - Agilidade lateral de elite
+    - Foco em arremessos de média distância
+  </Card>
+  <Card title="Meta de Escalação 3v3">
+    - **Espaçamento equilibrado**
+    - Altas classificações de catch-and-shoot
+    - Defesa com trocas constantes
+  </Card>
+  <Card title="Especialista 5v5">
+    - **Especialização extrema**
+    - Envergadura máxima para pivôs
+    - Atiradores puros de precisão verde
+  </Card>
+</CardGrid>
+
+Para garantir que você aloque seus pontos de atributo corretamente para cada ambiente, consulte os limites de estatísticas recomendados abaixo.
+
+| Modo | Atributo Chave 1 | Atributo Chave 2 | Insígnia Recomendada | Classificação |
+| :--- | :--- | :--- | :--- | :--- |
+| Rua 1v1 | Velocidade com Bola | Defesa de Perímetro | Unpluckable | Bom |
+| Blacktop 3v3 | Arremesso de 3 Pontos | Precisão de Passe | Catch & Shoot | Excelente |
+| Pro-Am 5v5 | Toco | Rebote Defensivo | Anchor | Melhor |
+
+<Callout type="warning" title="Gerenciamento de Estamina">
+Em partidas 1v1, a estamina drena 15% mais rápido devido ao drible constante em isolamento. Evite abusar de animações de crossover, pois uma barra de estamina esgotada reduz significativamente a janela de acerto verde do seu arremesso.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guia de Configuração da Build Passo a Passo">
+
+Otimizar seu avatar personalizado para o ecossistema competitivo requer uma abordagem sistemática. Siga estes passos para preparar seu jogador para qualquer um dos modos de jogo ativos.
+
+<Steps>
+  <Step num="1" title="Defina a Base do seu Arquétipo">
+    Determine seu papel principal antes de ajustar os perfis físicos. Se você quer dominar o 1v1, opte por um perfil físico equilibrado com altura entre 6'5" e 6'7". Para proteção de aro no 5v5, maximize sua altura e envergadura para desbloquear animações defensivas de elite.
+  </Step>
+  <Step num="2" title="Aloque Limites de Atributos">
+    Não distribua os pontos uniformemente. Foque em atingir limites de classificação específicos necessários para desbloquear insígnias de nível superior. Por exemplo, garanta uma classificação de 85 em arremesso de três pontos para desbloquear o nível ouro da insígnia Limitless Range, que é essencial para o espaçamento em modos de equipe.
+  </Step>
+  <Step num="3" title="Equipe Insígnias Específicas para o Modo">
+    Equipe insígnias que complementem seu campo de jogo principal. Para jogo solo, priorize insígnias que aumentem a criação própria, como finalizadores físicos e ankle breakers. Para jogo em equipe, aloque pontos em passes e insígnias defensivas sem bola.
+  </Step>
+  <Step num="4" title="Selecione Pacotes de Animação Otimizados">
+    As animações ditam a velocidade de lançamento do seu jogador e os ângulos de saída do drible. Compre e equipe lançamentos de jump shot com alta velocidade e pacotes de drible que permitam mudanças rápidas de momentum para bater os defensores facilmente.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Verificação de Requisitos de Animação">
+Antes de finalizar seus pontos de atributo, verifique os requisitos da loja de animações. Alguns pacotes de drible de elite exigem uma classificação mínima de controle de bola de 85, enquanto os jump shots mais rápidos costumam exigir uma classificação de 83 em arremesso de três pontos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Progressão e Recompensas Sazonais">
+
+Participar de diferentes modos rende quantias variadas de moeda de progressão e recompensas sazonais. Para desbloquear cosméticos exclusivos, reforços de estatísticas e pontos de insígnia, você deve buscar completar uma variedade de marcos semanais. Acompanhar esses objetivos garante que seu jogador permaneça competitivo conforme o meta sazonal evolui ao longo de 2026.
+
+Usar uma lista de verificação estruturada é a maneira mais eficaz de gerenciar suas sessões diárias e garantir uma progressão constante sem se cansar de uma única quadra.
+
+<Checklist
+  id="seasonal-progression"
+  title="Marcos Competitivos Semanais:"
+  items={[
+    "Vença 10 partidas no Blacktop 3v3 para desbloquear o reforço semanal de pontos de insígnia",
+    "Alcance uma nota de companheiro de equipe B+ ou superior em 5 partidas consecutivas de Pro-Am",
+    "Complete o desafio diário de Shootout três vezes para ganhar moeda bônus",
+    "Ganhe um total de 2.500 pontos de habilidade em qualquer modo competitivo"
+  ]}
+/>
+
+As recompensas escalam diretamente com a dificuldade e o tempo dedicado ao modo que você escolher jogar. Consulte a tabela abaixo para planejar suas sessões de grind de forma eficiente.
+
+| Modo de Jogo | Pagamento de XP Base | Rendimento de Moeda | Nível Competitivo | Recompensas Exclusivas |
+| :--- | :--- | :--- | :--- | :--- |
+| Rua 1v1 | 150 XP | 50 Moedas | Nível B | Títulos de Jogador Solo |
+| Blacktop 3v3 | 300 XP | 100 Moedas | Nível A | Camisas de Streetwear Personalizadas |
+| Pro-Am 5v5 | 600 XP | 250 Moedas | Nível S | Anéis de Campeonato de Temporada |
+
+<Callout type="info" title="Informações de Reset Sazonal">
+As recompensas sazonais são atualizadas no primeiro dia de cada mês. Certifique-se de resgatar todos os itens desbloqueados da sua caixa de entrada de recompensas antes da transição, pois itens sazonais não resgatados não acumulam para o mês seguinte.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+Para ajudar a esclarecer qualquer confusão restante sobre as builds de jogadores e ambientes competitivos, compilamos respostas para as perguntas mais comuns da comunidade.
+
+<FAQ items={[
+  {
+    question: "Quais são os melhores modos de jogo do Build-A-Bucket para jogadores solo?",
+    answer: "O Duelo de Rua 1v1 é o melhor modo absoluto para jogadores solo, pois elimina a variação do matchmaking e permite que você dependa inteiramente do seu próprio conjunto de habilidades ofensivas e defensivas."
+  },
+  {
+    question: "Posso usar a mesma build de jogador em todos os modos de jogo?",
+    answer: "Sim, você pode usar o mesmo jogador em todos os modos. No entanto, builds altamente especializadas (como pivôs puros de garrafão) terão um desempenho excepcional no Pro-Am 5v5, mas sofrerão significativamente em quadras de isolamento 1v1."
+  },
+  {
+    question: "Como funcionam as classificações de matchmaking no Pro-Am competitivo?",
+    answer: "O matchmaking no Pro-Am é determinado pela taxa geral de vitórias/derrotas da sua equipe e pela sua nota média individual de companheiro de equipe. Manter uma nota alta garante que você enfrente oponentes de níveis de habilidade semelhantes."
+  },
+  {
+    question: "As insígnias sobem de nível automaticamente ao jogar partidas?",
+    answer: "Sim, realizar ações específicas nas partidas (como arremessar de três ou dar tocos) gera progresso para melhorar as insígnias correspondentes. Modos de equipe oferecem progressão de insígnia mais rápida devido à maior frequência de ações."
+  }
+]} />
+
+<Callout type="tip" title="Mantenha-se Atualizado">
+Fique de olho nos patches de equilíbrio semanais. Os desenvolvedores ajustam frequentemente a eficácia das insígnias e o escalonamento dos atributos, o que pode alterar rapidamente o meta em todos os modos competitivos.
+</Callout>
+
+</Section>

@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desafío Build a Bucket Random Player: Estrategia paso a paso para lograr 99 OVR",
+  description: "Domina el desafío build a bucket random player con nuestra guía sobre la mecánica de la ruleta, selección de atributos y simulación de temporada para 2026.",
+  category: "Wheel",
+  image: "https://placehold.co/800x400/0f172a/fff?text=Build-A-Bucket+Challenge+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build-A-Bucket",
+  keywords: "build a bucket, random player challenge, baloncesto, NBA, simulador, estrategia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo del desafío**: El **desafío build a bucket random player** requiere que los jugadores giren una ruleta de estrellas de la NBA y creen un jugador personalizado con 99 de valoración (OVR).
+- **Mecánica principal**: Debes seleccionar exactamente un atributo de cada jugador generado por la ruleta hasta que se completen las nueve ranuras.
+- **Simulación de temporada**: Una vez completada la creación, el juego simula una temporada completa de la NBA para probar el rendimiento de tu estrella personalizada.
+- **Modo Sandbox**: Usa el Modo Sandbox para probar combinaciones de atributos específicas y valoraciones de jugadores antes de intentar el desafío de la ruleta aleatoria.
+- **Estrategia clave**: Guarda a superestrellas versátiles como Nikola Jokic o Giannis Antetokounmpo para las categorías más difíciles de llenar, como Pase (Passing) o Finalización (Finishing).
+</Callout>
+
+<Section icon={Map} title="Introducción al desafío build a bucket random player challenge">
+
+El **desafío build a bucket random player** se ha convertido rápidamente en una sensación viral entre los fanáticos del baloncesto y los jugadores de navegador. A diferencia de las simulaciones deportivas tradicionales, este juego se basa en una mecánica de "girar y seleccionar" de alto riesgo. A los jugadores se les presenta una ruleta que contiene varios jugadores de la NBA. En cada giro, debes asignar a ese jugador a una de las nueve categorías de habilidades específicas. ¿El truco? Una vez que se llena una categoría, queda bloqueada para el resto de la partida.
+
+**Puntos destacados del video:**
+- **Objetivo de 99 OVR**: Observa el proceso paso a paso para intentar alcanzar la valoración máxima.
+- **Suerte de la ruleta**: Observa cómo los especialistas de alto nivel pueden definir el éxito o fracaso de una creación específica.
+- **Resultados de la simulación**: Mira cómo la asignación de atributos afecta la producción final de la temporada y los premios.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un jugador de 99 OVR en Build a Bucket?" />
+
+Para tener éxito en este desafío, debes equilibrar el valor inmediato de una superestrella con las necesidades a largo plazo de tu plantilla. Seleccionar a Stephen Curry para "Triples" (Threes) es una decisión fácil, pero usar a una estrella versátil como Victor Wembanyama demasiado pronto podría dejarte sin un protector del aro más adelante en el draft.
+
+| Característica | Descripción | Plataforma |
+| :--- | :--- | :--- |
+| **Tipo de juego** | Creador de baloncesto basado en navegador | Navegador web |
+| **Modo principal** | Desafío de ruleta aleatoria | Gratis (Free to Play) |
+| **Modo de prueba** | Modo Sandbox con valoraciones personalizadas | Gratis (Free to Play) |
+| **Objetivo** | Alcanzar 99 de OVR y ganar el campeonato | Simulación |
+
+<Callout type="tip" title="Estrategia Pro">
+Revisa siempre las ranuras vacías restantes antes de hacer clic en "Seleccionar". El error más común en el **desafío build a bucket random player** es llenar las categorías fáciles al principio y verse obligado a usar un jugador promedio para una ranura defensiva crítica.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Dominando las nueve categorías de habilidades">
+
+Cada jugador personalizado en el **desafío build a bucket random player** se define por nueve atributos distintos. Estos se dividen en categorías ofensivas, defensivas y físicas. Comprender cómo interactúan estas categorías es vital para lograr una alta valoración general (OVR).
+
+| Categoría | Impacto principal | Tipo de jugador recomendado |
+| :--- | :--- | :--- |
+| **Finishing** | Anotación interior y mates | Atacantes del aro de alto volumen |
+| **Mid-range** | Tiros tras bote y espaciado | Creadores de tiros eficientes |
+| **Threes** | Volumen de anotación perimetral | Tiradores históricos de larga distancia |
+| **Passing** | Creación de juego y totales de asistencias | Bases organizadores o aleros creadores |
+| **Ball Handling** | Aislamiento y control de pérdidas | Especialistas en drible |
+| **Rebounding** | Control de posesión y segundas oportunidades | Pívots y ala-pívots dominantes |
+| **Post D** | Protección del aro y tapones | Taponadores altos y móviles |
+| **Perimeter D** | Presión al balón y robos | Defensores bidireccionales (two-way) |
+| **Athleticism** | Velocidad, salto vertical y transición | Atletas explosivos bidireccionales |
+
+<Callout type="warning" title="Advertencia de asignación">
+El motor de simulación penaliza fuertemente las creaciones con una sola calificación de "F". A menudo es mejor aceptar una calificación de "B" en una categoría débil que buscar un "A+" en una categoría donde ya tienes un "A".
+</Callout>
+
+Cada categoría requiere un perfil único. Por ejemplo, el **Atletismo** respalda tu cobertura defensiva y el juego en transición, pero no puede reemplazar una habilidad especializada como el **Pase**. Durante una partida, debes priorizar las habilidades "escasas", es decir, atributos en los que solo unos pocos jugadores de la NBA se destacan, como la protección de aro de élite o un 40% de acierto en triples.
+
+</Section>
+
+<Section icon={Swords} title="Los mejores arquetipos de creación para el desafío">
+
+Aunque la ruleta es aleatoria, tu estrategia no debería serlo. Seguir un arquetipo de creación específico te ayuda a decidir qué jugador se adapta mejor a cada ranura cuando la ruleta te presenta opciones difíciles.
+
+<CardGrid cols={2}>
+  <Card title="Superestrella completa (All-Around)">
+    - **Enfoque**: Equilibrio en las 9 ranuras
+    - **Prioridad**: Pase, Finalización, Defensa perimetral
+    - **Dificultad**: Media
+    - **Objetivo**: Alto OVR y éxito del equipo
+  </Card>
+  <Card title="Motor anotador (Scoring-First)">
+    - **Enfoque**: Dominio ofensivo
+    - **Prioridad**: Triples, Finalización, Manejo de balón
+    - **Dificultad**: Fácil
+    - **Objetivo**: Títulos de anotación y premios MVP
+  </Card>
+  <Card title="Especialista defensivo (Defensive Stopper)">
+    - **Enfoque**: Bloqueo en la zona y el perímetro
+    - **Prioridad**: Defensa en el poste, Rebotes, Atletismo
+    - **Dificultad**: Media
+    - **Objetivo**: Defensor del Año (DPOY) y posesiones ganadas
+  </Card>
+  <Card title="Eje de creación de juego (Playmaking Hub)">
+    - **Enfoque**: Eficiencia ofensiva
+    - **Prioridad**: Pase, Manejo de balón, Triples
+    - **Dificultad**: Media
+    - **Objetivo**: Líder de asistencias y altos puntos por partido (PPG) del equipo
+  </Card>
+</CardGrid>
+
+La siguiente tabla compara los resultados esperados de la temporada para estos arquetipos según los datos de simulación de 2026.
+
+| Arquetipo | OVR promedio | Éxito en Playoffs | Objetivo principal de premio |
+| :--- | :--- | :--- | :--- |
+| **All-Around** | 94-98 | Alto | MVP / All-NBA |
+| **Scoring-First** | 92-96 | Moderado | Máximo anotador |
+| **Defensive** | 90-95 | Alto | DPOY (Defensor del Año) |
+| **Interior** | 91-95 | Moderado | Líder en rebotes |
+
+<Callout type="success" title="Estrategia ganadora">
+La creación "All-Around" es la forma más confiable de ganar un campeonato en el simulador de temporada. Garantiza que el jugador pueda contribuir incluso cuando sus tiros no entren, aportando una defensa y un rebote de élite.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Guía de optimización paso a paso para lograr 99 OVR">
+
+Lograr un 99 de OVR en el **desafío build a bucket random player** requiere una asignación casi perfecta. Debes emparejar al mejor jugador posible con su rasgo más dominante en el mundo real.
+
+<Steps>
+  <Step num="1" title="Inicia la partida">
+    Comienza tu partida identificando qué categorías son las más difíciles de llenar. En el meta de 2026, los pases (Passing) de élite y la defensa en el poste (Post D) son más raros que la finalización (Finishing) o la media distancia (Mid-range).
+  </Step>
+  <Step num="2" title="Identifica al especialista">
+    Cuando la ruleta caiga en un especialista (por ejemplo, Stephen Curry), asígnalo inmediatamente a su categoría principal (Triples). No desperdicies a un especialista en un rasgo secundario.
+  </Step>
+  <Step num="3" title="Gestiona estrellas versátiles">
+    Si obtienes una superestrella como Giannis Antetokounmpo, revisa tus ranuras vacías. Si la Finalización está abierta, úsalo allí. Si la Finalización está llena pero el Atletismo está vacío, él es un respaldo de élite para esa ranura.
+  </Step>
+  <Step num="4" title="La regla del 'eslabón débil'">
+    Para el sexto o séptimo giro, identifica tu calificación proyectada más baja. Usa tu próximo jugador "bueno" para solucionar esa debilidad en lugar de hacer que una categoría fuerte sea aún más fuerte.
+  </Step>
+  <Step num="5" title="Supervivencia en la última ranura">
+    El último giro es pura suerte. Intenta dejar una categoría "flexible" como Media distancia o Atletismo para el giro final, ya que más jugadores de la NBA tienen calificaciones aceptables allí en comparación con la Defensa en el poste o el Pase.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Evita las trampas de reputación">
+No selecciones a un jugador solo porque sea famoso. Un especialista con una valoración general más baja a menudo proporciona una calificación de categoría más alta en **build a bucket** que una superestrella legendaria que ya pasó su mejor momento o que juega fuera de su posición.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Selecciones de jugadores de élite y referencias">
+
+Para ayudarte a tomar decisiones más rápidas durante el **desafío build a bucket random player**, hemos recopilado una lista de los mejores jugadores para cada categoría basada en las estadísticas oficiales de los playoffs de 2026 y el rendimiento en el juego.
+
+| Categoría | Selección principal | Referencia de Playoffs 2026 | ¿Por qué seleccionarlo? |
+| :--- | :--- | :--- | :--- |
+| **Scoring** | Jalen Brunson | 28.4 PTS | Volumen ofensivo de élite |
+| **Threes** | Julian Champagnie | 61 triples totales | Especialista en tiro puro |
+| **Finishing** | Mikal Bridges | 86.3% en zona restringida | Máxima eficiencia |
+| **Passing** | Nikola Jokic | 9.5 AST | El mejor pívot organizador |
+| **Rebounding** | Nikola Jokic | 13.2 REB | Dominio de la posesión |
+| **Post D** | Victor Wembanyama | 3.5 TAP | La máxima protección del aro |
+| **Perimeter D** | Tari Eason | 2.5 ROB | Interrupción y robos de balón |
+| **Athleticism** | Paolo Banchero | 4.3 PTS en contraataque | Juego de transición explosivo |
+
+<Checklist
+  id="pre-run-checklist"
+  title="Lista de verificación de estrategia antes de la partida:"
+  items={[
+    "Elige un arquetipo objetivo (por ejemplo, All-Around)",
+    "Identifica las 3 categorías de élite 'imprescindibles'",
+    "Prepárate para omitir a una superestrella si su mejor rasgo ya está lleno",
+    "Monitorea las ranuras de Defensa en el poste (Post D) y Pase (Passing) desde el principio",
+    "Comprométete con la simulación incluso si el OVR es más bajo de lo esperado"
+  ]}
+/>
+
+<Callout type="tip" title="Pruebas en el Sandbox">
+Antes de intentar una partida para lograr una puntuación alta, ingresa al Modo Sandbox. Configura manualmente tus calificaciones en A+ para Rebotes (Rebounding), Defensa en el poste (Post D) y Defensa perimetral (Perimeter D) para ver cómo el simulador maneja un perfil de "Ancla defensiva". Este conocimiento es invaluable para el desafío aleatorio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="FAQ: Desafío Build-A-Bucket">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el OVR más alto posible en el desafío build a bucket random player?",
+    answer: "La valoración máxima es de 99 OVR. Lograr esto requiere obtener calificaciones de nivel 'A+' o 'S' en casi todas las categorías, lo que generalmente implica seleccionar especialistas históricos para cada ranura."
+  },
+  {
+    question: "¿La simulación de temporada tiene en cuenta la química o encaje del equipo?",
+    answer: "Sí. La simulación evalúa cómo los atributos de tu jugador personalizado complementan una plantilla estándar. Un jugador con 99 en Pase pero 0 en Finalización tendrá más dificultades que un jugador equilibrado de 90 de OVR."
+  },
+  {
+    question: "¿Puedo reiniciar una partida si obtengo un mal giro en la ruleta?",
+    answer: "En el desafío estándar de jugador aleatorio, el objetivo es terminar la creación independientemente de la suerte. Sin embargo, puedes refrescar el navegador para iniciar una nueva sesión en cualquier momento."
+  },
+  {
+    question: "¿Qué categoría es la más importante para ganar el MVP?",
+    answer: "La Finalización, los Triples y el Pase tienen el mayor peso para los premios MVP, ya que el simulador favorece a los jugadores con métricas altas de 'Puntos de los que es responsable' (PRF)."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+El **desafío build a bucket random player** se actualiza regularmente con nuevos jugadores y valoraciones ajustadas. Revisa siempre la cuenta oficial de X (anteriormente Twitter) para conocer las últimas notas de los desarrolladores sobre la lógica de simulación y el peso de los atributos.
+</Callout>
+
+</Section>

@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Simulador de Temporada Build a Bucket: Guia do Modo Carreira 2026",
+  description: "Domine o simulador de temporada Build a Bucket com nosso guia abrangente sobre arquétipos, distribuição de atributos e estratégias de simulação para 2026.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+Simulator+Guide",
+  date: "2026-07-17",
+  author: "Equipe Wiki Build a Bucket",
+  keywords: "build a bucket, simulador de temporada, guia de carreira, arquétipos de basquete, estratégia de simulação"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Simulador de temporada Build a Bucket**: Uma ferramenta robusta para testar builds de jogadores ao longo de um calendário profissional completo de 82 jogos.
+- **Seleção de Arquétipo**: Escolher a base certa determina seus limites máximos de atributos e o potencial de insígnias.
+- **Velocidade de Simulação**: Ajuste a frequência de simulação para equilibrar o controle tático profundo e a progressão rápida.
+- **Prioridade de Atributos**: Foque em atributos físicos no início da temporada para evitar fadiga e lesões no final dos jogos.
+- **Sinergia de Insígnias**: Combine insígnias complementares para ativar impulsos massivos de desempenho em momentos decisivos (clutch).
+</Callout>
+
+<Section icon={Map} title="Introdução ao Simulador de Temporada Build a Bucket">
+
+O **simulador de temporada Build a Bucket** tornou-se o principal ambiente para entusiastas de basquete testarem suas criações de jogadores personalizados em um cenário de alto nível e orientado por dados. Diferente dos modos de exibição padrão, o simulador de temporada leva em conta fatores de longo prazo, como fadiga do jogador, desenvolvimento de entrosamento e variância estatística ao longo de um exaustivo calendário de 82 jogos. Se você deseja criar o próximo arremessador lendário ou uma potência defensiva, entender o motor de simulação é o primeiro passo para o domínio.
+
+Na atualização de 2026, o motor foi refinado para refletir melhor o desempenho em momentos "clutch" e o impacto individual do jogador nas taxas de vitória e derrota da equipe. Isso significa que uma build mal otimizada pode apresentar números individuais impressionantes, mas falhar em levar o time aos playoffs. Para ter sucesso, você deve equilibrar a proeza de pontuação individual com estilos de jogo voltados para a equipe.
+
+| Modo de Simulação | Descrição | Melhor Para |
+| :--- | :--- | :--- |
+| **Simulação Rápida** | Simula jogos em segundos com saídas estatísticas básicas | Testar rapidamente a progressão de insígnias |
+| **Lance a Lance** | Veja atualizações de texto ao vivo e intervenha no 4º quarto | Testes táticos e builds decisivas |
+| **Carreira Completa** | Inclui treinos de intertemporada e mecânicas de draft | Progressão de longo prazo e construção de legado |
+| **Torneio** | Simulação curta em estilo de mata-mata | Testar desempenho sob alta pressão |
+
+<Callout type="info" title="Atualização do Motor">
+O motor de simulação de 2026 agora prioriza a eficiência "Por 36 Minutos" em vez de totais brutos, tornando o gerenciamento de rotação mais crítico do que nunca.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Seleção de Arquétipo e Limites de Atributos">
+
+Antes de entrar no **simulador de temporada Build a Bucket**, você deve definir o arquétipo do seu jogador. Essa escolha serve como base para toda a sua carreira, definindo o "teto" para cada atributo, desde arremessos de três pontos até agilidade lateral. No meta atual, builds híbridas que podem contribuir em pelo menos duas categorias principais estão superando builds "puras" especializadas em porcentagens de vitórias na simulação.
+
+<CardGrid cols={3}>
+  <Card title="O General de Quadra">
+    - **Alta Armação e QI**
+    - Aumenta as porcentagens de arremesso dos companheiros
+    - Melhor para simulações de alto número de assistências
+  </Card>
+  <Card title="A Ameaça na Ala">
+    - **Defesa de Elite e Atletismo**
+    - Anula os principais jogadores adversários
+    - Alto impacto na classificação defensiva da equipe
+  </Card>
+  <Card title="O Pivô que Espaça">
+    - **Arremesso e Rebote**
+    - Espaça a quadra para infiltradores
+    - Essencial para ataques modernos na simulação
+  </Card>
+</CardGrid>
+
+Ao distribuir seus pontos de atributos iniciais, é tentador maximizar a pontuação imediatamente. No entanto, o simulador penaliza pesadamente jogadores com baixo fôlego e durabilidade. Um jogador que marca 40 pontos no primeiro jogo, mas carece de fôlego, verá uma queda massiva nas porcentagens de arremesso no quinto jogo da simulação.
+
+| Grupo de Atributos | Estatísticas Primárias | Impacto na Simulação |
+| :--- | :--- | :--- |
+| **Pontuação** | Meia distância, 3PT, Bandeja | Determina a produção bruta de PPG |
+| **Físicos** | Fôlego, Velocidade, Força | Afeta a consistência e o risco de lesões |
+| **Defesa** | Defesa de Perímetro, Roubo, Bloco | Melhora a eficiência defensiva da equipe |
+| **Mental** | QI Ofensivo, Cavar Falta | Influencia a eficiência em momentos decisivos |
+
+<Callout type="tip" title="Dica Profissional">
+Sempre aloque pelo menos 75 pontos em Fôlego (Stamina) antes de focar em categorias ofensivas. Isso garante que seu jogador mantenha suas classificações de atributos durante os quartos quartos simulados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuração da Simulação Passo a Passo">
+
+Configurar sua primeira rodada no **simulador de temporada Build a Bucket** requer atenção cuidadosa aos detalhes. Pular a fase de preparação geralmente leva a dados distorcidos que não representam com precisão o potencial da sua build. Siga estes passos para garantir uma simulação limpa e produtiva.
+
+<Steps>
+  <Step num="1" title="Configuração da Build">
+    Entre na suíte de criação e insira sua altura, peso e envergadura. Lembre-se de que envergaduras maiores melhoram os atributos defensivos, mas diminuem ligeiramente a consistência do seu arremesso no motor de simulação.
+  </Step>
+  <Step num="2" title="Seleção de Time">
+    Escolha um time que complemente sua build. Um arquétipo "Infiltrador" terá dificuldades em um time com pouco espaçamento, enquanto um "Armador" precisa de arremessadores para maximizar as oportunidades de assistência.
+  </Step>
+  <Step num="3" title="Ajuste de Rotação">
+    Acesse o menu de "Minutos". Para obter os dados mais precisos sobre seu jogador, certifique-se de que ele esteja configurado para pelo menos 32 minutos por jogo. Verifique o controle deslizante de "Taxa de Uso" (Usage Rate) para garantir que seu jogador seja uma opção primária.
+  </Step>
+  <Step num="4" title="Parâmetros de Simulação">
+    Defina a velocidade de simulação como "Normal" para os primeiros 10 jogos. Isso permite monitorar as estatísticas e ver se seu jogador está realizando os tipos de arremessos que você planejou.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Aviso">
+Definir a velocidade de simulação como "Instantânea" para toda a temporada pode, às vezes, levar à "Variância de Simulação", onde as estatísticas de um jogador ficam artificialmente altas ou baixas devido à falta de ajustes táticos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progressão e Gerenciamento de Insígnias">
+
+Conforme você progride no **simulador de temporada Build a Bucket**, seu jogador ganhará "Pontos de Experiência" (XP) e "Pontos de Insígnia". As insígnias são essencialmente habilidades passivas que são ativadas durante cenários específicos de jogo. Na versão 2026 do simulador, as insígnias são mais influentes do que os números brutos de atributos. Um jogador com um arremesso de três pontos de nível 80 e a insígnia "Alcance Ilimitado" frequentemente arremessará melhor do que um jogador com nível 90 e nenhuma insígnia.
+
+<Checklist
+  id="season-milestones"
+  title="Metas Críticas da Temporada:"
+  items={[
+    "Alcançar 85 de Geral antes do Jogo das Estrelas (All-Star Break)",
+    "Desbloquear pelo menos 3 insígnias de nível Ouro",
+    "Manter um Índice de Eficiência do Jogador (PER) acima de 20.0",
+    "Garantir uma vaga de titular nos primeiros 10 jogos simulados",
+    "Liderar a equipe para uma das 4 melhores posições da conferência"
+  ]}
+/>
+
+| Nível da Insígnia | Requisito | Efeito na Simulação |
+| :--- | :--- | :--- |
+| **Bronze** | Atributo Base 70+ | Aumento de 5% na taxa de sucesso |
+| **Prata** | Atributo Base 80+ | Aumento de 12% na taxa de sucesso |
+| **Ouro** | Atributo Base 90+ | Aumento de 20%; desbloqueia animações especiais |
+| **Hall da Fama** | Atributo Base 99 | Consistência máxima; ignora fadiga |
+
+<Callout type="success" title="Estratégia de Sucesso">
+Foque primeiro nas insígnias de "Consistência". Insígnias como "Volume Shooter" ou "Interceptors" garantem que, mesmo em dias ruins, seu jogador contribua positivamente para a lógica de vitória e derrota da simulação.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Táticas Avançadas de Simulação">
+
+Para os veteranos do **simulador de temporada Build a Bucket**, o desafio reside em otimizar para os playoffs. O motor de simulação aumenta a dificuldade durante a pós-temporada, simulando defesas mais fechadas e ajustes de treinamento mais agressivos. Para sobreviver a uma série de sete jogos, sua build deve ter "Atributos de Resposta".
+
+Por exemplo, se sua build for de um arremessador puro, o simulador eventualmente irá "analisá-lo" e colocar um defensor de elite em você. Ter "Controle de Bola" ou habilidade de "Post-up" suficiente para pontuar de formas alternativas é a diferença entre uma eliminação na primeira rodada e um campeonato.
+
+| Ajuste Tático | Efeito na Simulação | Uso Recomendado |
+| :--- | :--- | :--- |
+| **Aumentar Ritmo** | Mais posses, pontuação mais alta | Builds de contra-ataque e alto fôlego |
+| **Focar na Defesa** | Baixa a porcentagem de arremessos do oponente | Contra IAs superestrelas de alta pontuação |
+| **Brigar no Rebote** | Mais rebotes ofensivos | Quando estiver jogando com um Pivô que Espaça |
+| **Iso-Motion** | Aumenta a taxa de uso do jogador | Quando seu jogador é a opção número 1 clara |
+
+<Callout type="tip" title="Visão Estratégica">
+Use o recurso de "Relatório de Scouting" antes de simular séries de playoffs. Se o oponente tiver um protetor de aro de elite, ajuste seus controles de simulação para favorecer arremessos de meia distância em vez de bandejas infiltradas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes">
+
+<FAQ items={[
+  {
+    question: "Como aumento a taxa de uso do meu jogador no simulador?",
+    answer: "Você pode aumentar o uso definindo seu jogador como a 'Primeira Opção' no menu de estratégia da equipe e aumentando seus minutos. Atributos de 'QI Ofensivo' mais altos também levam naturalmente a mais toques na bola no motor de simulação."
+  },
+  {
+    question: "Por que minhas porcentagens de arremesso são menores na simulação do que no treino?",
+    answer: "O simulador de temporada Build a Bucket leva em conta a proximidade do defensor e a fadiga do jogador. Se o seu jogador estiver cansado ou sendo marcado por um arquétipo de 'Defesa de Elite', suas porcentagens cairão naturalmente."
+  },
+  {
+    question: "Posso mudar meu arquétipo no meio da temporada?",
+    answer: "Não, o arquétipo é bloqueado assim que a simulação da temporada começa. Você deve iniciar uma nova simulação se desejar testar uma build base diferente."
+  },
+  {
+    question: "Qual é o atributo físico mais importante para uma temporada simulada?",
+    answer: "O Fôlego (Stamina) é indiscutivelmente o mais importante. Sem alto fôlego, os atributos do seu jogador degradam-se efetivamente conforme o jogo e a temporada progridem, levando a um desempenho ruim."
+  }
+]} />
+
+</Section>

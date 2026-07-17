@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Reglas del juego Build a Bucket: Guía paso a paso y estrategia",
+  description: "Domina las reglas del juego Build a Bucket. Aprende a usar la rueda de jugadores de la NBA, selecciona atributos y simula temporadas para crear estrellas personalizadas de 99 OVR.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/f97316/fff?text=Build+A+Bucket+Rules",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket",
+  keywords: "reglas de build a bucket, rueda de jugadores nba, estrategia de baloncesto, simulación nba, guía de juego"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Gira la rueda de jugadores de la NBA y selecciona un atributo específico del jugador resultante para completar tu creación.
+- **Los Nueve Espacios**: Debes completar Finalización, Media distancia, Triples, Pases, Manejo de balón, Rebotes, Defensa en el poste, Defensa perimetral y Atletismo.
+- **Regla de Selección**: Una vez que un jugador de la NBA se asigna a una categoría, ese espacio queda bloqueado y no se puede cambiar durante la partida.
+- **Simulación de Temporada**: Después de completar los nueve espacios, el juego calcula una valoración general (OVR) y simula una temporada completa de la NBA.
+- **Estrategia Ganadora**: Prioriza a los especialistas poco comunes para categorías difíciles como Defensa en el poste y Pases para evitar "asesinos" de baja calificación.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales de Build-A-Bucket">
+
+Comprender las **reglas del juego build a bucket** es el primer paso para crear una superestrella de élite de la NBA. A diferencia de los simuladores de baloncesto tradicionales, Build-A-Bucket es un juego de "draft por rueda" basado en el navegador donde tu éxito depende totalmente de tu capacidad para asignar talento en nueve categorías de habilidades distintas. Se te presenta una rueda aleatoria de jugadores de la NBA; por cada giro, debes decidir qué parte del juego de ese jugador quieres "robar" para tu creación personalizada.
+
+**Puntos destacados del video:**
+- **Gestión de la Rueda**: Cómo reaccionar cuando la rueda te da una superestrella frente a un jugador de rol.
+- **Asignación de Atributos**: Demostración del impacto de elegir la habilidad adecuada para el jugador adecuado.
+- **Búsqueda del 99 OVR**: Un recorrido por una partida de alto riesgo con el objetivo de alcanzar la máxima calificación posible.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un 99 OVR en Build a Bucket?" />
+
+El juego opera bajo un proceso de selección de "alto riesgo y gran recompensa". Si te sale Stephen Curry, las reglas dictan que puedes usarlo para **Triples**, pero hacerlo significa que no podrás usarlo para **Pases** o **Manejo de balón** más adelante. El desafío radica en gestionar los espacios vacíos restantes a medida que el grupo de jugadores se reduce con cada giro.
+
+<Callout type="tip" title="Asignación Estratégica">
+Nunca uses a una superestrella versátil para una categoría fácil de completar al principio de la partida. Reserva a jugadores como Giannis Antetokounmpo o Nikola Jokic para espacios donde te falte un especialista dedicado, como Atletismo o Rebotes.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Los Nueve Espacios de Atributos Esenciales">
+
+Las **reglas del juego build a bucket** requieren que completes exactamente nueve categorías. Cada categoría contribuye a tu Valoración General (OVR) final y determina cómo se desempeña tu jugador durante la simulación de la temporada. Una sola calificación "D" o "F" en cualquiera de estos espacios puede evitar que alcances el codiciado nivel de 99 OVR.
+
+| Atributo | Rol Principal | Perfil de Jugador Ideal | Impacto en la Simulación |
+| :--- | :--- | :--- | :--- |
+| **Finalización** | Anotar en el aro | Saltadores / Pívots fuertes | Aumenta PPG y %TC |
+| **Media distancia** | Tiro tras drible | Creadores de tiro técnicos | Esencial para la consistencia anotadora |
+| **Triples** | Espaciado perimetral | Tiradores de volumen (Curry/Thompson) | Mejora la eficiencia ofensiva |
+| **Pases** | Creación de juego | Bases / Aleros armadores | Aumenta las asistencias y victorias |
+| **Manejo de balón** | Autocreación | Dribladores de élite (Kyrie Irving) | Reduce las pérdidas en la simulación |
+| **Rebotes** | Control de posesión | Pívots dominantes (Jokic) | Aumenta RPG y segundas oportunidades |
+| **Defensa en el poste** | Protección del aro | Taponadores (Wembanyama) | Baja el %TC del oponente en el aro |
+| **Defensa perimetral** | Defensa individual | Aleros especialistas (Jrue Holiday) | Aumenta robos y paradas defensivas |
+| **Atletismo** | Herramientas físicas | Atletas explosivos (Edwards) | Apoya todas las interacciones físicas |
+
+<Callout type="warning" title="El Asesino del 99 OVR">
+El error más común es ignorar la **Defensa perimetral** o la **Defensa en el poste** hasta el último giro. Si la rueda te da un mal defensor en tu último turno, tu OVR caerá en picado independientemente de lo buenos que sean tus atributos de anotación.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía de Juego Paso a Paso">
+
+Seguir las **reglas del juego build a bucket** de manera efectiva requiere un enfoque disciplinado en el draft. Sigue estos pasos para asegurar que tu creación se mantenga equilibrada y competitiva.
+
+<Steps>
+  <Step num="1" title="Iniciar la Partida">
+    Accede al juego a través del enlace oficial del navegador. Elige entre una **Carrera de Rueda** estándar (aleatoria) o el **Modo Sandbox** (pruebas personalizadas). Para la mayoría de los jugadores, la Carrera de Rueda es el modo competitivo principal.
+  </Step>
+  <Step num="2" title="Girar la Rueda de la NBA">
+    Haz clic en la rueda para generar un jugador de la NBA al azar. Revisa las fortalezas del jugador en el mundo real. Por ejemplo, si te sale Shai Gilgeous-Alexander, reconoce que es de élite en Finalización, Media distancia y Defensa perimetral.
+  </Step>
+  <Step num="3" title="Asignar el Atributo">
+    Mira tus nueve espacios vacíos. Asigna al jugador actual al espacio que maximice su valor. Si ya tienes un tirador de élite, no uses a una superestrella para Triples; úsala para su rasgo secundario de élite como Pases o Defensa.
+  </Step>
+  <Step num="4" title="Monitorear los Espacios Restantes">
+    A medida que completas el tablero, las reglas se vuelven más estrictas. Con solo 3-4 espacios restantes, debes priorizar "corregir" tus debilidades. Si no tienes defensa, debes usar al siguiente jugador disponible para un espacio defensivo, incluso si es mejor anotador.
+  </Step>
+  <Step num="5" title="Finalizar y Simular">
+    Una vez que se completan los nueve espacios, el juego genera tu tarjeta de jugador. Revisa tus calificaciones (de A+ a F) y procede a la **Simulación de Temporada** para ver tus estadísticas, premios y el récord del equipo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Recompensas de la Simulación">
+Una creación equilibrada a menudo resulta en galardones individuales como MVP o Jugador Defensivo del Año. Presta mucha atención al "Récord del Equipo" para ver si tu creación es un jugador "ganador" o simplemente alguien que acumula estadísticas.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modos de Juego: Normal vs. Sandbox">
+
+Las **reglas del juego build a bucket** difieren ligeramente según el modo que selecciones. Si bien los atributos principales siguen siendo los mismos, el método de selección cambia la dificultad y el propósito de la sesión.
+
+| Característica | Carrera de Rueda Normal | Modo Sandbox |
+| :--- | :--- | :--- |
+| **Método de Selección** | Rueda Aleatoria | Selección Manual |
+| **Dificultad** | Alta (Basada en la suerte) | Baja (Basada en pruebas) |
+| **Objetivo Principal** | Desafío 99 OVR | Optimización / Pruebas |
+| **Simulación** | Temporada Completa Incluida | Temporada Completa Incluida |
+| **Estrategia** | Toma de decisiones reactiva | Teoría proactiva |
+| **Ideal Para** | Juego Competitivo | Aprender las calificaciones |
+
+<CardGrid cols={2}>
+  <Card title="Estrategia del Modo Normal">
+    - **Adaptabilidad**: Debes trabajar con lo que la rueda te dé.
+    - **Gestión de Riesgos**: Decidir cuándo conformarse con una calificación B+ para salvar un espacio futuro.
+    - **Experiencia Auténtica**: La forma prevista de jugar para obtener puntuaciones altas.
+  </Card>
+  <Card title="Estrategia del Modo Sandbox">
+    - **Descubrimiento de Calificaciones**: Aprende qué jugadores de la NBA producen calificaciones A+ en espacios específicos.
+    - **Pruebas de Sinergia**: Mira si un "Anotador Puro" rinde mejor que una creación "Completa".
+    - **Sin Riesgos**: Perfecto para practicar antes de un intento real de 99 OVR.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Utilidad del Sandbox">
+Usa el Modo Sandbox para identificar qué jugadores actuales de la NBA tienen las calificaciones ocultas más altas para categorías como **Atletismo** y **Defensa en el poste**, ya que estas suelen ser las más difíciles de juzgar visualmente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Estrategias Avanzadas para Creaciones de 99 OVR">
+
+Para alcanzar la cima de Build-A-Bucket, debes ir más allá de la comprensión básica e implementar una gestión de recursos avanzada. Las **reglas del juego build a bucket** recompensan a quienes planean con tres giros de antelación.
+
+<Checklist
+  id="99-ovr-checklist"
+  title="Lista de Verificación del Constructor Pro:"
+  items={[
+    "Reserva a Victor Wembanyama o Rudy Gobert específicamente para Defensa en el poste.",
+    "Nunca uses a un especialista unidimensional para una categoría en la que solo es 'Bueno'.",
+    "Asegúrate de que al menos tres atributos alcancen el estado A+.",
+    "Prioriza Pases y Rebotes temprano para evitar calificaciones 'F' a mitad de la partida.",
+    "Usa aleros versátiles (como LeBron James o Kevin Durant) para llenar los huecos en los últimos tres giros."
+  ]}
+/>
+
+Las creaciones efectivas suelen seguir una lógica de "Arquetipo" específica. Si comienzas con un tiro de élite, tus giros posteriores deberían centrarse en **Defensa perimetral** y **Pases** para asegurar que la simulación te trate como un base principal en lugar de un especialista de banquillo.
+
+<Callout type="tip" title="La Regla 'Jokic'">
+Nikola Jokic es la carta "comodín" definitiva. Proporciona valor A+ en **Pases**, **Rebotes** y **Media distancia**. Si te sale en la rueda, mira cuál es tu espacio restante más débil entre esos tres y úsalo allí de inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Interpretando los Resultados de la Simulación de Temporada">
+
+La fase final de las **reglas del juego build a bucket** es la simulación. Aquí es donde tus elecciones de atributos se ponen a prueba contra el resto de la liga. El motor evalúa tus nueve atributos para producir un resultado estadístico.
+
+| Métrica de Resultado | Significado | Cómo Mejorar |
+| :--- | :--- | :--- |
+| **PPG (Puntos)** | Volumen de anotación | Mejora Finalización, Triples y Media distancia |
+| **APG (Asistencias)** | Impacto en la creación | Mejora Pases y Manejo de balón |
+| **RPG (Rebotes)** | Dominio del tablero | Mejora Rebotes y Atletismo |
+| **BPG/SPG (Defensa)** | Presencia defensiva | Mejora Defensa en el poste y Perimetral |
+| **Victorias del Equipo** | Valor general | Equilibra ataque y defensa (Evita las F) |
+
+Una frustración común para los nuevos jugadores es tener un jugador de 95 OVR que no llega a los playoffs. Esto suele suceder porque la creación es demasiado unidimensional (por ejemplo, todo anotación, cero defensa). La simulación premia el "baloncesto ganador", que requiere una calificación mínima de C+ en las categorías defensivas.
+
+<Callout type="success" title="Veredicto Final">
+Las creaciones más exitosas en el meta de 2026 son aquellas que logran el estado de "Dos Vías" (Two-Way). Apunta a tener al menos dos categorías ofensivas de élite y dos categorías defensivas de élite para maximizar tus posibilidades de obtener un anillo de campeonato en la simulación.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuáles son las reglas del juego Build a Bucket más importantes para principiantes?",
+    answer: "La regla más importante es que debes completar los nueve espacios de atributos. No puedes saltarte ninguna categoría y, una vez que un jugador se asigna a un espacio, no se puede mover. Los principiantes deberían centrarse en obtener una calificación 'B' o superior en cada categoría en lugar de perseguir un solo A+."
+  },
+  {
+    question: "¿Puedo usar al mismo jugador de la NBA dos veces en una partida?",
+    answer: "No. Según las reglas del juego Build a Bucket, una vez que un jugador ha aparecido en la rueda y ha sido asignado a un espacio, se elimina del grupo para el resto de esa partida específica."
+  },
+  {
+    question: "¿Cómo se calcula el 99 OVR?",
+    answer: "El OVR es un promedio ponderado de tus nueve calificaciones de atributos. Sin embargo, ciertas categorías como Pases y Finalización tienen un peso ligeramente mayor para la valoración general que la Media distancia o el Atletismo en la versión actual del juego de 2026."
+  },
+  {
+    question: "¿Qué pasa si me sale un jugador que no me gusta en la rueda?",
+    answer: "Las reglas establecen que debes usar a ese jugador para uno de tus espacios abiertos restantes. Por eso es fundamental mantener abiertos espacios 'flexibles' como Atletismo o Media distancia hasta el final, ya que casi cualquier jugador de la NBA puede proporcionar una calificación decente allí."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,168 @@
+import { Map, Swords, Trophy, Target, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Resultados de la temporada en Build a Bucket: Guía de configuración y clasificación de tiers",
+  description: "Optimiza las creaciones de tu jugador personalizado para obtener los mejores resultados de la temporada. Aprende sobre mecánicas de simulación, asignación de atributos y arquetipos de primer nivel.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Season+Results+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de build a bucket"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Objetivo principal**: Domina el motor de simulación para maximizar tus **resultados de la temporada en build a bucket** y ganar campeonatos.
+- **Mecánica clave**: La distribución de atributos influye directamente en las estadísticas simuladas, los índices de eficiencia del jugador y la relación de victorias y derrotas del equipo.
+- **Mejor estrategia**: Equilibra las estadísticas de tiro de alto volumen con la durabilidad física para evitar caídas de rendimiento a mitad de temporada.
+- **Consejo crítico**: Alinea el arquetipo de tu jugador personalizado con el sistema de entrenamiento de tu equipo para desbloquear bonificaciones de estadísticas pasivas.
+</Callout>
+
+<Section icon={Target} title="Comprender las mecánicas de simulación">
+
+Analizar los **resultados de la temporada en build a bucket** es el paso más importante para comprender cómo se desempeña tu jugador de baloncesto personalizado bajo simulación. A diferencia del juego manual, donde la habilidad del usuario puede compensar las deficiencias en las estadísticas, el motor de simulación se basa completamente en los atributos puros, las sinergias de las insignias y la resistencia física. Para asegurar de manera constante los premios MVP y llegar lejos en los playoffs, debes entender cómo el motor traduce las valoraciones de los jugadores en estadísticas simuladas.
+
+El motor de simulación evalúa el rendimiento del jugador en cuatro categorías principales: eficiencia ofensiva, impacto defensivo, resistencia física e inteligencia de juego (playmaking IQ). Si un jugador carece de resistencia física, sus métricas de rendimiento disminuirán drásticamente durante los partidos simulados consecutivos (back-to-back), lo que resultará en estadísticas deficientes a mitad de temporada.
+
+| Atributo | Impacto simulado | Valoración objetivo |
+| :--- | :--- | :--- |
+| **Tiro de tres puntos** | Dicta el volumen y la eficiencia en el perímetro exterior | 85+ para bases/escoltas |
+| **Defensa interior** | Reduce el porcentaje de acierto del oponente en la zona | 75+ para pívots/ala-pívots |
+| **Resistencia** | Evita el deterioro de estadísticas durante las giras de partidos simulados | 90+ para todos |
+| **Precisión de pase** | Reduce la tasa de pérdidas de balón en la creación de juego simulada | 80+ para creadores de juego |
+| **Defensa perimetral** | Aumenta la tasa de robos y disminuye las faltas en el perímetro | 78+ para bases/escoltas |
+
+<Callout type="info" title="Información sobre el motor de simulación">
+La resistencia es el asesino silencioso de las temporadas simuladas. Un jugador con 99 en Tiro de tres puntos pero solo 60 en Resistencia verá caer su porcentaje de tiro del 45% al 30% para el partido 40 de la temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Guía paso a paso para la simulación de la temporada">
+
+Para aprovechar al máximo el desarrollo de tu jugador, debes seguir un enfoque estructurado al configurar, simular y ajustar a tu jugador a lo largo del calendario de 82 partidos. Saltarse las revisiones clave puede arruinar tu clasificación final.
+
+<Steps>
+  <Step num="1" title="Selección de arquetipo">
+    Elige un arquetipo base que coincida con el rendimiento estadístico que deseas. Los arquetipos de bases/escoltas destacan en los resultados de anotación, mientras que los hombres altos dominan las métricas defensivas y de rebotes.
+  </Step>
+  <Step num="2" title="Asignación de atributos">
+    Distribuye tus puntos de atributo iniciales. Prioriza primero las estadísticas ofensivas para garantizar un alto volumen de anotación simulada a principio de temporada, lo que acelera el progreso de las insignias.
+  </Step>
+  <Step num="3" title="Ajustes de rotación">
+    Establece los minutos de tu jugador en al menos 34 por partido. Cualquier cifra inferior limitará su techo estadístico, impidiéndole ganar premios importantes de la temporada como el MVP o el Novato del Año.
+  </Step>
+  <Step num="4" title="Ajustes a mitad de temporada">
+    Pausa la simulación en el partido 41 (la mitad de la temporada). Revisa tus porcentajes de tiro y tasas de pérdidas de balón, luego ajusta el enfoque de entrenamiento para corregir las debilidades estadísticas.
+  </Step>
+  <Step num="5" title="Optimización para los playoffs">
+    Antes de simular la postemporada, acorta la rotación de tu equipo a ocho jugadores. Esto asegura que tu superestrella personalizada juegue la mayor cantidad de minutos cuando los partidos son más importantes.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia sobre la gestión de resistencia">
+No configures los minutos de tu jugador en más de 40 por partido. Esto activa la penalización por fatiga en el motor de simulación, lo que provoca porcentajes de tiro más bajos y un alto riesgo de lesiones simuladas.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Los mejores arquetipos para los resultados de la temporada">
+
+Los diferentes arquetipos generan estadísticas simuladas muy distintas. Elegir la creación correcta depende completamente de si quieres romper récords de anotación, promediar un triple-doble o ser el pilar de una defensa de nivel de campeonato.
+
+<CardGrid cols={3}>
+  <Card title="Especialista en triples">
+    - **Alta anotación simulada**
+    - Alto porcentaje de tiro real
+    - Ideal para creaciones de bases/escoltas
+  </Card>
+  <Card title="Creador de juego bidireccional">
+    - **Alto número de asistencias**
+    - Defensa perimetral de élite
+    - Distribución de estadísticas equilibrada
+  </Card>
+  <Card title="Protector de la zona">
+    - **Promedio de doble-doble**
+    - Altas tasas de tapones y rebotes
+    - Ideal para creaciones de pívots
+  </Card>
+</CardGrid>
+
+Para ayudarte a decidir qué creación se adapta a tus objetivos de simulación, consulta la siguiente tabla de niveles de rendimiento. Estos datos se recopilan a partir de temporadas simuladas bajo parámetros estándar de la liga.
+
+| Creación de arquetipo | Nivel de anotación | Nivel defensivo | Viabilidad de simulación |
+| :--- | :--- | :--- | :--- |
+| **Especialista en triples** | S-Tier | C-Tier | Excelente para intentar ganar el MVP |
+| **Creador de juego bidireccional** | A-Tier | A-Tier | El mejor para el porcentaje de victorias del equipo |
+| **Protector de la zona** | B-Tier | S-Tier | El jugador más seguro para los playoffs |
+| **Base/Escolta penetrador** | A-Tier | B-Tier | Eficiencia moderada |
+| **Pívot de poste bajo** | B-Tier | B-Tier | Baja eficiencia de simulación |
+
+<Callout type="success" title="Recomendación del meta">
+El creador de juego bidireccional ofrece actualmente el mayor porcentaje de victorias general en el modo de temporada simulada. Su capacidad para generar asistencias mientras frena a los bases rivales evita colapsos de simulación en los instantes finales del partido.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión y entrenamiento en la temporada baja">
+
+Maximizar la trayectoria profesional de tu jugador requiere una gestión inteligente de la temporada baja. Una vez que se finalizan los resultados de la temporada, entras en la fase de progresión donde se desbloquean mejoras permanentes de estadísticas.
+
+| Programa de entrenamiento | Mejora de estadística principal | Coste | Ideal para |
+| :--- | :--- | :--- | :--- |
+| **Academia de tiro** | Media distancia y triples (+3) | 500 puntos | Bases, escoltas y aleros |
+| **Campamento defensivo** | Defensa perimetral e interior (+4) | 600 puntos | Protectores y defensores de cierre |
+| **Acondicionamiento atlético** | Velocidad, aceleración y resistencia (+5) | 400 puntos | Todas las creaciones de jugador |
+| **Seminario de creación de juego** | Precisión de pase y manejo de balón (+3) | 500 puntos | Bases |
+
+<Checklist
+  id="offseason-progression"
+  title="Lista de verificación de hitos de la temporada baja:"
+  items={[
+    "Asigna primero los puntos de progresión ganados a los atributos físicos",
+    "Selecciona un programa de entrenamiento que coincida con las debilidades de tu arquetipo",
+    "Revisa los cambios en las reglas de la liga y ajusta tu estilo de creación en consecuencia",
+    "Negocia un contrato que garantice el máximo de minutos como titular"
+  ]}
+/>
+
+<Callout type="tip" title="Bonificación de sinergia">
+Empareja siempre el programa de acondicionamiento atlético con una academia específica de habilidades. Tener una alta amplificación de estadísticas físicas hace que tus habilidades técnicas funcionen mucho mejor en los partidos simulados.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Resolución de problemas de simulación y preguntas frecuentes">
+
+Incluso con un jugador con una valoración alta, los resultados de la simulación a veces pueden ser impredecibles debido a los esquemas de los entrenadores y la construcción de la plantilla. Revisa los pasos comunes de resolución de problemas a continuación para corregir las simulaciones con bajo rendimiento.
+
+Si tu jugador está promediando menos puntos de lo que sugieren sus atributos, comprueba el ritmo ofensivo de tu equipo. Un sistema de entrenamiento de ritmo lento limitará naturalmente el número de posesiones, reduciendo el rendimiento estadístico general independientemente de las valoraciones del jugador.
+
+<FAQ items={[
+  {
+    question: "¿Por qué los resultados de mi temporada en build a bucket son más bajos de lo esperado?",
+    answer: "Esto suele deberse a una baja química de equipo o a una incompatibilidad entre el arquetipo de tu jugador y el sistema ofensivo del equipo. Asegúrate de que el sistema de tu entrenador coincida con tu estilo de juego."
+  },
+  {
+    question: "¿Cómo afecta la fatiga del jugador a los partidos simulados de playoffs?",
+    answer: "La fatiga se acumula más rápido en los playoffs. Si la resistencia de tu jugador cae por debajo de 80 durante una serie, sus porcentajes de tiro y tiempos de reacción defensiva disminuirán hasta en un 15%."
+  },
+  {
+    question: "¿Puedo cambiar el arquetipo de mi jugador a mitad de temporada?",
+    answer: "No, los arquetipos de los jugadores se bloquean al comienzo de la temporada. Solo puedes modificar atributos individuales y asignaciones de insignias durante el calendario de la temporada activa."
+  },
+  {
+    question: "¿Cuál es el atributo más importante para ganar el premio MVP?",
+    answer: "El motor de simulación valora enormemente el índice de eficiencia del jugador (PER). Para maximizar el PER, concéntrate en mantener porcentajes de tiro altos y mantener las pérdidas de balón por debajo de 2.5 por partido."
+  }
+]} />
+
+<Callout type="info" title="Resumen final">
+Para dominar tus simulaciones de temporada, concéntrate en una creación con alta resistencia, alinea tu arquetipo con el sistema táctico de tu equipo y gestiona tus minutos con cuidado para evitar la fatiga al final de la temporada.
+</Callout>
+
+</Section>

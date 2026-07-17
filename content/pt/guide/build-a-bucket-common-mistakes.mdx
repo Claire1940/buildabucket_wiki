@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Erros Comuns no Build-a-Bucket: Guia de Montagem e Dicas de Manutenção",
+  description: "Aprenda a evitar erros comuns no Build-a-Bucket. Nosso guia de 2026 cobre a preparação de meios filtrantes, seleção de baldes e montagem para filtragem de água DIY.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Build+a+Bucket+Mistakes",
+  date: "2026-07-17",
+  author: "Equipe Wiki Build-a-Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Erros comuns no Build-a-Bucket** geralmente decorrem da lavagem inadequada dos meios filtrantes e do uso de materiais que não são de grau alimentício.
+- **Imposto da Água**: Sempre pré-lave seu carvão, areia e cascalho para evitar uma saída turva e imprópria para consumo.
+- **Escolha de Materiais**: Use apenas baldes de PEAD (Polietileno de Alta Densidade) para evitar a lixiviação química.
+- **Ordem das Camadas**: A filtragem correta requer uma sequência específica, do cascalho grosso ao carvão ativado fino.
+- **Redundância**: Sempre combine este sistema com um filtro secundário de tubo oco para máxima segurança.
+</Callout>
+
+<Section icon={Map} title="Seleção de Materiais: Evitando o Primeiro Obstáculo">
+
+A base de um sistema de filtragem DIY bem-sucedido reside na qualidade dos seus componentes. Um dos **erros comuns no Build-a-Bucket** mais frequentes é assumir que qualquer recipiente de plástico servirá. Na realidade, usar baldes que anteriormente continham derivados de petróleo, tintas ou produtos químicos industriais pode contaminar sua água irremediavelmente. O polietileno de alta densidade (PEAD) é o padrão da indústria para segurança e durabilidade.
+
+**Destaques do Vídeo:**
+- Identificando baldes de grau alimentício (livres de BPA) vs. baldes de tinta industrial.
+- Ferramentas essenciais: Furadeiras, brocas tipo pá (5/8" a 3/4") e fitas métricas.
+- Por que sistemas por gravidade são superiores para preparação para desastres com baixo consumo de energia.
+- Introdução ao conceito de "Imposto da Água" para a preparação dos meios filtrantes.
+
+<YouTubeEmbed videoId="QSJsK3Y5r2s" title="Como Construir um Filtro de Balde: Preparação para Desastres Domésticos" />
+
+Ao selecionar seus meios, a precisão é fundamental. Usar areia de parquinho em vez de areia de sílica #20 para piscina é um erro crítico. A areia de piscina é especificamente classificada para filtragem, enquanto a areia de parquinho frequentemente contém matéria orgânica e silte que entupirão seu sistema ou resultarão em água turva.
+
+| Material | Tipo Recomendado | Por que é importante |
+| :--- | :--- | :--- |
+| **Baldes** | PEAD Grau Alimentício | Evita a lixiviação de produtos químicos na água |
+| **Areia** | Areia de Sílica #20 para Piscina | Tamanho de grão uniforme para fluxo ideal |
+| **Carvão** | Carvão Ativado Granulado | Maior área de superfície para remoção de toxinas |
+| **Cascalho** | Cascalho fino (1/4" a 3/8") | Fornece suporte estrutural para as camadas |
+| **Sacos** | Sacos de Cerveja de 250 Microns | Contém o meio enquanto permite alto fluxo |
+
+<Callout type="warning" title="Contaminação Química">
+Nunca reutilize baldes que contiveram anticongelante, óleo ou solventes minerais. Mesmo uma limpeza rigorosa não consegue remover produtos químicos que tenham penetrado nos poros do plástico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="O Imposto da Água: Erros na Preparação dos Meios">
+
+O "Imposto da Água" é um termo usado para descrever os recursos (tempo e água) necessários para colocar um sistema de filtragem em funcionamento. Deixar de pagar esse imposto antecipadamente é um dos **erros comuns no Build-a-Bucket** mais frustrantes. Se você não pré-lavar seus meios, os primeiros 75 a 190 litros (20 a 50 galões) de água produzidos estarão cheios de poeira de carvão preta e silte fino.
+
+A pré-lavagem deve ser feita em uma área bem ventilada. O carvão ativado, em particular, produz uma poeira fina que não deve ser inalada. Usar sacos de cerveja torna esse processo significativamente mais fácil, pois permitem agitar o material sob uma mangueira sem perder o próprio meio.
+
+| Tipo de Meio | Dificuldade de Lavagem | Sinais de Conclusão |
+| :--- | :--- | :--- |
+| **Carvão Ativado** | Alta | A água sai limpa, sem poeira preta |
+| **Areia de Piscina** | Média | Sem silte visível ou "turbidez" |
+| **Pedra de Aquário** | Baixa | Remoção de sujeira superficial e poeira |
+| **Cascalho Fino** | Média | Sem terra ou detritos orgânicos restantes |
+
+<Steps>
+  <Step num="1" title="Enxágue Inicial">
+    Coloque seu meio em um saco de cerveja de 250 microns e borrife com uma mangueira de jardim até que a água escura inicial fique limpa.
+  </Step>
+  <Step num="2" title="Agitação">
+    Role e sacuda suavemente o saco. Isso move as partículas internas para a superfície, garantindo que todos os grãos sejam enxaguados.
+  </Step>
+  <Step num="3" title="Verificação de Sedimentos">
+    Coloque os sacos sobre uma lona plástica limpa ao sol. Se você vir pilhas de silte sob o saco, continue enxaguando.
+  </Step>
+  <Step num="4" title="Secagem Solar">
+    Deixe o meio secar completamente ao sol. Os raios UV fornecem uma camada extra de esterilização antes da montagem.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Dica de Agitação">
+Não jogue os sacos no chão quando estiverem molhados. O peso extra da água pode facilmente romper as costuras dos sacos de cerveja.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Armadilhas na Construção e Montagem">
+
+A montagem exige mais do que apenas empilhar baldes. Um erro comum é perfurar buracos muito baixos no reservatório de água limpa. Você deve mirar em aproximadamente 5 cm (2 polegadas) acima do fundo interno. Isso permite que qualquer micro-sedimento que escape do filtro se assente no fundo em vez de ser drenado pela torneira.
+
+Outro erro estrutural envolve os recortes da tampa. Você deve manter borda suficiente da tampa para suportar o peso dos baldes acima. Um balde de 20 litros (5 galões) cheio de areia e cascalho molhados é incrivelmente pesado; se a tampa falhar, toda a pilha pode colapsar, causando contaminação cruzada.
+
+| Componente | Posicionamento | Requisito Crítico |
+| :--- | :--- | :--- |
+| **Torneira** | 5 cm do fundo | Deve incluir uma arruela de compressão de borracha |
+| **Recorte da Tampa** | Centro de 12-15 cm | Deve deixar borda suficiente para suporte estrutural |
+| **Furos de Drenagem** | Fundo do balde | Conjunto de 3-4 furos para evitar entupimento |
+| **Tela** | Sobre os furos de drenagem | Evita que os sacos de cerveja se projetem |
+
+<CardGrid cols={2}>
+  <Card title="O Balde de Decantação">
+    Use um balde inalterado para deixar a água bruta descansar por 12-24 horas. Isso remove sedimentos pesados antes mesmo de tocar seu meio filtrante.
+  </Card>
+  <Card title="O Estágio Cerâmico">
+    Opcional, mas recomendado. Adicionar filtros de cúpula de cerâmica no estágio final captura bactérias que a areia e o carvão podem deixar passar.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Prevenção de Vazamentos">
+Aperte a porca da torneira primeiro com a mão e, em seguida, use uma chave inglesa para um quarto de volta final. O aperto excessivo pode rachar a parede do balde ou deformar a arruela.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Manutenção do Sistema e Armazenamento a Longo Prazo">
+
+Um filtro é tão bom quanto seu cronograma de manutenção. Muitos usuários cometem o erro de deixar o sistema úmido quando não está em uso. Isso cria um terreno fértil para mofo e bactérias. Após o uso, o meio deve ser removido, espalhado sobre plástico e seco completamente ao sol.
+
+A esterilização UV do sol é uma ferramenta poderosa e gratuita. Uma vez seco, armazene o meio em sacos novos e selados dentro dos baldes para manter afastados aranhas, poeira e umidade.
+
+| Tarefa de Manutenção | Frequência | Objetivo |
+| :--- | :--- | :--- |
+| **Lavagem do Meio** | A cada 380 litros | Remove silte acumulado das camadas |
+| **Teste de Carvão** | Mensal / Conforme necessário | Use corante alimentício para verificar a absorção |
+| **Secagem Solar** | Após cada uso | Previne o crescimento bacteriano e de mofo |
+| **Limpeza da Torneira** | Semanal | Garante que não haja contaminação externa na saída |
+
+<Checklist
+  id="storage-prep"
+  title="Lista de Verificação para Armazenamento Pós-Uso:"
+  items={[
+    "Esvazie toda a água do reservatório e dos baldes de decantação",
+    "Espalhe areia e cascalho sobre uma barreira de vapor sob luz solar direta",
+    "Lave os sacos de cerveja e verifique se há rasgos nas costuras",
+    "Selve o meio completamente seco em sacos resistentes antes de colocar nos baldes",
+    "Armazene toda a pilha em uma garagem ou porão fresco e seco"
+  ]}
+/>
+
+<Callout type="warning" title="Vida Útil do Carvão">
+O carvão ativado tem uma capacidade limitada para produtos químicos orgânicos. Se você adicionar corante alimentício no topo e ele sair tingido na parte inferior, seu carvão está "saturado" e deve ser substituído.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Solução de Problemas e FAQ">
+
+Em uma situação de "não falha", entender os limites da sua montagem é vital. Este sistema foi projetado para fontes de água doce e não dessaliniza água salgada. Além disso, embora remova sedimentos e muitas toxinas, é sempre mais seguro usar uma forma secundária de tratamento, como fervura ou um filtro de tubo oco de alta qualidade (como um Sawyer ou LifeStraw).
+
+<FAQ items={[
+  {
+    question: "Posso usar este filtro para água de piscina?",
+    answer: "Sim, mas você deve despejar a água de um recipiente para outro primeiro para permitir que o cloro evapore. O carvão ativado ajudará então a remover os produtos químicos restantes."
+  },
+  {
+    question: "Quanto tempo dura o meio filtrante?",
+    answer: "Com água de decantação pré-filtrada, a areia e o cascalho podem durar indefinidamente se lavados. O carvão ativado geralmente precisa de substituição após 750-1900 litros, dependendo da qualidade da água."
+  },
+  {
+    question: "Qual é o motivo mais comum para fluxo lento?",
+    answer: "Geralmente, é um saco de cerveja 'inchado' obstruindo os furos de drenagem. Certifique-se de colocar uma tela rígida de aço inoxidável ou de janela no fundo do balde antes de adicionar os sacos de meio."
+  },
+  {
+    question: "Esta água é 100% segura para beber?",
+    answer: "Embora altamente eficaz, sempre recomendamos um tratamento secundário como UV, fervura ou um filtro de 0,1 micron para garantir que todos os patógenos sejam removidos."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Sempre construa dois sistemas, se possível. A redundância é a chave para a sobrevivência, e ter meios filtrantes de reserva garante que você nunca fique sem água limpa durante uma emergência de longo prazo.
+</Callout>
+
+</Section>

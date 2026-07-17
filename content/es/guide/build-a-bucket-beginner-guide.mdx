@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía para principiantes de Build-A-Bucket: Creación y configuración de estadísticas 2026",
+  description: "Domina el creador de jugadores en Build-A-Bucket con nuestra guía para principiantes de 2026. Aprende sobre posiciones, límites de atributos y las mejores configuraciones iniciales.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Beginner+Creation+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build-A-Bucket",
+  keywords: "Build-A-Bucket, guía para principiantes, creación de jugador, estadísticas de baloncesto, arquetipos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal de la guía**: Esta guía para principiantes de Build-A-Bucket te ayuda a optimizar la creación inicial de tu jugador de baloncesto para evitar desperdiciar puntos de atributo.
+- **Mejor posición inicial**: El Alero (SF) ofrece la distribución de estadísticas más equilibrada para los nuevos jugadores.
+- **Enfoque en atributos clave**: Prioriza los atributos físicos como la Velocidad y la Resistencia antes de invertir fuertemente en estadísticas de habilidad.
+- **Selección de insignias cruciales**: Equipa insignias defensivas pasivas temprano para asegurar puntos de experiencia fáciles durante los partidos.
+</Callout>
+
+<Section icon={Map} title="Eligiendo tu posición inicial">
+
+Seleccionar la posición correcta es el paso fundamental en el proceso de creación del jugador. Tu posición determina tus límites de atributos base, límites físicos y los tipos de insignias que tu personaje puede desbloquear a medida que sube de nivel. Los principiantes deben elegir una posición que se adapte a su estilo de juego preferido en la cancha.
+
+| Posición | Rol Principal | Atributos Clave | Altura Recomendada |
+| :--- | :--- | :--- | :--- |
+| Base (PG) | Creación de juego y velocidad | Pase, Manejo de balón | 6'1" a 6'3" |
+| Escolta (SG) | Anotación perimetral | Triple, Media distancia | 6'4" a 6'6" |
+| Alero (SF) | Utilidad polivalente | Defensa, Finalización | 6'7" a 6'9" |
+| Ala-Pívot (PF) | Protección de la zona y rebotes | Rebote, Fuerza | 6'9" a 6'11" |
+| Pívot (C) | Dominio interior | Tapón, Defensa interior | 7'0" to 7'2" |
+
+Los jugadores nuevos suelen tener dificultades con configuraciones extremas. Crear un jugador demasiado bajo limita las capacidades defensivas, mientras que crear uno demasiado alto reduce significativamente la velocidad de movimiento. Encontrar un perfil físico equilibrado garantiza que puedas contribuir en ambos lados de la cancha.
+
+<CardGrid cols={3}>
+  <Card title="Arquetipo de Base/Escolta">
+    - **Alta velocidad y agilidad**
+    - Excelentes habilidades de manejo de balón
+    - Vulnerable a la anotación interior
+  </Card>
+  <Card title="Arquetipo de Alero">
+    - **Estadísticas físicas equilibradas**
+    - Capacidades defensivas versátiles
+    - Adaptable a la mayoría de las alineaciones
+  </Card>
+  <Card title="Arquetipo de Pívot">
+    - **Presencia interior dominante**
+    - Fuerza de rebote superior
+    - Movimiento perimetral limitado
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo Profesional">
+Si juegas solo, la posición de Alero proporciona la mejor flexibilidad para adaptarte a compañeros aleatorios en las salas de emparejamiento.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Distribución de estadísticas y límites de atributos">
+
+La asignación de puntos de atributo determina cómo se desempeña tu jugador durante escenarios clave del juego. Los puntos deben distribuirse para alcanzar umbrales específicos que desbloquean animaciones e insignias. Dispersar demasiado los puntos en todas las categorías resulta en un jugador mediocre que no destaca en ninguna tarea.
+
+| Categoría de Atributo | Estadísticas Clave | Impacto en el Juego | Objetivo de Umbral |
+| :--- | :--- | :--- | :--- |
+| Finalización | Bandeja, Mate, Tiro cercano | Anotación dentro de la zona | 85 para Mates con contacto |
+| Tiro | Media distancia, Triple | Eficiencia de anotación perimetral | 80 para Insignias de plata |
+| Creación de Juego | Precisión de pase, Manejo de balón | Seguridad del balón y velocidad de pase | 75 para Paquetes de regate básicos |
+| Defensa | Def. Perimetral, Robo, Tapón | Detener las rachas de anotación rivales | 82 para Insignia Cepos de oro |
+
+Los atributos físicos dictan qué tan efectivamente puede utilizar sus habilidades tu jugador. La Velocidad, Aceleración, Fuerza, Vertical y Resistencia deben subirse de nivel junto con los atributos de habilidad para asegurar que tu jugador no se agote antes del último cuarto.
+
+| Estadísticas Físicas | Valoración Objetivo | Beneficio Principal |
+| :--- | :--- | :--- |
+| Velocidad | 80+ | Transición de contraataque y defensa perimetral |
+| Fuerza | 70+ | Resistir penetraciones y asegurar cierres de rebote |
+| Resistencia | 90+ | Mantener el rendimiento al final de los partidos |
+
+<Callout type="warning" title="Advertencia Importante">
+No descuides la Resistencia. Una resistencia baja reduce el tamaño de tu medidor de tiro y vuelve a tu jugador lento, haciendo que las valoraciones de tiro altas sean inútiles durante posesiones largas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía paso a paso para principiantes de Build-A-Bucket">
+
+Sigue este proceso sistemático para crear tu primera configuración de jugador optimizada sin desperdiciar valiosos recursos del juego.
+
+<Steps>
+  <Step num="1" title="Define el perfil físico">
+    Ajusta la altura, el peso y la envergadura de tu jugador. Una envergadura más larga mejora la defensa y el rebote, pero reduce tu límite máximo de tiro de tres puntos. Encuentra un equilibrio que se ajuste a tu arquetipo.
+  </Step>
+  <Step num="2" title="Distribuye los atributos iniciales">
+    Asigna tus puntos para alcanzar primero los umbrales clave de animación. Asegúrate de que tu manejo de balón cumpla con los requisitos para tu estilo de regate preferido antes de gastar puntos en estadísticas secundarias.
+  </Step>
+  <Step num="3" title="Selecciona las insignias iniciales">
+    Elige insignias que complementen tus atributos principales. Si tienes una valoración de triple de 85, equipa insignias de tiro que aumenten el tamaño de la ventana de tiro excelente para maximizar tu potencial de anotación.
+  </Step>
+  <Step num="4" title="Valida y prueba la configuración">
+    Entra en la cancha de pruebas para practicar movimientos de regate, probar los tiempos de tiro y evaluar la rapidez lateral defensiva antes de finalizar la configuración y confirmar tus puntos de atributo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Validación de Configuración">
+Dedica siempre al menos diez minutos en la cancha de pruebas verificando la velocidad de lanzamiento de tu tiro. Una configuración que se ve bien en papel puede sentirse lenta en el juego real.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión del jugador e hitos">
+
+Una vez finalizada tu configuración, debes progresar a través de hitos específicos para ganar puntos de mejora y desbloquear niveles de insignias avanzados. Concéntrate en completar desafíos diarios y participar en partidos de carrera para maximizar tus ganancias de experiencia.
+
+<Checklist
+  id="progression-milestones"
+  title="Objetivos de progresión de la primera semana:"
+  items={[
+    "Alcanzar una valoración general de 80 para desbloquear insignias secundarias",
+    "Completar todos los ejercicios de práctica del equipo para aumentos de atributos",
+    "Desbloquear al menos tres insignias de nivel oro en tu categoría principal",
+    "Ganar cinco partidos de emparejamiento en línea para asegurar moneda de bonificación"
+  ]}
+/>
+
+| Hito | Nivel Objetivo | Recompensa Desbloqueada | Dificultad |
+| :--- | :--- | :--- | :--- |
+| Exhibición de Novatos | Nivel 10 | Ranura de insignia de bronce | Fácil |
+| Estatus de Titular | Nivel 25 | Creador de tiro personalizado | Media |
+| Nivel All-Star | Nivel 50 | Habilidad de Takeover secundaria | Difícil |
+| Salón de la Fama | Nivel 90 | Ruptura del límite de atributos | Muy Difícil |
+
+<Callout type="info" title="Consejo de Progresión">
+Prioriza las sesiones de práctica del equipo entre partidos. Estos ejercicios ofrecen progreso garantizado en insignias y son mucho más fáciles de completar que los partidos multijugador en línea.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategias de juego y configuración de insignias">
+
+Tener éxito en la cancha requiere más que solo atributos altos. Debes entender el posicionamiento, el tiempo de tiro y cómo utilizar tus insignias de manera efectiva durante el juego competitivo.
+
+| Nombre de Insignia | Categoría | Efecto Principal | Nivel Recomendado |
+| :--- | :--- | :--- | :--- |
+| Alcance Ilimitado | Tiro | Extiende la distancia de tiro efectiva | Plata |
+| Primer Paso Rápido | Creación de Juego | Aumenta la aceleración tras amagos | Oro |
+| Ancla | Defensa | Mejora la protección del aro y los punteos | Plata |
+| Posterizador | Finalización | Aumenta la tasa de éxito de mates con contacto | Oro |
+
+Concéntrate en jugar una defensa inteligente manteniendo a tu jugador entre el manejador del balón y la canasta. Evita intentar robos constantemente, ya que esto provoca faltas y deja a tu jugador fuera de posición, dándole al oponente un camino fácil hacia la canasta.
+
+<Callout type="tip" title="Consejo de Defensa">
+Usa el gatillo de movimiento lateral para mantenerte frente a los bases rápidos. Mantener el botón de esprint constantemente hará que tu jugador rote en exceso y deje carriles abiertos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Resolución de problemas y preguntas frecuentes">
+
+Revisa estas preguntas comunes para resolver problemas durante la creación del personaje y las fases tempranas de progresión.
+
+<FAQ items={[
+  {
+    question: "¿Puedo restablecer mis puntos de atributo después de finalizar mi configuración?",
+    answer: "No, las asignaciones de puntos de atributo son permanentes una vez finalizadas. Debes crear una nueva ranura de personaje si deseas distribuir los puntos de manera diferente."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de ganar moneda de mejora para mi configuración?",
+    answer: "Completar los desafíos diarios de patrocinadores y jugar partidos de carrera en dificultad alta otorga la mayor cantidad de moneda de mejora por hora."
+  },
+  {
+    question: "¿Cómo afecta la envergadura al tiro de mi jugador en esta guía para principiantes de Build-A-Bucket?",
+    answer: "Una envergadura más larga reduce tu límite máximo de triple pero aumenta tu alcance defensivo y la efectividad del punteo de tiros. Las envergaduras más cortas maximizan los atributos de tiro."
+  },
+  {
+    question: "¿Por qué no puedo equipar ciertas animaciones de regate?",
+    answer: "Las animaciones están bloqueadas tras requisitos específicos de atributos. Consulta la tienda de animaciones para ver la valoración exacta de Manejo de balón o Velocidad con balón requerida."
+  }
+]} />
+
+<Callout type="info" title="Nota Final">
+Verifica dos veces todos los umbrales de atributos antes de confirmar tu configuración. Un solo punto mal colocado puede impedirte desbloquear animaciones de élite más adelante en tu carrera.
+</Callout>
+
+</Section>

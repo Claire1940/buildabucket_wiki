@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build a Bucket: Build com Roda Fraca - Recuperação e Otimização de Classificação",
+  description: "Aprenda a gerenciar uma build com roda fraca no Build a Bucket. Domine a seleção de jogadores da NBA, recupere-se de giros ruins e otimize sua classificação 99 OVR em 2026.",
+  category: "Builds",
+  image: "https://placehold.co/800x400/111c2e/f8fafc?text=Weak+Wheel+Build+Guide",
+  date: "2026-07-17",
+  author: "Equipe Wiki do Build a Bucket",
+  keywords: "Build a Bucket, roda fraca, NBA, 99 OVR, simulador de basquete, estratégia, otimização de classificação"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build com Roda Fraca no Build a Bucket**: Uma estratégia focada em se recuperar de giros de jogadores da NBA de baixo nível durante uma partida.
+- **Mecânica Central**: Gire a roda, selecione um atributo do jogador e preencha todos os nove slots para uma simulação de temporada.
+- **Plano de Recuperação**: Atribua jogadores fracos a categorias de baixo impacto, como Mid-range (Média distância), para preservar slots de elite para Passing (Passe) e Threes (Bolas de Três).
+- **Objetivo 99 OVR**: Guardar especialistas para suas forças principais é a única maneira de alcançar a classificação geral máxima.
+- **Modo Sandbox**: Use este modo para testar sinergias de atributos sem a pressão dos resultados aleatórios da roda.
+</Callout>
+
+<Section icon={Map} title="Dominando as Mecânicas do Build a Bucket">
+
+Build-A-Bucket é uma simulação de basquete baseada em navegador que desafia você a construir a estrela definitiva da NBA. Ao contrário dos jogos esportivos tradicionais, você não escolhe simplesmente uma superestrela; você deve \"construir\" uma extraindo habilidades específicas de uma roda aleatória de jogadores. O desafio reside na **build com roda fraca**, onde uma sequência de jogadores medianos ou de banco ameaça baixar sua classificação geral final (OVR).
+
+**Destaques do Vídeo:**
+- Entendendo as nove categorias principais de habilidades.
+- Como priorizar especialistas de elite sobre superestrelas genéricas.
+- Tomada de decisão em tempo real quando a roda produz resultados inesperados.
+- Um passo a passo completo de uma tentativa bem-sucedida de 99 OVR.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="Consigo criar um 99 OVR no Build a Bucket?" />
+
+Para ter sucesso, você deve preencher nove slots distintos: Finishing (Finalização), Mid-range (Média distância), Threes (Bolas de Três), Passing (Passe), Ball Handling (Controle de Bola), Rebounding (Rebote), Post D (Defesa de Garrafão), Perimeter D (Defesa de Perímetro) e Athleticism (Atletismo). Cada jogador produzido pela roda só pode ser atribuído a uma categoria. Uma vez atribuído, esse jogador é bloqueado e você deve passar para o próximo giro. Isso cria um ambiente de alto risco onde um momento de \"roda fraca\" pode forçá-lo a fazer uma concessão que afeta toda a simulação da temporada.
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre identifique suas categorias de \"descarte\" cedo. Se você não estiver construindo um especialista defensivo, esteja preparado para usar um giro mais fraco para Post D ou Rebounding para salvar seus slots ofensivos para pontuadores de alto impacto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gerenciando uma Build com Roda Fraca no Build a Bucket">
+
+A parte mais frustrante de uma rodada é encontrar uma \"roda fraca\" — uma série de giros onde os jogadores oferecidos não correspondem às suas necessidades atuais. Uma **build com roda fraca no Build a Bucket** requer uma estratégia de recuperação disciplinada para garantir que o produto final permaneça competitivo no simulador de temporada.
+
+| Aspecto da Build | Estratégia de Recuperação | Prioridade |
+| :--- | :--- | :--- |
+| **Pontuador Fraco** | Atribuir a Mid-range ou Athleticism | Baixa |
+| **Pivô Baixo** | Usar para Perimeter D em vez de Post D | Média |
+| **Não-Arremessador** | Colocar em Finishing ou Rebounding | Alta |
+| **Armador Ruim** | Alocar em Ball Handling se Passing estiver cheio | Média |
+
+Quando a roda lhe dá um jogador como um especialista defensivo quando você precisa de um arremessador de 3 pontos, não force o encaixe. Em vez disso, olhe para os seus slots vazios restantes. Se você ainda tiver \"Athleticism\" ou \"Mid-range\" abertos, essas são excelentes categorias de \"depósito\" para jogadores que não se destacam nos atributos primários de Nível S, como Passing ou Threes.
+
+<Callout type="warning" title="Aviso Crítico">
+Nunca deixe Passing ou Perimeter Defense para o seu último giro. Essas categorias são difíceis de preencher com jogadores medianos e podem arruinar sozinhas uma tentativa de 90+ OVR se o giro final for um especialista ofensivo fraco.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Modelos de Build para 2026">
+
+Para evitar as armadilhas de uma build desorganizada, siga um destes modelos estabelecidos. Essas estruturas ajudam você a categorizar os resultados da roda e fornecem um roteiro de quais atributos priorizar.
+
+<CardGrid cols={3}>
+  <Card title="Build Completa (All-Around)">
+    - **Primário**: Passing, Finishing, Perimeter D
+    - **Objetivo**: Um jogador versátil nos dois lados da quadra
+    - **Dificuldade**: Média
+    - **Recuperação**: Use Mid-range para giros fracos
+  </Card>
+  <Card title="Build Focada em Pontuação">
+    - **Primário**: Threes, Finishing, Ball Handling
+    - **Objetivo**: Motor ofensivo de elite
+    - **Dificuldade**: Fácil
+    - **Recuperação**: Sacrifique Post D/Rebounding
+  </Card>
+  <Card title="Âncora Defensiva">
+    - **Primário**: Post D, Rebounding, Athleticism
+    - **Objetivo**: Protetor de aro e bloqueador
+    - **Dificuldade**: Média
+    - **Recuperação**: Use Threes para giros fracos
+  </Card>
+</CardGrid>
+
+Cada modelo serve a um papel específico na simulação da temporada. Uma build Completa é a mais segura para iniciantes, pois pode sobreviver a alguns giros ruins sem colapsar. No entanto, uma build Focada em Pontuação frequentemente rende os destaques mais \"divertidos\", desde que você consiga garantir um arremessador de elite como Stephen Curry ou Julian Champagnie para a categoria Threes.
+
+<Callout type="success" title="Sucesso da Estratégia">
+No meta de 2026, \"Passing\" surgiu como a estatística mais influente para o sucesso na simulação da temporada. Até mesmo uma build com pontuação média pode chegar aos playoffs se a nota de Passing for A ou superior.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Otimização Passo a Passo para 99 OVR">
+
+Alcançar um 99 OVR é o objetivo final no Build-A-Bucket. Requer um gerenciamento perfeito de categorias e um pouco de sorte com a roda. Siga estes passos para maximizar seu potencial de classificação.
+
+<Steps>
+  <Step num="1" title="Memorize os Especialistas">
+    Saiba quais jogadores fornecem notas A+ para categorias específicas. Por exemplo, reserve Victor Wembanyama para Post D e Nikola Jokic para Passing ou Rebounding.
+  </Step>
+  <Step num="2" title="Os Primeiros Cinco Giros">
+    Durante a primeira metade da rodada, foque em garantir pelo menos uma categoria ofensiva de elite (Threes ou Finishing) e uma categoria defensiva de elite (Perimeter D ou Post D).
+  </Step>
+  <Step num="3" title="Identifique o Elo Mais Fraco">
+    No sexto giro, olhe para sua nota projetada mais baixa. Use sua próxima estrela flexível (como Giannis ou KD) para \"reparar\" essa categoria em vez de melhorar uma que já está forte.
+  </Step>
+  <Step num="4" title="Gerenciamento do Slot Final">
+    Deixe a categoria mais \"flexível\" para o último giro. Geralmente, Athleticism ou Mid-range podem aceitar uma variedade maior de jogadores sem derrubar o OVR.
+  </Step>
+</Steps>
+
+| Atributo | Escolha de Elite (Stats 2026) | Nota Alvo |
+| :--- | :--- | :--- |
+| **Finishing** | Mikal Bridges (86.3% Área Restrita) | A+ |
+| **Threes** | Julian Champagnie (61 Bolas de 3) | A |
+| **Passing** | Nikola Jokic (9.5 Assistências) | A+ |
+| **Post D** | Victor Wembanyama (3.5 Tocos) | A+ |
+| **Perimeter D** | Tari Eason (2.5 Roubos) | A |
+
+<Callout type="info" title="Lógica da Classificação">
+O OVR não é uma média simples. Fraquezas extremas (notas D ou F) têm um impacto negativo desproporcional na classificação final. É melhor ter todos B's do que oito A's e um F.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List de Atributos e Prioridade de Seleção">
+
+Nem todos os atributos são criados iguais. No motor de simulação atual de 2026, algumas habilidades carregam mais peso na determinação tanto do OVR quanto do desempenho do jogador na temporada simulada.
+
+### Nível S: Principais Motores da Build
+Estes são inegociáveis. Se você falhar em conseguir um jogador de nível A nestes slots, sua build terá dificuldades.
+- **Passing**: Conecta o ataque; vital para altos totais de assistências na temporada.
+- **Finishing**: Garante pontuação de alta eficiência; a base de qualquer build de \"Bucket\".
+- **Perimeter D**: Impede que a simulação penalize você contra times focados em armadores.
+
+### Nível A: Especialistas de Alto Valor
+Estes definem a identidade específica do seu jogador.
+- **Threes**: Essencial para o espaçamento moderno e jogos de alta pontuação.
+- **Post D**: Crítico para proteção de aro; combina perfeitamente com Athleticism.
+- **Rebounding**: Gera posses extras; Jokic é o padrão ouro aqui.
+
+### Nível B: Alocação Flexível
+Estas são as categorias onde você pode se dar ao luxo de absorver um resultado de \"roda fraca\".
+- **Mid-range**: Útil, mas frequentemente redundante se Finishing e Threes forem de elite.
+- **Athleticism**: Uma estatística de \"ligação\" que suporta outras categorias, mas raramente carrega uma build sozinha.
+
+<Checklist
+  id="build-milestones"
+  title="Checklist de Sucesso da Rodada:"
+  items={[
+    "Garantir um armador de Nível S (Jokic/Haliburton)",
+    "Evitar qualquer nota abaixo de C-",
+    "Corresponder pelo menos 3 jogadores aos seus marcos dos playoffs de 2026",
+    "Completar uma simulação de temporada com um recorde de vitórias",
+    "Alcançar pelo menos 92 OVR em uma rodada padrão da roda"
+  ]}
+/>
+
+<Callout type="tip" title="Teste no Sandbox">
+Use o Modo Sandbox para inserir seus resultados de \"roda fraca\". Ao ajustar manualmente as classificações, você pode ver exatamente o quanto um C+ em Passing prejudica você em comparação com um C+ em Mid-range.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Perguntas Frequentes do Build a Bucket">
+
+<FAQ items={[
+  {
+    question: "Como conserto uma build com roda fraca no meio da rodada?",
+    answer: "Identifique suas categorias de menor prioridade (geralmente Mid-range ou Athleticism) e use-as para 'descarregar' os jogadores fracos. Isso mantém seus slots de alto valor, como Passing e Threes, abertos para potenciais superestrelas no final da rodada."
+  },
+  {
+    question: "Posso obter um 99 OVR com um jogador médio da NBA?",
+    answer: "Não. Um 99 OVR exige especialistas de elite em quase todas as categorias. No entanto, você pode alcançar um 95+ OVR com alguns jogadores médios se os equilibrar com especialistas A+ nas categorias de Nível S."
+  },
+  {
+    question: "Qual jogador é o melhor para uma tentativa de 99 OVR?",
+    answer: "Nikola Jokic é indiscutivelmente o resultado mais valioso da roda porque ele fornece notas de elite em Passing, Rebounding e Finishing, permitindo que você preencha qualquer um desses slots que esteja mais fraco no momento."
+  },
+  {
+    question: "O simulador de temporada se importa com a defesa?",
+    answer: "Sim. Builds com alto Perimeter D e Post D veem consistentemente melhor sucesso de equipe e prêmios defensivos na simulação, mesmo que sua pontuação seja apenas média."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+A chave para o Build-A-Bucket não é apenas sorte — é gerenciamento de risco. Cada giro é uma aposta, mas seguindo as estratégias de recuperação para uma roda fraca, você pode transformar um conjunto medíocre de jogadores em uma estrela candidata aos playoffs.
+</Callout>
+
+</Section>

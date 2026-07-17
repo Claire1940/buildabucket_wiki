@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "guide": "Guía",
+    "builds": "Builds",
+    "skills": "Habilidades",
+    "wheel": "Ruleta",
+    "players": "Jugadores",
+    "ratings": "Valoraciones",
+    "simulation": "Simulación"
+  }
+}

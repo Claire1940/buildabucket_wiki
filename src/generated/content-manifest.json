@@ -1,1 +1,444 @@
-{}
+{
+  "en": {
+    "builds": [
+      {
+        "slug": "build-a-bucket-all-around-build",
+        "file": "build-a-bucket-all-around-build"
+      },
+      {
+        "slug": "build-a-bucket-best-builds",
+        "file": "build-a-bucket-best-builds"
+      },
+      {
+        "slug": "build-a-bucket-defensive-build",
+        "file": "build-a-bucket-defensive-build"
+      },
+      {
+        "slug": "build-a-bucket-interior-build",
+        "file": "build-a-bucket-interior-build"
+      },
+      {
+        "slug": "build-a-bucket-playmaking-build",
+        "file": "build-a-bucket-playmaking-build"
+      },
+      {
+        "slug": "build-a-bucket-scoring-build",
+        "file": "build-a-bucket-scoring-build"
+      },
+      {
+        "slug": "build-a-bucket-weak-wheel-build",
+        "file": "build-a-bucket-weak-wheel-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-bucket-beginner-guide",
+        "file": "build-a-bucket-beginner-guide"
+      },
+      {
+        "slug": "build-a-bucket-common-mistakes",
+        "file": "build-a-bucket-common-mistakes"
+      },
+      {
+        "slug": "build-a-bucket-first-build-strategy",
+        "file": "build-a-bucket-first-build-strategy"
+      },
+      {
+        "slug": "build-a-bucket-game-modes",
+        "file": "build-a-bucket-game-modes"
+      },
+      {
+        "slug": "build-a-bucket-game-rules",
+        "file": "build-a-bucket-game-rules"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-bucket-best-players",
+        "file": "build-a-bucket-best-players"
+      },
+      {
+        "slug": "build-a-bucket-legend-players",
+        "file": "build-a-bucket-legend-players"
+      },
+      {
+        "slug": "build-a-bucket-nba-player-pool",
+        "file": "build-a-bucket-nba-player-pool"
+      },
+      {
+        "slug": "build-a-bucket-player-list",
+        "file": "build-a-bucket-player-list"
+      },
+      {
+        "slug": "build-a-bucket-tier-list",
+        "file": "build-a-bucket-tier-list"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "build-a-bucket-99-ovr",
+        "file": "build-a-bucket-99-ovr"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-calculator",
+        "file": "build-a-bucket-overall-rating-calculator"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-formula",
+        "file": "build-a-bucket-overall-rating-formula"
+      },
+      {
+        "slug": "build-a-bucket-rating-breakdown",
+        "file": "build-a-bucket-rating-breakdown"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "build-a-bucket-championship-odds",
+        "file": "build-a-bucket-championship-odds"
+      },
+      {
+        "slug": "build-a-bucket-playoff-performance",
+        "file": "build-a-bucket-playoff-performance"
+      },
+      {
+        "slug": "build-a-bucket-season-results",
+        "file": "build-a-bucket-season-results"
+      },
+      {
+        "slug": "build-a-bucket-season-simulator",
+        "file": "build-a-bucket-season-simulator"
+      },
+      {
+        "slug": "build-a-bucket-season-stats",
+        "file": "build-a-bucket-season-stats"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-bucket-athleticism-skill",
+        "file": "build-a-bucket-athleticism-skill"
+      },
+      {
+        "slug": "build-a-bucket-best-skills",
+        "file": "build-a-bucket-best-skills"
+      },
+      {
+        "slug": "build-a-bucket-defense-skill",
+        "file": "build-a-bucket-defense-skill"
+      },
+      {
+        "slug": "build-a-bucket-finishing-skill",
+        "file": "build-a-bucket-finishing-skill"
+      },
+      {
+        "slug": "build-a-bucket-playmaking-skill",
+        "file": "build-a-bucket-playmaking-skill"
+      },
+      {
+        "slug": "build-a-bucket-rebounding-skill",
+        "file": "build-a-bucket-rebounding-skill"
+      },
+      {
+        "slug": "build-a-bucket-shooting-skill",
+        "file": "build-a-bucket-shooting-skill"
+      }
+    ],
+    "wheel": [
+      {
+        "slug": "build-a-bucket-best-wheel-picks",
+        "file": "build-a-bucket-best-wheel-picks"
+      },
+      {
+        "slug": "build-a-bucket-nba-player-wheel",
+        "file": "build-a-bucket-nba-player-wheel"
+      },
+      {
+        "slug": "build-a-bucket-random-player-challenge",
+        "file": "build-a-bucket-random-player-challenge"
+      },
+      {
+        "slug": "build-a-bucket-wheel-spin-strategy",
+        "file": "build-a-bucket-wheel-spin-strategy"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "build-a-bucket-all-around-build",
+        "file": "build-a-bucket-all-around-build"
+      },
+      {
+        "slug": "build-a-bucket-best-builds",
+        "file": "build-a-bucket-best-builds"
+      },
+      {
+        "slug": "build-a-bucket-defensive-build",
+        "file": "build-a-bucket-defensive-build"
+      },
+      {
+        "slug": "build-a-bucket-interior-build",
+        "file": "build-a-bucket-interior-build"
+      },
+      {
+        "slug": "build-a-bucket-scoring-build",
+        "file": "build-a-bucket-scoring-build"
+      },
+      {
+        "slug": "build-a-bucket-weak-wheel-build",
+        "file": "build-a-bucket-weak-wheel-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-bucket-beginner-guide",
+        "file": "build-a-bucket-beginner-guide"
+      },
+      {
+        "slug": "build-a-bucket-common-mistakes",
+        "file": "build-a-bucket-common-mistakes"
+      },
+      {
+        "slug": "build-a-bucket-first-build-strategy",
+        "file": "build-a-bucket-first-build-strategy"
+      },
+      {
+        "slug": "build-a-bucket-game-modes",
+        "file": "build-a-bucket-game-modes"
+      },
+      {
+        "slug": "build-a-bucket-game-rules",
+        "file": "build-a-bucket-game-rules"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-bucket-nba-player-pool",
+        "file": "build-a-bucket-nba-player-pool"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "build-a-bucket-99-ovr",
+        "file": "build-a-bucket-99-ovr"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-calculator",
+        "file": "build-a-bucket-overall-rating-calculator"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-formula",
+        "file": "build-a-bucket-overall-rating-formula"
+      },
+      {
+        "slug": "build-a-bucket-rating-breakdown",
+        "file": "build-a-bucket-rating-breakdown"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "build-a-bucket-championship-odds",
+        "file": "build-a-bucket-championship-odds"
+      },
+      {
+        "slug": "build-a-bucket-playoff-performance",
+        "file": "build-a-bucket-playoff-performance"
+      },
+      {
+        "slug": "build-a-bucket-season-results",
+        "file": "build-a-bucket-season-results"
+      },
+      {
+        "slug": "build-a-bucket-season-simulator",
+        "file": "build-a-bucket-season-simulator"
+      },
+      {
+        "slug": "build-a-bucket-season-stats",
+        "file": "build-a-bucket-season-stats"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-bucket-athleticism-skill",
+        "file": "build-a-bucket-athleticism-skill"
+      },
+      {
+        "slug": "build-a-bucket-best-skills",
+        "file": "build-a-bucket-best-skills"
+      },
+      {
+        "slug": "build-a-bucket-defense-skill",
+        "file": "build-a-bucket-defense-skill"
+      },
+      {
+        "slug": "build-a-bucket-finishing-skill",
+        "file": "build-a-bucket-finishing-skill"
+      },
+      {
+        "slug": "build-a-bucket-playmaking-skill",
+        "file": "build-a-bucket-playmaking-skill"
+      },
+      {
+        "slug": "build-a-bucket-rebounding-skill",
+        "file": "build-a-bucket-rebounding-skill"
+      },
+      {
+        "slug": "build-a-bucket-shooting-skill",
+        "file": "build-a-bucket-shooting-skill"
+      }
+    ],
+    "wheel": [
+      {
+        "slug": "build-a-bucket-best-wheel-picks",
+        "file": "build-a-bucket-best-wheel-picks"
+      },
+      {
+        "slug": "build-a-bucket-nba-player-wheel",
+        "file": "build-a-bucket-nba-player-wheel"
+      },
+      {
+        "slug": "build-a-bucket-random-player-challenge",
+        "file": "build-a-bucket-random-player-challenge"
+      },
+      {
+        "slug": "build-a-bucket-wheel-spin-strategy",
+        "file": "build-a-bucket-wheel-spin-strategy"
+      }
+    ]
+  },
+  "pt": {
+    "builds": [
+      {
+        "slug": "build-a-bucket-all-around-build",
+        "file": "build-a-bucket-all-around-build"
+      },
+      {
+        "slug": "build-a-bucket-best-builds",
+        "file": "build-a-bucket-best-builds"
+      },
+      {
+        "slug": "build-a-bucket-defensive-build",
+        "file": "build-a-bucket-defensive-build"
+      },
+      {
+        "slug": "build-a-bucket-interior-build",
+        "file": "build-a-bucket-interior-build"
+      },
+      {
+        "slug": "build-a-bucket-playmaking-build",
+        "file": "build-a-bucket-playmaking-build"
+      },
+      {
+        "slug": "build-a-bucket-scoring-build",
+        "file": "build-a-bucket-scoring-build"
+      },
+      {
+        "slug": "build-a-bucket-weak-wheel-build",
+        "file": "build-a-bucket-weak-wheel-build"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-bucket-beginner-guide",
+        "file": "build-a-bucket-beginner-guide"
+      },
+      {
+        "slug": "build-a-bucket-common-mistakes",
+        "file": "build-a-bucket-common-mistakes"
+      },
+      {
+        "slug": "build-a-bucket-first-build-strategy",
+        "file": "build-a-bucket-first-build-strategy"
+      },
+      {
+        "slug": "build-a-bucket-game-modes",
+        "file": "build-a-bucket-game-modes"
+      },
+      {
+        "slug": "build-a-bucket-game-rules",
+        "file": "build-a-bucket-game-rules"
+      }
+    ],
+    "ratings": [
+      {
+        "slug": "build-a-bucket-99-ovr",
+        "file": "build-a-bucket-99-ovr"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-calculator",
+        "file": "build-a-bucket-overall-rating-calculator"
+      },
+      {
+        "slug": "build-a-bucket-overall-rating-formula",
+        "file": "build-a-bucket-overall-rating-formula"
+      }
+    ],
+    "simulation": [
+      {
+        "slug": "build-a-bucket-championship-odds",
+        "file": "build-a-bucket-championship-odds"
+      },
+      {
+        "slug": "build-a-bucket-playoff-performance",
+        "file": "build-a-bucket-playoff-performance"
+      },
+      {
+        "slug": "build-a-bucket-season-results",
+        "file": "build-a-bucket-season-results"
+      },
+      {
+        "slug": "build-a-bucket-season-simulator",
+        "file": "build-a-bucket-season-simulator"
+      },
+      {
+        "slug": "build-a-bucket-season-stats",
+        "file": "build-a-bucket-season-stats"
+      }
+    ],
+    "skills": [
+      {
+        "slug": "build-a-bucket-best-skills",
+        "file": "build-a-bucket-best-skills"
+      },
+      {
+        "slug": "build-a-bucket-defense-skill",
+        "file": "build-a-bucket-defense-skill"
+      },
+      {
+        "slug": "build-a-bucket-finishing-skill",
+        "file": "build-a-bucket-finishing-skill"
+      },
+      {
+        "slug": "build-a-bucket-playmaking-skill",
+        "file": "build-a-bucket-playmaking-skill"
+      },
+      {
+        "slug": "build-a-bucket-rebounding-skill",
+        "file": "build-a-bucket-rebounding-skill"
+      },
+      {
+        "slug": "build-a-bucket-shooting-skill",
+        "file": "build-a-bucket-shooting-skill"
+      }
+    ],
+    "wheel": [
+      {
+        "slug": "build-a-bucket-best-wheel-picks",
+        "file": "build-a-bucket-best-wheel-picks"
+      },
+      {
+        "slug": "build-a-bucket-nba-player-wheel",
+        "file": "build-a-bucket-nba-player-wheel"
+      },
+      {
+        "slug": "build-a-bucket-random-player-challenge",
+        "file": "build-a-bucket-random-player-challenge"
+      },
+      {
+        "slug": "build-a-bucket-wheel-spin-strategy",
+        "file": "build-a-bucket-wheel-spin-strategy"
+      }
+    ]
+  }
+}

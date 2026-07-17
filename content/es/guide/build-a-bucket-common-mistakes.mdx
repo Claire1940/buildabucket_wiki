@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Errores comunes al construir un filtro de cubeta: Guía de configuración y consejos de mantenimiento",
+  description: "Aprende a evitar los errores comunes al construir un filtro de cubeta. Nuestra guía de 2026 cubre la preparación de materiales, selección de cubetas y ensamblaje para filtración de agua DIY.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Build+a+Bucket+Mistakes",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de build a bucket"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **errores comunes al construir un filtro de cubeta** a menudo se deben a un lavado inadecuado de los materiales filtrantes y al uso de materiales que no son de grado alimentario.
+- **Impuesto del agua**: Lava siempre previamente el carbón, la arena y la grava para evitar un resultado limoso y no apto para el consumo.
+- **Elección de materiales**: Utiliza únicamente cubetas de HDPE (Polietileno de Alta Densidad) para evitar la lixiviación de productos químicos.
+- **Orden de las capas**: Una filtración correcta requiere una secuencia específica, desde la grava gruesa hasta el carbón activado fino.
+- **Redundancia**: Combina siempre este sistema con un filtro secundario de fibra hueca para una máxima seguridad.
+</Callout>
+
+<Section icon={Map} title="Selección de materiales: Evitando el primer obstáculo">
+
+La base de un sistema de filtración DIY exitoso radica en la calidad de sus componentes. Uno de los **errores comunes al construir un filtro de cubeta** más frecuentes es asumir que cualquier contenedor de plástico es suficiente. En realidad, usar cubetas que previamente contuvieron productos derivados del petróleo, pintura o sustancias químicas industriales puede contaminar el agua de manera irreversible. El polietileno de alta densidad (HDPE) es el estándar de la industria para la seguridad y durabilidad.
+
+**Puntos clave del video:**
+- Identificación de cubetas de grado alimentario libres de BPA frente a cubetas de pintura industrial.
+- Herramientas esenciales: Taladros, brocas de pala (de 5/8" a 3/4") y cintas métricas.
+- Por qué los sistemas alimentados por gravedad son superiores para la preparación ante desastres con bajo consumo de energía.
+- Introducción al concepto del "Impuesto del agua" para la preparación de los materiales filtrantes.
+
+<YouTubeEmbed videoId="QSJsK3Y5r2s" title="Cómo construir un filtro de cubeta: Preparación para desastres en el hogar" />
+
+Al seleccionar los materiales filtrantes, la precisión es clave. Usar arena para juegos infantiles en lugar de arena de sílice para piscinas n.º 20 es un error crítico. La arena para piscinas está clasificada específicamente para la filtración, mientras que la arena para juegos infantiles a menudo contiene materia orgánica y limo que obstruirá el sistema o dará como resultado agua turbia.
+
+| Material | Tipo recomendado | Por qué es importante |
+| :--- | :--- | :--- |
+| **Cubetas** | HDPE Grado Alimentario | Evita la lixiviación de sustancias químicas en el agua |
+| **Arena** | Arena de sílice para piscinas n.º 20 | Tamaño de grano uniforme para un flujo óptimo |
+| **Carbón** | Carbón activado granulado | Mayor superficie para la eliminación de toxinas |
+| **Grava** | Grava de guisante de 1/4" a 3/8" | Proporciona soporte estructural para las capas |
+| **Bolsas** | Bolsas de filtración de 250 micras (Brew Bags) | Retiene los materiales filtrantes mientras permite un alto flujo |
+
+<Callout type="warning" title="Contaminación química">
+Nunca reutilices cubetas que hayan contenido anticongelante, aceite o alcoholes minerales. Incluso una limpieza profunda no puede eliminar los productos químicos que se han filtrado en los poros del plástico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="El impuesto del agua: Errores en la preparación de materiales">
+
+El "Impuesto del agua" es un término utilizado para describir los recursos (tiempo y agua) necesarios para poner en funcionamiento un sistema de filtración. No pagar este impuesto por adelantado es uno de los **errores comunes al construir un filtro de cubeta** más frustrantes. Si no lavas previamente los materiales, los primeros 20 a 50 galones de agua producidos estarán llenos de polvo de carbón negro y limo fino.
+
+El prelavado debe realizarse en un área bien ventilada. El carbón activado, en particular, produce un polvo fino que no debe inhalarse. El uso de bolsas de filtración (brew bags) facilita significativamente este proceso, ya que permiten agitar el material bajo una manguera sin perder el material filtrante.
+
+| Tipo de material | Dificultad de lavado | Señales de finalización |
+| :--- | :--- | :--- |
+| **Carbón activado** | Alta | El agua sale limpia y sin polvo negro |
+| **Arena para piscinas** | Media | Sin limo visible ni "turbidez" |
+| **Roca para acuarios** | Baja | Eliminación de la suciedad y el polvo superficial |
+| **Grava de guisante** | Media | No quedan restos de tierra ni residuos orgánicos |
+
+<Steps>
+  <Step num="1" title="Enjuague inicial">
+    Coloca el material filtrante en una bolsa de filtración de 250 micras y rocíalo con una manguera de jardín hasta que el flujo inicial espeso salga claro.
+  </Step>
+  <Step num="2" title="Agitación">
+    Gira y agita suavemente la bolsa. Esto mueve las partículas internas hacia la superficie, asegurando que todos los granos se enjuaguen.
+  </Step>
+  <Step num="3" title="Comprobación de sedimentos">
+    Coloca las bolsas sobre una lámina de plástico limpia al sol. Si ves acumulaciones de limo debajo de la bolsa, continúa enjuagando.
+  </Step>
+  <Step num="4" title="Secado solar">
+    Deja que el material se seque por completo al sol. Los rayos UV proporcionan una capa adicional de esterilización antes del ensamblaje.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de agitación">
+No golpees las bolsas contra el suelo cuando estén mojadas. El peso adicional del agua puede romper fácilmente las costuras de las bolsas de filtración.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Errores en la construcción y el ensamblaje">
+
+El ensamblaje requiere más que simplemente apilar cubetas. Un error común es perforar los agujeros demasiado abajo en el depósito de agua limpia. Debes apuntar a aproximadamente 2 pulgadas por encima del fondo interior. Esto permite que cualquier microsedimento que pase por alto el filtro se asiente en el fondo en lugar de ser extraído a través del grifo.
+
+Otro error estructural involucra los recortes de las tapas. Debes mantener una parte suficiente del borde de la tapa para soportar el peso de las cubetas superiores. Una cubeta de 5 galones completamente cargada con arena y grava mojadas es increíblemente pesada; si la tapa falla, toda la pila puede colapsar, causando contaminación cruzada.
+
+| Componente | Ubicación | Requisito crítico |
+| :--- | :--- | :--- |
+| **Grifo** | A 2" del fondo | Debe incluir una arandela de compresión de goma |
+| **Recorte de tapa** | Centro de 5" a 6" | Debe dejar suficiente borde para el soporte estructural |
+| **Agujeros de drenaje** | Fondo de la cubeta | Serie de 3 o 4 agujeros para evitar obstrucciones |
+| **Malla filtrante** | Sobre los agujeros de drenaje | Evita que las bolsas de filtración sobresalgan a través de los agujeros |
+
+<CardGrid cols={2}>
+  <Card title="La cubeta de sedimentación">
+    Usa una cubeta sin alterar para dejar reposar el agua cruda durante 12-24 horas. Esto elimina los sedimentos pesados antes de que toquen los materiales filtrantes.
+  </Card>
+  <Card title="La etapa de cerámica">
+    Opcional pero recomendado. Añadir filtros de domo de cerámica en la etapa final atrapa las bacterias que la arena y el carbón podrían pasar por alto.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Prevención de fugas">
+Aprieta primero la tuerca del grifo a mano, luego usa una llave para dar un cuarto de vuelta final. Apretar demasiado puede agrietar la pared de la cubeta o deformar la arandela.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mantenimiento del sistema y almacenamiento a largo plazo">
+
+Un filtro es tan bueno como su programa de mantenimiento. Muchos usuarios cometen el error de dejar el sistema mojado cuando no está en uso. Esto crea un caldo de cultivo para el moho y las bacterias. Después de su uso, se deben retirar los materiales, esparcirlos sobre plástico y secarlos completamente al sol.
+
+La esterilización por rayos UV del sol es una herramienta gratuita y poderosa. Una vez secos, guarda los materiales en bolsas nuevas y selladas dentro de las cubetas para mantener alejados a las arañas, el polvo y la humedad.
+
+| Tarea de mantenimiento | Frecuencia | Propósito |
+| :--- | :--- | :--- |
+| **Lavado de materiales** | Cada 100 galones | Elimina el limo acumulado de las capas |
+| **Prueba de carbón** | Mensual/Según sea necesario | Usa colorante alimentario para comprobar la absorción |
+| **Secado solar** | Después de cada uso | Previene el crecimiento de bacterias y moho |
+| **Limpieza del grifo** | Semanal | Garantiza que no haya contaminación externa en la salida |
+
+<Checklist
+  id="storage-prep"
+  title="Lista de verificación de almacenamiento post-uso:"
+  items={[
+    "Vacía toda el agua del depósito y de las cubetas de sedimentación",
+    "Esparce la arena y la grava sobre una barrera de vapor a la luz solar directa",
+    "Enjuaga las bolsas de filtración y comprueba si hay roturas en las costuras",
+    "Sella los materiales completamente secos en bolsas resistentes de contratista antes de colocarlos en las cubetas",
+    "Guarda toda la pila en un garaje o sótano fresco y seco"
+  ]}
+/>
+
+<Callout type="warning" title="Vida útil del carbón">
+El carbón activado tiene una capacidad limitada para productos químicos orgánicos. Si añades colorante alimentario en la parte superior y sale teñido por la parte inferior, tu carbón está "agotado" y debe ser reemplazado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Resolución de problemas y preguntas frecuentes">
+
+En una situación donde "no se puede fallar", comprender los límites de tu construcción es vital. Este sistema está diseñado para fuentes de agua dulce y no desalinizará el agua salada. Además, aunque elimina sedimentos y muchas toxinas, siempre es más seguro utilizar una forma secundaria de tratamiento, como hervir o un filtro de fibra hueca de alta calidad (como un Sawyer o LifeStraw).
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar este filtro para agua de piscina?",
+    answer: "Sí, pero primero debes verter el agua de un contenedor a otro varias veces para permitir que el cloro se evapore. El carbón activado ayudará luego a eliminar los productos químicos restantes."
+  },
+  {
+    question: "¿Cuánto tiempo duran los materiales filtrantes?",
+    answer: "Con agua de sedimentación prefiltrada, la arena y la grava pueden durar indefinidamente si se lavan. El carbón activado normalmente necesita reemplazo después de 200 a 500 galones, dependiendo de la calidad del agua."
+  },
+  {
+    question: "¿Cuál es la razón más común para un flujo lento?",
+    answer: "Por lo general, se debe a una bolsa de filtración 'abultada' que obstruye los agujeros de drenaje. Asegúrate de colocar una rejilla rígida de acero inoxidable o una malla para ventanas en el fondo de la cubeta antes de añadir las bolsas de material."
+  },
+  {
+    question: "¿Es esta agua 100% segura para beber?",
+    answer: "Aunque es altamente eficaz, siempre recomendamos un tratamiento secundario como UV, hervido o un filtro de 0,1 micras para garantizar la eliminación de todos los patógenos."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Siempre que sea posible, construye dos sistemas. La redundancia es la clave para la supervivencia, y tener materiales filtrantes de repuesto garantiza que nunca te quedes sin agua limpia durante una emergencia a largo plazo.
+</Callout>
+
+</Section>

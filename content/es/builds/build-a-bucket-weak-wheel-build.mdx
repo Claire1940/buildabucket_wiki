@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build a Bucket con Ruleta Débil: Recuperación y Optimización de Valoración",
+  description: "Aprende a gestionar una build con ruleta débil en Build a Bucket. Domina la selección de jugadores de la NBA, recupérate de malas tiradas y optimiza tu valoración de 99 OVR en 2026.",
+  category: "Builds",
+  image: "https://placehold.co/800x400/111c2e/f8fafc?text=Weak+Wheel+Build+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Build a Bucket con Ruleta Débil**: Una estrategia enfocada en recuperarse de tiradas de jugadores de la NBA de bajo nivel durante una partida.
+- **Mecánica Principal**: Gira la ruleta, selecciona un atributo del jugador y completa las nueve casillas para una simulación de temporada.
+- **Plan de Recuperación**: Asigna jugadores débiles a categorías de bajo impacto como Media Distancia para preservar las casillas de élite para Pase y Triples.
+- **Objetivo de 99 OVR**: Guardar a los especialistas para sus fortalezas principales es la única forma de alcanzar la valoración general máxima.
+- **Modo Sandbox**: Usa este modo para probar las sinergias de atributos sin la presión de los resultados aleatorios de la ruleta.
+</Callout>
+
+<Section icon={Map} title="Dominando las Mecánicas de Build-A-Bucket">
+
+Build-A-Bucket es una simulación de baloncesto basada en navegador que te desafía a construir a la estrella definitiva de la NBA. A diferencia de los juegos deportivos tradicionales, no te limitas a elegir a una superestrella; debes "construir" una extrayendo habilidades específicas de una ruleta aleatoria de jugadores. El desafío radica en la **build con ruleta débil de build a bucket**, donde una secuencia de jugadores promedio o de nivel de banquillo amenaza con reducir tu valoración general (OVR) final.
+
+**Puntos Clave del Vídeo:**
+- Entender las nueve categorías de habilidades principales.
+- Cómo priorizar a los especialistas de élite sobre las superestrellas generales.
+- Toma de decisiones en tiempo real cuando la ruleta produce resultados inesperados.
+- Un recorrido completo de un intento exitoso de 99 OVR.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo Crear un 99 OVR en Build a Bucket?" />
+
+Para tener éxito, debes completar nueve casillas distintas: Tiro Cercano (Finishing), Media Distancia (Mid-range), Triples (Threes), Pase (Passing), Manejo de Balón (Ball Handling), Rebotes (Rebounding), Defensa en el Poste (Post D), Defensa Perimetral (Perimeter D) y Atletismo (Athleticism). Cada jugador producido por la ruleta solo puede asignarse a una categoría. Una vez asignado, ese jugador queda bloqueado y debes pasar al siguiente giro. Esto crea un entorno de alta tensión donde un solo momento de "ruleta débil" puede obligarte a hacer una concesión que afectará a toda la simulación de la temporada.
+
+<Callout type="tip" title="Consejo de Profesional">
+Identifica siempre tus categorías de "descarte" desde el principio. Si no estás construyendo un especialista defensivo, prepárate para usar una tirada más débil en Defensa en el Poste o Rebotes para salvar tus casillas ofensivas para anotadores de alto impacto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gestionando una Build con Ruleta Débil en Build a Bucket">
+
+La parte más frustrante de una partida es encontrarse con una "ruleta débil": una serie de giros donde los jugadores ofrecidos no coinciden con tus necesidades actuales. Una **build con ruleta débil de build a bucket** requiere una estrategia de recuperación disciplinada para garantizar que el producto final siga siendo competitivo en el simulador de temporada.
+
+| Aspecto de la Build | Estrategia de Recuperación | Prioridad |
+| :--- | :--- | :--- |
+| **Anotador Débil** | Asignar a Media Distancia o Atletismo | Baja |
+| **Pívot de Estatura Baja** | Usar para Defensa Perimetral en lugar de Defensa en el Poste | Media |
+| **No Tirador** | Colocar en Tiro Cercano o Rebotes | Alta |
+| **Creador de Juego Débil** | Asignar a Manejo de Balón si Pase está lleno | Media |
+
+Cuando la ruleta te da un jugador como un especialista defensivo cuando necesitas un tirador de 3 puntos, no fuerces la situación. En su lugar, mira tus casillas vacías restantes. Si todavía tienes abiertas "Atletismo" o "Media Distancia", estas son excelentes categorías de "desagüe" para jugadores que no destacan en los atributos principales de nivel S (S-Tier) como Pase o Triples.
+
+<Callout type="warning" title="Advertencia Crítica">
+Nunca dejes Pase o Defensa Perimetral para tu último giro. Estas categorías son difíciles de completar con jugadores promedio y pueden arruinar por sí solas un intento de más de 90 OVR si el giro final resulta ser un especialista ofensivo débil.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las Mejores Plantillas de Build para 2026">
+
+Para evitar los peligros de una build desorganizada, sigue una de estas plantillas establecidas. Estas estructuras te ayudan a categorizar los resultados de la ruleta y proporcionan una hoja de ruta sobre qué atributos priorizar.
+
+<CardGrid cols={3}>
+  <Card title="Build Equilibrada (All-Around)">
+    - **Primarios**: Pase, Tiro Cercano, Defensa Perimetral
+    - **Objetivo**: Un jugador versátil en ambos lados de la cancha
+    - **Dificultad**: Media
+    - **Recuperación**: Usa Media Distancia para tiradas débiles
+  </Card>
+  <Card title="Build de Anotador Puro">
+    - **Primarios**: Triples, Tiro Cercano, Manejo de Balón
+    - **Objetivo**: Motor ofensivo de élite
+    - **Dificultad**: Fácil
+    - **Recuperación**: Sacrifica Defensa en el Poste/Rebotes
+  </Card>
+  <Card title="Ancla Defensiva">
+    - **Primarios**: Defensa en el Poste, Rebotes, Atletismo
+    - **Objetivo**: Protector de la pintura y taponador
+    - **Dificultad**: Media
+    - **Recuperación**: Usa Triples para tiradas débiles
+  </Card>
+</CardGrid>
+
+Cada plantilla cumple un papel específico en la simulación de la temporada. Una build equilibrada (All-Around) es la más segura para principiantes, ya que puede sobrevivir a algunas malas tiradas sin desmoronarse. Sin embargo, una build de anotador puro a menudo genera las jugadas más divertidas, siempre que puedas asegurar a un tirador de élite como Stephen Curry o Julian Champagnie para la categoría de Triples.
+
+<Callout type="success" title="Estrategia Exitosa">
+En el meta de 2026, el "Pase" ha surgido como la estadística más influyente para el éxito en la simulación de la temporada. Incluso una build con una anotación promedio puede llegar a los playoffs si la calificación de Pase es A o superior.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimización Paso a Paso para 99 OVR">
+
+Lograr un 99 OVR es el objetivo definitivo en Build-A-Bucket. Requiere una gestión perfecta de las categorías y un poco de suerte con la ruleta. Sigue estos pasos para maximizar tu potencial de valoración.
+
+<Steps>
+  <Step num="1" title="Memoriza a los Especialistas">
+    Sabe qué jugadores proporcionan calificaciones de A+ para categorías específicas. Por ejemplo, reserva a Victor Wembanyama para Defensa en el Poste y a Nikola Jokic para Pase o Rebotes.
+  </Step>
+  <Step num="2" title="Las Primeras Cinco Tiradas">
+    Durante la primera mitad de la partida, concéntrate en asegurar al menos una categoría ofensiva de élite (Triples o Tiro Cercano) y una categoría defensiva de élite (Defensa Perimetral o Defensa en el Poste).
+  </Step>
+  <Step num="3" title="Identifica el Eslabón más Débil">
+    Para la sexta tirada, observa tu calificación proyectada más baja. Usa tu próxima estrella flexible (como Giannis o KD) para "reparar" esa categoría en lugar de mejorar una que ya es fuerte.
+  </Step>
+  <Step num="4" title="Gestión de la Casilla Final">
+    Deja la categoría más "flexible" para la última tirada. Por lo general, Atletismo o Media Distancia pueden aceptar una variedad más amplia de jugadores sin hundir tu OVR.
+  </Step>
+</Steps>
+
+| Atributo | Elección de Élite (Estadísticas de 2026) | Calificación Objetivo |
+| :--- | :--- | :--- |
+| **Tiro Cercano (Finishing)** | Mikal Bridges (86.3% en Zona Restringida) | A+ |
+| **Triples (Threes)** | Julian Champagnie (61 Triples Anotados) | A |
+| **Pase (Passing)** | Nikola Jokic (9.5 Asistencias) | A+ |
+| **Defensa en el Poste (Post D)** | Victor Wembanyama (3.5 Tapones) | A+ |
+| **Defensa Perimetral (Perimeter D)** | Tari Eason (2.5 Robos) | A |
+
+<Callout type="info" title="Lógica de Valoración">
+El OVR no es un promedio simple. Las debilidades extremas (calificaciones de D o F) tienen un impacto negativo desproporcionado en la valoración final. Es mejor tener todo en B que tener ocho calificaciones de A y una F.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tier List de Atributos y Prioridad de Selección">
+
+No todos los atributos son iguales. En el motor de simulación actual de 2026, algunas habilidades tienen más peso a la hora de determinar tanto el OVR como el rendimiento del jugador en la temporada simulada.
+
+### S-Tier: Motores Principales de la Build
+Estos son los no negociables. Si no consigues un jugador de rango A en estas casillas, tu build tendrá problemas.
+- **Pase (Passing)**: Conecta la ofensiva; vital para lograr altos totales de asistencias en la temporada.
+- **Tiro Cercano (Finishing)**: Garantiza una anotación de alta eficiencia; la base de cualquier build de anotador ("Bucket").
+- **Defensa Perimetral (Perimeter D)**: Evita que la simulación te penalice contra equipos con muchos bases/escoltas.
+
+### A-Tier: Especialistas de Alto Valor
+Estos definen la identidad específica de tu jugador.
+- **Triples (Threes)**: Esenciales para el espaciado moderno y partidos de alta anotación.
+- **Defensa en el Poste (Post D)**: Crítica para la protección del aro; combina perfectamente con Atletismo.
+- **Rebotes (Rebounding)**: Genera posesiones extra; Jokic es el estándar de oro aquí.
+
+### B-Tier: Asignación Flexible
+Estas son las categorías en las que puedes permitirte absorber el resultado de una "ruleta débil".
+- **Media Distancia (Mid-range)**: Útil, pero a menudo redundante si Tiro Cercano y Triples son de élite.
+- **Atletismo (Athleticism)**: Una estadística de "unión" que respalda otras categorías pero rara vez sostiene una build por sí sola.
+
+<Checklist
+  id="build-milestones"
+  title="Lista de Verificación de Éxito de la Partida:"
+  items={[
+    "Asegurar un creador de juego de nivel S-Tier (Jokic/Haliburton)",
+    "Evitar cualquier calificación inferior a C-",
+    "Hacer coincidir al menos a 3 jugadores con sus referencias de los playoffs de 2026",
+    "Completar una simulación de temporada con un récord ganador",
+    "Alcanzar al menos 92 OVR en una partida estándar con ruleta"
+  ]}
+/>
+
+<Callout type="tip" title="Pruebas en Sandbox">
+Usa el Modo Sandbox para introducir los resultados de tu "ruleta débil". Al ajustar manualmente las valoraciones, puedes ver exactamente cuánto te perjudica un C+ en Pase en comparación con un C+ en Media Distancia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes de Build a Bucket">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono una build con ruleta débil en Build a Bucket a mitad de partida?",
+    answer: "Identifica tus categorías de menor prioridad (generalmente Media Distancia o Atletismo) y úsalas para 'desechar' a los jugadores débiles. Esto mantiene abiertas tus casillas de alto valor como Pase y Triples para posibles superestrellas que aparezcan al final de la partida."
+  },
+  {
+    question: "¿Puedo obtener un 99 OVR con un jugador promedio de la NBA?",
+    answer: "No. Un 99 OVR requiere especialistas de élite en casi todas las categorías. Sin embargo, puedes alcanzar un OVR de 95+ con algunos jugadores promedio si los equilibras con especialistas A+ en las categorías S-Tier."
+  },
+  {
+    question: "¿Qué jugador es el mejor para un intento de 99 OVR?",
+    answer: "Nikola Jokic es posiblemente el resultado de la ruleta más valioso porque ofrece calificaciones de élite en Pase, Rebotes y Tiro Cercano, lo que te permite completar la casilla que tengas más débil en ese momento."
+  },
+  {
+    question: "¿Le importa la defensa al simulador de temporada?",
+    answer: "Sí. Las builds con alta Defensa Perimetral y Defensa en el Poste obtienen consistentemente un mejor éxito de equipo y premios defensivos en la simulación, incluso si su anotación es solo promedio."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+La clave en Build-A-Bucket no es solo la suerte, sino la gestión de riesgos. Cada giro es una apuesta, pero al seguir las estrategias de recuperación para una ruleta débil, puedes convertir un conjunto mediocre de jugadores en una estrella contendiente a los playoffs.
+</Callout>
+
+</Section>

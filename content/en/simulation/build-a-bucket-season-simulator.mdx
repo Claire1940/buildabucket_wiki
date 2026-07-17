@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Bucket Season Simulator: 2026 Career Mode Walkthrough",
+  description: "Master the build a bucket season simulator with our comprehensive guide on archetypes, stat distribution, and simulation strategies for 2026.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+Simulator+Guide",
+  date: "2026-07-17",
+  author: "build a bucket Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Build a bucket season simulator**: A robust tool for testing player builds across an entire 82-game professional schedule.
+- **Archetype selection**: Choosing the right base determines your maximum attribute caps and badge potential.
+- **Sim Speed**: Adjust simulation frequency to balance between deep tactical control and rapid progression.
+- **Stat Priority**: Focus on physical attributes early in the season to prevent late-game fatigue and injuries.
+- **Badge Synergy**: Combine complementary badges to trigger massive performance boosts during clutch moments.
+</Callout>
+
+<Section icon={Map} title="Introduction to the Build a Bucket Season Simulator">
+
+The **build a bucket season simulator** has emerged as the premier environment for basketball enthusiasts to test their custom player creations in a high-stakes, data-driven environment. Unlike standard exhibition modes, the season simulator accounts for long-term factors such as player fatigue, chemistry development, and statistical variance over a grueling 82-game calendar. Whether you are looking to create the next legendary sharpshooter or a defensive powerhouse, understanding the simulation engine is the first step toward dominance.
+
+In the 2026 update, the engine has been refined to better reflect "clutch" performance and individual player impact on team win-loss ratios. This means that a poorly optimized build might put up impressive individual numbers but fail to lead a team to the playoffs. To succeed, you must balance individual scoring prowess with team-oriented playstyles.
+
+| Simulation Mode | Description | Best For |
+| :--- | :--- | :--- |
+| **Quick Sim** | Simulates games in seconds with basic stat outputs | Rapidly testing badge progression |
+| **Play-by-Play** | View live text updates and intervene in the 4th quarter | Tactical testing and clutch builds |
+| **Full Career** | Includes off-season training and draft mechanics | Long-term progression and legacy building |
+| **Tournament** | Shortened bracket-style simulation | Testing high-pressure performance |
+
+<Callout type="info" title="Engine Update">
+The 2026 simulation engine now prioritizes "Per 36 Minutes" efficiency over raw totals, making rotation management more critical than ever before.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Archetype Selection and Attribute Caps">
+
+Before entering the **build a bucket season simulator**, you must define your player's archetype. This choice serves as the foundation for your entire career, setting the "ceiling" for every attribute from three-point shooting to lateral quickness. In the current meta, hybrid builds that can contribute in at least two major categories are outperforming specialized "pure" builds in simulation win percentages.
+
+<CardGrid cols={3}>
+  <Card title="The Floor General">
+    - **High Playmaking & IQ**
+    - Boosts teammate shooting percentages
+    - Best for high-assist simulations
+  </Card>
+  <Card title="The Wing Menace">
+    - **Elite Defense & Athleticism**
+    - Shuts down opposing star players
+    - High impact on team defensive rating
+  </Card>
+  <Card title="The Stretch Big">
+    - **Shooting & Rebounding**
+    - Spaces the floor for slashers
+    - Essential for modern sim offenses
+  </Card>
+</CardGrid>
+
+When distributing your initial attribute points, it is tempting to max out scoring immediately. However, the simulator heavily penalizes players with low stamina and durability. A player who scores 40 points in the first game but lacks stamina will see a massive dip in shooting percentages by game five of the simulation.
+
+| Attribute Group | Primary Stats | Sim Impact |
+| :--- | :--- | :--- |
+| **Scoring** | Mid-range, 3PT, Driving Layup | Determines raw PPG output |
+| **Physicals** | Stamina, Speed, Strength | Affects consistency and injury risk |
+| **Defense** | Perimeter D, Steal, Block | Drives team defensive efficiency |
+| **Mental** | Offensive IQ, Draw Foul | Influences efficiency in clutch time |
+
+<Callout type="tip" title="Pro Tip">
+Always allocate at least 75 points to Stamina before focusing on offensive categories. This ensures your player maintains their attribute ratings throughout the simulated fourth quarters.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Simulation Setup">
+
+Setting up your first run in the **build a bucket season simulator** requires careful attention to detail. Skipping the preparation phase often leads to skewed data that doesn't accurately represent your build's potential. Follow these steps to ensure a clean and productive simulation run.
+
+<Steps>
+  <Step num="1" title="Build Configuration">
+    Enter the creation suite and input your height, weight, and wingspan. Remember that longer wingspans improve defensive stats but slightly lower your shooting consistency in the simulation engine.
+  </Step>
+  <Step num="2" title="Team Selection">
+    Choose a team that complements your build. A "Slasher" archetype will struggle on a team with poor spacing, while a "Playmaker" needs shooters to maximize assist opportunities.
+  </Step>
+  <Step num="3" title="Rotation Adjustment">
+    Access the "Minutes" menu. To get the most accurate data on your player, ensure they are set for at least 32 minutes per game. Check the "Usage Rate" slider to ensure your player is a primary option.
+  </Step>
+  <Step num="4" title="Simulation Parameters">
+    Set the simulation speed to "Normal" for the first 10 games. This allows you to monitor box scores and see if your player is taking the types of shots you intended.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Warning">
+Setting the simulation speed to "Instant" for the entire season can sometimes lead to "Sim Variance," where a player's stats are unnaturally high or low due to a lack of tactical adjustments.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression and Badge Management">
+
+As you progress through the **build a bucket season simulator**, your player will earn "Experience Points" (XP) and "Badge Points." Badges are essentially passive abilities that trigger during specific game scenarios. In the 2026 version of the simulator, badges are more influential than raw attribute numbers. A player with an 80-rated three-point shot and the "Limitless Range" badge will often outshoot a player with a 90-rated shot and no badges.
+
+<Checklist
+  id="season-milestones"
+  title="Critical Season Goals:"
+  items={[
+    "Reach 85 Overall before the All-Star Break",
+    "Unlock at least 3 Gold-tier badges",
+    "Maintain a Player Efficiency Rating (PER) above 20.0",
+    "Secure a starting spot within the first 10 simulated games",
+    "Lead the team to a top 4 seed in the conference"
+  ]}
+/>
+
+| Badge Tier | Requirement | Sim Effect |
+| :--- | :--- | :--- |
+| **Bronze** | 70+ Base Attribute | 5% boost to success rate |
+| **Silver** | 80+ Base Attribute | 12% boost to success rate |
+| **Gold** | 90+ Base Attribute | 20% boost; unlocks special animations |
+| **Hall of Fame** | 99 Base Attribute | Maximum consistency; ignores fatigue |
+
+<Callout type="success" title="Success Strategy">
+Focus on "Consistency" badges first. Badges like "Volume Shooter" or "Interceptors" ensure that even on "off" days, your player contributes positively to the simulation's win-loss logic.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Simulation Tactics">
+
+For veterans of the **build a bucket season simulator**, the challenge lies in optimizing for the playoffs. The simulation engine increases difficulty during the post-season, simulating tighter defense and more aggressive coaching adjustments. To survive a seven-game series, your build must have "Counter Attributes."
+
+For example, if your build is a pure shooter, the simulator will eventually "scout" you and put a lockdown defender on you. Having enough "Ball Handling" or "Post-up" ability to score in alternative ways is the difference between a first-round exit and a championship.
+
+| Tactical Adjustment | Effect on Simulation | Recommended Use |
+| :--- | :--- | :--- |
+| **Increase Tempo** | More possessions, higher scoring | High-stamina, fast-break builds |
+| **Focus Defense** | Lowers opponent FG% | Against high-scoring superstar AI |
+| **Crash Glass** | More offensive rebounds | When playing with a Stretch Big |
+| **Iso-Motion** | Increases player usage rate | When your player is the clear #1 option |
+
+<Callout type="tip" title="Strategic Insight">
+Use the "Scouting Report" feature before simulating playoff series. If the opponent has an elite rim protector, adjust your simulation sliders to favor mid-range jumpers over driving layups.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I increase my player's usage rate in the simulator?",
+    answer: "You can increase usage by setting your player as the 'First Option' in the team strategy menu and increasing their minutes. Higher 'Offensive IQ' stats also naturally lead to more touches in the simulation engine."
+  },
+  {
+    question: "Why are my shooting percentages lower in the simulation than in practice?",
+    answer: "The build a bucket season simulator accounts for defender proximity and player fatigue. If your player is tired or being guarded by a 'Lockdown' archetype, their percentages will naturally drop."
+  },
+  {
+    question: "Can I change my archetype mid-season?",
+    answer: "No, the archetype is locked once the season simulation begins. You must start a new simulation if you wish to test a different base build."
+  },
+  {
+    question: "What is the most important physical stat for a simulated season?",
+    answer: "Stamina is arguably the most important. Without high stamina, your player's attributes effectively degrade as the game and the season progress, leading to poor performance."
+  }
+]} />
+
+</Section>

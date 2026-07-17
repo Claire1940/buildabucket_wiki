@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estrategia de giro de rueda en Build-A-Bucket: Reglas del Draft para 99 OVR",
+  description: "Domina la estrategia de giro de rueda en Build-A-Bucket. Aprende a seleccionar jugadores de élite de la NBA, optimizar atributos y simular una temporada de campeonato.",
+  category: "Wheel",
+  image: "https://placehold.co/800x400/111c2e/fff?text=Wheel+Spin+Strategy",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build-A-Bucket"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La estrategia de giro de rueda en Build-A-Bucket** se centra en emparejar especialistas de élite con sus mejores categorías de atributos absolutos.
+- **La preservación de superestrellas** es esencial; reserva estrellas versátiles como Nikola Jokic para cubrir espacios más débiles al final del juego.
+- **Evita rasgos redundantes** distribuyendo las selecciones entre herramientas de ataque, creación, físicas y defensivas.
+- **Protege el nivel mínimo** de tu construcción porque un solo atributo de baja calificación arruinará un intento de 99 OVR.
+</Callout>
+
+<Section icon={Map} title="Estrategia de giro de rueda en Build-A-Bucket: Cómo funciona el Draft">
+
+Desarrollar una **estrategia de giro de rueda en Build-A-Bucket** exitosa es la clave para crear una superestrella de 99 OVR en este nuevo juego de baloncesto gratuito para navegador. A diferencia de los juegos deportivos tradicionales, Build-A-Bucket se basa en una rueda aleatoria de jugadores activos de la NBA. Cada giro te presenta una opción: extraer exactamente un atributo del conjunto de habilidades del mundo real del jugador generado y asignarlo a uno de tus nueve espacios abiertos. Una vez asignado, ese espacio se bloquea y ese jugador no puede usarse para ninguna otra categoría. El desafío radica en gestionar la probabilidad y la asignación de recursos durante nueve giros consecutivos para crear un jugador equilibrado capaz de dominar la temporada simulada.
+
+**Puntos destacados del video:**
+- Planifica tus espacios de atributos con anticipación para asegurar una calificación de 99 OVR.
+- Evita desperdiciar estrellas de élite de múltiples categorías en categorías fáciles de llenar.
+- Aprende cómo el simulador de temporada traduce las calificaciones de los atributos en éxito para el equipo.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un 99 OVR en Build a Bucket?" />
+
+Para construir un jugador impecable, debes comprender los nueve atributos principales. Estos se dividen en habilidades ofensivas, mecánicas de creación, capacidades defensivas y herramientas físicas. Cuando giras la rueda y obtienes una superestrella, tu objetivo inmediato es identificar su habilidad del mundo real de mayor impacto y mapearla en un espacio abierto.
+
+| Atributo | Enfoque Principal | Especialistas Clave |
+| :--- | :--- | :--- |
+| Pases | Creación ofensiva y dirección de juego | Nikola Jokic, Tyrese Haliburton |
+| Finalización | Anotación de alta eficiencia en la pintura | Giannis Antetokounmpo, Mikal Bridges |
+| Triples | Volumen y precisión de tiro perimetral | Stephen Curry, Julian Champagnie |
+| Def. Perimetral | Defensa sobre el balón contra bases y aleros | Jrue Holiday, Tari Eason |
+| Def. en el Poste | Protección del aro y defensa interior | Victor Wembanyama, Rudy Gobert |
+| Rebotes | Control de posesiones en ambos tableros | Nikola Jokic, Domantas Sabonis |
+| Atletismo | Presión en transición y herramientas físicas | Giannis Antetokounmpo, Paolo Banchero |
+| Media Distancia | Creación de tiro de rango intermedio | Kevin Durant, DeMar DeRozan |
+| Manejo de Balón | Dribbling en aislamiento e inicio de jugadas | Kyrie Irving, De'Aaron Fox |
+
+<Callout type="warning" title="Riesgo del Draft">
+Dejar especialidades escasas como Triples o Defensa en el Poste para el último giro es el error más común en el draft. Siempre asegura estas categorías de alta prioridad temprano cuando aparezcan especialistas de élite en la rueda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de Selección de Rueda Paso a Paso">
+
+Ejecutar el draft requiere un enfoque sistemático. No puedes simplemente elegir el nombre más grande en cada giro; debes tratar el tablero de nueve espacios como un rompecabezas vacío donde cada pieza debe encajar perfectamente. Seguir un proceso estructurado paso a paso garantiza que minimices el impacto de la mala suerte y maximices el valor de cada superestrella que aparezca.
+
+<Steps>
+  <Step num="1" title="Elige tu Modo de Juego">
+    Decide si jugar una Partida de Rueda Normal para un desafío aleatorio o usar el Modo Sandbox para probar las calificaciones de los jugadores. El Modo Sandbox es muy recomendable para principiantes para entender cómo jugadores específicos afectan las calificaciones finales de los atributos antes de intentar una partida competitiva.
+  </Step>
+  <Step num="2" title="Establece una Base Equilibrada">
+    En tus primeros tres giros, intenta asegurar al menos un anotador principal, un creador de juego y un defensor. Esto evita que te quedes acorralado con un tiro de élite pero sin resistencia defensiva o creación de juego.
+  </Step>
+  <Step num="3" title="Preserva Estrellas Versátiles">
+    Si obtienes una superestrella de múltiples categorías temprano, no la desperdicies en un espacio fácil de llenar. Por ejemplo, si te sale Nikola Jokic, no lo uses inmediatamente para finalización si tus espacios de Pases o Rebotes aún están vacíos. Guárdalo para el núcleo de la creación de juego.
+  </Step>
+  <Step num="4" title="Ejecuta la Mitigación de Final de Partida">
+    Cuando solo queden tres espacios, deja de buscar fortalezas perfectas. Enfócate completamente en elevar la calificación de tu categoría más débil. Un solo atributo de calificación C bajará tu calificación general final significativamente más de lo que una A+ la subirá.
+  </Step>
+  <Step num="5" title="Ejecuta la Simulación de Temporada">
+    Envía a tu atleta terminado para probar su rendimiento. El simulador ejecutará una temporada completa, rastreando victorias del equipo, estadísticas individuales y resultados de premios de postemporada para mostrar qué tan bien sinergizaron tus atributos seleccionados.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo del Draft">
+Si la rueda te da un jugador mediocre, asígnalo a Media Distancia o Atletismo. Estas categorías tienen menos impacto en la utilidad general de la simulación que los Pases, Triples o la Defensa en el Poste.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Plantillas de Construcción Principales y Objetivos de Atributos">
+
+Dado que cada giro de la rueda es aleatorio, no puedes confiar en seleccionar exactamente a los mismos jugadores en cada partida. En su lugar, debes seguir una plantilla estructural. Estas plantillas definen tus calificaciones objetivo y te ayudan a decidir qué atributos merecen selecciones de élite y cuáles pueden aceptar resultados promedio de manera segura.
+
+<CardGrid cols={3}>
+  <Card title="Construcción Todoterreno">
+    - **Roles Objetivo**: Jugador completo en ambos lados de la cancha
+    - **Atributos Clave**: Finalización, Pases, Def. Perimetral, Triples
+    - **Dificultad**: Media
+    - **Mejor Ajuste**: Rendimiento de simulación equilibrado
+  </Card>
+  <Card title="Construcción de Anotación Primero">
+    - **Roles Objetivo**: Opción ofensiva principal
+    - **Atributos Clave**: Finalización, Media Distancia, Triples, Manejo de Balón
+    - **Dificultad**: Fácil
+    - **Mejor Ajuste**: Máxima producción de puntos individuales
+  </Card>
+  <Card title="Construcción Defensiva">
+    - **Roles Objetivo**: Protector del aro y ganador de posesiones
+    - **Atributos Clave**: Def. Perimetral, Def. en el Poste, Rebotes, Atletismo
+    - **Dificultad**: Media
+    - **Mejor Ajuste**: Dominio de las posesiones y la pintura
+  </Card>
+</CardGrid>
+
+Al hacer coincidir tus giros con uno de estos caminos predefinidos, puedes pivotar fácilmente cuando la rueda te dé opciones inesperadas. Si comienzas con una mentalidad de Anotación Primero pero obtienes jugadores defensivos de élite en tus primeros giros, puedes pasar rápidamente a una plantilla Defensiva o Todoterreno.
+
+| Arquetipo | Dificultad | Atributos Clave | Objetivo Principal |
+| :--- | :--- | :--- | :--- |
+| Todoterreno | Media | Pases, Finalización, Def. Perimetral | Rendimiento de simulación equilibrado |
+| Primero Anotación | Fácil | Finalización, Triples, Manejo de Balón | Máxima producción de puntos individuales |
+| Defensivo | Media | Def. en el Poste, Rebotes, Def. Perimetral | Dominio de posesiones y la pintura |
+| Creación de Juego | Media | Pases, Manejo de Balón, Triples | Crear tiros abiertos para compañeros |
+| Interior | Fácil | Finalización, Rebotes, Def. en el Poste | Controlar el aro en ambos extremos |
+
+<Callout type="success" title="Recomendación del Meta">
+La Construcción Todoterreno logra consistentemente las tasas de victoria más altas en la simulación porque no tiene debilidades evidentes que el motor del simulador pueda explotar durante la postemporada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Niveles del Draft: Mejores Jugadores de la NBA para Cada Categoría">
+
+Para maximizar tus calificaciones, debes apuntar a jugadores que hayan demostrado una producción estadística de élite en enfrentamientos recientes. Utilizando las estadísticas de los playoffs de 2026 como nuestra referencia, hemos identificado a los mejores jugadores absolutos para seleccionar en cada espacio de atributo específico.
+
+| Categoría de Habilidad | Selección Principal | Estadística de Referencia | Opción de Respaldo |
+| :--- | :--- | :--- | :--- |
+| Anotación | Jalen Brunson | 28.4 PPG (Playoffs 2026) | Shai Gilgeous-Alexander |
+| Tiro de Tres Puntos | Julian Champagnie | 61 Triples Anotados (Playoffs 2026) | Devin Vassell |
+| Finalización Interior | Mikal Bridges | 86.3% Área Restringida (Playoffs 2026) | Evan Mobley |
+| Creación de Juego | Nikola Jokic | 9.5 APG (Playoffs 2026) | Scottie Barnes |
+| Rebotes | Nikola Jokic | 13.2 RPG (Playoffs 2026) | Victor Wembanyama |
+| Def. en el Poste | Victor Wembanyama | 3.5 BPG (Playoffs 2026) | Evan Mobley |
+| Def. Perimetral | Tari Eason | 2.5 SPG (Playoffs 2026) | Marcus Smart |
+| Atletismo | Paolo Banchero | 4.3 PPG en Transición (Playoffs 2026) | Kevin Durant |
+
+Al probar estas selecciones en el Modo Sandbox, podemos analizar cómo combinaciones defensivas específicas alteran el rendimiento general del jugador. Acumular atributos defensivos suele producir resultados de simulación muy estables.
+
+| Atributo | Calificación | Impacto en la Simulación |
+| :--- | :--- | :--- |
+| Rebotes | A+ | Domina tableros defensivos, limita segundas oportunidades del rival |
+| Def. en el Poste | A+ | Activa protección de aro de élite, bloquea intentos en la pintura |
+| Def. Perimetral | A+ | Limita anotación de bases rivales, genera altos conteos de robos |
+| Atletismo | B+ | Apoya la transición rápida, mejora la recuperación defensiva |
+
+<Callout type="info" title="Información de Sandbox">
+Las pruebas en Sandbox confirman que acumular atributos defensivos hasta A+ produce totales de victorias de simulación más altos, incluso cuando se combina con un perfil de anotación moderado de nivel B.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Lista de Verificación del Simulador de Campeonato">
+
+Antes de enviar a tu jugador seleccionado al simulador de temporada, revisa esta lista para asegurar que tu construcción esté optimizada para una carrera profunda en los playoffs. Un solo descuido puede resultar en una eliminación temprana en la primera ronda.
+
+<Checklist
+  id="championship-checklist"
+  title="Requisitos Pre-Simulación:"
+  items={[
+    "Asegúrate de que ningún espacio de atributo quede por debajo de una calificación C",
+    "Asegura al menos un creador de juego principal de calificación A (Pases o Manejo de Balón)",
+    "Verifica que tienes un protector de aro de élite (Def. en el Poste) o un especialista sobre el balón (Def. Perimetral)",
+    "Confirma que tu anotador principal tiene al menos una calificación A en Finalización o Triples",
+    "Haz coincidir las herramientas físicas (Atletismo) con tu arquetipo de construcción principal"
+  ]}
+/>
+
+Evaluar tus resultados de simulación es la mejor manera de mejorar. Si tu jugador promedia muchos puntos pero tu equipo no llega a los playoffs, revisa tus calificaciones de Pases y Defensa. En cambio, si tu equipo gana pero tu jugador carece de elogios individuales, enfócate en aumentar tu volumen de anotación en el próximo draft.
+
+<Callout type="tip" title="Regla de Optimización">
+Nunca selecciones a dos jugadores de élite con el mismo estilo de anotación. Si ya tienes a Julian Champagnie para Triples, usa a Jalen Brunson para Pases o Manejo de Balón en lugar de Media Distancia para maximizar la utilidad de tu construcción.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar al mismo jugador para múltiples categorías en una sola partida?",
+    answer: "No. Una vez que un jugador es asignado a un espacio de atributo, queda bloqueado en esa categoría. Ese jugador no puede ser seleccionado para ningún otro espacio durante esa partida de draft."
+  },
+  {
+    question: "¿En qué se diferencia el Modo Sandbox de la partida de rueda normal?",
+    answer: "El Modo Sandbox te permite ajustar manualmente las calificaciones para probar combinaciones, mientras que la partida de rueda normal depende de giros aleatorios de jugadores para construir a tu atleta."
+  },
+  {
+    question: "¿Qué atributo es el más difícil de llenar con una calificación de élite?",
+    answer: "La Defensa Perimetral y los Pases son las especialidades de élite más raras en la rueda, lo que las convierte en objetivos de alta prioridad cuando aparecen."
+  },
+  {
+    question: "¿Una construcción de 99 OVR garantiza un campeonato en la simulación de temporada?",
+    answer: "Aunque un jugador de 99 OVR aumenta significativamente tus posibilidades, la química del equipo, la varianza de la simulación y las plantillas de apoyo aún juegan un papel menor en el resultado final."
+  }
+]} />
+
+<Callout type="success" title="Palabra Final del Draft">
+La consistencia vence a la búsqueda de estrellas. Cíñete a tus plantillas de posición, protege tus atributos más débiles y observa cómo tu jugador personalizado domina la liga.
+</Callout>
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Calculadora de Classificação Geral do Build a Bucket: Guia de Build 99 OVR",
+  description: "Domine a calculadora de classificação geral (overall) do Build a Bucket. Aprenda a alocar atributos, usar o modo Sandbox e garantir uma classificação perfeita de 99 OVR.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/08111f/fb923c?text=Rating+Calculator+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Build a Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Objetivo Principal da Calculadora**: Maximizar os nove atributos principais para alcançar a cobiçada classificação de 99 OVR.
+- **Mecânica Principal**: Atribuir seleções aleatórias da roleta da NBA a slots de atributos específicos, sem duplicatas.
+- **Testes no Sandbox**: Use o Modo Sandbox para experimentar fórmulas de classificação e distribuições de notas livremente.
+- **Estratégia Crítica**: Guarde superestrelas altamente versáteis para corrigir fraquezas de atributos no final da rodada de draft.
+- **Melhor Recurso**: Siga o mapeamento comprovado de jogador para atributo para evitar quedas de classificação.
+</Callout>
+
+<Section icon={Map} title="Entendendo a Calculadora de Classificação Geral do Build a Bucket">
+
+Ao tentar criar a superestrela definitiva da NBA no recém-lançado jogo de navegador, dominar a **calculadora de overall do build a bucket** é a sua chave para o sucesso. Ao contrário das simulações esportivas tradicionais, este jogo desafia você a girar uma roleta aleatória de jogadores da NBA e extrair exatamente um atributo de cada escolha para construir um perfil completo em nove categorias distintas. 
+
+A calculadora de classificação geral não faz apenas uma média simples de suas pontuações; ela pondera cada categoria com base na relevância da posição, sinergia do arquétipo e equilíbrio defensivo. Um único atributo com nota baixa pode reduzir drasticamente sua classificação final, tornando a alocação estratégica mais importante do que simplesmente colecionar nomes famosos. Para alcançar consistentemente níveis de elite como 95 ou 99 OVR, você deve entender como a calculadora avalia as estatísticas individuais dos jogadores e as traduz em notas finais de desempenho.
+
+**Destaques do Vídeo:**
+- Demonstra o processo passo a passo de recrutamento para uma build de 99 OVR.
+- Destaca como reservar especialistas de alto nível para suas categorias principais.
+- Explica os perigos de desperdiçar jogadores versáteis em slots fáceis de preencher.
+- Mostra os resultados finais da simulação da temporada para uma build de jogador de elite.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="Consigo Criar um 99 OVR no Build a Bucket?" />
+
+<Callout type="tip" title="Dica de Profissional">
+Sempre planeje três passos à frente. Antes de atribuir uma superestrela a uma categoria, olhe para os seus slots vazios restantes e avalie se um especialista mais raro é mais necessário nessas posições.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Os Nove Atributos Principais e os Pesos da Calculadora">
+
+A calculadora de overall processa nove categorias de habilidades exclusivas para gerar a nota final do seu jogador. Essas categorias são divididas em ferramentas ofensivas, habilidades de criação, pilares defensivos e características físicas. Para otimizar suas builds, você deve tratar esses atributos como um sistema interconectado.
+
+| Grupo de Atributos | Atributo Principal | Prioridade da Calculadora | Melhor Arquétipo de Jogador |
+|---|---|---|---|
+| Pontuação | Finalização | Alta Prioridade | Atacantes de Aro Atléticos |
+| Pontuação | Meia-distância | Média Prioridade | Especialistas em Pull-up |
+| Pontuação | Bolas de 3 | Alta Prioridade | Arremessadores de Volume em Movimento |
+| Criação | Passe | Alta Prioridade | Armadores Principais de Elite |
+| Criação | Controle de Bola | Alta Prioridade | Jogadores de Isolamento (1v1) |
+| Defesa | Rebote | Média Prioridade | Pivôs de Alto Volume |
+| Defesa | Defesa de Poste | Alta Prioridade | Protetores de Aro Móveis |
+| Defesa | Defesa de Perímetro | Alta Prioridade | Defensores de Perímetro de Elite (Lockdown) |
+| Físico | Atleticismo | Média Prioridade | Jogadores Explosivos Two-Way |
+
+Cada categoria exige uma alocação estratégica. Por exemplo, colocar um arremessador de elite como Stephen Curry em Meia-distância em vez de Bolas de 3 desperdiça um enorme valor na calculadora, já que o slot de três pontos carrega um peso padrão maior para builds orientadas para o perímetro. Por outro lado, negligenciar categorias defensivas como Defesa de Perímetro ou Defesa de Poste acionará uma penalidade na calculadora de overall, limitando seu OVR máximo potencial, independentemente de quão dominantes sejam seus atributos de pontuação.
+
+<Callout type="warning" title="Aviso">
+A calculadora penaliza severamente as builds com uma única nota insuficiente. Um jogador com oito atributos A+ e uma nota F raramente alcançará 99 de OVR. Uma alocação equilibrada é sempre superior à especialização extrema.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Estratégia de Cálculo Passo a Passo para 99 OVR">
+
+Alcançar um 99 de OVR perfeito exige uma abordagem disciplinada a cada giro da roleta. Siga este roteiro estruturado para gerenciar suas escolhas de draft e maximizar sua classificação calculada final.
+
+<Steps>
+  <Step num="1" title="Estabeleça uma Base Equilibrada">
+    Durante os seus primeiros três giros, concentre-se em garantir pelo menos uma categoria de pontuação de elite, uma ferramenta de criação e um pilar defensivo. Isso mantém sua build flexível e evita que você fique encurralado nos giros finais.
+  </Step>
+  <Step num="2" title="Reserve Especialistas Cedo">
+    Se a roleta parar em um especialista histórico, atribua-o à sua categoria de assinatura imediatamente. Use Curry para Bolas de 3, Kyrie Irving para Controle de Bola ou Victor Wembanyama para Defesa de Poste. Não dilua o valor deles colocando-os em slots secundários.
+  </Step>
+  <Step num="3" title="Guarde Superestrelas Versáteis como Garantia">
+    Estrelas multicategoria como Nikola Jokic ou Giannis Antetokounmpo são suas redes de segurança. Mantenha-os disponíveis para slots que se tornem difíceis de preencher no final da rodada. Jokic pode facilmente salvar um slot de Passe ou Rebote que esteja ruim.
+  </Step>
+  <Step num="4" title="Identifique e Corrija os Slots Fracos">
+    Ao chegar aos três slots finais, avalie suas notas projetadas mais baixas. Use suas seleções flexíveis restantes para elevar essas categorias para pelo menos uma nota B. Elevar uma categoria fraca gera um aumento de overall maior do que atualizar um A para um A+.
+  </Step>
+  <Step num="5" title="Verifique e Execute o Simulador">
+    Confirme se todos os nove slots estão preenchidos sem valores sobrepostos. Envie o jogador personalizado concluído para o simulador de temporada para testar como seus atributos calculados se traduzem em produção de quadra e campanhas de campeonato.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Métrica de Sucesso">
+Um recrutamento bem-sucedido não deve resultar em nenhuma nota de atributo inferior a B, com pelo menos cinco atributos atingindo o nível A ou A+. Essa distribuição quase garante um OVR de 95+.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Sandbox: Testando Classificações e Fórmulas Personalizadas">
+
+Para os jogadores que desejam fazer engenharia reversa na **calculadora de overall do build a bucket**, o Modo Sandbox é o laboratório perfeito. Acessível diretamente pelo site oficial [Build-A-Player](https://www.build-a-player.com/bucket), este modo remove a roleta aleatória e permite que você insira manualmente classificações personalizadas para observar como a calculadora se comporta.
+
+Ao experimentar no Modo Sandbox, você pode determinar os limites exatos necessários para acionar notas de letras específicas e classificações gerais. Esses testes revelam que as categorias defensivas e a criação de jogadas influenciam fortemente a garantia de simulações de equipe de elite, enquanto as builds puras de pontuação muitas vezes enfrentam dificuldades se não forem apoiadas por ferramentas físicas.
+
+| Nota Alvo | Valor do Atributo Necessário | Impacto na Calculadora | Configuração Recomendada no Sandbox |
+|---|---|---|---|
+| Nível A+ | 95 - 99 | Aumento Máximo de Classificação | Garanta para Passe, Finalização e Defesa de Poste |
+| Nível A | 90 - 94 | Alto Aumento de Classificação | Foque em Bolas de 3 e Defesa de Perímetro |
+| Nível B | 80 - 89 | Aumento Moderado de Classificação | Aceitável para Meia-distância e Rebote |
+| Nível C | 70 - 79 | Impacto Neutro na Classificação | Limite mínimo para evitar penalidades de classificação |
+
+Usando esses parâmetros de referência, você pode criar builds de controle para isolar variáveis. Por exemplo, tente manter oito atributos idênticos enquanto altera apenas a classificação de Atleticismo de um C para um A+. Você observará uma mudança direta na classificação geral, ajudando a priorizar as decisões futuras da roleta.
+
+<Callout type="info" title="Insight do Sandbox">
+Experimentos da comunidade no Modo Sandbox confirmaram que acumular Rebote A+, Defesa de Poste A+, Defesa de Perímetro A+ e Atleticismo B+ cria uma base defensiva incrivelmente dominante que vence campeonatos de forma consistente no simulador.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Seleções Ideais de Jogadores para Classificações Máximas">
+
+Para ajudar você a tomar decisões em frações de segundo durante um giro real da roleta, compilamos as escolhas de jogadores com as classificações mais altas para cada categoria, com base nos benchmarks dos playoffs reais de 2026. Use esta referência para identificar instantaneamente o slot de maior valor de um jogador.
+
+| Categoria | Escolha Principal | Benchmark dos Playoffs | Escolha Alternativa | Regra de Seleção |
+|---|---|---|---|---|
+| Criação de Jogadas | Nikola Jokic | 9.5 Assistências por Jogo | Scottie Barnes | Selecione Jokic para Passe, a menos que Rebote esteja vazio. |
+| Defesa de Poste | Victor Wembanyama | 3.5 Tocos por Jogo | Evan Mobley | Priorize Wembanyama para uma defesa interna de elite. |
+| Defesa de Perímetro | Tari Eason | 2.5 Roubos de Bola por Jogo | Marcus Smart | Selecione Eason para atrapalhar os condutores de bola no perímetro. |
+| Finalização | Mikal Bridges | 86.3% na Área Restrita | Evan Mobley | Use Bridges para obter o máximo de eficiência no aro. |
+| Bolas de 3 | Julian Champagnie | 61 Cestas de Três Convertidas | Devin Vassell | Escolha Champagnie para suporte de espaçamento de alto volume. |
+| Atleticismo | Paolo Banchero | 4.3 PTS em Contra-ataque por Jogo | Kevin Durant | Selecione Banchero para velocidade em transição e força física. |
+
+Para organizar essas escolhas em uma estratégia coesa, considere seguir um destes arquétipos de build comprovados:
+
+<CardGrid cols={3}>
+  <Card title="Build Completa (All-Around)">
+    - **Foco Principal**: Equilíbrio em todos os setores
+    - **Atributos-Chave**: Finalização, Passe, Defesa de Perímetro
+    - **Dificuldade**: Média
+    - **Potencial de OVR**: 95 - 99
+  </Card>
+  <Card title="Defensor Implacável">
+    - **Foco Principal**: Proteção de garrafão e roubos/turnovers
+    - **Atributos-Chave**: Defesa de Poste, Rebote, Defesa de Perímetro
+    - **Dificuldade**: Fácil
+    - **Potencial de OVR**: 92 - 97
+  </Card>
+  <Card title="Motor Ofensivo">
+    - **Foco Principal**: Alta pontuação e criação de elite
+    - **Atributos-Chave**: Bolas de 3, Passe, Controle de Bola
+    - **Dificuldade**: Difícil
+    - **Potencial de OVR**: 94 - 99
+  </Card>
+</CardGrid>
+
+Antes de enviar sua build para a calculadora, passe por esta lista de verificação de otimização rápida para garantir que você não cometeu nenhum erro crítico de alocação.
+
+<Checklist
+  id="ovr-optimization-checklist"
+  title="Etapas de Otimização para 99 OVR:"
+  items={[
+    "Verifique se nenhum especialista de elite foi desperdiçado em uma categoria secundária.",
+    "Confirme se a nota do seu atributo mais baixo é de pelo menos nível B.",
+    "Certifique-se de equilibrar suas categorias de pontuação com pelo menos um pilar defensivo de elite.",
+    "Verifique novamente se a sua escolha de armador tem benchmarks altos de passe e controle de bola.",
+    "Revise suas características físicas para apoiar a função defensiva primária do seu jogador."
+  ]}
+/>
+
+<Callout type="tip" title="Dica Final de Draft">
+Se a roleta lhe der um grupo de jogadores mais fraco, mude imediatamente para um arquétipo de Defensor Implacável. As builds defensivas toleram muito melhor classificações ofensivas mais baixas na calculadora final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes e Resolução de Problemas">
+
+Para ajudar você a aproveitar ao máximo suas sessões de recrutamento, aqui estão as respostas para as perguntas mais comuns sobre o sistema de classificação e as mecânicas de simulação.
+
+<FAQ items={[
+  {
+    question: "Como a calculadora de overall do build a bucket determina a pontuação final?",
+    answer: "A calculadora usa uma fórmula ponderada baseada nos nove atributos selecionados. Ela prioriza categorias de alto valor como Passe, Finalização e Defesa de Perímetro, enquanto penaliza severamente as builds que deixam qualquer categoria com uma nota insuficiente."
+  },
+  {
+    question: "Consigo obter uma build de 99 OVR sem escolher nenhum atributo defensivo?",
+    answer: "Não. A calculadora de classificação exige equilíbrio defensivo. Negligenciar a Defesa de Poste ou a Defesa de Perímetro resultará em uma penalidade severa, limitando sua classificação geral máxima, mesmo que suas categorias ofensivas estejam totalmente no máximo."
+  },
+  {
+    question: "Qual é a diferença entre uma rodada normal de roleta e o Modo Sandbox?",
+    answer: "Uma rodada normal força você a reagir a giros aleatórios de jogadores e termina com uma simulação de temporada completa. O Modo Sandbox permite que você insira manualmente classificações e notas personalizadas para testar fórmulas e experimentar diferentes combinações de atributos livremente."
+  },
+  {
+    question: "Quais são os melhores jogadores para selecionar para criação de jogadas e passes?",
+    answer: "Nikola Jokic é a principal escolha para criação de jogadas devido aos seus benchmarks de assistência de elite, seguido de perto por criadores versáteis como Scottie Barnes e Tyrese Haliburton."
+  }
+]} />
+
+<Callout type="warning" title="Lembrete Importante">
+Fique de olho nas atualizações oficiais através dos canais sociais do criador. À medida que novos jogadores são adicionados à roleta, os pesos dos atributos e as fórmulas da calculadora podem receber pequenos ajustes para manter o equilíbrio do jogo.
+</Callout>
+
+</Section>

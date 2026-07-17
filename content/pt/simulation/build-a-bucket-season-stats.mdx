@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estatísticas de Temporada do Build a Bucket: Guia de Build e Simulação 2026",
+  description: "Domine as estatísticas de temporada do Build a Bucket com nosso guia de 2026. Aprenda a escolher jogadores da NBA, otimizar atributos para 99 de OVR e dominar o simulador de temporada.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/08111f/f97316?text=Build-A-Bucket+Stats+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki do Build a Bucket"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Estatísticas de Temporada do Build a Bucket**: O desempenho final na simulação é determinado pela eficiência com que você atribui estrelas da NBA a nove categorias específicas de habilidades.
+- **Mecânica Principal**: Gire a roleta, selecione um atributo do jogador exibido e repita até que seu elenco de nove slots esteja completo.
+- **Melhor Estratégia**: Priorize **Passe (Passing)** e **Defesa de Perímetro (Perimeter D)** cedo, pois esses atributos de "ligação" geralmente ditam o sucesso de builds com alta pontuação.
+- **Objetivo 99 de OVR**: Alcance a classificação máxima combinando especialistas de elite (como Stephen Curry para Bolas de Três) com suas principais forças no mundo real.
+- **Modo Sandbox**: Use este recurso para testar combinações específicas de atributos sem a aleatoriedade da roleta.
+</Callout>
+
+<Section icon={Map} title="Dominando as Estatísticas de Temporada do Build a Bucket">
+
+Entender as **estatísticas de temporada do build a bucket** requer um mergulho profundo em como o jogo converte os atributos individuais dos jogadores da NBA em um desempenho simulado. Cada vez que você gira a roleta, não está apenas escolhendo um nome famoso; você está selecionando uma base estatística para seu jogador personalizado. O motor de simulação avalia suas nove escolhas finais — Finalização, Média Distância, Bolas de Três, Passe, Controle de Bola, Rebote, Defesa de Garrafão, Defesa de Perímetro e Atletismo — para determinar seus pontos por jogo (PPG), assistências, rebotes e o sucesso geral da equipe.
+
+**Destaques do Vídeo:**
+- **Seleção de Especialistas**: Por que guardar arremessadores de elite para a categoria de Bolas de Três é melhor do que usá-los para Média Distância.
+- **Otimização de Classificação**: Como evitar a armadilha do "slot fraco" que derruba seu OVR de 99 para 92.
+- **Lógica de Simulação**: Uma análise de como estatísticas defensivas, como tocos e roubos de bola, impactam o histórico de vitórias e derrotas.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="Consigo criar um 99 de OVR no Build a Bucket?" />
+
+Para ter sucesso no meta de 2026, você deve ver cada categoria como um contribuinte para um resultado estatístico específico. Por exemplo, notas altas em **Atletismo** e **Finalização** aumentarão significativamente seus pontos de contra-ataque e a eficiência na área restrita.
+
+| Categoria | Impacto na Estatística Principal | Nível de Prioridade | Melhor Exemplo Real |
+| :--- | :--- | :--- | :--- |
+| **Finalização** | Pontos no Garrafão / FG% | **Alto** | Giannis Antetokounmpo |
+| **Bolas de Três** | 3PM / Espaçamento de Perímetro | **Alto** | Stephen Curry |
+| **Passe** | Assistências / Turnovers | **Crítico** | Nikola Jokic |
+| **Defesa de Perímetro** | Roubos de Bola / FG% do Oponente | **Alto** | Jrue Holiday |
+| **Defesa de Garrafão** | Tocos / Proteção de Aro | **Médio** | Victor Wembanyama |
+
+<Callout type="tip" title="Escolha do Editor">
+Sempre garanta um "Hub de Armação" cedo. Jogadores como Nikola Jokic ou Scottie Barnes fornecem estatísticas de Passe de elite que fazem todas as outras categorias ofensivas renderem de forma mais eficiente durante a simulação da temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Melhores Estratégias de Build para 2026">
+
+Criar um jogador de alto desempenho no Build a Bucket não se trata apenas de números altos; trata-se de sinergia. Se você focar todas as suas escolhas em pontuação, mas ignorar a defesa, sua simulação de temporada pode resultar em um PPG alto, mas em um histórico de derrotas. O simulador de temporada de 2026 recompensa builds equilibradas que podem contribuir em múltiplas fases do jogo.
+
+<CardGrid cols={2}>
+  <Card title="O Astro Completo">
+    - **Foco**: Notas altas em Bolas de Três, Passe e Defesa de Perímetro.
+    - **Força**: Ganha campeonatos consistentemente na simulação.
+    - **Risco**: Mais difícil de chegar a 99 de OVR devido à distribuição equilibrada.
+  </Card>
+  <Card title="A Máquina de Pontuar">
+    - **Foco**: A+ em Finalização, Média Distância e Bolas de Três.
+    - **Força**: PPG alto (30+) e candidato a MVP.
+    - **Risco**: Frequentemente carece de defesa para avançar nos playoffs.
+  </Card>
+  <Card title="A Âncora Defensiva">
+    - **Foco**: Elite em Defesa de Garrafão, Rebote e Atletismo.
+    - **Força**: Domina o garrafão e cria posses extras.
+    - **Risco**: Precisa de pelo menos uma categoria de pontuação B+ para permanecer viável.
+  </Card>
+  <Card title="O Motor de Armação">
+    - **Foco**: Passe e Controle de Bola em níveis A+.
+    - **Força**: Maximiza a eficiência de toda a equipe simulada.
+    - **Risco**: Requer uma escolha forte de Finalização para não ser unidimensional.
+  </Card>
+</CardGrid>
+
+Ao montar seu jogador, compare suas seleções atuais com os benchmarks de 2026. Por exemplo, se você tiver Jalen Brunson disponível, sua especialização em pontuação (28.4 PPG em benchmarks recentes) o torna uma escolha de primeira linha para os slots de Pontuação ou Finalização.
+
+| Função da Build | Atributo Principal 1 | Atributo Principal 2 | OVR Alvo |
+| :--- | :--- | :--- | :--- |
+| **Ala Two-Way** | Defesa de Perímetro | Bolas de Três | 95-99 |
+| **Ala-Armador** | Passe | Finalização | 92-96 |
+| **Pivô que Espaça** | Rebote | Bolas de Três | 90-95 |
+| **Protetor de Aro** | Defesa de Garrafão | Atletismo | 94-98 |
+
+<Callout type="warning" title="Evite Este Erro">
+Não use um astro versátil como Kevin Durant em uma categoria "segura" como Média Distância no início da rodada. Guarde-o para quando a roleta lhe der um especialista fraco, pois Durant pode preencher quase qualquer slot ofensivo com uma nota A ou superior.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Melhores Escolhas de Jogadores e Benchmarks Estatísticos">
+
+A roleta é imprevisível, mas seu conhecimento das estatísticas reais da NBA deve guiar suas decisões. No Build a Bucket, a "melhor" escolha é aquela que preenche uma categoria difícil com um benchmark estatístico de alto nível. Usando dados dos playoffs de 2026 como referência, podemos identificar quais jogadores fornecem o "piso" mais alto para sua build.
+
+| Categoria de Habilidade | Escolha Principal | Estatística de Referência | Por que Escolhê-lo? |
+| :--- | :--- | :--- | :--- |
+| **Passe** | **Nikola Jokic** | 9.5 APG | Maior piso de assistências no jogo. |
+| **Defesa de Garrafão** | **V. Wembanyama** | 3.5 BPG | Estatísticas de proteção de aro inigualáveis. |
+| **Bolas de Três** | **J. Champagnie** | 61 3PM | Arremesso confiável baseado em volume. |
+| **Defesa de Perímetro** | **Tari Eason** | 2.5 SPG | Disrupção de elite para builds de armadores. |
+| **Finalização** | **Mikal Bridges** | 86.3% RA | Eficiência máxima perto do aro. |
+
+<Callout type="success" title="Dica para 99 de OVR">
+Para atingir 99 de OVR, você deve garantir que nenhuma categoria fique abaixo da nota B+. Se a roleta lhe der um especialista defensivo como Marcus Smart, use-o para Defesa de Perímetro (benchmark de 2.4 SPG), mesmo que um nome maior esteja disponível para uma categoria que você já preencheu.
+</Callout>
+
+### Ranking de Prioridade de Atributos
+Nem todos os atributos são criados iguais na simulação. Com base em testes extensivos no Modo Sandbox, veja como você deve priorizar suas escolhas:
+
+1.  **Passe**: O principal impulsionador do rating ofensivo da equipe.
+2.  **Defesa de Perímetro**: Essencial para parar oponentes simulados de alta pontuação.
+3.  **Finalização**: A maneira mais confiável de manter um FG% alto.
+4.  **Bolas de Três**: Necessário para o espaçamento na simulação moderna.
+5.  **Rebote**: Crítico para limitar pontos de segunda chance.
+6.  **Atletismo**: Um "impulsionador" para todas as estatísticas defensivas e de finalização.
+
+</Section>
+
+<Section icon={Sparkles} title="Passo a Passo: Chegando a 99 de OVR">
+
+Alcançar um 99 de OVR no Build a Bucket é o desafio supremo. Requer uma mistura de sorte e gerenciamento perfeito de categorias. Siga esta sequência para maximizar suas chances de criar um jogador lendário.
+
+<Steps>
+  <Step num="1" title="A Base Defensiva">
+    Comece procurando por especialistas de elite em Defesa de Garrafão ou Defesa de Perímetro. É muito mais difícil encontrar um defensor A+ no final da roleta do que encontrar um pontuador decente.
+  </Step>
+  <Step num="2" title="Garanta o Armador">
+    Espere por um jogador com alto índice de assistências. Se Nikola Jokic ou Tyrese Haliburton aparecerem, atribua-os ao Passe imediatamente. Isso estabiliza a eficiência ofensiva do seu jogador.
+  </Step>
+  <Step num="3" title="Preencha os Slots de Especialistas">
+    Use arremessadores puros para Bolas de Três e atacantes de aro puros para Finalização. Evite usar jogadores "completos" aqui se um especialista estiver disponível.
+  </Step>
+  <Step num="4" title="O Reparo Versátil">
+    Nos três giros finais, use estrelas versáteis (como Giannis ou KD) para preencher qualquer slot que tenha a menor nota projetada. Isso "repara" a build e mantém o OVR alto.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lógica de Simulação">
+O simulador executa 82 jogos mais os playoffs. Um jogador de 99 de OVR com estatísticas equilibradas costuma ter médias de 25/8/8 com aproveitamento de 50/40/90. Se seu rebote for baixo (nota C), espere que essas estatísticas caiam para 25/4/8.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Sandbox e Análise de Simulação">
+
+O Modo Sandbox é o seu laboratório. Ele permite que você ignore a roleta e selecione manualmente os jogadores para ver como diferentes combinações de atributos afetam as **estatísticas de temporada do build a bucket**. Use este modo para entender o peso "oculto" de certos atributos.
+
+### Experimentos Essenciais no Sandbox:
+<Checklist
+  id="sandbox-tests"
+  title="Checklist de Testes 2026:"
+  items={[
+    "Teste um pontuador 99 de OVR com defesa nota F vs um jogador completo 90 de OVR.",
+    "Compare Jokic no Passe vs Jokic no Rebote para ver qual afeta mais as vitórias.",
+    "Crie uma fera de garrafão com 'Zero Bolas de Três' para checar se o jogo de média distância pode compensar.",
+    "Combine Atletismo A+ com habilidades nota B- para ver o efeito de 'impulso' em ação."
+  ]}
+/>
+
+### Interpretação dos Resultados da Simulação
+Quando a temporada termina, o jogo fornece um relatório detalhado. Veja como ler esses resultados para melhorar sua próxima tentativa:
+
+| Sinal | Significado | Ajuste Recomendado |
+| :--- | :--- | :--- |
+| **PPG Alto, Poucas Vitórias** | Defesa/Passe Ruim | Priorize Defesa de Perímetro e Passe na próxima vez. |
+| **FG% Baixo, Bolas de Três Altas** | Finalização/Seleção Ruim | Use um finalizador de aro mais eficiente como Mikal Bridges. |
+| **Rebotes Altos, OVR Baixo** | Investimento excessivo em Pivôs | Use seu pivô versátil para Passe ou Média Distância. |
+| **Saída Precoce nos Playoffs** | Falta de Atributos 'Clutch' | Garanta que Bolas de Três e Controle de Bola sejam pelo menos nota A-. |
+
+<Callout type="tip" title="Estratégia Pro">
+No Modo Sandbox, descobrimos que o **Atletismo** funciona como um multiplicador. Uma nota A+ em Atletismo pode fazer uma nota B+ em Finalização render como um A durante a simulação. Nunca se contente com uma pontuação baixa em Atletismo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Perguntas Frequentes do Build a Bucket">
+
+<FAQ items={[
+  {
+    question: "Como as estatísticas de temporada do Build a Bucket são calculadas?",
+    answer: "O jogo usa um algoritmo ponderado que compara suas nove notas de atributos com uma base de referência de toda a liga. As estatísticas ofensivas são impulsionadas por Finalização, Bolas de Três e Passe, enquanto o sucesso defensivo depende de Defesa de Perímetro e Defesa de Garrafão."
+  },
+  {
+    question: "Posso conseguir um 99 de OVR sem um astro como LeBron ou Giannis?",
+    answer: "Sim, mas é difícil. Você precisa escolher especialistas perfeitos para cada slot individual. Por exemplo, usar um arremessador puro para Bolas de Três e um protetor de aro puro para Defesa de Garrafão é mais eficaz do que usar dois astros genéricos nesses mesmos slots."
+  },
+  {
+    question: "O Modo Sandbox afeta meu ranking global?",
+    answer: "Não, o Modo Sandbox é para testes e experimentação. Os rankings globais e as tabelas de classificação de 'Melhor Build' são geralmente reservados para as rodadas aleatórias da roleta."
+  },
+  {
+    question: "Qual atributo é o mais subestimado para ganhar campeonatos?",
+    answer: "A Defesa de Perímetro é frequentemente ignorada. No meta de simulação de 2026, ter uma nota A+ em Defesa de Perímetro reduz significativamente o PPG dos armadores estrelas adversários, levando a mais vitórias da equipe."
+  }
+]} />
+
+</Section>

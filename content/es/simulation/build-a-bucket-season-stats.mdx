@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Estadísticas de Temporada de Build a Bucket: Guía de Simulación y Creación de 2026",
+  description: "Domina las estadísticas de temporada de Build a Bucket con nuestra guía de 2026. Aprende a elegir jugadores de la NBA, optimizar atributos para obtener un GRL de 99 y dominar el simulador de temporada.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/08111f/f97316?text=Build-A-Bucket+Stats+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket",
+  keywords: "Build a Bucket, estadísticas de temporada, simulador de NBA, guía de creación, baloncesto, GRL 99"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Estadísticas de Temporada de Build a Bucket**: El rendimiento final de la simulación se determina por lo bien que asignes a las estrellas de la NBA en nueve categorías de habilidades específicas.
+- **Mecánica Principal**: Gira la ruleta, selecciona un atributo del jugador que aparezca y repite hasta completar tu plantilla de nueve espacios.
+- **Mejor Estrategia**: Prioriza los **Pases** (Passing) y la **Defensa Perimetral** (Perimeter D) desde el principio, ya que estos atributos "de unión" suelen determinar el éxito de las creaciones de alta anotación.
+- **Objetivo GRL 99**: Consigue la valoración máxima asignando especialistas de élite (como Stephen Curry para Triples) a sus principales fortalezas en el mundo real.
+- **Modo Sandbox**: Utiliza esta función para probar combinaciones de atributos específicas sin la aleatoriedad de la ruleta.
+</Callout>
+
+<Section icon={Map} title="Dominando las Estadísticas de Temporada de Build a Bucket">
+
+Comprender las **estadísticas de temporada de Build a Bucket** requiere profundizar en cómo el juego convierte los atributos individuales de los jugadores de la NBA en un rendimiento simulado. Cada vez que giras la ruleta, no solo estás eligiendo un nombre famoso; estás seleccionando una base estadística para tu jugador personalizado. El motor de simulación evalúa tus últimas nueve elecciones (Finalización, Media Distancia, Triples, Pases, Manejo de Balón, Rebotes, Defensa en el Poste, Defensa Perimetral y Atletismo) para determinar tus puntos por partido (PPP), asistencias, rebotes y el éxito general del equipo.
+
+**Puntos Destacados del Video:**
+- **Selección de Especialistas**: Por qué es mejor reservar a los tiradores de élite para la categoría de Triples en lugar de usarlos para la Media Distancia.
+- **Optimización de Valoración**: Cómo evitar la trampa del "espacio débil" que hace caer tu GRL de 99 a 92.
+- **Lógica de Simulación**: Un desglose de cómo las estadísticas defensivas, como los tapones y los robos, afectan al récord de victorias y derrotas.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un jugador con GRL 99 en Build a Bucket?" />
+
+Para tener éxito en el meta de 2026, debes ver cada categoría como un contribuyente a un resultado estadístico específico. Por ejemplo, calificaciones altas en **Atletismo** y **Finalización** aumentarán significativamente tus puntos de contraataque y tu eficiencia en la zona restringida.
+
+| Categoría | Impacto Estadístico Principal | Nivel de Prioridad | Mejor Ejemplo Real |
+| :--- | :--- | :--- | :--- |
+| **Finalización** | Puntos en la Zona / %TC | **Alto** | Giannis Antetokounmpo |
+| **Triples** | T3 Convertidos / Espaciado Perimetral | **Alto** | Stephen Curry |
+| **Pases** | Asistencias / Pérdidas | **Crítico** | Nikola Jokic |
+| **Defensa Perimetral** | Robos / %TC del Rival | **Alto** | Jrue Holiday |
+| **Defensa en el Poste** | Tapones / Protección del Aro | **Medio** | Victor Wembanyama |
+
+<Callout type="tip" title="Elección del Editor">
+Asegura siempre un "Eje de Creación de Juego" desde el principio. Jugadores como Nikola Jokic o Scottie Barnes aportan estadísticas de Pases de élite que hacen que todas las demás categorías ofensivas funcionen de manera más eficiente durante la simulación de la temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Las Mejores Estrategias de Creación para 2026">
+
+Crear un jugador de alto rendimiento en Build a Bucket no se trata solo de tener números altos; se trata de sinergia. Si concentras todas tus selecciones en la anotación pero ignoras la defensa, tu simulación de temporada podría resultar en un promedio alto de PPP pero con un récord perdedor. El simulador de la temporada 2026 recompensa las creaciones equilibradas que pueden contribuir en múltiples fases del juego.
+
+<CardGrid cols={2}>
+  <Card title="La Superestrella Completa">
+    - **Enfoque**: Calificaciones altas en Triples, Pases y Defensa Perimetral.
+    - **Fortaleza**: Gana campeonatos de forma constante en la simulación.
+    - **Riesgo**: Más difícil de alcanzar un GRL de 99 debido a la distribución equilibrada.
+  </Card>
+  <Card title="La Máquina de Anotación">
+    - **Enfoque**: Calificación de A+ en Finalización, Media Distancia y Triples.
+    - **Fortaleza**: Promedio alto de PPP (30+) y candidato al MVP.
+    - **Riesgo**: A menudo carece de la defensa necesaria para llegar lejos en los playoffs.
+  </Card>
+  <Card title="El Ancla Defensiva">
+    - **Enfoque**: Defensa en el Poste, Rebotes y Atletismo de élite.
+    - **Fortaleza**: Domina la zona y crea posesiones adicionales.
+    - **Riesgo**: Necesita al menos una categoría de anotación con calificación B+ para seguir siendo viable.
+  </Card>
+  <Card title="El Motor de Creación de Juego">
+    - **Enfoque**: Pases y Manejo de Balón en niveles A+.
+    - **Fortaleza**: Maximiza la eficiencia de todo el equipo simulado.
+    - **Riesgo**: Requiere una selección sólida en Finalización para evitar ser unidimensional.
+  </Card>
+</CardGrid>
+
+Al crear a tu jugador, compara tus selecciones actuales con los valores de referencia de 2026. Por ejemplo, si tienes disponible a Jalen Brunson, su especialización anotadora (28.4 PPP en las referencias recientes) lo convierte en una opción de primer nivel para los espacios de Anotación o Finalización.
+
+| Rol de Creación | Atributo Clave 1 | Atributo Clave 2 | GRL Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Alero Bidireccional** | Defensa Perimetral | Triples | 95-99 |
+| **Alero Organizador** | Pases | Finalización | 92-96 |
+| **Pívot Tirador** | Rebotes | Triples | 90-95 |
+| **Protector del Aro** | Defensa en el Poste | Atletismo | 94-98 |
+
+<Callout type="warning" title="Evita este Error">
+No utilices a una superestrella versátil como Kevin Durant en una categoría "segura" como Media Distancia al principio de la partida. Resérvalo para cuando la ruleta te dé un especialista débil, ya que Durant puede cubrir casi cualquier espacio ofensivo con una calificación de A o superior.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores Elecciones de Jugadores y Referencias Estadísticas">
+
+La ruleta es impredecible, pero tu conocimiento de las estadísticas reales de la NBA debe guiar tus decisiones. En Build a Bucket, la "mejor" elección es aquella que cubre una categoría difícil con una referencia estadística de primer nivel. Usando los datos de los playoffs de 2026 como referencia, podemos identificar qué jugadores ofrecen el suelo más alto para tu creación.
+
+| Categoría de Habilidad | Elección Principal | Estadística de Referencia | ¿Por qué elegirlo? |
+| :--- | :--- | :--- | :--- |
+| **Pases** | **Nikola Jokic** | 9.5 APP | El suelo de asistencias más alto del juego. |
+| **Defensa en el Poste** | **V. Wembanyama** | 3.5 TPP | Estadísticas de protección del aro inigualables. |
+| **Triples** | **J. Champagnie** | 61 T3C | Tiro fiable basado en volumen. |
+| **Defensa Perimetral** | **Tari Eason** | 2.5 RPP | Interrupción de élite para creaciones de bases/escoltas. |
+| **Finalización** | **Mikal Bridges** | 86.3% ZR | Máxima eficiencia cerca del aro. |
+
+<Callout type="success" title="Consejo para GRL 99">
+Para alcanzar un GRL de 99, debes asegurarse de que ninguna categoría caiga por debajo de una calificación de B+. Si la ruleta te ofrece a un especialista defensivo como Marcus Smart, utilízalo para Defensa Perimetral (referencia de 2.4 RPP) incluso si hay un nombre más importante disponible para una categoría que ya has cubierto.
+</Callout>
+
+### Clasificación de Prioridad de Atributos
+No todos los atributos se crean de la misma manera en la simulación. Basándonos en pruebas exhaustivas en el Modo Sandbox, así es como deberías priorizar tus elecciones:
+
+1.  **Pases**: El factor número uno en la valoración ofensiva del equipo.
+2.  **Defensa Perimetral**: Esencial para detener a los oponentes simulados de alta anotación.
+3.  **Finalización**: La forma más fiable de mantener un %TC alto.
+4.  **Triples**: Necesarios para el espaciado en la simulación moderna.
+5.  **Rebotes**: Críticos para limitar los puntos de segunda oportunidad.
+6.  **Atletismo**: Un "potenciador" para todas las estadísticas defensivas y de finalización.
+
+</Section>
+
+<Section icon={Sparkles} title="Paso a Paso: Cómo llegar a GRL 99">
+
+Alcanzar un GRL de 99 en Build a Bucket es el desafío definitivo. Requiere una mezcla de suerte y una gestión perfecta de las categorías. Sigue esta secuencia para maximizar tus posibilidades de crear un jugador legendario de temporada.
+
+<Steps>
+  <Step num="1" title="La Base Defensiva">
+    Comienza buscando especialistas de élite en Defensa en el Poste o Defensa Perimetral. Es mucho más difícil encontrar un defensor con calificación A+ al final de la ruleta que encontrar un anotador decente.
+  </Step>
+  <Step num="2" title="Asegura al Organizador">
+    Espera a un jugador con un alto promedio de asistencias. Si aparece Nikola Jokic o Tyrese Haliburton, asígnalos a Pases de inmediato. Esto estabiliza la eficiencia ofensiva de tu jugador.
+  </Step>
+  <Step num="3" title="Cubre los Espacios de Especialistas">
+    Usa tiradores puros para Triples y atacantes puros del aro para Finalización. Evita usar jugadores "completos" aquí si hay un especialista disponible.
+  </Step>
+  <Step num="4" title="La Reparación Versátil">
+    En los últimos tres giros, usa estrellas versátiles (como Giannis o KD) para cubrir el espacio que tenga la calificación proyectada más baja. Esto "repara" la creación y mantiene alto el GRL.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Lógica de Simulación">
+El simulador ejecuta 82 partidos más los playoffs. Un jugador de GRL 99 con estadísticas equilibradas suele promediar 25/8/8 con porcentajes de tiro de 50/40/90. Si tu rebote es bajo (calificación C), espera que esas estadísticas bajen a 25/4/8.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Sandbox y Análisis de Simulación">
+
+El Modo Sandbox es tu laboratorio. Te permite saltarte la ruleta y seleccionar manualmente a los jugadores para ver cómo las diferentes combinaciones de atributos afectan a las **estadísticas de temporada de Build a Bucket**. Usa este modo para comprender el peso "oculto" de ciertos atributos.
+
+### Experimentos Esenciales en Sandbox:
+<Checklist
+  id="sandbox-tests"
+  title="Lista de Comprobación de Pruebas de 2026:"
+  items={[
+    "Prueba un anotador con GRL 99 y defensa con calificación F contra un jugador completo con GRL 90.",
+    "Compara a Jokic en Pases contra Jokic en Rebotes para ver cuál influye más en las victorias.",
+    "Crea una bestia interior de 'Cero Triples' para comprobar si el juego de media distancia puede compensarlo.",
+    "Combina Atletismo A+ con habilidades de calificación B para ver el efecto 'potenciador' en acción."
+  ]}
+/>
+
+### Interpretación de los Resultados de la Simulación
+Cuando termina la temporada, el juego proporciona un informe detallado. Así es como debes leer esos resultados para mejorar tu próxima partida:
+
+| Señal | Significado | Ajuste Recomendado |
+| :--- | :--- | :--- |
+| **Muchos PPP, Pocas Victorias** | Defensa/Pases deficientes | Prioriza la Defensa Perimetral y los Pases en la próxima partida. |
+| **Bajo %TC, Muchos Triples** | Finalización/Selección deficientes | Usa un finalizador en el aro más eficiente como Mikal Bridges. |
+| **Muchos Rebotes, Bajo GRL** | Exceso de inversión en hombres altos | Usa a tu pívot versátil para Pases o Media Distancia en su lugar. |
+| **Eliminación Temprana en Playoffs** | Falta de atributos decisivos ('Clutch') | Asegúrate de que los Triples y el Manejo de Balón tengan al menos una calificación de A-. |
+
+<Callout type="tip" title="Estrategia Pro">
+En el Modo Sandbox, descubrimos que el **Atletismo** actúa como un multiplicador. Una calificación de Atletismo A+ puede hacer que una calificación de Finalización B+ rinda como una A durante la simulación. Nunca te conformes con una puntuación baja de Atletismo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de Build a Bucket">
+
+<FAQ items={[
+  {
+    question: "¿Cómo se calculan las estadísticas de temporada de Build a Bucket?",
+    answer: "El juego utiliza un algoritmo ponderado que compara tus nueve calificaciones de atributos con una línea de base de toda la liga. Las estadísticas ofensivas dependen de la Finalización, los Triples y los Pases, mientras que el éxito defensivo depende de la Defensa Perimetral y la Defensa en el Poste."
+  },
+  {
+    question: "¿Puedo obtener un GRL de 99 sin una superestrella como LeBron o Giannis?",
+    answer: "Sí, pero es difícil. Necesitas elegir especialistas perfectos para cada espacio. Por ejemplo, usar un tirador puro para Triples y un protector del aro puro para Defensa en el Poste es más efectivo que usar dos superestrellas generales en esos mismos espacios."
+  },
+  {
+    question: "¿Afecta el Modo Sandbox a mi clasificación global?",
+    answer: "No, el Modo Sandbox es para pruebas y experimentación. Las clasificaciones globales y las tablas de clasificación de 'Mejor Creación' suelen estar reservadas para las partidas con la ruleta aleatoria."
+  },
+  {
+    question: "¿Cuál es el atributo más subestimado para ganar campeonatos?",
+    answer: "La Defensa Perimetral a menudo se pasa por alto. En el meta de simulación de 2026, tener una calificación de Defensa Perimetral de A+ reduce significativamente los PPP de los bases y escoltas estrella rivales, lo que se traduce en más victorias para el equipo."
+  }
+]} />
+
+</Section>

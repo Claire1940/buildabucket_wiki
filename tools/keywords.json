@@ -1,46 +1,75 @@
 {
   "categories": [
     {
-      "category": "Guides",
+      "category": "guide",
       "keywords": [
-        "lucid blocks guide"
+        "build a bucket beginner guide",
+        "build a bucket game rules",
+        "build a bucket first build strategy",
+        "build a bucket game modes",
+        "build a bucket common mistakes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "builds",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "build a bucket best builds",
+        "build a bucket all around build",
+        "build a bucket scoring build",
+        "build a bucket defensive build",
+        "build a bucket playmaking build",
+        "build a bucket interior build",
+        "build a bucket weak wheel build"
       ]
     },
     {
-      "category": "Items",
+      "category": "ratings",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "build a bucket 99 ovr",
+        "build a bucket overall rating calculator",
+        "build a bucket overall rating formula",
+        "build a bucket rating breakdown"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "wheel",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "build a bucket nba player wheel",
+        "build a bucket wheel spin strategy",
+        "build a bucket best wheel picks",
+        "build a bucket random player challenge"
       ]
     },
     {
-      "category": "Building",
+      "category": "skills",
       "keywords": [
-        "lucid blocks qualia"
+        "build a bucket best skills",
+        "build a bucket shooting skill",
+        "build a bucket finishing skill",
+        "build a bucket defense skill",
+        "build a bucket playmaking skill",
+        "build a bucket rebounding skill",
+        "build a bucket athleticism skill"
       ]
     },
     {
-      "category": "Support",
+      "category": "players",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "build a bucket tier list",
+        "build a bucket best players",
+        "build a bucket player list",
+        "build a bucket nba player pool",
+        "build a bucket legend players"
+      ]
+    },
+    {
+      "category": "simulation",
+      "keywords": [
+        "build a bucket season simulator",
+        "build a bucket season results",
+        "build a bucket championship odds",
+        "build a bucket playoff performance",
+        "build a bucket season stats"
       ]
     }
   ]

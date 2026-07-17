@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "build a bucket beginner guide: 2026 Creation & Stat Setup",
+  description: "Master the player creator in Build-A-Bucket with our 2026 beginner guide. Learn positions, attribute caps, and the best starting builds.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Beginner+Creation+Guide",
+  date: "2026-07-17",
+  author: "build a bucket Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary guide objective**: This build a bucket beginner guide helps you optimize your initial basketball player creation to avoid wasted attribute points.
+- **Best starting position**: The Small Forward offers the most balanced stat distribution for new players.
+- **Key attribute focus**: Prioritize physical attributes like Speed and Stamina before investing heavily in skill stats.
+- **Crucial badge selection**: Equip passive defensive badges early to secure easy experience points during matches.
+</Callout>
+
+<Section icon={Map} title="Choosing Your Starting Position">
+
+Selecting the right position is the foundational step in the player creation process. Your position determines your base attribute caps, physical limits, and the types of badges your character can unlock as they level up. Beginners should choose a position that matches their preferred playstyle on the court.
+
+| Position | Primary Role | Key Attributes | Recommended Height |
+| PG | Playmaking and speed | Passing, Ball Handle | 6'1" to 6'3" |
+| SG | Perimeter scoring | Three-Point, Mid-Range | 6'4" to 6'6" |
+| SF | All-around utility | Defending, Finishing | 6'7" to 6'9" |
+| PF | Paint protection and rebounding | Rebounding, Strength | 6'9" to 6'11" |
+| C | Inside dominance | Block, Interior Defense | 7'0" to 7'2" |
+
+New players often struggle with extreme builds. Creating a player that is too short limits defensive capabilities, while creating a player that is too tall significantly reduces movement speed. Finding a balanced physical profile ensures you can contribute on both ends of the court.
+
+<CardGrid cols={3}>
+  <Card title="Guard Archetype">
+    - **High speed and agility**
+    - Excellent ball-handling skills
+    - Vulnerable to inside scoring
+  </Card>
+  <Card title="Forward Archetype">
+    - **Balanced physical stats**
+    - Versatile defensive capabilities
+    - Adaptable to most team lineups
+  </Card>
+  <Card title="Big Man Archetype">
+    - **Dominant interior presence**
+    - Superior rebounding strength
+    - Limited perimeter movement
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Pro Tip">
+If you are playing solo, the Small Forward position provides the best flexibility to adapt to random teammates in matchmaking lobbies.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Stat Distribution and Attribute Caps">
+
+Allocating attribute points determines how your player performs during key game scenarios. Points should be distributed to hit specific thresholds that unlock animations and badges. Spreading points too thin across all categories results in a mediocre player who cannot excel at any single task.
+
+| Attribute Category | Key Sub-Stats | Gameplay Impact | Threshold Target |
+| Finishing | Layup, Dunk, Close Shot | Scoring inside the key | 85 for Contact Dunks |
+| Shooting | Mid-Range, Three-Point | Perimeter scoring efficiency | 80 for Silver Badges |
+| Playmaking | Pass Accuracy, Ball Handle | Ball security and passing speed | 75 for Basic Dribble Packages |
+| Defense | Perimeter Def, Steal, Block | Stopping opponent scoring runs | 82 for Gold Clamps Badge |
+
+Physical attributes dictate how effectively your player can utilize their skills. Speed, Acceleration, Strength, Vertical, and Stamina must be leveled alongside skill attributes to ensure your player does not tire out before the fourth quarter.
+
+| Physical Stat | Target Rating | Primary Benefit |
+| Speed | 80+ | Fast break transition and perimeter defense |
+| Strength | 70+ | Resisting blow-bys and securing box-outs |
+| Stamina | 90+ | Maintaining performance late in games |
+
+<Callout type="warning" title="Important Warning">
+Do not neglect Stamina. Low stamina reduces your shot meter size and makes your player sluggish, rendering high shooting ratings useless during long possessions.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Step-by-Step Build a Bucket Beginner Guide">
+
+Follow this systematic process to create your first optimized player build without wasting valuable in-game resources.
+
+<Steps>
+  <Step num="1" title="Define the Physical Profile">
+    Adjust your player's height, weight, and wingspan. A longer wingspan improves defense and rebounding but lowers your maximum three-point shooting cap. Find a balance that fits your archetype.
+  </Step>
+  <Step num="2" title="Distribute Initial Attributes">
+    Allocate your points to reach key animation thresholds first. Ensure your ball handle meets the requirement for your preferred dribble style before spending points on secondary stats.
+  </Step>
+  <Step num="3" title="Select Starting Badges">
+    Choose badges that complement your primary attributes. If you have an 85 three-point rating, equip shooting badges that boost green window sizes to maximize your scoring potential.
+  </Step>
+  <Step num="4" title="Validate and Test the Build">
+    Enter the test court to practice dribble moves, test shot timings, and evaluate defensive lateral quickness before finalizing the build and locking in your attribute points.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Build Validation">
+Always spend at least ten minutes in the test court checking the release speed of your jumper. A build that looks good on paper might feel unresponsive in actual gameplay.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Player Progression and Milestones">
+
+Once your build is finalized, you must progress through specific milestones to earn upgrade points and unlock advanced badge tiers. Focus on completing daily challenges and participating in career games to maximize your experience gains.
+
+<Checklist
+  id="progression-milestones"
+  title="First Week Progression Goals:"
+  items={[
+    "Reach overall rating 80 to unlock secondary badges",
+    "Complete all team practice drills for attribute boosts",
+    "Unlock at least three gold-tier badges in your primary category",
+    "Win five online matchmaking games to secure bonus currency"
+  ]}
+/>
+
+| Milestone | Target Level | Reward Unlocked | Difficulty |
+| Rookie Showcase | Level 10 | Bronze badge slot | Easy |
+| Starter Status | Level 25 | Custom jump shot creator | Medium |
+| All-Star Tier | Level 50 | Secondary takeover ability | Hard |
+| Hall of Fame | Level 90 | Attribute cap breakthrough | Very Hard |
+
+<Callout type="info" title="Progression Tip">
+Prioritize team practice sessions between games. These drills offer guaranteed badge progress and are much easier to complete than online multiplayer matches.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Gameplay Strategies and Badge Setup">
+
+Succeeding on the court requires more than just high attributes. You must understand positioning, shot timing, and how to utilize your badges effectively during competitive play.
+
+| Badge Name | Category | Primary Effect | Recommended Tier |
+| Limitless Range | Shooting | Extends effective shooting distance | Silver |
+| Quick First Step | Playmaking | Boosts acceleration out of size-ups | Gold |
+| Anchor | Defense | Enhances rim protection and shot contests | Silver |
+| Posterizer | Finishing | Increases success rate of contact dunks | Gold |
+
+Focus on playing smart defense by keeping your player between the ball handler and the basket. Avoid reaching for steals constantly, as this leads to reach-in fouls and puts your player out of position, giving the opponent an easy path to the basket.
+
+<Callout type="tip" title="Defense Tip">
+Use the lateral movement trigger to stay in front of quick guards. Holding the sprint button constantly will cause your player to over-rotate and give up open lanes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Troubleshooting and FAQ">
+
+Review these common questions to resolve issues during the character creation and early progression phases.
+
+<FAQ items={[
+  {
+    question: "Can I reset my attribute points after finalizing my build?",
+    answer: "No, attribute point allocations are permanent once finalized. You must create a new character slot if you wish to distribute points differently."
+  },
+  {
+    question: "What is the fastest way to earn upgrade currency for my build?",
+    answer: "Completing daily sponsors challenges and playing high-difficulty career games yields the most upgrade currency per hour."
+  },
+  {
+    question: "How does wingspan affect my player's shooting in this build a bucket beginner guide?",
+    answer: "A longer wingspan reduces your maximum three-point cap but increases your defensive reach and shot contest effectiveness. Shorter wingspans maximize shooting attributes."
+  },
+  {
+    question: "Why can't I equip certain dribble animations?",
+    answer: "Animations are locked behind specific attribute requirements. Check the animation store to see the exact Ball Handle or Speed With Ball rating required."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Double-check all attribute thresholds before locking in your build. A single misplaced point can prevent you from unlocking elite animations later in your career.
+</Callout>
+
+</Section>

@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build a Bucket 99 OVR: Guia de Otimização de Classificação Passo a Passo",
+  description: "Aprenda como criar um jogador 99 OVR no Build-A-Bucket. Domine a roleta, otimize atributos e simule uma temporada perfeita da NBA com nossas estratégias de especialistas.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+a+Bucket+99+OVR+Guide",
+  date: "2026-07-17",
+  author: "Equipe da Wiki Build-A-Bucket",
+  keywords: "Build a Bucket, 99 OVR, NBA, guia, otimização, atributos, simulador"
+}
+
+<Callout type="info" title="Guia Rápido">
+- **Build a bucket 99 OVR** exige um gerenciamento perfeito de categorias e a combinação de especialistas de elite da NBA com seus atributos mais fortes.
+- **As Nove Categorias** são Finalização, Média Distância, Bolas de 3, Passe, Controle de Bola, Rebote, Defesa de Poste, Defesa de Perímetro e Atletismo.
+- **Atributos S-Tier** como Passe e Defesa de Perímetro devem ser priorizados cedo para evitar um slot final com nota baixa.
+- **Modo Sandbox** é o campo de testes definitivo para verificar quais combinações de jogadores resultam nas classificações gerais mais altas.
+- **Evite Sobrepor** múltiplos pontuadores se isso deixar sua defesa ou armação na faixa da nota C.
+</Callout>
+
+<Section icon={Map} title="O Desafio 99 OVR: Dominando a Roleta do Build-A-Bucket">
+
+Alcançar uma classificação de **build a bucket 99 OVR** é o marco definitivo para qualquer jogador. Ao contrário das partidas padrão onde você pode escolher suas estrelas favoritas apenas pela reputação, uma tentativa de 99 OVR é um quebra-cabeça matemático. Você deve extrair o valor máximo da roleta aleatória de jogadores da NBA, atribuindo cada estrela gerada à categoria específica que ela domina. O jogo simula uma temporada completa com base nesses nove slots de atributos distintos, o que significa que um único elo fraco — como uma nota D em Defesa de Perímetro — pode arruinar uma construção que de outra forma seria lendária.
+
+**Destaques do Vídeo:**
+- Demonstra uma tentativa bem-sucedida de 99 OVR usando especialistas de elite.
+- Mostra a importância de guardar estrelas versáteis para os três slots finais.
+- Explica como as notas individuais (de A+ a F) influenciam a simulação final.
+- Fornece um passo a passo visual do processo de teste no Modo Sandbox.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="Consigo criar um 99 OVR no Build a Bucket?" />
+
+Para ter sucesso, você deve ver cada giro como uma troca. Se a roleta te der Stephen Curry, usá-lo para Média Distância é um desperdício quando sua classificação de Bolas de 3 é um A+ automático. Da mesma forma, usar Nikola Jokic para Finalização pode parecer tentador, mas seus níveis de elite em Passe e Rebote são muito mais difíceis de substituir no final da partida.
+
+<Callout type="tip" title="Estratégia Profissional">
+Sempre verifique seus slots vazios restantes antes de fazer uma seleção. Se você tiver apenas um slot defensivo sobrando, não gaste uma estrela ofensiva versátil nele, a menos que não tenha outra escolha.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Tier List de Atributos: Priorizando sua Base 99 OVR">
+
+Nem todos os atributos são criados iguais na busca por um **build a bucket 99 OVR**. Algumas categorias, como Passe e Finalização, atuam como motores principais que influenciam quase todas as posses na simulação da temporada. Outras, como Média Distância, são mais flexíveis e podem absorver com segurança um jogador comum se suas outras categorias forem de elite.
+
+| Atributo | Tier | Prioridade | Por Que Importa |
+| :--- | :--- | :--- | :--- |
+| **Passe** | S | Elite | Conecta o ataque e impulsiona os resultados da simulação da temporada. |
+| **Finalização** | S | Elite | Essencial para pontuação de alto volume e eficiência. |
+| **Defesa de Perímetro** | S | Elite | Evita colapsos defensivos contra armadores de elite. |
+| **Bolas de 3** | A | Alta | Fornece espaçamento e produção eficiente no perímetro. |
+| **Defesa de Poste** | A | Alta | Essencial para proteção de aro e resistência interna. |
+| **Rebote** | A | Alta | Controla as posses e apoia o jogo de transição. |
+| **Atletismo** | A | Média | Apoia a defesa, finalização e pontos de contra-ataque. |
+| **Controle de Bola** | B | Contextual | Importante para criadores, mas pode ser equilibrado pelo Passe. |
+| **Média Distância** | B | Baixa | A categoria mais segura para usar um jogador não especialista. |
+
+<CardGrid cols={3}>
+  <Card title="S-Tier: Motores Principais">
+    - **Passe & Finalização**
+    - Alto impacto no OVR
+    - Mais difíceis de substituir
+  </Card>
+  <Card title="A-Tier: Especialistas">
+    - **Bolas de 3 & Defesa de Poste**
+    - Define o papel do jogador
+    - Requer especialistas A+
+  </Card>
+  <Card title="B-Tier: Slots Flexíveis">
+    - **Média Distância & Controle**
+    - Menor impacto na simulação
+    - Use para estrelas versáteis
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Erro Comum">
+Não acumule três tipos diferentes de "Pontuação" (Finalização, Média Distância, Bolas de 3) com jogadores de elite enquanto deixa Passe ou Defesa vazios. Isso leva a retornos decrescentes e uma classificação geral mais baixa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Passo a Passo: Como Construir um Jogador 99 OVR">
+
+Siga este caminho otimizado para garantir que sua tentativa de **build a bucket 99 OVR** não falhe nas rodadas finais da roleta.
+
+<Steps>
+  <Step num="1" title="Memorize os Nove Slots">
+    Antes do seu primeiro giro, visualize a construção completa. Você precisa de um jogador para Finalização, Média Distância, Bolas de 3, Passe, Controle de Bola, Rebote, Defesa de Poste, Defesa de Perímetro e Atletismo.
+  </Step>
+  <Step num="2" title="Identifique a Escassez Cedo">
+    Especialistas de elite para Passe (Jokic, Haliburton) e Defesa de Poste (Wembanyama, Gobert) são mais raros do que pontuadores de alto volume. Se eles aparecerem nos três primeiros giros, selecione-os imediatamente.
+  </Step>
+  <Step num="3" title="Reserve seu Especialista de 3 Pontos">
+    Bolas de 3 são um grande impulsionador de OVR. Se você conseguir um especialista como Stephen Curry ou Julian Champagnie, não o use para nada além do slot de Bolas de 3.
+  </Step>
+  <Step num="4" title="A Estratégia de 'Reparo'">
+    Use estrelas versáteis como Giannis Antetokounmpo ou Kevin Durant para "reparar" qualquer categoria que pareça mais fraca no meio da sua jornada.
+  </Step>
+  <Step num="5" title="Elimine a Nota C">
+    Um 99 OVR é impossível se qualquer categoria estiver abaixo de B. Nos dois giros finais, priorize aumentar sua nota projetada mais baixa em vez de buscar outro A+.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Regra de Otimização">
+Transformar uma categoria de nota C em nota A é matematicamente mais valioso para o seu OVR do que transformar um A em A+. Foque no equilíbrio.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Melhores Escolhas de Jogadores da NBA para Cada Categoria">
+
+Para atingir a marca de **build a bucket 99 OVR**, você precisa saber quais referências do mundo real o jogo utiliza. Com base nos dados de 2026 e no desempenho dentro do jogo, estas são as principais escolhas para cada slot.
+
+| Categoria | Escolha Principal | Dados de Referência | Escolha Alternativa |
+| :--- | :--- | :--- | :--- |
+| **Pontuação** | **Jalen Brunson** | 28.4 PPG (Playoffs 2026) | Shai Gilgeous-Alexander |
+| **Bolas de 3** | **Julian Champagnie** | 61 Bolas de 3 Convertidas (2026) | Devin Vassell |
+| **Finalização** | **Mikal Bridges** | 86.3% na Área Restrita | Evan Mobley |
+| **Passe** | **Nikola Jokic** | 9.5 APG (2026) | Tyrese Haliburton |
+| **Rebote** | **Nikola Jokic** | 13.2 RPG (2026) | Victor Wembanyama |
+| **Defesa de Poste** | **Victor Wembanyama** | 3.5 BPG (2026) | Rudy Gobert |
+| **Defesa de Perímetro** | **Tari Eason** | 2.5 SPG (2026) | Marcus Smart |
+| **Atletismo** | **Paolo Banchero** | Alta Pontuação de Contra-ataque | Giannis Antetokounmpo |
+
+<Callout type="info" title="Nota Estatística">
+O simulador recompensa a eficiência em alto volume. Jogadores como Jokic são "Códigos de Trapaça" porque fornecem referências de elite em Passe, Rebote e Finalização simultaneamente, permitindo máxima flexibilidade.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Modo Sandbox: Testando suas Teorias de 99 OVR">
+
+Antes de se comprometer com uma rodada de roleta de alto risco, use o Modo Sandbox para entender as mecânicas de um **build a bucket 99 OVR**. O Sandbox permite que você selecione manualmente os jogadores e veja as notas resultantes sem a aleatoriedade da roleta.
+
+<Checklist
+  id="sandbox-testing"
+  title="Experimentos Essenciais no Sandbox:"
+  items={[
+    "Teste um 'Combo Defensivo' (A+ em Rebote, Defesa de Poste e Defesa de Perímetro)",
+    "Compare Jalen Brunson vs. Shai Gilgeous-Alexander para o slot de Pontuação",
+    "Identifique a menor nota possível que ainda permite um OVR de 95+",
+    "Verifique se o 'Atletismo' impacta as notas defensivas na simulação"
+  ]}
+/>
+
+| Tipo de Experimento | Objetivo | Resultado Esperado |
+| :--- | :--- | :--- |
+| **O Teste do Especialista** | Usar 9 especialistas puros | OVR mais alto possível, mas simulação arriscada. |
+| **O Teste de Versatilidade** | Usar 9 estrelas completas | Base alta, teto mais baixo para o OVR. |
+| **O Teste do Elo Fraco** | 8 slots A+, 1 slot F | Queda drástica no OVR; prova que o equilíbrio é fundamental. |
+
+<Callout type="tip" title="Dica do Sandbox">
+Registre o OVR final de cada construção no Sandbox. Isso cria um "Projeto" que você pode tentar replicar quando a roleta te der giros favoráveis em uma partida normal.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Simulação de Temporada & Perguntas Frequentes">
+
+O passo final de qualquer tentativa de **build a bucket 99 OVR** é a simulação da temporada. O sucesso do seu jogador é medido por vitórias da equipe, prêmios individuais (MVP, DPOY) e desempenho nos playoffs. Um jogador 99 OVR deve, idealmente, levar seu time ao campeonato mantendo uma eficiência de elite em todas as estatísticas.
+
+<FAQ items={[
+  {
+    question: "Posso conseguir um 99 OVR sem um arremessador de elite de 3 pontos?",
+    answer: "É extremamente difícil. Como as Bolas de 3 são um atributo importante, usar um não especialista geralmente resulta em uma nota B ou C, o que diminui o teto de toda a construção."
+  },
+  {
+    question: "A posição do jogador na roleta importa?",
+    answer: "Não, o simulador olha para as notas individuais dos atributos. No entanto, usar um Pivô para Defesa de Perímetro é geralmente menos eficaz do que usar um Armador defensivo como Marcus Smart."
+  },
+  {
+    question: "Qual é o motivo mais comum para uma tentativa de 99 OVR falhar?",
+    answer: "Deixar uma categoria 'escassa' como Passe ou Defesa de Poste para o giro final. Se a roleta te der um passador ruim no final, seu OVR vai desmoronar."
+  },
+  {
+    question: "Como o Modo Sandbox difere da roleta normal?",
+    answer: "O Modo Sandbox remove a aleatoriedade, permitindo que você atribua manualmente qualquer jogador a qualquer slot para testar os limites matemáticos do sistema de classificação."
+  }
+]} />
+
+<Callout type="success" title="Conselho Final">
+Sempre priorize as categorias "S-Tier" (Passe, Finalização, Defesa de Perímetro) nos seus primeiros cinco giros. Se você garantir estas cedo, pode usar os giros restantes para ajustar sua pontuação e atletismo para aquela elusiva classificação 99.
+</Callout>
+
+</Section>

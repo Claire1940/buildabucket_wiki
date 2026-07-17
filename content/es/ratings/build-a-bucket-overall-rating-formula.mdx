@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, BarChart3, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fórmula de Valoración General de Build a Bucket: Guía de Cálculo de 99 OVR",
+  description: "Domina la fórmula de valoración general de Build a Bucket. Aprende a calcular versiones de 99 OVR, optimizar atributos de jugadores de la NBA y triunfar en el simulador de la temporada 2026.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/08111f/f97316?text=Overall+Rating+Formula",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket",
+  keywords: "fórmula de valoración, 99 OVR, Build a Bucket, atributos NBA, simulador de temporada"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Fórmula de Valoración General de Build a Bucket**: El OVR total es un promedio ponderado de **nueve categorías de habilidades específicas** derivadas de los giros de la ruleta de jugadores de la NBA.
+- **La Regla del Eslabón más Débil**: Una sola **calificación en el rango C** en una categoría principal puede impedir un 99 OVR, incluso si los demás espacios son A+.
+- **Optimización en el Sandbox**: Usa el Modo Sandbox para probar cómo rasgos específicos de los jugadores, como el **Pase (Passing)** y la **Defensa en el Poste (Post D)**, influyen en la valoración final.
+- **Estrategia de Especialistas de Élite**: Reserva siempre a **Stephen Curry** para Triples y a **Victor Wembanyama** para Defensa en el Poste para maximizar los espacios de alto peso.
+- **Impacto en la Simulación**: El OVR final dicta directamente tu rendimiento en el **Simulador de Temporada**, afectando las tasas de victoria y el éxito en los playoffs.
+</Callout>
+
+<Section icon={BarChart3} title="Descifrando la Fórmula de Valoración General de Build a Bucket">
+
+Entender la **fórmula de valoración general de Build a Bucket** es lo que marca la diferencia entre ser un jugador promedio y una superestrella legendaria de 99 OVR. En esta simulación de baloncesto basada en navegador, tu valoración final no es solo un número aleatorio; es un resultado calculado basado en nueve espacios de atributos distintos. Cada vez que giras la ruleta y asignas un jugador de la NBA a una categoría, estás introduciendo una variable en el algoritmo interno del juego.
+
+**Puntos destacados del vídeo:**
+- Demuestra una ejecución exitosa del **desafío 99 OVR**.
+- Explica por qué reservar estrellas versátiles como **Nikola Jokic** es crítico para el final del juego.
+- Muestra el impacto de las elecciones de "desecho" en la simulación de la temporada final.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un 99 OVR en Build a Bucket?" />
+
+La fórmula evalúa a tu jugador a través de tres pilares principales: Eficiencia Ofensiva, Presencia Defensiva y Herramientas Físicas. Aunque los pesos matemáticos exactos están ocultos, las pruebas de la comunidad en 2026 han revelado que ciertas categorías, como **Pase (Passing)** y **Finalización (Finishing)**, tienen más peso en la lógica de construcción "Polivalente" que otras como el Tiro de Media Distancia (Mid-range).
+
+| Categoría de Atributo | Influencia Primaria | Nivel de Peso | Mejor Referencia 2026 |
+| :--- | :--- | :--- | :--- |
+| **Finalización** | Anotación Interior | **Alto** | Giannis Antetokounmpo |
+| **Triples** | Gravedad Perimetral | **Alto** | Stephen Curry |
+| **Pase** | Motor Ofensivo | **Alto** | Nikola Jokic |
+| **Defensa Perimetral** | Parada de Base/Alero | **Medio** | Tari Eason |
+| **Defensa en el Poste** | Protección del Aro | **Medio** | Victor Wembanyama |
+| **Manejo de Balón** | Auto-creación | **Medio** | Kyrie Irving |
+| **Rebotes** | Control de Posesión | **Bajo** | Domantas Sabonis |
+| **Atleticismo** | Suelo Físico | **Bajo** | Paolo Banchero |
+| **Media Distancia** | Nivel de Anotación | **Bajo** | Kevin Durant |
+
+<Callout type="tip" title="Consejo Pro">
+La fórmula castiga las brechas de especialización. Si tienes un A+ en Triples pero un D en Pase, tu OVR caerá en picado porque el juego considera al jugador como una pieza ofensiva "no funcional" en el simulador de temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Los Nueve Pilares de la Optimización de la Valoración">
+
+Para maximizar la **fórmula de valoración general de Build a Bucket**, debes tratar cada uno de los nueve espacios como una inversión estratégica. El juego funciona con una lógica de "valor de reemplazo": algunos atributos son mucho más difíciles de llenar con jugadores de alta calidad que otros. Por ejemplo, encontrar un especialista en Defensa en el Poste de élite es más raro que encontrar un anotador sólido de media distancia.
+
+<CardGrid cols={3}>
+  <Card title="Núcleo Ofensivo">
+    - **Finalización**: Esencial para anotación de alto volumen.
+    - **Triples**: Eleva el techo ofensivo.
+    - **Media Distancia**: El espacio más seguro para jugadores promedio.
+  </Card>
+  <Card title="Centro de Creación">
+    - **Pase**: Conecta todos los rasgos ofensivos.
+    - **Manejo de Balón**: Evita pérdidas en la simulación.
+    - **Atleticismo**: Potencia la eficiencia en transición.
+  </Card>
+  <Card title="Muro Defensivo">
+    - **Defensa Perimetral**: Contrarresta a los bases rivales de élite.
+    - **Defensa en el Poste**: El ancla de la defensa interior.
+    - **Rebotes**: Asegura el final de las jugadas defensivas.
+  </Card>
+</CardGrid>
+
+El meta de 2026 sugiere que la **fórmula de valoración general de Build a Bucket** favorece a los "Centros de Creación" y a los "Especialistas en Ambos Lados". Si logras asegurar calificaciones en el rango A en Pase, Defensa Perimetral y Finalización, tienes un 90% de probabilidades de alcanzar al menos un 92 OVR, independientemente de los otros espacios.
+
+| Estrategia | Atributos Prioritarios | Dificultad | OVR Esperado |
+| :--- | :--- | :--- | :--- |
+| **Polivalente** | Pase, Finalización, Def. Perimetral | Difícil | 95-99 |
+| **Máquina de Anotación**| Triples, Media Distancia, Manejo | Fácil | 90-94 |
+| **Bestia de la Pintura** | Def. Poste, Rebotes, Finalización | Medio | 92-96 |
+
+<Callout type="warning" title="Advertencia">
+Nunca uses a una superestrella de élite como **Luka Doncic** para Media Distancia si tu espacio de Pase aún está vacío. Estás desperdiciando una variable de alto peso en una categoría de bajo peso.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Guía Paso a Paso para una Versión de 99 OVR">
+
+Lograr el 99 OVR perfecto requiere un enfoque disciplinado con la ruleta. No solo buscas a los mejores jugadores; buscas el mejor *encaje* para las variables restantes en la **fórmula de valoración general de Build a Bucket**. Sigue estos pasos para optimizar tus partidas de 2026.
+
+<Steps>
+  <Step num="1" title="Evaluación Inicial de Espacios">
+    Antes del primer giro, visualiza el tablero de nueve espacios. Identifica que **Pase**, **Defensa en el Poste** y **Triples** son tus atributos de "Ruta Crítica". Estos deben ser A o superior para llegar a 99.
+  </Step>
+  <Step num="2" title="La Reserva de Especialistas">
+    Cuando la ruleta caiga en un especialista (por ejemplo, un tirador de 3 puntos con baja defensa), asígnalo inmediatamente a su categoría máxima. No intentes "guardarlo" para un espacio versátil.
+  </Step>
+  <Step num="3" title="Gestión de Estrellas Versátiles">
+    Si obtienes una superestrella como **Giannis** o **Jokic** temprano, guárdalos para la categoría que sea más difícil de llenar. Si no has visto a un buen defensor para la elección 6, usa a tu superestrella para parchear el hueco defensivo.
+  </Step>
+  <Step num="4" title="Reparación del Eslabón más Débil">
+    Para la elección 7, identifica tu calificación proyectada más baja. Si los Rebotes parecen un C, usa tu siguiente giro para encontrar a cualquier hombre grande, incluso si no es una superestrella, para subir ese C a un B+.
+  </Step>
+  <Step num="5" title="Verificación Final de la Simulación">
+    Revisa el equilibrio. Una construcción de 99 OVR no debería tener más de dos calificaciones "B", siendo el resto A o A+. Envía al simulador para ver los resultados del campeonato de 2026.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Factor de Éxito">
+Los intentos exitosos de 99 OVR a menudo usan primero el **Modo Sandbox** para memorizar qué jugadores de la NBA proporcionan calificaciones "A+" en categorías defensivas ocultas específicas.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="Modo Sandbox: Probando los Pesos de la Fórmula">
+
+El Modo Sandbox es el laboratorio para la **fórmula de valoración general de Build a Bucket**. A diferencia de la partida estándar de la ruleta, el Sandbox te permite introducir calificaciones manualmente para ver cómo reacciona el OVR. Este modo ha confirmado que la fórmula no es un simple promedio.
+
+**Experimentos esenciales en el Sandbox:**
+- **La Prueba de Defensa Cero**: Maximiza todas las estadísticas ofensivas y pon todas las defensivas en 50. Observa cómo el OVR lucha por superar los 85.
+- **El Impulso del Creador de Juego**: Compara una versión de 80 OVR con 99 en Pase frente a una de 80 OVR con 99 en Media Distancia. La versión de Pase arroja consistentemente una valoración final más alta.
+- **El Suelo del Atleticismo**: Prueba cómo una calificación de 99 en Atleticismo actúa como un multiplicador para Finalización y Defensa en el Poste.
+
+<Checklist
+  id="sandbox-checklist"
+  title="Objetivos de Prueba 2026:"
+  items={[
+    "Identificar 5 jugadores que proporcionan A+ en Defensa Perimetral",
+    "Confirmar si los Rebotes afectan el OVR más que la Media Distancia",
+    "Probar el 'Asesino del 99 OVR' (un atributo con calificación F)",
+    "Comparar a Jalen Brunson vs. Shai Gilgeous-Alexander para el espacio de Anotación"
+  ]}
+/>
+
+| Tipo de Experimento | Variable Cambiada | Impacto en OVR | Perfil Resultante |
+| :--- | :--- | :--- | :--- |
+| **Inclinación Ofensiva** | +10 Triples, -10 Def. Poste | -2 OVR | Anotador Unidimensional |
+| **Inclinación Defensiva** | +10 Def. Perimetral, -10 Media Distancia | +3 OVR | Especialista Defensivo de Élite |
+| **Cambio Equilibrado** | +5 a los 9 espacios | +5 OVR | Superestrella Polivalente |
+
+<Callout type="info" title="Visión de Experto">
+Los datos de la exhibición del Sandbox de 2026 demuestran que la **Defensa Perimetral** y la **Defensa en el Poste** combinadas tienen un impacto mayor en la tasa de victorias del Simulador de Temporada que los **Triples** y la **Media Distancia** juntos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mejores Jugadores de la NBA para Maximizar la Valoración">
+
+Para dominar la **fórmula de valoración general de Build a Bucket**, necesitas saber qué jugadores proporcionan el mayor "valor por espacio". Utilizando las estadísticas de los playoffs de 2026 como referencia, hemos identificado las "Elecciones de Oro" para cada categoría.
+
+| Categoría | Elección Principal | Referencia 2026 | Por qué funciona |
+| :--- | :--- | :--- | :--- |
+| **Anotación** | **Jalen Brunson** | 28.4 PPG | Alto volumen, alta eficiencia |
+| **Triples** | **Julian Champagnie**| 61 Triples anotados | Especialista de élite para el espacio |
+| **Finalización** | **Mikal Bridges** | 86.3% TC en el aro | Variable de máxima eficiencia |
+| **Pase** | **Nikola Jokic** | 9.5 APG | El peso más alto para la creación |
+| **Defensa en el Poste** | **Victor Wembanyama**| 3.5 BPG | Grado de protección del aro inigualable |
+| **Defensa Perimetral** | **Tari Eason** | 2.5 SPG | Impulso de valoración basado en la disrupción |
+| **Atleticismo** | **Paolo Banchero** | 4.3 FB PPG | Fuerza y velocidad en transición |
+
+<CardGrid cols={2}>
+  <Card title="El dilema de 'Jokic'">
+    Nikola Jokic es un "Código de Trucos" para la **fórmula de valoración general de Build a Bucket**. Proporciona un valor A+ en **Pase**, **Rebotes** y **Finalización**. Si lo obtienes, revisa tu espacio más débil antes de asignarlo.
+  </Card>
+  <Card title="La regla de 'Wemby'">
+    Victor Wembanyama es el único jugador que puede asegurar de manera fiable un A+ en **Defensa en el Poste** mientras también proporciona **Rebotes** en el rango A. Es la variable defensiva más valiosa del juego.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Consejo de Estrategia">
+Si la ruleta te da a **Shai Gilgeous-Alexander**, úsalo para **Manejo de Balón** o **Defensa Perimetral**. Aunque es un gran anotador, sus métricas defensivas y de creación proporcionan un impulso más raro a la fórmula general.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el atributo más importante en la fórmula de valoración general de Build a Bucket?",
+    answer: "Aunque todos los atributos importan, el Pase y la Finalización tienen los pesos más altos para los roles ofensivos, mientras que la Defensa en el Poste es el motor principal para las valoraciones defensivas. Un 99 OVR es casi imposible sin un grado A en Pase."
+  },
+  {
+    question: "¿Puedo obtener un 99 OVR con un C en Rebotes?",
+    answer: "Es matemáticamente difícil pero posible si todas las demás categorías son A+. Sin embargo, la fórmula de valoración general de Build a Bucket penaliza fuertemente cualquier calificación por debajo de B-, por lo que es más seguro apuntar al menos a un B+ en Rebotes."
+  },
+  {
+    question: "¿Afecta el Modo Sandbox a las estadísticas de mi partida estándar de la ruleta?",
+    answer: "No, el Modo Sandbox es un entorno de prueba separado. Sin embargo, los conocimientos que obtengas sobre las calificaciones de los jugadores y los pesos de los atributos son directamente aplicables a tu estrategia en la partida estándar."
+  },
+  {
+    question: "¿Por qué mi jugador de 98 OVR perdió en la primera ronda del Simulador de Temporada 2026?",
+    answer: "El OVR no lo es todo. Si tu fórmula de valoración general de Build a Bucket estaba muy inclinada hacia la anotación pero carecía de Pase y Defensa Perimetral, el simulador puede tener dificultades para generar victorias de equipo contra oponentes equilibrados."
+  }
+]} />
+
+</Section>

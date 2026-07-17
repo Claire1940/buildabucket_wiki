@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Desglose de calificaciones de Build a Bucket: Cómo llegar a 99 OVR y mejores atributos",
+  description: "Domina el desglose de calificaciones de Build a Bucket para crear una estrella de la NBA con 99 OVR. Aprende niveles de atributos, estrategias de simulación y las mejores selecciones de jugadores para 2026.",
+  category: "Ratings",
+  image: "https://placehold.co/800x400/111c2e/f97316?text=Build+a+Bucket+Rating+Breakdown",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket",
+  keywords: "Build a Bucket, calificación, 99 OVR, atributos NBA, simulación baloncesto"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Desglose de calificaciones de Build a Bucket**: El OVR final se calcula promediando nueve atributos principales, donde una sola calificación débil puede dañar gravemente el total.
+- **Atributos S-Tier**: Prioriza **Pase**, **Finalización** y **Defensa Perimetral** para asegurar simulaciones de temporada de alto valor.
+- **El objetivo del 99 OVR**: El éxito requiere emparejar especialistas de élite de la NBA con sus categorías específicas en lugar de solo elegir nombres famosos.
+- **Pruebas en Sandbox**: Usa el Modo Sandbox para comparar cómo los diferentes rasgos de los jugadores influyen en la calificación general final antes de intentar un giro en la ruleta.
+- **Impacto de la simulación**: El éxito de tu creación en el simulador de la temporada 2026 depende de equilibrar la anotación, la creación de juego y la resistencia defensiva.
+</Callout>
+
+<Section icon={Map} title="Mecánicas principales del desglose de calificaciones de Build a Bucket">
+
+Comprender el **desglose de calificaciones de Build a Bucket** es el primer paso para pasar de ser un jugador casual a un maestro constructor. Build-A-Bucket es una simulación de baloncesto basada en navegador donde los jugadores giran una ruleta de estrellas de la NBA y extraen una sola habilidad de cada resultado. El desafío radica en que solo tienes nueve espacios para llenar, y una vez que se ocupa una categoría, esa decisión es permanente durante toda la partida.
+
+El juego evalúa a tu jugador personalizado basándose en nueve categorías distintas: Finalización, Media distancia, Triples, Pase, Manejo de balón, Rebote, Defensa en el poste, Defensa perimetral y Atletismo. Para lograr una calificación general (OVR) alta, debes evitar los "espacios muertos": categorías donde un jugador inadecuado produce una calificación de C o D. El sistema de calificación es sensible; incluso una creación con ocho categorías A+ puede bajar a un 94 o 95 de OVR si el último espacio tiene una calificación reprobatoria.
+
+**Puntos destacados del video:**
+- Demuestra la dificultad de lograr un 99 OVR en una partida estándar de ruleta.
+- Muestra cómo especialistas específicos como Stephen Curry y Victor Wembanyama impactan las calificaciones por categoría.
+- Explica la importancia de guardar estrellas versátiles para los últimos giros.
+
+<YouTubeEmbed videoId="IRd9YHEGmy0" title="¿Puedo crear un 99 OVR en Build a Bucket?" />
+
+<Callout type="tip" title="Recomendación del Editor">
+Siempre revisa tus espacios vacíos restantes antes de hacer una selección. Si solo te quedan "Defensa en el poste" y "Pase", y la ruleta te da un base anotador, debes decidir cuál de esas dos categorías puede apoyar ese base de manera más realista para proteger tu OVR.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prioridad de atributos: Clasificación de los nueve espacios de habilidad">
+
+No todos los atributos son iguales en el **desglose de calificaciones de Build a Bucket**. Algunas categorías, como Pase y Defensa Perimetral, actúan como "multiplicadores de fuerza" en la simulación de la temporada, mientras que otras, como Media distancia, son más flexibles. Al clasificar estos atributos en niveles, puedes gestionar mejor tus elecciones de la ruleta y asegurarte de que tus selecciones de élite se utilicen donde más importan.
+
+| Nivel | Atributo | Nivel de Prioridad | Impacto en Calificación |
+| :--- | :--- | :--- | :--- |
+| **S** | **Pase** | **Élite Requerido** | Alto: Conecta todos los rasgos ofensivos |
+| **S** | **Finalización** | **Élite Requerido** | Alto: Impulsor principal de eficiencia |
+| **S** | **Defensa Perimetral** | **Élite Requerido** | Alto: Previene derrotas abultadas en simulación |
+| **A** | **Triples** | **Especialista Preferido** | Medio: Mejora la eficiencia perimetral |
+| **A** | **Defensa en el Poste** | **Especialista Preferido** | Medio: Esencial para creaciones interiores |
+| **A** | **Manejo de Balón** | **Especialista Preferido** | Medio: Reduce pérdidas en la simulación |
+| **B** | **Rebote** | **Solo Pivot Fuerte** | Bajo: Ganador de posesiones secundarias |
+| **B** | **Atletismo** | **Estrella Versátil** | Bajo: Soporte general para todas las notas |
+| **B** | **Media Distancia** | **Cualquier Anotador** | Bajo: Espacio más seguro para jugadores promedio |
+
+Los atributos de nivel S siempre deben recibir a tus especialistas mejor calificados. Por ejemplo, usar a un jugador como Nikola Jokic para Pase o a Victor Wembanyama para Defensa en el poste asegura un A+ en esas categorías difíciles. Dejar estos espacios para el final de la partida es una estrategia de alto riesgo que a menudo resulta en una calificación final más baja.
+
+<Callout type="success" title="Consejo de Optimización">
+Si la ruleta te da una superestrella completa como Giannis Antetokounmpo, úsalo para Finalización o Atletismo. Estos son sus rasgos más fuertes en el mundo real y producirán la calificación más alta posible en el motor de Build-A-Bucket.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Plantillas de creación optimizadas para calificaciones altas">
+
+Para dominar el **desglose de calificaciones de Build a Bucket**, debes seguir una plantilla de creación específica. Seleccionar aleatoriamente al "mejor" jugador en cada giro a menudo conduce a una creación desarticulada con fortalezas superpuestas y debilidades evidentes. En su lugar, apunta a uno de estos cinco arquetipos probados para maximizar tus resultados de simulación de la temporada 2026.
+
+<CardGrid cols={3}>
+  <Card title="Creación Equilibrada">
+    - **Rol**: Motor en ambos lados de la cancha
+    - **Núcleo**: Pase, Finalización, Defensa Perimetral
+    - **Pros**: El camino más confiable hacia un 95+ OVR
+  </Card>
+  <Card title="Anotación Primero">
+    - **Rol**: Potencia ofensiva
+    - **Núcleo**: Triples, Media Distancia, Manejo de Balón
+    - **Pros**: Altas estadísticas individuales de temporada
+  </Card>
+  <Card title="Creación Defensiva">
+    - **Rol**: Protector de pintura y perímetro
+    - **Núcleo**: Defensa en el Poste, Rebote, Defensa Perimetral
+    - **Pros**: Gana campeonatos en la simulación
+  </Card>
+  <Card title="Núcleo de Creación">
+    - **Rol**: Creador principal
+    - **Núcleo**: Pase, Manejo de Balón, Triples
+    - **Pros**: Maximiza la eficiencia de todo el equipo
+  </Card>
+  <Card title="Fuerza Interior">
+    - **Rol**: Protector del aro y finalizador
+    - **Núcleo**: Finalización, Defensa en el Poste, Atletismo
+    - **Pros**: Más fácil de construir para principiantes
+  </Card>
+</CardGrid>
+
+| Tipo de Creación | Dificultad | OVR Objetivo | Jugador de Referencia Clave 2026 |
+| :--- | :--- | :--- | :--- |
+| **Equilibrada** | Media | **97-99** | Shai Gilgeous-Alexander |
+| **Anotación** | Fácil | **94-96** | Jalen Brunson |
+| **Defensiva** | Difícil | **95-98** | Victor Wembanyama |
+| **Interior** | Fácil | **92-95** | Evan Mobley |
+
+<Callout type="info" title="Estrategia de Creación">
+La creación "Equilibrada" es el estándar de oro para calificaciones altas. Requiere que equilibres tus elecciones para que ninguna categoría caiga por debajo de una calificación B+. Este equilibrio es lo que más premia el motor de simulación al calcular el resultado final de la temporada.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Paso a paso: Dominando el desafío del 99 OVR">
+
+Alcanzar un 99 OVR en Build-A-Bucket es el logro máximo. Requiere una combinación de giros afortunados y una toma de decisiones perfecta. Sigue estos pasos para optimizar tu **desglose de calificaciones de Build a Bucket** y llevar a tu jugador personalizado al límite absoluto.
+
+<Steps>
+  <Step num="1" title="Auditoría Inicial de Categorías">
+    Antes de tu primer giro, visualiza los nueve espacios. Identifica qué categorías son "difíciles" (Pase, Defensa en el Poste) y cuáles son "flexibles" (Media Distancia, Atletismo).
+  </Step>
+  <Step num="2" title="Reserva Especialistas Temprano">
+    Si la ruleta te da un especialista como Stephen Curry (Triples) o Kyrie Irving (Manejo de Balón) en los primeros tres giros, tómalo de inmediato. Estas calificaciones de élite son difíciles de replicar más tarde.
+  </Step>
+  <Step num="3" title="Identifica Pilares Versátiles">
+    Busca jugadores que puedan cumplir múltiples roles. Nikola Jokic puede salvar una partida proporcionando un A+ tanto en Pase como en Rebote, dependiendo de lo que más necesites a mitad del juego.
+  </Step>
+  <Step num="4" title="El Pivote a Mitad de Camino">
+    Para el quinto giro, identifica tu calificación actual más débil. Si no tienes defensa, prioriza al siguiente especialista defensivo sin importar su reputación ofensiva.
+  </Step>
+  <Step num="5" title="Preservación del Último Espacio">
+    Nunca dejes una categoría "Difícil" como Pase para el giro final. Deja una categoría "Flexible" como Media Distancia o Atletismo, ya que casi cualquier jugador de la NBA puede proporcionar una calificación respetable allí.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Error Común">
+No uses a una superestrella de élite para una categoría donde solo son "buenos". Usar a LeBron James para Rebote podría darte un B+, pero usarlo para Pase o Finalización podría darte un A+. La eficiencia es la clave para el 99 OVR.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Análisis de simulación e interpretación de resultados">
+
+Una vez que completas tu creación, el simulador de la temporada 2026 pone a prueba tu obra contra el resto de la liga. Los resultados son más que simples números; proporcionan una crítica directa de tu **desglose de calificaciones de Build a Bucket**. Analizar estos resultados te ayudará a mejorar tu estrategia para futuras partidas.
+
+| Señal de Resultado | Significado | Ajuste Recomendado |
+| :--- | :--- | :--- |
+| **Alto PPG / Pocas Victorias** | Anotación de élite, Mala defensa | Prioriza Defensa Perimetral o en el Poste antes |
+| **Altas Asistencias / Bajo OVR** | Gran Pase, Anotación débil | Asegura al menos un A+ en Finalización o Triples |
+| **Bajos Rebotes / Alto OVR** | Creación de tamaño pequeño | Usa un especialista como Sabonis para Rebotes |
+| **Salida en Primera Ronda** | Falta de atributos decisivos | Equilibra las notas de Manejo de Balón y Media Distancia |
+
+Para dominar verdaderamente el juego, debes usar el Modo Sandbox para realizar experimentos. Esto te permite ver exactamente cómo ciertas combinaciones de jugadores afectan el motor de calificación interno sin la aleatoriedad de la ruleta.
+
+<Checklist
+  id="sandbox-experiments"
+  title="Objetivos Esenciales del Sandbox:"
+  items={[
+    "Probar la diferencia entre un A y un A+ en Pase",
+    "Comparar una creación '3-and-D' contra un anotador puro",
+    "Identificar la calificación más baja posible manteniendo un 95 OVR",
+    "Descubrir qué estrellas de los playoffs 2026 dan el mayor impulso en Atletismo"
+  ]}
+/>
+
+<Callout type="tip" title="Visión Profesional">
+El simulador premia la sinergia. Un jugador con A+ en Pase y A+ en Finalización a menudo superará a un jugador con A+ en ambas categorías de tiro pero sin capacidad de creación de juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Selecciones de jugadores esenciales para la optimización de la calificación">
+
+Para lograr el mejor **desglose de calificaciones de Build a Bucket**, debes saber qué jugadores de la NBA en 2026 proporcionan los puntos de referencia más altos para cada categoría. Basado en el rendimiento reciente en playoffs y los datos internos del juego, estas son las mejores selecciones para tu próxima partida.
+
+| Categoría | Selección Principal | Estadística de Referencia 2026 | Por qué Funciona |
+| :--- | :--- | :--- | :--- |
+| **Anotación** | **Jalen Brunson** | 28.4 PPG | Mayor mezcla de volumen y eficiencia |
+| **Pase** | **Nikola Jokic** | 9.5 APG | A+ garantizado en creación de juego |
+| **Defensa Poste** | **Victor Wembanyama** | 3.5 BPG | Referencia de élite en protección del aro |
+| **Defensa Perim.** | **Tari Eason** | 2.5 SPG | Máxima calificación de interrupción |
+| **Finalización** | **Mikal Bridges** | 86.3% Área Restringida | Grado de conversión superior |
+| **Triples** | **Julian Champagnie** | 61 Triples anotados | Impulso de tiro basado en volumen |
+
+Usar a estos jugadores en sus roles principales es la forma más consistente de asegurar calificaciones de primer nivel. Si la ruleta te ofrece a uno de estos especialistas, casi siempre es el movimiento correcto bloquearlos en sus respectivos espacios de inmediato.
+
+<Callout type="info" title="Nota Final">
+El meta de Build-A-Bucket evoluciona constantemente con la temporada de la NBA. Mantente actualizado con el grupo de jugadores de 2026 para identificar nuevos especialistas que puedan ayudarte a romper la barrera del 99 OVR.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cómo se calcula la calificación general final en Build-A-Bucket?",
+    answer: "La calificación es un promedio de las nueve categorías de habilidades: Finalización, Media distancia, Triples, Pase, Manejo de balón, Rebote, Defensa en el poste, Defensa perimetral y Atletismo. Se requieren calificaciones altas (A/A+) en la mayoría de las categorías para un 99 OVR."
+  },
+  {
+    question: "¿Cuál es el atributo más importante para una calificación alta?",
+    answer: "Aunque todos son importantes, el Pase y la Finalización se consideran S-Tier porque influyen significativamente en los resultados de la simulación de la temporada y en la calificación ofensiva general."
+  },
+  {
+    question: "¿Puedo llegar a 99 OVR si tengo una calificación C?",
+    answer: "Es extremadamente difícil. La mayoría de las creaciones de 99 OVR requieren al menos un B+ en cada categoría, siendo la mayoría A o A+. Una sola calificación C suele limitar la calificación a 96 o 97."
+  },
+  {
+    question: "¿Afecta el Modo Sandbox a mis estadísticas de carrera?",
+    answer: "No, el Modo Sandbox es un entorno de prueba separado que se utiliza para experimentar con el desglose de calificaciones sin la presión de una partida de ruleta aleatoria."
+  }
+]} />
+
+</Section>

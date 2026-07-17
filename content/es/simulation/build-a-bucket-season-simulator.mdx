@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Build a Bucket Season Simulator: Guía del Modo Carrera 2026",
+  description: "Domina el simulador de temporada de build a bucket con nuestra guía completa sobre arquetipos, distribución de estadísticas y estrategias de simulación para 2026.",
+  category: "Simulation",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Season+Simulator+Guide",
+  date: "2026-07-17",
+  author: "Equipo de la Wiki de Build a Bucket",
+  keywords: "build a bucket, simulador de temporada, modo carrera, arquetipos, guía"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Simulador de temporada de build a bucket**: Una herramienta robusta para probar las configuraciones de los jugadores a lo largo de un calendario profesional completo de 82 partidos.
+- **Selección de arquetipo**: Elegir la base adecuada determina tus límites máximos de atributos y el potencial de insignias.
+- **Velocidad de simulación**: Ajusta la frecuencia de simulación para equilibrar el control táctico profundo y la progresión rápida.
+- **Prioridad de estadísticas**: Concéntrate en los atributos físicos al principio de la temporada para evitar la fatiga y las lesiones al final del juego.
+- **Sinergia de insignias**: Combina insignias complementarias para activar mejoras masivas de rendimiento durante los momentos decisivos.
+</Callout>
+
+<Section icon={Map} title="Introducción al simulador de temporada de Build a Bucket">
+
+El **simulador de temporada de build a bucket** se ha consolidado como el entorno principal para que los entusiastas del baloncesto prueben sus creaciones de jugadores personalizados en un entorno de alto riesgo y basado en datos. A diferencia de los modos de exhibición estándar, el simulador de temporada tiene en cuenta factores a largo plazo como la fatiga del jugador, el desarrollo de la química del equipo y la variación estadística a lo largo de un agotador calendario de 82 partidos. Ya sea que busques crear al próximo tirador legendario o a un baluarte defensivo, comprender el motor de simulación es el primer paso hacia el dominio.
+
+En la actualización de 2026, el motor se ha perfeccionado para reflejar mejor el rendimiento en los momentos decisivos y el impacto individual del jugador en la relación de victorias y derrotas del equipo. Esto significa que una configuración mal optimizada podría registrar números individuales impresionantes pero no lograr liderar a un equipo a los playoffs. Para tener éxito, debes equilibrar la destreza anotadora individual con estilos de juego orientados al equipo.
+
+| Modo de simulación | Descripción | Ideal para |
+| :--- | :--- | :--- |
+| **Simulación rápida** | Simula partidos en segundos con resultados estadísticos básicos | Probar rápidamente la progresión de insignias |
+| **Jugada a jugada** | Mira actualizaciones de texto en vivo e interviene en el último cuarto | Pruebas tácticas y configuraciones decisivas |
+| **Carrera completa** | Incluye entrenamiento de pretemporada y mecánicas de draft | Progresión a largo plazo y construcción de un legado |
+| **Torneo** | Simulación abreviada en formato de eliminatorias | Probar el rendimiento bajo alta presión |
+
+<Callout type="info" title="Actualización del motor">
+El motor de simulación de 2026 ahora prioriza la eficiencia "Por 36 minutos" sobre los totales brutos, lo que hace que la gestión de la rotación sea más crítica que nunca.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Selección de arquetipo y límites de atributos">
+
+Antes de ingresar al **simulador de temporada de build a bucket**, debes definir el arquetipo de tu jugador. Esta elección sirve como base para toda tu carrera, estableciendo el "techo" para cada atributo, desde el tiro de tres puntos hasta la rapidez lateral. En el meta actual, las configuraciones híbridas que pueden contribuir en al menos dos categorías principales están superando a las configuraciones "puras" especializadas en los porcentajes de victorias de la simulación.
+
+<CardGrid cols={3}>
+  <Card title="El General de la Cancha">
+    - **Alta creación de juego e IQ**
+    - Aumenta los porcentajes de tiro de los compañeros de equipo
+    - Ideal para simulaciones de altas asistencias
+  </Card>
+  <Card title="La Amenaza del Ala">
+    - **Defensa de élite y atletismo**
+    - Anula a las estrellas del equipo contrario
+    - Alto impacto en la calificación defensiva del equipo
+  </Card>
+  <Card title="El Pívot Abierto">
+    - **Tiro y rebote**
+    - Abre la cancha para los penetradores (slashers)
+    - Esencial para las ofensivas de simulación modernas
+  </Card>
+</CardGrid>
+
+Al distribuir tus puntos de atributo iniciales, es tentador maximizar la anotación de inmediato. Sin embargo, el simulador penaliza severamente a los jugadores con baja resistencia y durabilidad. Un jugador que anota 40 puntos en el primer partido pero carece de resistencia verá una caída masiva en sus porcentajes de tiro para el quinto partido de la simulación.
+
+| Grupo de atributos | Estadísticas principales | Impacto en la simulación |
+| :--- | :--- | :--- |
+| **Anotación** | Media distancia, triples, bandejas en penetración | Determina la producción bruta de puntos por partido (PPG) |
+| **Físicos** | Resistencia, velocidad, fuerza | Afecta la consistencia y el riesgo de lesiones |
+| **Defensa** | Defensa perimetral, robos, tapones | Impulsa la eficiencia defensiva del equipo |
+| **Mental** | IQ ofensiva, provocar faltas | Influye en la eficiencia en los momentos decisivos |
+
+<Callout type="tip" title="Consejo profesional">
+Asigna siempre al menos 75 puntos a la Resistencia antes de concentrarte en las categorías ofensivas. Esto asegura que tu jugador mantenga sus calificaciones de atributos durante los últimos cuartos simulados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Configuración paso a paso de la simulación">
+
+Configurar tu primera partida en el **simulador de temporada de build a bucket** requiere una cuidadosa atención a los detalles. Omitir la fase de preparación a menudo conduce a datos sesgados que no representan con precisión el potencial de tu configuración. Sigue estos pasos para garantizar una simulación limpia y productiva.
+
+<Steps>
+  <Step num="1" title="Configuración de la creación">
+    Ingresa al panel de creación e introduce tu altura, peso y envergadura. Recuerda que una mayor envergadura mejora las estadísticas defensivas pero reduce ligeramente la consistencia de tiro en el motor de simulación.
+  </Step>
+  <Step num="2" title="Selección de equipo">
+    Elige un equipo que complemente tu configuración. Un arquetipo de penetrador ("Slasher") tendrá dificultades en un equipo con poco espacio en la cancha, mientras que un creador de juego ("Playmaker") necesita tiradores para maximizar las oportunidades de asistencia.
+  </Step>
+  <Step num="3" title="Ajuste de rotación">
+    Accede al menú de "Minutos". Para obtener los datos más precisos sobre tu jugador, asegúrate de que esté configurado para jugar al menos 32 minutos por partido. Revisa el deslizador de "Tasa de uso" (Usage Rate) para asegurar que tu jugador sea la opción principal.
+  </Step>
+  <Step num="4" title="Parámetros de simulación">
+    Establece la velocidad de simulación en "Normal" durante los primeros 10 partidos. Esto te permite monitorear las estadísticas del partido y ver si tu jugador está realizando los tiros que planeabas.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia">
+Establecer la velocidad de simulación en "Instantánea" para toda la temporada a veces puede provocar "variación de simulación", donde las estadísticas de un jugador son anormalmente altas o bajas debido a la falta de ajustes tácticos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión y gestión de insignias">
+
+A medida que avanzas en el **simulador de temporada de build a bucket**, tu jugador ganará "Puntos de experiencia" (XP) y "Puntos de insignia". Las insignias son esencialmente habilidades pasivas que se activan durante escenarios específicos del partido. En la versión 2026 del simulador, las insignias influyen más que los números brutos de los atributos. Un jugador con una calificación de tiro de tres puntos de 80 y la insignia "Alcance ilimitado" a menudo superará en tiros a un jugador con una calificación de 90 y sin insignias.
+
+<Checklist
+  id="season-milestones"
+  title="Objetivos críticos de la temporada:"
+  items={[
+    "Alcanzar una calificación general de 85 antes del Juego de Estrellas",
+    "Desbloquear al menos 3 insignias de nivel Oro",
+    "Mantener una calificación de eficiencia del jugador (PER) superior a 20.0",
+    "Asegurar un puesto de titular dentro de los primeros 10 partidos simulados",
+    "Liderar al equipo a uno de los 4 mejores puestos de la conferencia"
+  ]}
+/>
+
+| Nivel de insignia | Requisito | Efecto en la simulación |
+| :--- | :--- | :--- |
+| **Bronce** | Atributo base de 70+ | 5% de aumento en la tasa de éxito |
+| **Plata** | Atributo base de 80+ | 12% de aumento en la tasa de éxito |
+| **Oro** | Atributo base de 90+ | 20% de aumento; desbloquea animaciones especiales |
+| **Salón de la Fama** | Atributo base de 99 | Máxima consistencia; ignora la fatiga |
+
+<Callout type="success" title="Estrategia de éxito">
+Concéntrate primero en las insignias de "Consistencia". Insignias como "Tirador de volumen" o "Interceptores" aseguran que incluso en los días malos, tu jugador contribuya positivamente a la lógica de victorias y derrotas de la simulación.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas avanzadas de simulación">
+
+Para los veteranos del **simulador de temporada de build a bucket**, el desafío radica en optimizar para los playoffs. El motor de simulación aumenta la dificultad durante la postemporada, simulando una defensa más cerrada y ajustes de entrenamiento más agresivos. Para sobrevivir a una serie de siete partidos, tu configuración debe tener "Atributos de contraataque".
+
+Por ejemplo, si tu configuración es la de un tirador puro, el simulador eventualmente te "analizará" y te asignará un defensor de cierre (lockdown). Tener suficiente habilidad de "Manejo de balón" o "Posteo" para anotar de formas alternativas marca la diferencia entre una eliminación en primera ronda y un campeonato.
+
+| Ajuste táctico | Efecto en la simulación | Uso recomendado |
+| :--- | :--- | :--- |
+| **Aumentar el ritmo** | Más posesiones, mayor puntuación | Configuraciones de alta resistencia y contraataque rápido |
+| **Enfoque defensivo** | Reduce el % de tiros de campo del oponente | Contra IA de superestrellas de alta puntuación |
+| **Cargar el rebote** | Más rebotes ofensivos | Al jugar con un pívot abierto |
+| **Movimiento de aclarado (Iso)** | Aumenta la tasa de uso del jugador | Cuando tu jugador es claramente la opción número 1 |
+
+<Callout type="tip" title="Perspectiva estratégica">
+Utiliza la función "Informe de exploración" antes de simular las series de playoffs. Si el oponente tiene un protector de aro de élite, ajusta tus controles de simulación para favorecer los tiros de media distancia sobre las bandejas en penetración.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo aumento la tasa de uso de mi jugador en el simulador?",
+    answer: "Puedes aumentar el uso configurando a tu jugador como la 'Primera opción' en el menú de estrategia del equipo e incrementando sus minutos. Las estadísticas de 'IQ ofensiva' más altas también conducen de forma natural a más toques en el motor de simulación."
+  },
+  {
+    question: "¿Por qué mis porcentajes de tiro son más bajos en la simulación que en los entrenamientos?",
+    answer: "El simulador de temporada de Build a Bucket tiene en cuenta la proximidad del defensor y la fatiga del jugador. Si tu jugador está cansado o defendido por un arquetipo 'Lockdown' (defensor total), sus porcentajes caerán de forma natural."
+  },
+  {
+    question: "¿Puedo cambiar mi arquetipo a mitad de temporada?",
+    answer: "No, el arquetipo se bloquea una vez que comienza la simulación de la temporada. Debes iniciar una nueva simulación si deseas probar una configuración base diferente."
+  },
+  {
+    question: "¿Cuál es la estadística física más importante para una temporada simulada?",
+    answer: "La resistencia (Stamina) es posiblemente la más importante. Sin una resistencia alta, los atributos de tu jugador se degradan de forma efectiva a medida que avanzan el partido y la temporada, lo que provoca un rendimiento deficiente."
+  }
+]} />
+
+</Section>

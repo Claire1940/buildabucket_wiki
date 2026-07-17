@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Build a Bucket Common Mistakes: Setup Guide & Maintenance Tips",
+  description: "Learn to avoid build a bucket common mistakes. Our 2026 guide covers media preparation, bucket selection, and assembly for DIY water filtration.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e40af/fff?text=Build+a+Bucket+Mistakes",
+  date: "2026-07-17",
+  author: "build a bucket Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Build a bucket common mistakes** often stem from improper media washing and using non-food-grade materials.
+- **Water Tax**: Always pre-wash your carbon, sand, and gravel to avoid silty, undrinkable output.
+- **Material Choice**: Use only HDPE (High-Density Polyethylene) buckets to prevent chemical leaching.
+- **Layering Order**: Correct filtration requires a specific sequence from coarse gravel to fine activated carbon.
+- **Redundancy**: Always pair this system with a secondary hollow-tube filter for maximum safety.
+</Callout>
+
+<Section icon={Map} title="Material Selection: Avoiding the First Hurdle">
+
+The foundation of a successful DIY filtration system lies in the quality of your components. One of the most frequent **build a bucket common mistakes** is assuming any plastic container will suffice. In reality, using buckets that previously held petroleum products, paint, or industrial chemicals can contaminate your water beyond repair. High-density polyethylene (HDPE) is the industry standard for safety and durability.
+
+**Video Highlights:**
+- Identifying food-grade BPA-free buckets vs. industrial paint buckets.
+- Essential tools: Drills, paddle bits (5/8" to 3/4"), and measuring tapes.
+- Why gravity-fed systems are superior for low-energy disaster preparation.
+- Introduction to the "Water Tax" concept for media preparation.
+
+<YouTubeEmbed videoId="QSJsK3Y5r2s" title="How To Build a Bucket Filter: Home Disaster Preparation" />
+
+When selecting your media, precision is key. Using playground sand instead of #20 silica pool sand is a critical error. Pool sand is specifically graded for filtration, whereas playground sand often contains organic matter and silt that will clog your system or result in cloudy water.
+
+| Material | Recommended Type | Why It Matters |
+| :--- | :--- | :--- |
+| **Buckets** | HDPE Food Grade | Prevents chemical leaching into water |
+| **Sand** | #20 Silica Pool Sand | Uniform grain size for optimal flow |
+| **Carbon** | Granulated Activated | Highest surface area for toxin removal |
+| **Gravel** | 1/4" to 3/8" Pea Gravel | Provides structural support for layers |
+| **Bags** | 250 Micron Brew Bags | Contains media while allowing high flow |
+
+<Callout type="warning" title="Chemical Contamination">
+Never reuse buckets that held antifreeze, oil, or mineral spirits. Even thorough cleaning cannot remove chemicals that have leached into the plastic pores.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Water Tax: Media Preparation Errors">
+
+The "Water Tax" is a term used to describe the resources (time and water) required to bring a filtration system online. Failing to pay this tax upfront is among the most frustrating **build a bucket common mistakes**. If you do not pre-wash your media, the first 20 to 50 gallons of water produced will be filled with black carbon dust and fine silt.
+
+Pre-washing should be done in a well-ventilated area. Activated carbon, in particular, produces a fine dust that should not be inhaled. Using brew bags makes this process significantly easier, as they allow you to agitate the material under a hose without losing the media itself.
+
+| Media Type | Washing Difficulty | Signs of Completion |
+| :--- | :--- | :--- |
+| **Activated Carbon** | High | Water runs clear of black dust |
+| **Pool Sand** | Medium | No visible silt or "cloudiness" |
+| **Aquarium Rock** | Low | Removal of surface grit and dust |
+| **Pea Gravel** | Medium | No dirt or organic debris remaining |
+
+<Steps>
+  <Step num="1" title="Initial Rinse">
+    Place your media into a 250-micron brew bag and spray with a garden hose until the initial heavy runoff clears.
+  </Step>
+  <Step num="2" title="Agitation">
+    Gently roll and shake the bag. This moves internal particles to the surface, ensuring all grains are rinsed.
+  </Step>
+  <Step num="3" title="Sediment Check">
+    Lay the bags on a clean plastic sheet in the sun. If you see piles of silt beneath the bag, continue rinsing.
+  </Step>
+  <Step num="4" title="Solar Drying">
+    Allow the media to dry completely in the sun. UV rays provide an extra layer of sterilization before assembly.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Agitation Tip">
+Do not slam the bags on the ground when they are wet. The added weight of the water can easily rupture the seams of the brew bags.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Construction and Assembly Pitfalls">
+
+Assembly requires more than just stacking buckets. A common mistake is drilling holes too low on the clean water reservoir. You should aim for approximately 2 inches above the interior bottom. This allows any micro-sediment that bypasses the filter to settle at the bottom rather than being drawn out through the spigot.
+
+Another structural error involves the lid cutouts. You must maintain enough of the lid's rim to support the weight of the buckets above. A fully loaded 5-gallon bucket of wet sand and gravel is incredibly heavy; if the lid fails, the entire stack can collapse, causing cross-contamination.
+
+| Component | Placement | Critical Requirement |
+| :--- | :--- | :--- |
+| **Spigot** | 2" from bottom | Must include a rubber compression washer |
+| **Lid Cutout** | 5" to 6" Center | Must leave enough rim for structural support |
+| **Drainage Holes** | Bottom of bucket | Array of 3-4 holes to prevent clogging |
+| **Screening** | Over drain holes | Prevents brew bags from bulging through |
+
+<CardGrid cols={2}>
+  <Card title="The Settling Bucket">
+    Use an unaltered bucket to let raw water sit for 12-24 hours. This removes heavy sediment before it even touches your filter media.
+  </Card>
+  <Card title="The Ceramic Stage">
+    Optional but recommended. Adding ceramic dome filters at the final stage catches bacteria that the sand and carbon might miss.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Leak Prevention">
+Hand-tighten the spigot nut first, then use a wrench for a final quarter-turn. Over-tightening can crack the bucket wall or deform the washer.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="System Maintenance and Long-Term Storage">
+
+A filter is only as good as its maintenance schedule. Many users make the mistake of leaving the system wet when not in use. This creates a breeding ground for mold and bacteria. After use, the media must be removed, spread out on plastic, and bone-dried in the sun.
+
+UV sterilization from the sun is a powerful, free tool. Once dry, store the media in fresh, sealed bags inside the buckets to keep out spiders, dust, and moisture.
+
+| Maintenance Task | Frequency | Purpose |
+| :--- | :--- | :--- |
+| **Media Flush** | Every 100 Gallons | Removes accumulated silt from layers |
+| **Carbon Test** | Monthly/As Needed | Use food coloring to check absorption |
+| **Solar Dry** | After every use | Prevents bacterial and mold growth |
+| **Spigot Clean** | Weekly | Ensures no external contamination at exit |
+
+<Checklist
+  id="storage-prep"
+  title="Post-Use Storage Checklist:"
+  items={[
+    "Empty all water from the reservoir and settling buckets",
+    "Spread sand and gravel on a vapor barrier in direct sunlight",
+    "Rinse brew bags and check for seam tears",
+    "Seal bone-dry media in contractor bags before placing in buckets",
+    "Store the entire stack in a cool, dry garage or basement"
+  ]}
+/>
+
+<Callout type="warning" title="Carbon Lifespan">
+Activated carbon has a limited capacity for organic chemicals. If you add food coloring to the top and it comes out tinted at the bottom, your carbon is "spent" and must be replaced.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Troubleshooting and FAQ">
+
+In a "no-fail" situation, understanding the limits of your build is vital. This system is designed for freshwater sources and will not desalinate saltwater. Additionally, while it removes sediment and many toxins, it is always safer to use a secondary form of treatment, such as boiling or a high-quality hollow-tube filter (like a Sawyer or LifeStraw).
+
+<FAQ items={[
+  {
+    question: "Can I use this filter for pool water?",
+    answer: "Yes, but you should pour the water back and forth between two containers first to allow chlorine to off-gas. The activated carbon will then help remove remaining chemicals."
+  },
+  {
+    question: "How long does the media last?",
+    answer: "With pre-filtered settling water, the sand and gravel can last indefinitely if washed. Activated carbon typically needs replacement after 200-500 gallons depending on water quality."
+  },
+  {
+    question: "What is the most common reason for slow flow?",
+    answer: "Usually, it is a 'bulging' brew bag uding the drainage holes. Ensure you place a rigid stainless steel or window screen at the bottom of the bucket before adding the media bags."
+  },
+  {
+    question: "Is this water 100% safe to drink?",
+    answer: "While highly effective, we always recommend a secondary treatment like UV, boiling, or a 0.1-micron filter to ensure all pathogens are removed."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Always build two systems if possible. Redundancy is the key to survival, and having spare media ensures you are never without clean water during a long-term emergency.
+</Callout>
+
+</Section>
